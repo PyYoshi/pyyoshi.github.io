@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Node.js on PyYoshiのログ置き場</title>
-    <link>http://pyyoshi.github.io/blog/tags/Node.js/</link>
+    <link>http://github.pyyoshi.com/blog/tags/Node.js/</link>
     <description>Recent content in Node.js on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 12 Mar 2013 18:52:00 +0900</lastBuildDate>
     
-	<atom:link href="http://pyyoshi.github.io/blog/tags/Node.js/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://github.pyyoshi.com/blog/tags/Node.js/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>node.jsでBuffer経由でArrayBufferを使う</title>
-      <link>http://pyyoshi.github.io/blog/2013/03/node.js%E3%81%A7Buffer%E7%B5%8C%E7%94%B1%E3%81%A7ArrayBuffer%E3%82%92%E4%BD%BF%E3%81%86/</link>
+      <link>http://github.pyyoshi.com/blog/2013/03/node.js%E3%81%A7Buffer%E7%B5%8C%E7%94%B1%E3%81%A7ArrayBuffer%E3%82%92%E4%BD%BF%E3%81%86/</link>
       <pubDate>Tue, 12 Mar 2013 18:52:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2013/03/node.js%E3%81%A7Buffer%E7%B5%8C%E7%94%B1%E3%81%A7ArrayBuffer%E3%82%92%E4%BD%BF%E3%81%86/</guid>
+      <guid>http://github.pyyoshi.com/blog/2013/03/node.js%E3%81%A7Buffer%E7%B5%8C%E7%94%B1%E3%81%A7ArrayBuffer%E3%82%92%E4%BD%BF%E3%81%86/</guid>
       <description>Qiitaに書いた記事と同じです。
 ブラウザ向けに書いていたコードをどうしてもサーバサイドでも使いたいと思い調べた結果以下のコードで使えることがわかった。
 これでDataStream.jsをちょこっと変更するだけでnode.jsでも手軽にバイナリをいじれるようになった。

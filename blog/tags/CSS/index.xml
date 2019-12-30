@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CSS on PyYoshiのログ置き場</title>
-    <link>http://pyyoshi.github.io/blog/tags/CSS/</link>
+    <link>http://github.pyyoshi.com/blog/tags/CSS/</link>
     <description>Recent content in CSS on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 10 Dec 2009 00:38:00 +0900</lastBuildDate>
     
-	<atom:link href="http://pyyoshi.github.io/blog/tags/CSS/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://github.pyyoshi.com/blog/tags/CSS/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CSS small-caps</title>
-      <link>http://pyyoshi.github.io/blog/2009/12/CSS-small-caps/</link>
+      <link>http://github.pyyoshi.com/blog/2009/12/CSS-small-caps/</link>
       <pubDate>Thu, 10 Dec 2009 00:38:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2009/12/CSS-small-caps/</guid>
+      <guid>http://github.pyyoshi.com/blog/2009/12/CSS-small-caps/</guid>
       <description>英小文字をやや小さなサイズの英大文字に変える</description>
     </item>
     

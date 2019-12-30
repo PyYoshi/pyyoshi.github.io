@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OAuth on PyYoshiのログ置き場</title>
-    <link>http://pyyoshi.github.io/blog/tags/OAuth/</link>
+    <link>http://github.pyyoshi.com/blog/tags/OAuth/</link>
     <description>Recent content in OAuth on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 30 Jun 2011 19:18:00 +0900</lastBuildDate>
     
-	<atom:link href="http://pyyoshi.github.io/blog/tags/OAuth/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://github.pyyoshi.com/blog/tags/OAuth/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>JavaScriptでOAuth認証するときの注意点</title>
-      <link>http://pyyoshi.github.io/blog/2011/06/JavaScript%E3%81%A7OAuth%E8%AA%8D%E8%A8%BC%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</link>
+      <link>http://github.pyyoshi.com/blog/2011/06/JavaScript%E3%81%A7OAuth%E8%AA%8D%E8%A8%BC%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</link>
       <pubDate>Thu, 30 Jun 2011 19:18:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2011/06/JavaScript%E3%81%A7OAuth%E8%AA%8D%E8%A8%BC%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</guid>
+      <guid>http://github.pyyoshi.com/blog/2011/06/JavaScript%E3%81%A7OAuth%E8%AA%8D%E8%A8%BC%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</guid>
       <description>JavaScript単体でOAuth認証する場合ConsumerKey/SecretKeyが見えてしまう。
 難読化（base64など）ですぐにはバレないようにはできてもいずれ見つかってしますのだけれど、どのように他のJSなアプリは隠しているのだろうか？
 単体ではなくサーバプロキシを通せばそんな意識しなくてもいいのだろうけど気になるところではある。

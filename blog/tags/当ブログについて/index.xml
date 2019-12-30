@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>当ブログについて on PyYoshiのログ置き場</title>
-    <link>http://pyyoshi.github.io/blog/tags/%E5%BD%93%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
+    <link>http://github.pyyoshi.com/blog/tags/%E5%BD%93%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
     <description>Recent content in 当ブログについて on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 12 Dec 2009 00:21:00 +0900</lastBuildDate>
     
-	<atom:link href="http://pyyoshi.github.io/blog/tags/%E5%BD%93%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://github.pyyoshi.com/blog/tags/%E5%BD%93%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>当ブログについて</title>
-      <link>http://pyyoshi.github.io/blog/2009/12/%E5%BD%93%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
+      <link>http://github.pyyoshi.com/blog/2009/12/%E5%BD%93%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
       <pubDate>Sat, 12 Dec 2009 00:21:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2009/12/%E5%BD%93%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
+      <guid>http://github.pyyoshi.com/blog/2009/12/%E5%BD%93%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
       <description>まず最初に書かなくてはいけないノだけれども。
 とりあえず、このブログはRenax64のメモ ノートとして使ってます。
 ぶちあった問題などをとりあえず書いていきます。</description>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SL4A on PyYoshiのログ置き場</title>
-    <link>http://pyyoshi.github.io/blog/tags/SL4A/</link>
+    <link>http://github.pyyoshi.com/blog/tags/SL4A/</link>
     <description>Recent content in SL4A on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 06 Apr 2011 22:49:00 +0900</lastBuildDate>
     
-	<atom:link href="http://pyyoshi.github.io/blog/tags/SL4A/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://github.pyyoshi.com/blog/tags/SL4A/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>PythonモジュールをSL4A向けにビルドしてみた</title>
-      <link>http://pyyoshi.github.io/blog/2011/04/Python%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%82%92SL4A%E5%90%91%E3%81%91%E3%81%AB%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</link>
+      <link>http://github.pyyoshi.com/blog/2011/04/Python%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%82%92SL4A%E5%90%91%E3%81%91%E3%81%AB%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</link>
       <pubDate>Wed, 06 Apr 2011 22:49:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2011/04/Python%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%82%92SL4A%E5%90%91%E3%81%91%E3%81%AB%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
+      <guid>http://github.pyyoshi.com/blog/2011/04/Python%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%82%92SL4A%E5%90%91%E3%81%91%E3%81%AB%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
       <description>SL4AのVer.が上がってAPIも結構数サポートされて驚いていたのだが、それよりうれしいとおもったのがPythonのCモジュールのビルド方法が確立されたこと。
 以前まではソースにそのようなツールは用意されていなくクロスコンパイラでとりあえずビルドって感じだった。
 ということでPythonモジュールのビルド方法を。

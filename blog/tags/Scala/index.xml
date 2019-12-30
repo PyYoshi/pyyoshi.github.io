@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scala on PyYoshiのログ置き場</title>
-    <link>http://pyyoshi.github.io/blog/tags/Scala/</link>
+    <link>http://github.pyyoshi.com/blog/tags/Scala/</link>
     <description>Recent content in Scala on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 18 Mar 2011 02:31:00 +0900</lastBuildDate>
     
-	<atom:link href="http://pyyoshi.github.io/blog/tags/Scala/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://github.pyyoshi.com/blog/tags/Scala/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Win7でScalaとScalaAndroid環境構築とか</title>
-      <link>http://pyyoshi.github.io/blog/2011/03/Win7%E3%81%A7Scala%E3%81%A8ScalaAndroid%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%81%A8%E3%81%8B/</link>
+      <link>http://github.pyyoshi.com/blog/2011/03/Win7%E3%81%A7Scala%E3%81%A8ScalaAndroid%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%81%A8%E3%81%8B/</link>
       <pubDate>Fri, 18 Mar 2011 02:31:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2011/03/Win7%E3%81%A7Scala%E3%81%A8ScalaAndroid%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%81%A8%E3%81%8B/</guid>
+      <guid>http://github.pyyoshi.com/blog/2011/03/Win7%E3%81%A7Scala%E3%81%A8ScalaAndroid%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%81%A8%E3%81%8B/</guid>
       <description>ただの備忘ログ
 構築とかわかりにくかったのでまとめただけ。転んだら泣いてください。
 サイトScala

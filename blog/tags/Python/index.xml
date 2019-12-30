@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on PyYoshiのログ置き場</title>
-    <link>http://pyyoshi.github.io/blog/tags/Python/</link>
+    <link>http://github.pyyoshi.com/blog/tags/Python/</link>
     <description>Recent content in Python on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 09 May 2013 00:02:00 +0900</lastBuildDate>
     
-	<atom:link href="http://pyyoshi.github.io/blog/tags/Python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://github.pyyoshi.com/blog/tags/Python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Pythonで行儀の良いデーモンを作るpython-daemonを現行のPythonでも動作するようにした</title>
-      <link>http://pyyoshi.github.io/blog/2013/05/Python%E3%81%A7%E8%A1%8C%E5%84%80%E3%81%AE%E8%89%AF%E3%81%84%E3%83%87%E3%83%BC%E3%83%A2%E3%83%B3%E3%82%92%E4%BD%9C%E3%82%8Bpython-daemon%E3%82%92%E7%8F%BE%E8%A1%8C%E3%81%AEPython%E3%81%A7%E3%82%82%E5%8B%95%E4%BD%9C%E3%81%99%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%81%9F/</link>
+      <link>http://github.pyyoshi.com/blog/2013/05/Python%E3%81%A7%E8%A1%8C%E5%84%80%E3%81%AE%E8%89%AF%E3%81%84%E3%83%87%E3%83%BC%E3%83%A2%E3%83%B3%E3%82%92%E4%BD%9C%E3%82%8Bpython-daemon%E3%82%92%E7%8F%BE%E8%A1%8C%E3%81%AEPython%E3%81%A7%E3%82%82%E5%8B%95%E4%BD%9C%E3%81%99%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%81%9F/</link>
       <pubDate>Thu, 09 May 2013 00:02:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2013/05/Python%E3%81%A7%E8%A1%8C%E5%84%80%E3%81%AE%E8%89%AF%E3%81%84%E3%83%87%E3%83%BC%E3%83%A2%E3%83%B3%E3%82%92%E4%BD%9C%E3%82%8Bpython-daemon%E3%82%92%E7%8F%BE%E8%A1%8C%E3%81%AEPython%E3%81%A7%E3%82%82%E5%8B%95%E4%BD%9C%E3%81%99%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%81%9F/</guid>
+      <guid>http://github.pyyoshi.com/blog/2013/05/Python%E3%81%A7%E8%A1%8C%E5%84%80%E3%81%AE%E8%89%AF%E3%81%84%E3%83%87%E3%83%BC%E3%83%A2%E3%83%B3%E3%82%92%E4%BD%9C%E3%82%8Bpython-daemon%E3%82%92%E7%8F%BE%E8%A1%8C%E3%81%AEPython%E3%81%A7%E3%82%82%E5%8B%95%E4%BD%9C%E3%81%99%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%81%9F/</guid>
       <description>行儀が良いデーモンを作るのはとても複雑で難しい。
 それをpython-daemonを使えば簡単に行儀の良いデーモンがつくれちゃう。
 とっても便利で良いのですが。
@@ -33,10 +33,10 @@ PyYoshi/python-daemon</description>
     
     <item>
       <title>投稿だけできるTwitterクライアント作った</title>
-      <link>http://pyyoshi.github.io/blog/2013/04/%E6%8A%95%E7%A8%BF%E3%81%A0%E3%81%91%E3%81%A7%E3%81%8D%E3%82%8BTwitter%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F/</link>
+      <link>http://github.pyyoshi.com/blog/2013/04/%E6%8A%95%E7%A8%BF%E3%81%A0%E3%81%91%E3%81%A7%E3%81%8D%E3%82%8BTwitter%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F/</link>
       <pubDate>Thu, 25 Apr 2013 19:09:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2013/04/%E6%8A%95%E7%A8%BF%E3%81%A0%E3%81%91%E3%81%A7%E3%81%8D%E3%82%8BTwitter%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F/</guid>
+      <guid>http://github.pyyoshi.com/blog/2013/04/%E6%8A%95%E7%A8%BF%E3%81%A0%E3%81%91%E3%81%A7%E3%81%8D%E3%82%8BTwitter%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F/</guid>
       <description>デスクトップにツイッタクライアント置くとどうしてもスペースの無駄になってしまうので、タイムラインはAndroidタブレットにtwicle plusを入れて監視していました。
 投稿する都度TwitterWeb開いてやっていたのですが、それこそ効率を落とす原因だと思ったのでさくっと投稿だけできるツイッタクライアント作りました。
 Twiq for Desktop - Github
@@ -51,10 +51,10 @@ Twitter APIライブラリはtweepyに任せて、UIはPySideを使って書き�
     
     <item>
       <title>Pythonでのfib(39)の実行時間比較</title>
-      <link>http://pyyoshi.github.io/blog/2013/03/Python%E3%81%A7%E3%81%AEfib39%E3%81%AE%E5%AE%9F%E8%A1%8C%E6%99%82%E9%96%93%E6%AF%94%E8%BC%83/</link>
+      <link>http://github.pyyoshi.com/blog/2013/03/Python%E3%81%A7%E3%81%AEfib39%E3%81%AE%E5%AE%9F%E8%A1%8C%E6%99%82%E9%96%93%E6%AF%94%E8%BC%83/</link>
       <pubDate>Wed, 13 Mar 2013 10:08:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2013/03/Python%E3%81%A7%E3%81%AEfib39%E3%81%AE%E5%AE%9F%E8%A1%8C%E6%99%82%E9%96%93%E6%AF%94%E8%BC%83/</guid>
+      <guid>http://github.pyyoshi.com/blog/2013/03/Python%E3%81%A7%E3%81%AEfib39%E3%81%AE%E5%AE%9F%E8%A1%8C%E6%99%82%E9%96%93%E6%AF%94%E8%BC%83/</guid>
       <description>この記事に釣られてPythonではどんなものなのか知りたくなったのでやってみた。
 実行環境:
 CPU: Intel(R) Core(TM) i7 CPU 860 @ 2.80GHz
@@ -71,10 +71,10 @@ $ python3.3 &amp;ndash;versionPython 3.3.0$ time python3.</description>
     
     <item>
       <title>黒歴史クリーナーよりも確実にツイートを消すスクリプト</title>
-      <link>http://pyyoshi.github.io/blog/2013/03/%E9%BB%92%E6%AD%B4%E5%8F%B2%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%BC%E3%82%88%E3%82%8A%E3%82%82%E7%A2%BA%E5%AE%9F%E3%81%AB%E3%83%84%E3%82%A4%E3%83%BC%E3%83%88%E3%82%92%E6%B6%88%E3%81%99%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88/</link>
+      <link>http://github.pyyoshi.com/blog/2013/03/%E9%BB%92%E6%AD%B4%E5%8F%B2%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%BC%E3%82%88%E3%82%8A%E3%82%82%E7%A2%BA%E5%AE%9F%E3%81%AB%E3%83%84%E3%82%A4%E3%83%BC%E3%83%88%E3%82%92%E6%B6%88%E3%81%99%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88/</link>
       <pubDate>Tue, 12 Mar 2013 01:17:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2013/03/%E9%BB%92%E6%AD%B4%E5%8F%B2%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%BC%E3%82%88%E3%82%8A%E3%82%82%E7%A2%BA%E5%AE%9F%E3%81%AB%E3%83%84%E3%82%A4%E3%83%BC%E3%83%88%E3%82%92%E6%B6%88%E3%81%99%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88/</guid>
+      <guid>http://github.pyyoshi.com/blog/2013/03/%E9%BB%92%E6%AD%B4%E5%8F%B2%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%BC%E3%82%88%E3%82%8A%E3%82%82%E7%A2%BA%E5%AE%9F%E3%81%AB%E3%83%84%E3%82%A4%E3%83%BC%E3%83%88%E3%82%92%E6%B6%88%E3%81%99%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88/</guid>
       <description>※黒歴史クリーナーがTwitterArchiveに対応したので以下の内容は、それらのサービスに頼りたくない人のみお読みになられればと思いますまる
 黒歴史クリーナーなどのAPIを利用した削除方法だと削除しきれないツイートがどうしても出てしまいます。
 なのでTwitterの設定から&amp;quot;Your Twitter archive&amp;quot;機能を利用してCSVなどのデータをダウンロードします。 ※表示言語を英語にしないと見えないかも
@@ -98,10 +98,10 @@ $ python ./rm_tweets.py &amp;ndash;filepath &amp;ldquo;./tweets.csv&amp;rdquo;
     
     <item>
       <title>自動でCoffeeScriptをコンパイルするPythonスクリプトを書いた</title>
-      <link>http://pyyoshi.github.io/blog/2012/09/%E8%87%AA%E5%8B%95%E3%81%A7CoffeeScript%E3%82%92%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%AB%E3%81%99%E3%82%8BPython%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%82%92%E6%9B%B8%E3%81%84%E3%81%9F/</link>
+      <link>http://github.pyyoshi.com/blog/2012/09/%E8%87%AA%E5%8B%95%E3%81%A7CoffeeScript%E3%82%92%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%AB%E3%81%99%E3%82%8BPython%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%82%92%E6%9B%B8%E3%81%84%E3%81%9F/</link>
       <pubDate>Tue, 18 Sep 2012 22:05:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2012/09/%E8%87%AA%E5%8B%95%E3%81%A7CoffeeScript%E3%82%92%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%AB%E3%81%99%E3%82%8BPython%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%82%92%E6%9B%B8%E3%81%84%E3%81%9F/</guid>
+      <guid>http://github.pyyoshi.com/blog/2012/09/%E8%87%AA%E5%8B%95%E3%81%A7CoffeeScript%E3%82%92%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%AB%E3%81%99%E3%82%8BPython%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%82%92%E6%9B%B8%E3%81%84%E3%81%9F/</guid>
       <description>いちいちコマンド書いてられないので、ファイルに変更があった場合にビルドするスクリプトを書いた。
 Python 2.7環境でテストしました。
 必要なモジュールは
@@ -117,10 +117,10 @@ coffee自体に監視する機能ありました…
     
     <item>
       <title>環境によってCythonでうまくコード変換ができない場合の対処</title>
-      <link>http://pyyoshi.github.io/blog/2012/08/%E7%92%B0%E5%A2%83%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6Cython%E3%81%A7%E3%81%86%E3%81%BE%E3%81%8F%E3%82%B3%E3%83%BC%E3%83%89%E5%A4%89%E6%8F%9B%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E5%A0%B4%E5%90%88%E3%81%AE%E5%AF%BE%E5%87%A6/</link>
+      <link>http://github.pyyoshi.com/blog/2012/08/%E7%92%B0%E5%A2%83%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6Cython%E3%81%A7%E3%81%86%E3%81%BE%E3%81%8F%E3%82%B3%E3%83%BC%E3%83%89%E5%A4%89%E6%8F%9B%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E5%A0%B4%E5%90%88%E3%81%AE%E5%AF%BE%E5%87%A6/</link>
       <pubDate>Wed, 22 Aug 2012 22:25:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2012/08/%E7%92%B0%E5%A2%83%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6Cython%E3%81%A7%E3%81%86%E3%81%BE%E3%81%8F%E3%82%B3%E3%83%BC%E3%83%89%E5%A4%89%E6%8F%9B%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E5%A0%B4%E5%90%88%E3%81%AE%E5%AF%BE%E5%87%A6/</guid>
+      <guid>http://github.pyyoshi.com/blog/2012/08/%E7%92%B0%E5%A2%83%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6Cython%E3%81%A7%E3%81%86%E3%81%BE%E3%81%8F%E3%82%B3%E3%83%BC%E3%83%89%E5%A4%89%E6%8F%9B%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E5%A0%B4%E5%90%88%E3%81%AE%E5%AF%BE%E5%87%A6/</guid>
       <description>なぜかWindowsやUbuntuでは素直に変換しビルドが成功するのに、CentOSではうまくpyxをC/CPPに変換できない問題が発生しました。
 この原因がどのようなものなのか色々と調べてみたのですが、検索の仕方がまずかったのか謎のままでいました。
 きっとCython.Distutils.build_extが悪さしてるんだろうなという検討はついていたので、
@@ -134,10 +134,10 @@ C/CPPに強制変換させているので、sourcesにはpyxではなく、変�
     
     <item>
       <title>Windows環境下でもVirtualenvWrapperを使う</title>
-      <link>http://pyyoshi.github.io/blog/2012/08/Windows%E7%92%B0%E5%A2%83%E4%B8%8B%E3%81%A7%E3%82%82VirtualenvWrapper%E3%82%92%E4%BD%BF%E3%81%86/</link>
+      <link>http://github.pyyoshi.com/blog/2012/08/Windows%E7%92%B0%E5%A2%83%E4%B8%8B%E3%81%A7%E3%82%82VirtualenvWrapper%E3%82%92%E4%BD%BF%E3%81%86/</link>
       <pubDate>Thu, 02 Aug 2012 21:34:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2012/08/Windows%E7%92%B0%E5%A2%83%E4%B8%8B%E3%81%A7%E3%82%82VirtualenvWrapper%E3%82%92%E4%BD%BF%E3%81%86/</guid>
+      <guid>http://github.pyyoshi.com/blog/2012/08/Windows%E7%92%B0%E5%A2%83%E4%B8%8B%E3%81%A7%E3%82%82VirtualenvWrapper%E3%82%92%E4%BD%BF%E3%81%86/</guid>
       <description>とても便利なvirtualenvwrapperですが、なぜかWindowsには対応していません。
 MSYS下なら動かせないこともないのですが、PythonがMSYS環境であまり良い挙動を取りません。
 どうしたら良いものか調べていたらPowerShell2で動かすことができる
@@ -177,10 +177,10 @@ PSを終了します。
     
     <item>
       <title>ファイル監視にwatchdogがかなり便利な件</title>
-      <link>http://pyyoshi.github.io/blog/2012/07/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E7%9B%A3%E8%A6%96%E3%81%ABwatchdog%E3%81%8C%E3%81%8B%E3%81%AA%E3%82%8A%E4%BE%BF%E5%88%A9%E3%81%AA%E4%BB%B6/</link>
+      <link>http://github.pyyoshi.com/blog/2012/07/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E7%9B%A3%E8%A6%96%E3%81%ABwatchdog%E3%81%8C%E3%81%8B%E3%81%AA%E3%82%8A%E4%BE%BF%E5%88%A9%E3%81%AA%E4%BB%B6/</link>
       <pubDate>Tue, 17 Jul 2012 17:40:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2012/07/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E7%9B%A3%E8%A6%96%E3%81%ABwatchdog%E3%81%8C%E3%81%8B%E3%81%AA%E3%82%8A%E4%BE%BF%E5%88%A9%E3%81%AA%E4%BB%B6/</guid>
+      <guid>http://github.pyyoshi.com/blog/2012/07/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E7%9B%A3%E8%A6%96%E3%81%ABwatchdog%E3%81%8C%E3%81%8B%E3%81%AA%E3%82%8A%E4%BE%BF%E5%88%A9%E3%81%AA%E4%BB%B6/</guid>
       <description>win32apiを叩くのはナンセンスだし、何より手軽に書きたかったのでpypiで探索していたらwatchdogというものを知りました。
 以下が「*.jpg, *.png, *.txtの3つのファイルが、作成・編集・削除された時にそれを知らせる」コードです。
 on_created, on_modified, on_deletedに自分が実行したい処理を書いていけばいいかと思います。
@@ -192,10 +192,10 @@ OS内部のことはわからないのであくまで推定ですが。</descrip
     
     <item>
       <title>Python向けTumblrライブラリPytumb2をリリース</title>
-      <link>http://pyyoshi.github.io/blog/2012/07/Python%E5%90%91%E3%81%91Tumblr%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AAPytumb2%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/</link>
+      <link>http://github.pyyoshi.com/blog/2012/07/Python%E5%90%91%E3%81%91Tumblr%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AAPytumb2%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/</link>
       <pubDate>Sat, 14 Jul 2012 23:06:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2012/07/Python%E5%90%91%E3%81%91Tumblr%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AAPytumb2%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/</guid>
+      <guid>http://github.pyyoshi.com/blog/2012/07/Python%E5%90%91%E3%81%91Tumblr%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AAPytumb2%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/</guid>
       <description>Python向けTumblrライブラリPytumb2をリリースしました。
 １年くらい前にPytumbをリリースして以来まったくメンテナンスせずに放置状態だったので、この際コードの書き直しを行いました。
 使い方はTweepyのように手軽に扱えるようにしています。
@@ -208,10 +208,10 @@ PyYoshi/Pytumb2 · GitHub</description>
     
     <item>
       <title>cChardetをPyPiに登録してみた</title>
-      <link>http://pyyoshi.github.io/blog/2012/06/cChardet%E3%82%92PyPi%E3%81%AB%E7%99%BB%E9%8C%B2%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</link>
+      <link>http://github.pyyoshi.com/blog/2012/06/cChardet%E3%82%92PyPi%E3%81%AB%E7%99%BB%E9%8C%B2%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</link>
       <pubDate>Tue, 26 Jun 2012 18:40:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2012/06/cChardet%E3%82%92PyPi%E3%81%AB%E7%99%BB%E9%8C%B2%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
+      <guid>http://github.pyyoshi.com/blog/2012/06/cChardet%E3%82%92PyPi%E3%81%AB%E7%99%BB%E9%8C%B2%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
       <description>BeautifulSoupのGoogle Groupにcchardetを導入したら高速化したよって報告したらBS開発者から
 「ビルド等の導入をシンプルにしてくれたら使ってやってもいいよ。」
 と言われたのでlibcharsetdetectを取り込んで1つの静的ライブラリにしちゃいました。
@@ -229,10 +229,10 @@ cchardet: PyPi</description>
     
     <item>
       <title>より高速なchardet、cchardetをリリースしました</title>
-      <link>http://pyyoshi.github.io/blog/2012/06/%E3%82%88%E3%82%8A%E9%AB%98%E9%80%9F%E3%81%AAchardetcchardet%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>http://github.pyyoshi.com/blog/2012/06/%E3%82%88%E3%82%8A%E9%AB%98%E9%80%9F%E3%81%AAchardetcchardet%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Wed, 20 Jun 2012 11:52:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2012/06/%E3%82%88%E3%82%8A%E9%AB%98%E9%80%9F%E3%81%AAchardetcchardet%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>http://github.pyyoshi.com/blog/2012/06/%E3%82%88%E3%82%8A%E9%AB%98%E9%80%9F%E3%81%AAchardetcchardet%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</guid>
       <description>以前の投稿にchardetがあまりにも遅いと嘆いていました。これも何かの縁だと思い、Cythonの練習がてら、さっそくcchardetをリリースさせて頂きました！
 ベンチを取ったのですが、C拡張なだけあってかなり早い結果が出ました。
 chardetが4.009999990463257秒で検出したのに対し、cchardetは0.0009999275207519531秒と実に4000倍！（計算あっているか不安ｗ)
@@ -251,10 +251,10 @@ confidenceを取得できるようにしました。</description>
     
     <item>
       <title>PyGooglePlusをプロファイリングしてみた</title>
-      <link>http://pyyoshi.github.io/blog/2012/06/PyGooglePlus%E3%82%92%E3%83%97%E3%83%AD%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</link>
+      <link>http://github.pyyoshi.com/blog/2012/06/PyGooglePlus%E3%82%92%E3%83%97%E3%83%AD%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</link>
       <pubDate>Mon, 18 Jun 2012 15:58:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2012/06/PyGooglePlus%E3%82%92%E3%83%97%E3%83%AD%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
+      <guid>http://github.pyyoshi.com/blog/2012/06/PyGooglePlus%E3%82%92%E3%83%97%E3%83%AD%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
       <description>現在noseでテストコードを書いてるのだけれど、ついでにどこが足を引っ張っているのか知るためにnose経由でプロファイリングしてみた。
 準備
  Graphizをインストール $ pip install https://guppy-pe.svn.sourceforge.net/svnroot/guppy-pe/trunk/guppy&amp;lt;/span&amp;gt; $ pip install pbp.scripts  テストコードをtests.pyとして書いたら
@@ -273,10 +273,10 @@ $ hotshot2dot nose.prof| dot -Tpng -o profile.png
     
     <item>
       <title>Pythonコードを実行ファイル(exe)にするときの注意点</title>
-      <link>http://pyyoshi.github.io/blog/2012/06/Python%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92%E5%AE%9F%E8%A1%8C%E3%83%95%E3%82%A1%E3%82%A4%E3%83%ABexe%E3%81%AB%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</link>
+      <link>http://github.pyyoshi.com/blog/2012/06/Python%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92%E5%AE%9F%E8%A1%8C%E3%83%95%E3%82%A1%E3%82%A4%E3%83%ABexe%E3%81%AB%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</link>
       <pubDate>Tue, 05 Jun 2012 11:16:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2012/06/Python%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92%E5%AE%9F%E8%A1%8C%E3%83%95%E3%82%A1%E3%82%A4%E3%83%ABexe%E3%81%AB%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</guid>
+      <guid>http://github.pyyoshi.com/blog/2012/06/Python%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92%E5%AE%9F%E8%A1%8C%E3%83%95%E3%82%A1%E3%82%A4%E3%83%ABexe%E3%81%AB%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</guid>
       <description>自分が知っている限りだと、py2exeとcx_freezeがある。前者はwindowsのみ対応であるが、cx_freezeはmac等のプラットフォームにも対応している。
 さらにcx_freezeはsetup.pyに特に記述しなくても実行ファイルを作ることができるのでpy2exeより手軽に作れて便利なのである。
 またpy2exeに比べてコードの依存関係のチェックを詳しくしているのか実行ファイルサイズが小さくなる。
@@ -295,10 +295,10 @@ $ hotshot2dot nose.prof| dot -Tpng -o profile.png
     
     <item>
       <title>PyGooglePlusをリリースしました</title>
-      <link>http://pyyoshi.github.io/blog/2012/05/PyGooglePlus%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>http://github.pyyoshi.com/blog/2012/05/PyGooglePlus%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Fri, 25 May 2012 22:38:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2012/05/PyGooglePlus%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>http://github.pyyoshi.com/blog/2012/05/PyGooglePlus%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</guid>
       <description>Google+の非公開APIを扱えるようにするPython製ライブラリ「PyGooglePlus」をリリースしました。
 何時まで経ってもWrite API公開されないし、Webハックは楽しいので作ってしまいました。
 Chrome Devtoolsとにらめっこしたせいもあって結構使い方わかってきた感じがします。
@@ -308,10 +308,10 @@ Chrome Devtoolsとにらめっこしたせいもあって結構使い方わか�
     
     <item>
       <title>Python2.7.3 x64を自ビルド for Windows</title>
-      <link>http://pyyoshi.github.io/blog/2012/05/Python2.7.3-x64%E3%82%92%E8%87%AA%E3%83%93%E3%83%AB%E3%83%89-for-Windows/</link>
+      <link>http://github.pyyoshi.com/blog/2012/05/Python2.7.3-x64%E3%82%92%E8%87%AA%E3%83%93%E3%83%AB%E3%83%89-for-Windows/</link>
       <pubDate>Thu, 17 May 2012 22:26:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2012/05/Python2.7.3-x64%E3%82%92%E8%87%AA%E3%83%93%E3%83%AB%E3%83%89-for-Windows/</guid>
+      <guid>http://github.pyyoshi.com/blog/2012/05/Python2.7.3-x64%E3%82%92%E8%87%AA%E3%83%93%E3%83%AB%E3%83%89-for-Windows/</guid>
       <description>前提としてsvnやVC++、Perl、Gowなどが入っているものとする
 cd src
 svn checkout http://svn.python.org/projects/python/branches/release27-maint/ python2.7.3
@@ -333,10 +333,10 @@ Windowsはさくっとビルドできないのがつらくてしょうがない�
     
     <item>
       <title>Python向けTumblr APIライブラリ更新</title>
-      <link>http://pyyoshi.github.io/blog/2011/08/Python%E5%90%91%E3%81%91Tumblr-API%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E6%9B%B4%E6%96%B0/</link>
+      <link>http://github.pyyoshi.com/blog/2011/08/Python%E5%90%91%E3%81%91Tumblr-API%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E6%9B%B4%E6%96%B0/</link>
       <pubDate>Mon, 15 Aug 2011 08:25:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2011/08/Python%E5%90%91%E3%81%91Tumblr-API%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E6%9B%B4%E6%96%B0/</guid>
+      <guid>http://github.pyyoshi.com/blog/2011/08/Python%E5%90%91%E3%81%91Tumblr-API%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E6%9B%B4%E6%96%B0/</guid>
       <description>v1からv2に新しくAPIが更新されたのでライブラリもそれに従いました。
 使い方はtest.py見てください。 これまでどおりv1で良い方はリポジトリ変更して持って行ってください。
 PyYoshi/Pytumb
@@ -346,10 +346,10 @@ PyYoshi/Pytumb
     
     <item>
       <title>Python向けtumblr APIライブラリ公開した。</title>
-      <link>http://pyyoshi.github.io/blog/2011/06/Python%E5%90%91%E3%81%91tumblr-API%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E5%85%AC%E9%96%8B%E3%81%97%E3%81%9F/</link>
+      <link>http://github.pyyoshi.com/blog/2011/06/Python%E5%90%91%E3%81%91tumblr-API%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E5%85%AC%E9%96%8B%E3%81%97%E3%81%9F/</link>
       <pubDate>Mon, 06 Jun 2011 00:38:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2011/06/Python%E5%90%91%E3%81%91tumblr-API%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E5%85%AC%E9%96%8B%E3%81%97%E3%81%9F/</guid>
+      <guid>http://github.pyyoshi.com/blog/2011/06/Python%E5%90%91%E3%81%91tumblr-API%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E5%85%AC%E9%96%8B%E3%81%97%E3%81%9F/</guid>
       <description>OAuthにしか対応してないtumblr APIライブラリ公開した。
 test.pyとかapi.pyとか見ればいいと思うよ。
 各API毎のパラメータは公式API DOC見てください。
@@ -360,28 +360,28 @@ PyYoshi/Pytumb at master - GitHub</description>
     
     <item>
       <title>Androidのライブラリの依存関係を調べる。</title>
-      <link>http://pyyoshi.github.io/blog/2011/03/Android%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%81%AE%E4%BE%9D%E5%AD%98%E9%96%A2%E4%BF%82%E3%82%92%E8%AA%BF%E3%81%B9%E3%82%8B/</link>
+      <link>http://github.pyyoshi.com/blog/2011/03/Android%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%81%AE%E4%BE%9D%E5%AD%98%E9%96%A2%E4%BF%82%E3%82%92%E8%AA%BF%E3%81%B9%E3%82%8B/</link>
       <pubDate>Tue, 08 Mar 2011 16:47:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2011/03/Android%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%81%AE%E4%BE%9D%E5%AD%98%E9%96%A2%E4%BF%82%E3%82%92%E8%AA%BF%E3%81%B9%E3%82%8B/</guid>
+      <guid>http://github.pyyoshi.com/blog/2011/03/Android%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%81%AE%E4%BE%9D%E5%AD%98%E9%96%A2%E4%BF%82%E3%82%92%E8%AA%BF%E3%81%B9%E3%82%8B/</guid>
       <description>バイナリ開けるのめんどくさかったので書いた。やってることが分かる人のみで。スクリプトと同じフォルダにbin, lib作って適宜ファイル入れること。また、arm-eabi-objdumpも入れておくこと。# -*- coding: utf-8 -*- #!/usr/bin/env python from os import getcwd, listdir from popen2 import popen3 cdir = getcwd() lib_flist = listdir(cdir+&#39;/lib/&#39;) bin_flist = listdir(cdir+&#39;/bin/&#39;) for file in lib_flist: cmd = &#39;./arm-eabi-objdump -x ./lib/&#39;+ file + &#39; |grep -e NEEDED&#39; stdout, stdin, stderr = popen3(cmd) print file print stdout.read() print stderr.read() for file in bin_flist: cmd = &#39;./arm-eabi-objdump -x ./bin/&#39;+ file + &#39; |grep -e NEEDED&#39; stdout, stdin, stderr = popen3(cmd) print file print stdout.</description>
     </item>
     
     <item>
       <title>SH DevelopersSquareからIS01等のAndroid向けソースをDLするスクリプト作ったよ！</title>
-      <link>http://pyyoshi.github.io/blog/2010/12/SH-DevelopersSquare%E3%81%8B%E3%82%89IS01%E7%AD%89%E3%81%AEAndroid%E5%90%91%E3%81%91%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92DL%E3%81%99%E3%82%8B%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F%E3%82%88/</link>
+      <link>http://github.pyyoshi.com/blog/2010/12/SH-DevelopersSquare%E3%81%8B%E3%82%89IS01%E7%AD%89%E3%81%AEAndroid%E5%90%91%E3%81%91%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92DL%E3%81%99%E3%82%8B%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F%E3%82%88/</link>
       <pubDate>Fri, 03 Dec 2010 16:43:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2010/12/SH-DevelopersSquare%E3%81%8B%E3%82%89IS01%E7%AD%89%E3%81%AEAndroid%E5%90%91%E3%81%91%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92DL%E3%81%99%E3%82%8B%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F%E3%82%88/</guid>
+      <guid>http://github.pyyoshi.com/blog/2010/12/SH-DevelopersSquare%E3%81%8B%E3%82%89IS01%E7%AD%89%E3%81%AEAndroid%E5%90%91%E3%81%91%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92DL%E3%81%99%E3%82%8B%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F%E3%82%88/</guid>
       <description>SH DevelopersSquareがgitとかsvnとか用意してくれていないのでソースのDLがまんどくさいことこの上ないのでPythonでスクリプトを作成しました。このスクリプトを利用することにより、is01, sh-10b, jn-dk01のソースを取得・展開してくれます。使い方（Ubuntu環境）は以下の通りです。まず、easy_install等で必要なモジュールをインストールします。**#sudo apt-get install setup_tools**←インストールしていない場合**#sudo easy_install -U MultipartPostHandler****#sudo easy_install -U BeautifulSoup**スクリプトの実行例は以下の通りです。**#python ./sdasg.py is01**←is01のソースを取得・展開したい場合**#python ./sdasg.py sh-10b** ←sh-10bのソースを取得・展開したい場合**#python ./sdasg.py jn-dk01** ←jn-dk01のソースを取得・展開したい場合以下がスクリプトです。# -*- coding: utf-8 -*- #------------------------------------------------------------------------------- # Name: SH Dev Android Source Getter(特に名前決めてない) # Purpose: (https://sh-dev.sharp.co.jp/android/modules/oss/)がsvnやgitでの # ソース公開してなかったので自動でダウンロードしてきて展開するスク # リプト作った。 # 使用する際は、GPL(http://www.gnu.org/licenses/)と各々のソフトウェ # ア使用許諾契約書に同意すること。 # # Usage: 引数にis01, sh-10b, jn-dk01のどれかを与えてください。 # スクリプト直下にディレクトリを作られ保存されます。 # 例)is01のソースを取得・展開します。 # #python ./sdasg.py is01 # # Require MultipartPostHandler, BeautifulSoupをeasy_installなどでインストー # ルしてください。 # # Author: renax64.blogspot.com # # Created: 02/12/2010, ver.</description>
     </item>
     
     <item>
       <title>beautifulsoupが3.0.1から3.2.0に変わったらHTMLParseErrorなくなってた！</title>
-      <link>http://pyyoshi.github.io/blog/2010/12/beautifulsoup%E3%81%8C3.0.1%E3%81%8B%E3%82%893.2.0%E3%81%AB%E5%A4%89%E3%82%8F%E3%81%A3%E3%81%9F%E3%82%89HTMLParseError%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%9F/</link>
+      <link>http://github.pyyoshi.com/blog/2010/12/beautifulsoup%E3%81%8C3.0.1%E3%81%8B%E3%82%893.2.0%E3%81%AB%E5%A4%89%E3%82%8F%E3%81%A3%E3%81%9F%E3%82%89HTMLParseError%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%9F/</link>
       <pubDate>Fri, 03 Dec 2010 01:13:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2010/12/beautifulsoup%E3%81%8C3.0.1%E3%81%8B%E3%82%893.2.0%E3%81%AB%E5%A4%89%E3%82%8F%E3%81%A3%E3%81%9F%E3%82%89HTMLParseError%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%9F/</guid>
+      <guid>http://github.pyyoshi.com/blog/2010/12/beautifulsoup%E3%81%8C3.0.1%E3%81%8B%E3%82%893.2.0%E3%81%AB%E5%A4%89%E3%82%8F%E3%81%A3%E3%81%9F%E3%82%89HTMLParseError%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%9F/</guid>
       <description>beautifulsoupが3.0.1から3.2.0に変わったらHTMLParseErrorなくなっていました。そういえばアップデートしてないなーとか思いながらeasy_installから実行したら、そうなっちまった。良いことなのか悪いのか、間違いなく例外とかfrom importとか書き換えないと行けない場所が出てしまった。しかし、パースエラーあった部分が問題なくパースされるようになったりどっこいどっこいなのかな。で、まぁアップデートによってfrom html5lib import HTMLParser from html5lib import treebuilders from BeautifulSoup import HTMLParseError try: soup = BeautifulSoup(html) except HTMLParseError, e: parser = HTMLParser(tree=treebuilders.getTreeBuilder(&amp;quot;beautifulsoup&amp;quot;)) soup = parser.parse(html)  とかやって別なパーサーでエラー部分を除去って貰う形をとっていたことが必要なくなったのかな？
 ということで前回書いた記事「BeautifulSoupでHTMLParseErrorが起きた時の対処」もこんなことやれば良かったのかな？
 まぁまとめるとアップデートしとけ(ﾟДﾟ)ｺﾞﾙｧ!! ですね・・・ｗ</description>
@@ -389,10 +389,10 @@ PyYoshi/Pytumb at master - GitHub</description>
     
     <item>
       <title>UnicodeEncodeError: &#39;ascii&#39; codec...が出てしまった。</title>
-      <link>http://pyyoshi.github.io/blog/2010/11/UnicodeEncodeError-ascii-codec...%E3%81%8C%E5%87%BA%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F/</link>
+      <link>http://github.pyyoshi.com/blog/2010/11/UnicodeEncodeError-ascii-codec...%E3%81%8C%E5%87%BA%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F/</link>
       <pubDate>Fri, 05 Nov 2010 22:29:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2010/11/UnicodeEncodeError-ascii-codec...%E3%81%8C%E5%87%BA%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F/</guid>
+      <guid>http://github.pyyoshi.com/blog/2010/11/UnicodeEncodeError-ascii-codec...%E3%81%8C%E5%87%BA%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F/</guid>
       <description>UnicodeEncodeError: &amp;lsquo;ascii&amp;rsquo; codec can&#39;t encode characters in position 3-4: ordinal not in range(128)
 Pyscripterの環境で弄くり回していたのだが、↑のようなエラーが吐かれました。
 よく分からないことにPythonインタプリタに直接投げた場合はそのようなエラーは吐かれないんですよね。
@@ -413,10 +413,10 @@ Pathにマルチバイトコードが入っていたんですね。
     
     <item>
       <title>BeautifulSoupでHTMLParseErrorが起きた時の対処</title>
-      <link>http://pyyoshi.github.io/blog/2010/11/BeautifulSoup%E3%81%A7HTMLParseError%E3%81%8C%E8%B5%B7%E3%81%8D%E3%81%9F%E6%99%82%E3%81%AE%E5%AF%BE%E5%87%A6/</link>
+      <link>http://github.pyyoshi.com/blog/2010/11/BeautifulSoup%E3%81%A7HTMLParseError%E3%81%8C%E8%B5%B7%E3%81%8D%E3%81%9F%E6%99%82%E3%81%AE%E5%AF%BE%E5%87%A6/</link>
       <pubDate>Thu, 04 Nov 2010 21:16:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2010/11/BeautifulSoup%E3%81%A7HTMLParseError%E3%81%8C%E8%B5%B7%E3%81%8D%E3%81%9F%E6%99%82%E3%81%AE%E5%AF%BE%E5%87%A6/</guid>
+      <guid>http://github.pyyoshi.com/blog/2010/11/BeautifulSoup%E3%81%A7HTMLParseError%E3%81%8C%E8%B5%B7%E3%81%8D%E3%81%9F%E6%99%82%E3%81%AE%E5%AF%BE%E5%87%A6/</guid>
       <description>BeautifulSoupでスクレイピングしていたとき、「bad end tag: u&amp;rdquo;&amp;quot;」というHTMLParseErrorが起きてしまった。
 これから研究でぶち当たっていきそうなのでとりあえずメモ。
 結果から言うと単純に例外処理で該当部分を書き換えてしまえばいいのだ。
@@ -425,10 +425,10 @@ Pathにマルチバイトコードが入っていたんですね。
     
     <item>
       <title>PortablePython2.6.xにeasy_installを入れる。</title>
-      <link>http://pyyoshi.github.io/blog/2010/06/PortablePython2.6.x%E3%81%ABeasy_install%E3%82%92%E5%85%A5%E3%82%8C%E3%82%8B/</link>
+      <link>http://github.pyyoshi.com/blog/2010/06/PortablePython2.6.x%E3%81%ABeasy_install%E3%82%92%E5%85%A5%E3%82%8C%E3%82%8B/</link>
       <pubDate>Mon, 21 Jun 2010 11:06:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2010/06/PortablePython2.6.x%E3%81%ABeasy_install%E3%82%92%E5%85%A5%E3%82%8C%E3%82%8B/</guid>
+      <guid>http://github.pyyoshi.com/blog/2010/06/PortablePython2.6.x%E3%81%ABeasy_install%E3%82%92%E5%85%A5%E3%82%8C%E3%82%8B/</guid>
       <description>PortablePythonで、easy_installを使おうと思ったんだが、そもそもそのような実行ファイルが見つからなかったので調べてみた。
 やり方:
  PortablePythonフォルダのAppにある、setuptools, easy_install.py, pkg_resources.py, site.pyを削除  ez_setup.pyをDLし、Appフォルダに投下する。 コンソールより、python ez_setup.pyを実行する。  あとは、
@@ -439,19 +439,19 @@ http://groups.google.com/group/portablepython/browse_thread/thread/5cc217f34b895
     
     <item>
       <title>Tumbler Photoバックアップスクリプトを作ったのだが…</title>
-      <link>http://pyyoshi.github.io/blog/2010/03/Tumbler-Photo%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%A0%E3%81%8C/</link>
+      <link>http://github.pyyoshi.com/blog/2010/03/Tumbler-Photo%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%A0%E3%81%8C/</link>
       <pubDate>Sat, 06 Mar 2010 23:37:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2010/03/Tumbler-Photo%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%A0%E3%81%8C/</guid>
+      <guid>http://github.pyyoshi.com/blog/2010/03/Tumbler-Photo%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%A0%E3%81%8C/</guid>
       <description>DL→Ziped→配布までするスクリプト書いたんだけど、I/Oがネックで時間かかりすぎた。なので、キューリスト作成だけでいいかと、コード書き直して実行したのですが、拡張子判定のために頻繁にI/Oでやっぱり時間喰う。 700位Photo投稿数あると10分くらいかかるｗ（最適化できるところはしたのだがただ、URLだけで良いというのであればAPIにアクセスするだけなのでそんなに時間はかからなかった。でも、拡張子判定されていないので各自で行って貰わなければいけないのだけれど。といううことで、クローラー作れば、いいんじゃね？って展開になったのだが。クローラー作る知識なくて＼(^o^)／状態ｗ幸いなことにPythonには数多くのモジュール＆情報が流れているので何とかなりそうなんだけど。一から作ることになったら、ついったーの皆さんに聞きまくりながらどうにかしたいところｗ（人頼みURLリストだけで良いよってかたがいたら、CGIにして公開しようと思います。</description>
     </item>
     
     <item>
       <title>CSVモジュールでのエラー解決！</title>
-      <link>http://pyyoshi.github.io/blog/2009/12/CSV%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%A7%E3%81%AE%E3%82%A8%E3%83%A9%E3%83%BC%E8%A7%A3%E6%B1%BA/</link>
+      <link>http://github.pyyoshi.com/blog/2009/12/CSV%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%A7%E3%81%AE%E3%82%A8%E3%83%A9%E3%83%BC%E8%A7%A3%E6%B1%BA/</link>
       <pubDate>Mon, 21 Dec 2009 21:02:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2009/12/CSV%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%A7%E3%81%AE%E3%82%A8%E3%83%A9%E3%83%BC%E8%A7%A3%E6%B1%BA/</guid>
+      <guid>http://github.pyyoshi.com/blog/2009/12/CSV%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%A7%E3%81%AE%E3%82%A8%E3%83%A9%E3%83%BC%E8%A7%A3%E6%B1%BA/</guid>
       <description>この記事でとっても悩んでいたのですが、ついったーでこの問題を解決していただきました。 以下がやりとりです。
 Dirにあるファイルのプライオリティが高いみたいです。
 こーいう問題にぶち当たる辺り、ちゃんとどういう動作をしているのか意識しながらやらないといけないのかな。触り始めたばかり、なんて言って逃げたくはないので頑張ろう。</description>
@@ -459,10 +459,10 @@ Dirにあるファイルのプライオリティが高いみたいです。
     
     <item>
       <title>csvモジュールが・・・・</title>
-      <link>http://pyyoshi.github.io/blog/2009/12/csv%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%8C/</link>
+      <link>http://github.pyyoshi.com/blog/2009/12/csv%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%8C/</link>
       <pubDate>Sat, 12 Dec 2009 17:23:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2009/12/csv%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%8C/</guid>
+      <guid>http://github.pyyoshi.com/blog/2009/12/csv%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%8C/</guid>
       <description>下のようなコードを実行すると、「AttributeError: &amp;lsquo;module&amp;rsquo; object has no attribute &amp;lsquo;reader&amp;rsquo;」っと出るんですよね・・・。
 import csv csvfile = &#39;a.csv&#39; reader = csv.reader(open(csvfile, &#39;r&#39;)) for row in reader: print row  謎すぎる。解決策をぼちぼち調べないと・・・
 追記：
@@ -471,10 +471,10 @@ import csv csvfile = &#39;a.csv&#39; reader = csv.reader(open(csvfile, &#39;r&#3
     
     <item>
       <title>PythonのcsvモジュールがUTF-16に対応していない件について</title>
-      <link>http://pyyoshi.github.io/blog/2009/12/Python%E3%81%AEcsv%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%8CUTF-16%E3%81%AB%E5%AF%BE%E5%BF%9C%E3%81%97%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84%E4%BB%B6%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
+      <link>http://github.pyyoshi.com/blog/2009/12/Python%E3%81%AEcsv%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%8CUTF-16%E3%81%AB%E5%AF%BE%E5%BF%9C%E3%81%97%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84%E4%BB%B6%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
       <pubDate>Sat, 12 Dec 2009 00:07:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2009/12/Python%E3%81%AEcsv%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%8CUTF-16%E3%81%AB%E5%AF%BE%E5%BF%9C%E3%81%97%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84%E4%BB%B6%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
+      <guid>http://github.pyyoshi.com/blog/2009/12/Python%E3%81%AEcsv%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%8CUTF-16%E3%81%AB%E5%AF%BE%E5%BF%9C%E3%81%97%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84%E4%BB%B6%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
       <description>なんどやってもエラー吐くのでｇｇってみたら、案の定だめっぽい。
 どうしても読みたい場合はココのサンプルを利用すればいいっぽい。
 まぁ、ファイルの文字コードにUTF-16を避けることに注意すればおｋですね。
@@ -483,20 +483,20 @@ import csv csvfile = &#39;a.csv&#39; reader = csv.reader(open(csvfile, &#39;r&#3
     
     <item>
       <title>CSV2SQLなるものを見つけた。</title>
-      <link>http://pyyoshi.github.io/blog/2009/12/CSV2SQL%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E8%A6%8B%E3%81%A4%E3%81%91%E3%81%9F/</link>
+      <link>http://github.pyyoshi.com/blog/2009/12/CSV2SQL%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E8%A6%8B%E3%81%A4%E3%81%91%E3%81%9F/</link>
       <pubDate>Thu, 10 Dec 2009 23:37:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2009/12/CSV2SQL%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E8%A6%8B%E3%81%A4%E3%81%91%E3%81%9F/</guid>
+      <guid>http://github.pyyoshi.com/blog/2009/12/CSV2SQL%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E8%A6%8B%E3%81%A4%E3%81%91%E3%81%9F/</guid>
       <description>題通りなんか見つけた。とりあえず参考にしながら自分でもCSV2SQL for Pythonを作ってみようと思う。
 import sqlite3 import csv # SQLite内のデータはutf-8を想定 def sqlite2csv(db_name, table_name, out_filename): dbh = sqlite3.connect(db_name) writer = csv.writer(file(out_filename, &#39;w&#39;)) for row in dbh.execute(&#39;SELECT * FROM %(table_name)s&#39; % locals()): writer.writerow([col.encode(&#39;utf-8&#39;) if isinstance(col, unicode) else col for col in row]) dbh.close() # csvのセパレータはカンマを想定 def csv2sqlite(db_name, table_name, in_filename): dbh = sqlite3.connect(db_name) reader = csv.reader(open(&amp;quot;import.csv&amp;quot;, &amp;quot;rb&amp;quot;)) for row in reader: ph = &amp;quot;?,&amp;quot; * (len(row) - 1) + &amp;quot;?&amp;quot; dbh.execute(&amp;quot;INSERT INTO %(table_name)s VALUES(%(ph)s)&amp;quot; % locals(), tuple(row)) dbh.</description>
     </item>
     
     <item>
       <title>カラム名でDBからデータを取得する方法</title>
-      <link>http://pyyoshi.github.io/blog/2009/12/%E3%82%AB%E3%83%A9%E3%83%A0%E5%90%8D%E3%81%A7DB%E3%81%8B%E3%82%89%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</link>
+      <link>http://github.pyyoshi.com/blog/2009/12/%E3%82%AB%E3%83%A9%E3%83%A0%E5%90%8D%E3%81%A7DB%E3%81%8B%E3%82%89%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</link>
       <pubDate>Tue, 08 Dec 2009 23:41:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2009/12/%E3%82%AB%E3%83%A9%E3%83%A0%E5%90%8D%E3%81%A7DB%E3%81%8B%E3%82%89%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</guid>
+      <guid>http://github.pyyoshi.com/blog/2009/12/%E3%82%AB%E3%83%A9%E3%83%A0%E5%90%8D%E3%81%A7DB%E3%81%8B%E3%82%89%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</guid>
       <description>row_factory = sqlite3.Rowを利用する。
 ex)
 db = sqlite3.connect(&#39;xxx&#39;, isolation_level=None) sql = u”select * from hoge” db.row_factory = sqlite3.Row c = db.execute(sql) for row in c: print row[&amp;quot;カラム名を指定&amp;quot;]  </description>
@@ -504,10 +504,10 @@ db = sqlite3.connect(&#39;xxx&#39;, isolation_level=None) sql = u”select * fro
     
     <item>
       <title>Pythonでの関数定義</title>
-      <link>http://pyyoshi.github.io/blog/2009/12/Python%E3%81%A7%E3%81%AE%E9%96%A2%E6%95%B0%E5%AE%9A%E7%BE%A9/</link>
+      <link>http://github.pyyoshi.com/blog/2009/12/Python%E3%81%A7%E3%81%AE%E9%96%A2%E6%95%B0%E5%AE%9A%E7%BE%A9/</link>
       <pubDate>Tue, 08 Dec 2009 23:00:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2009/12/Python%E3%81%A7%E3%81%AE%E9%96%A2%E6%95%B0%E5%AE%9A%E7%BE%A9/</guid>
+      <guid>http://github.pyyoshi.com/blog/2009/12/Python%E3%81%A7%E3%81%AE%E9%96%A2%E6%95%B0%E5%AE%9A%E7%BE%A9/</guid>
       <description>def hoge():
 処理内容 : インデントすること。
 ex)
@@ -517,10 +517,10 @@ def hoge(): print &#39;Hello Python&#39; hoge()  最初は何処まで定義さ�
     
     <item>
       <title>Pythonで特定の行を読み込ませる</title>
-      <link>http://pyyoshi.github.io/blog/2009/12/Python%E3%81%A7%E7%89%B9%E5%AE%9A%E3%81%AE%E8%A1%8C%E3%82%92%E8%AA%AD%E3%81%BF%E8%BE%BC%E3%81%BE%E3%81%9B%E3%82%8B/</link>
+      <link>http://github.pyyoshi.com/blog/2009/12/Python%E3%81%A7%E7%89%B9%E5%AE%9A%E3%81%AE%E8%A1%8C%E3%82%92%E8%AA%AD%E3%81%BF%E8%BE%BC%E3%81%BE%E3%81%9B%E3%82%8B/</link>
       <pubDate>Tue, 08 Dec 2009 22:53:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2009/12/Python%E3%81%A7%E7%89%B9%E5%AE%9A%E3%81%AE%E8%A1%8C%E3%82%92%E8%AA%AD%E3%81%BF%E8%BE%BC%E3%81%BE%E3%81%9B%E3%82%8B/</guid>
+      <guid>http://github.pyyoshi.com/blog/2009/12/Python%E3%81%A7%E7%89%B9%E5%AE%9A%E3%81%AE%E8%A1%8C%E3%82%92%E8%AA%AD%E3%81%BF%E8%BE%BC%E3%81%BE%E3%81%9B%E3%82%8B/</guid>
       <description>readlines()[n]
 nに読み込みたい行を入れるだけ。
 ex)

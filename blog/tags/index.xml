@@ -2,399 +2,399 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on PyYoshiのログ置き場</title>
-    <link>http://pyyoshi.github.io/blog/tags/</link>
+    <link>http://github.pyyoshi.com/blog/tags/</link>
     <description>Recent content in Tags on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 31 Oct 2018 14:21:48 +0000</lastBuildDate>
     
-	<atom:link href="http://pyyoshi.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://github.pyyoshi.com/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>linux</title>
-      <link>http://pyyoshi.github.io/blog/tags/linux/</link>
+      <link>http://github.pyyoshi.com/blog/tags/linux/</link>
       <pubDate>Wed, 31 Oct 2018 14:21:48 +0000</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/linux/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ubuntu</title>
-      <link>http://pyyoshi.github.io/blog/tags/ubuntu/</link>
+      <link>http://github.pyyoshi.com/blog/tags/ubuntu/</link>
       <pubDate>Wed, 31 Oct 2018 14:21:48 +0000</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/ubuntu/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/ubuntu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>xps13</title>
-      <link>http://pyyoshi.github.io/blog/tags/xps13/</link>
+      <link>http://github.pyyoshi.com/blog/tags/xps13/</link>
       <pubDate>Wed, 31 Oct 2018 14:21:48 +0000</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/xps13/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/xps13/</guid>
       <description></description>
     </item>
     
     <item>
       <title>elasticsearch</title>
-      <link>http://pyyoshi.github.io/blog/tags/elasticsearch/</link>
+      <link>http://github.pyyoshi.com/blog/tags/elasticsearch/</link>
       <pubDate>Tue, 22 May 2018 15:36:00 +0000</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/elasticsearch/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/elasticsearch/</guid>
       <description></description>
     </item>
     
     <item>
       <title>back in time</title>
-      <link>http://pyyoshi.github.io/blog/tags/back-in-time/</link>
+      <link>http://github.pyyoshi.com/blog/tags/back-in-time/</link>
       <pubDate>Fri, 05 Jan 2018 19:14:38 +0000</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/back-in-time/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/back-in-time/</guid>
       <description></description>
     </item>
     
     <item>
       <title>backup</title>
-      <link>http://pyyoshi.github.io/blog/tags/backup/</link>
+      <link>http://github.pyyoshi.com/blog/tags/backup/</link>
       <pubDate>Fri, 05 Jan 2018 19:14:38 +0000</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/backup/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/backup/</guid>
       <description></description>
     </item>
     
     <item>
       <title>deja dup</title>
-      <link>http://pyyoshi.github.io/blog/tags/deja-dup/</link>
+      <link>http://github.pyyoshi.com/blog/tags/deja-dup/</link>
       <pubDate>Fri, 05 Jan 2018 19:14:38 +0000</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/deja-dup/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/deja-dup/</guid>
       <description></description>
     </item>
     
     <item>
       <title>systemback</title>
-      <link>http://pyyoshi.github.io/blog/tags/systemback/</link>
+      <link>http://github.pyyoshi.com/blog/tags/systemback/</link>
       <pubDate>Fri, 05 Jan 2018 19:14:38 +0000</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/systemback/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/systemback/</guid>
       <description></description>
     </item>
     
     <item>
       <title>timemachine</title>
-      <link>http://pyyoshi.github.io/blog/tags/timemachine/</link>
+      <link>http://github.pyyoshi.com/blog/tags/timemachine/</link>
       <pubDate>Fri, 05 Jan 2018 19:14:38 +0000</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/timemachine/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/timemachine/</guid>
       <description></description>
     </item>
     
     <item>
       <title>timeshift</title>
-      <link>http://pyyoshi.github.io/blog/tags/timeshift/</link>
+      <link>http://github.pyyoshi.com/blog/tags/timeshift/</link>
       <pubDate>Fri, 05 Jan 2018 19:14:38 +0000</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/timeshift/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/timeshift/</guid>
       <description></description>
     </item>
     
     <item>
       <title>typescript</title>
-      <link>http://pyyoshi.github.io/blog/tags/typescript/</link>
+      <link>http://github.pyyoshi.com/blog/tags/typescript/</link>
       <pubDate>Thu, 12 Oct 2017 21:18:42 +0000</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/typescript/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/typescript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>webstorm</title>
-      <link>http://pyyoshi.github.io/blog/tags/webstorm/</link>
+      <link>http://github.pyyoshi.com/blog/tags/webstorm/</link>
       <pubDate>Thu, 12 Oct 2017 21:18:42 +0000</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/webstorm/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/webstorm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>react-native</title>
-      <link>http://pyyoshi.github.io/blog/tags/react-native/</link>
+      <link>http://github.pyyoshi.com/blog/tags/react-native/</link>
       <pubDate>Mon, 09 Oct 2017 17:49:35 +0000</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/react-native/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/react-native/</guid>
       <description></description>
     </item>
     
     <item>
       <title>firebase</title>
-      <link>http://pyyoshi.github.io/blog/tags/firebase/</link>
+      <link>http://github.pyyoshi.com/blog/tags/firebase/</link>
       <pubDate>Fri, 06 Oct 2017 08:42:49 +0000</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/firebase/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/firebase/</guid>
       <description></description>
     </item>
     
     <item>
       <title>firestore</title>
-      <link>http://pyyoshi.github.io/blog/tags/firestore/</link>
+      <link>http://github.pyyoshi.com/blog/tags/firestore/</link>
       <pubDate>Fri, 06 Oct 2017 08:42:49 +0000</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/firestore/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/firestore/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>http://pyyoshi.github.io/blog/tags/golang/</link>
+      <link>http://github.pyyoshi.com/blog/tags/golang/</link>
       <pubDate>Wed, 07 Dec 2016 18:20:12 +0000</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/golang/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>reactjs</title>
-      <link>http://pyyoshi.github.io/blog/tags/reactjs/</link>
+      <link>http://github.pyyoshi.com/blog/tags/reactjs/</link>
       <pubDate>Thu, 29 Sep 2016 23:19:01 +0000</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/reactjs/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/reactjs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>雑</title>
-      <link>http://pyyoshi.github.io/blog/tags/%E9%9B%91/</link>
+      <link>http://github.pyyoshi.com/blog/tags/%E9%9B%91/</link>
       <pubDate>Tue, 28 May 2013 22:19:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/%E9%9B%91/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/%E9%9B%91/</guid>
       <description></description>
     </item>
     
     <item>
       <title>revel</title>
-      <link>http://pyyoshi.github.io/blog/tags/revel/</link>
+      <link>http://github.pyyoshi.com/blog/tags/revel/</link>
       <pubDate>Wed, 22 May 2013 05:58:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/revel/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/revel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MySQL</title>
-      <link>http://pyyoshi.github.io/blog/tags/MySQL/</link>
+      <link>http://github.pyyoshi.com/blog/tags/MySQL/</link>
       <pubDate>Wed, 15 May 2013 07:36:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/MySQL/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/MySQL/</guid>
       <description></description>
     </item>
     
     <item>
       <title>KDE</title>
-      <link>http://pyyoshi.github.io/blog/tags/KDE/</link>
+      <link>http://github.pyyoshi.com/blog/tags/KDE/</link>
       <pubDate>Fri, 10 May 2013 18:37:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/KDE/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/KDE/</guid>
       <description></description>
     </item>
     
     <item>
       <title>yakuake</title>
-      <link>http://pyyoshi.github.io/blog/tags/yakuake/</link>
+      <link>http://github.pyyoshi.com/blog/tags/yakuake/</link>
       <pubDate>Fri, 10 May 2013 18:37:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/yakuake/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/yakuake/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dti</title>
-      <link>http://pyyoshi.github.io/blog/tags/dti/</link>
+      <link>http://github.pyyoshi.com/blog/tags/dti/</link>
       <pubDate>Fri, 10 May 2013 16:43:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/dti/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/dti/</guid>
       <description></description>
     </item>
     
     <item>
       <title>privoxy</title>
-      <link>http://pyyoshi.github.io/blog/tags/privoxy/</link>
+      <link>http://github.pyyoshi.com/blog/tags/privoxy/</link>
       <pubDate>Fri, 10 May 2013 16:43:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/privoxy/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/privoxy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>proxy</title>
-      <link>http://pyyoshi.github.io/blog/tags/proxy/</link>
+      <link>http://github.pyyoshi.com/blog/tags/proxy/</link>
       <pubDate>Fri, 10 May 2013 16:43:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/proxy/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/proxy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>squid</title>
-      <link>http://pyyoshi.github.io/blog/tags/squid/</link>
+      <link>http://github.pyyoshi.com/blog/tags/squid/</link>
       <pubDate>Fri, 10 May 2013 16:43:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/squid/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/squid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ziproxy</title>
-      <link>http://pyyoshi.github.io/blog/tags/ziproxy/</link>
+      <link>http://github.pyyoshi.com/blog/tags/ziproxy/</link>
       <pubDate>Fri, 10 May 2013 16:43:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/ziproxy/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/ziproxy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>daemon</title>
-      <link>http://pyyoshi.github.io/blog/tags/daemon/</link>
+      <link>http://github.pyyoshi.com/blog/tags/daemon/</link>
       <pubDate>Thu, 09 May 2013 00:02:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/daemon/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/daemon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>http://pyyoshi.github.io/blog/tags/Python/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Python/</link>
       <pubDate>Thu, 09 May 2013 00:02:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Python/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Android</title>
-      <link>http://pyyoshi.github.io/blog/tags/Android/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Android/</link>
       <pubDate>Wed, 01 May 2013 18:06:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Android/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Android/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JSON</title>
-      <link>http://pyyoshi.github.io/blog/tags/JSON/</link>
+      <link>http://github.pyyoshi.com/blog/tags/JSON/</link>
       <pubDate>Wed, 01 May 2013 18:06:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/JSON/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/JSON/</guid>
       <description></description>
     </item>
     
     <item>
       <title>regex</title>
-      <link>http://pyyoshi.github.io/blog/tags/regex/</link>
+      <link>http://github.pyyoshi.com/blog/tags/regex/</link>
       <pubDate>Sun, 28 Apr 2013 11:49:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/regex/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/regex/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ginger</title>
-      <link>http://pyyoshi.github.io/blog/tags/Ginger/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Ginger/</link>
       <pubDate>Sat, 27 Apr 2013 22:32:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Ginger/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Ginger/</guid>
       <description></description>
     </item>
     
     <item>
       <title>QML</title>
-      <link>http://pyyoshi.github.io/blog/tags/QML/</link>
+      <link>http://github.pyyoshi.com/blog/tags/QML/</link>
       <pubDate>Sat, 27 Apr 2013 22:32:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/QML/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/QML/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Qt</title>
-      <link>http://pyyoshi.github.io/blog/tags/Qt/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Qt/</link>
       <pubDate>Sat, 27 Apr 2013 22:32:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Qt/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Qt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PySide</title>
-      <link>http://pyyoshi.github.io/blog/tags/PySide/</link>
+      <link>http://github.pyyoshi.com/blog/tags/PySide/</link>
       <pubDate>Thu, 25 Apr 2013 19:09:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/PySide/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/PySide/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Twitter</title>
-      <link>http://pyyoshi.github.io/blog/tags/Twitter/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Twitter/</link>
       <pubDate>Thu, 25 Apr 2013 19:09:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Twitter/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Twitter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Markdown</title>
-      <link>http://pyyoshi.github.io/blog/tags/Markdown/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Markdown/</link>
       <pubDate>Fri, 19 Apr 2013 12:59:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Markdown/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ruby</title>
-      <link>http://pyyoshi.github.io/blog/tags/Ruby/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Ruby/</link>
       <pubDate>Fri, 19 Apr 2013 12:59:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Ruby/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Ruby/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DOM</title>
-      <link>http://pyyoshi.github.io/blog/tags/DOM/</link>
+      <link>http://github.pyyoshi.com/blog/tags/DOM/</link>
       <pubDate>Wed, 03 Apr 2013 10:25:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/DOM/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/DOM/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Firefox</title>
-      <link>http://pyyoshi.github.io/blog/tags/Firefox/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Firefox/</link>
       <pubDate>Wed, 03 Apr 2013 10:25:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Firefox/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Firefox/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nightingale</title>
-      <link>http://pyyoshi.github.io/blog/tags/Nightingale/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Nightingale/</link>
       <pubDate>Wed, 03 Apr 2013 10:25:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Nightingale/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Nightingale/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Audio</title>
-      <link>http://pyyoshi.github.io/blog/tags/Audio/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Audio/</link>
       <pubDate>Fri, 29 Mar 2013 15:30:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Audio/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Audio/</guid>
       <description></description>
     </item>
     
@@ -409,352 +409,352 @@
     
     <item>
       <title>PeerCast</title>
-      <link>http://pyyoshi.github.io/blog/tags/PeerCast/</link>
+      <link>http://github.pyyoshi.com/blog/tags/PeerCast/</link>
       <pubDate>Mon, 25 Mar 2013 12:12:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/PeerCast/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/PeerCast/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JavaScript</title>
-      <link>http://pyyoshi.github.io/blog/tags/JavaScript/</link>
+      <link>http://github.pyyoshi.com/blog/tags/JavaScript/</link>
       <pubDate>Tue, 12 Mar 2013 18:52:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/JavaScript/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/JavaScript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Node.js</title>
-      <link>http://pyyoshi.github.io/blog/tags/Node.js/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Node.js/</link>
       <pubDate>Tue, 12 Mar 2013 18:52:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Node.js/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Node.js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AngularJS</title>
-      <link>http://pyyoshi.github.io/blog/tags/AngularJS/</link>
+      <link>http://github.pyyoshi.com/blog/tags/AngularJS/</link>
       <pubDate>Tue, 29 Jan 2013 19:47:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/AngularJS/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/AngularJS/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ソート</title>
-      <link>http://pyyoshi.github.io/blog/tags/%E3%82%BD%E3%83%BC%E3%83%88/</link>
+      <link>http://github.pyyoshi.com/blog/tags/%E3%82%BD%E3%83%BC%E3%83%88/</link>
       <pubDate>Sat, 26 Jan 2013 00:34:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/%E3%82%BD%E3%83%BC%E3%83%88/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/%E3%82%BD%E3%83%BC%E3%83%88/</guid>
       <description></description>
     </item>
     
     <item>
       <title>chromiumembedded</title>
-      <link>http://pyyoshi.github.io/blog/tags/chromiumembedded/</link>
+      <link>http://github.pyyoshi.com/blog/tags/chromiumembedded/</link>
       <pubDate>Tue, 08 Jan 2013 14:12:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/chromiumembedded/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/chromiumembedded/</guid>
       <description></description>
     </item>
     
     <item>
       <title>jdk</title>
-      <link>http://pyyoshi.github.io/blog/tags/jdk/</link>
+      <link>http://github.pyyoshi.com/blog/tags/jdk/</link>
       <pubDate>Thu, 27 Dec 2012 17:46:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/jdk/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/jdk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>License</title>
-      <link>http://pyyoshi.github.io/blog/tags/License/</link>
+      <link>http://github.pyyoshi.com/blog/tags/License/</link>
       <pubDate>Sun, 02 Dec 2012 12:35:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/License/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/License/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MIT License</title>
-      <link>http://pyyoshi.github.io/blog/tags/MIT-License/</link>
+      <link>http://github.pyyoshi.com/blog/tags/MIT-License/</link>
       <pubDate>Sun, 02 Dec 2012 12:35:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/MIT-License/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/MIT-License/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Chrome Extension API</title>
-      <link>http://pyyoshi.github.io/blog/tags/Chrome-Extension-API/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Chrome-Extension-API/</link>
       <pubDate>Sun, 23 Sep 2012 09:20:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Chrome-Extension-API/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Chrome-Extension-API/</guid>
       <description></description>
     </item>
     
     <item>
       <title>備忘録</title>
-      <link>http://pyyoshi.github.io/blog/tags/%E5%82%99%E5%BF%98%E9%8C%B2/</link>
+      <link>http://github.pyyoshi.com/blog/tags/%E5%82%99%E5%BF%98%E9%8C%B2/</link>
       <pubDate>Sun, 23 Sep 2012 09:20:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/%E5%82%99%E5%BF%98%E9%8C%B2/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/%E5%82%99%E5%BF%98%E9%8C%B2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>C&#43;&#43;</title>
-      <link>http://pyyoshi.github.io/blog/tags/C&#43;&#43;/</link>
+      <link>http://github.pyyoshi.com/blog/tags/C&#43;&#43;/</link>
       <pubDate>Wed, 19 Sep 2012 19:26:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/C&#43;&#43;/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/C&#43;&#43;/</guid>
       <description></description>
     </item>
     
     <item>
       <title>VC&#43;&#43;</title>
-      <link>http://pyyoshi.github.io/blog/tags/VC&#43;&#43;/</link>
+      <link>http://github.pyyoshi.com/blog/tags/VC&#43;&#43;/</link>
       <pubDate>Wed, 19 Sep 2012 19:26:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/VC&#43;&#43;/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/VC&#43;&#43;/</guid>
       <description></description>
     </item>
     
     <item>
       <title>メモリリーク</title>
-      <link>http://pyyoshi.github.io/blog/tags/%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%AF/</link>
+      <link>http://github.pyyoshi.com/blog/tags/%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%AF/</link>
       <pubDate>Wed, 19 Sep 2012 19:26:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%AF/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%AF/</guid>
       <description></description>
     </item>
     
     <item>
       <title>coffeescript</title>
-      <link>http://pyyoshi.github.io/blog/tags/coffeescript/</link>
+      <link>http://github.pyyoshi.com/blog/tags/coffeescript/</link>
       <pubDate>Tue, 18 Sep 2012 22:05:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/coffeescript/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/coffeescript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>watchdog</title>
-      <link>http://pyyoshi.github.io/blog/tags/watchdog/</link>
+      <link>http://github.pyyoshi.com/blog/tags/watchdog/</link>
       <pubDate>Tue, 18 Sep 2012 22:05:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/watchdog/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/watchdog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TwitterIrcGateway</title>
-      <link>http://pyyoshi.github.io/blog/tags/TwitterIrcGateway/</link>
+      <link>http://github.pyyoshi.com/blog/tags/TwitterIrcGateway/</link>
       <pubDate>Tue, 18 Sep 2012 01:16:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/TwitterIrcGateway/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/TwitterIrcGateway/</guid>
       <description></description>
     </item>
     
     <item>
       <title>znc</title>
-      <link>http://pyyoshi.github.io/blog/tags/znc/</link>
+      <link>http://github.pyyoshi.com/blog/tags/znc/</link>
       <pubDate>Tue, 18 Sep 2012 01:16:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/znc/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/znc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cchardet</title>
-      <link>http://pyyoshi.github.io/blog/tags/cchardet/</link>
+      <link>http://github.pyyoshi.com/blog/tags/cchardet/</link>
       <pubDate>Wed, 22 Aug 2012 22:25:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/cchardet/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/cchardet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cython</title>
-      <link>http://pyyoshi.github.io/blog/tags/Cython/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Cython/</link>
       <pubDate>Wed, 22 Aug 2012 22:25:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Cython/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Cython/</guid>
       <description></description>
     </item>
     
     <item>
       <title>生活</title>
-      <link>http://pyyoshi.github.io/blog/tags/%E7%94%9F%E6%B4%BB/</link>
+      <link>http://github.pyyoshi.com/blog/tags/%E7%94%9F%E6%B4%BB/</link>
       <pubDate>Tue, 07 Aug 2012 22:09:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/%E7%94%9F%E6%B4%BB/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/%E7%94%9F%E6%B4%BB/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NAS</title>
-      <link>http://pyyoshi.github.io/blog/tags/NAS/</link>
+      <link>http://github.pyyoshi.com/blog/tags/NAS/</link>
       <pubDate>Tue, 07 Aug 2012 06:59:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/NAS/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/NAS/</guid>
       <description></description>
     </item>
     
     <item>
       <title>XFS</title>
-      <link>http://pyyoshi.github.io/blog/tags/XFS/</link>
+      <link>http://github.pyyoshi.com/blog/tags/XFS/</link>
       <pubDate>Tue, 07 Aug 2012 06:59:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/XFS/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/XFS/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PowerShell</title>
-      <link>http://pyyoshi.github.io/blog/tags/PowerShell/</link>
+      <link>http://github.pyyoshi.com/blog/tags/PowerShell/</link>
       <pubDate>Thu, 02 Aug 2012 21:34:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/PowerShell/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/PowerShell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>VirtualenvWrapper</title>
-      <link>http://pyyoshi.github.io/blog/tags/VirtualenvWrapper/</link>
+      <link>http://github.pyyoshi.com/blog/tags/VirtualenvWrapper/</link>
       <pubDate>Thu, 02 Aug 2012 21:34:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/VirtualenvWrapper/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/VirtualenvWrapper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pytumb2</title>
-      <link>http://pyyoshi.github.io/blog/tags/Pytumb2/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Pytumb2/</link>
       <pubDate>Sat, 14 Jul 2012 23:06:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Pytumb2/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Pytumb2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tumblr</title>
-      <link>http://pyyoshi.github.io/blog/tags/Tumblr/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Tumblr/</link>
       <pubDate>Sat, 14 Jul 2012 23:06:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Tumblr/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Tumblr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nose</title>
-      <link>http://pyyoshi.github.io/blog/tags/nose/</link>
+      <link>http://github.pyyoshi.com/blog/tags/nose/</link>
       <pubDate>Mon, 18 Jun 2012 15:58:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/nose/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/nose/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cx_freeze</title>
-      <link>http://pyyoshi.github.io/blog/tags/cx_freeze/</link>
+      <link>http://github.pyyoshi.com/blog/tags/cx_freeze/</link>
       <pubDate>Tue, 05 Jun 2012 11:16:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/cx_freeze/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/cx_freeze/</guid>
       <description></description>
     </item>
     
     <item>
       <title>py2exe</title>
-      <link>http://pyyoshi.github.io/blog/tags/py2exe/</link>
+      <link>http://github.pyyoshi.com/blog/tags/py2exe/</link>
       <pubDate>Tue, 05 Jun 2012 11:16:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/py2exe/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/py2exe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python IronPython C#</title>
-      <link>http://pyyoshi.github.io/blog/tags/Python-IronPython-C#/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Python-IronPython-C#/</link>
       <pubDate>Fri, 01 Jun 2012 11:26:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Python-IronPython-C#/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Python-IronPython-C#/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Google&#43;</title>
-      <link>http://pyyoshi.github.io/blog/tags/Google&#43;/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Google&#43;/</link>
       <pubDate>Fri, 25 May 2012 22:38:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Google&#43;/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Google&#43;/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IRC</title>
-      <link>http://pyyoshi.github.io/blog/tags/IRC/</link>
+      <link>http://github.pyyoshi.com/blog/tags/IRC/</link>
       <pubDate>Mon, 20 Feb 2012 04:14:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/IRC/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/IRC/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nginx</title>
-      <link>http://pyyoshi.github.io/blog/tags/nginx/</link>
+      <link>http://github.pyyoshi.com/blog/tags/nginx/</link>
       <pubDate>Wed, 05 Oct 2011 23:43:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/nginx/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/nginx/</guid>
       <description></description>
     </item>
     
     <item>
       <title>redmine</title>
-      <link>http://pyyoshi.github.io/blog/tags/redmine/</link>
+      <link>http://github.pyyoshi.com/blog/tags/redmine/</link>
       <pubDate>Wed, 05 Oct 2011 23:43:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/redmine/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/redmine/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MongoDB</title>
-      <link>http://pyyoshi.github.io/blog/tags/MongoDB/</link>
+      <link>http://github.pyyoshi.com/blog/tags/MongoDB/</link>
       <pubDate>Wed, 05 Oct 2011 12:33:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/MongoDB/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/MongoDB/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Windows8</title>
-      <link>http://pyyoshi.github.io/blog/tags/Windows8/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Windows8/</link>
       <pubDate>Wed, 21 Sep 2011 13:47:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Windows8/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Windows8/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OAuth</title>
-      <link>http://pyyoshi.github.io/blog/tags/OAuth/</link>
+      <link>http://github.pyyoshi.com/blog/tags/OAuth/</link>
       <pubDate>Thu, 30 Jun 2011 19:18:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/OAuth/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/OAuth/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fastcgi</title>
-      <link>http://pyyoshi.github.io/blog/tags/fastcgi/</link>
+      <link>http://github.pyyoshi.com/blog/tags/fastcgi/</link>
       <pubDate>Wed, 29 Jun 2011 18:23:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/fastcgi/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/fastcgi/</guid>
       <description></description>
     </item>
     
@@ -769,289 +769,289 @@
     
     <item>
       <title>webp</title>
-      <link>http://pyyoshi.github.io/blog/tags/webp/</link>
+      <link>http://github.pyyoshi.com/blog/tags/webp/</link>
       <pubDate>Fri, 03 Jun 2011 19:00:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/webp/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/webp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>boost</title>
-      <link>http://pyyoshi.github.io/blog/tags/boost/</link>
+      <link>http://github.pyyoshi.com/blog/tags/boost/</link>
       <pubDate>Mon, 18 Apr 2011 18:12:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/boost/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/boost/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SL4A</title>
-      <link>http://pyyoshi.github.io/blog/tags/SL4A/</link>
+      <link>http://github.pyyoshi.com/blog/tags/SL4A/</link>
       <pubDate>Wed, 06 Apr 2011 22:49:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/SL4A/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/SL4A/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Scala</title>
-      <link>http://pyyoshi.github.io/blog/tags/Scala/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Scala/</link>
       <pubDate>Fri, 18 Mar 2011 02:31:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Scala/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Scala/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SSH</title>
-      <link>http://pyyoshi.github.io/blog/tags/SSH/</link>
+      <link>http://github.pyyoshi.com/blog/tags/SSH/</link>
       <pubDate>Sat, 15 Jan 2011 19:20:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/SSH/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/SSH/</guid>
       <description></description>
     </item>
     
     <item>
       <title>git</title>
-      <link>http://pyyoshi.github.io/blog/tags/git/</link>
+      <link>http://github.pyyoshi.com/blog/tags/git/</link>
       <pubDate>Fri, 24 Dec 2010 00:46:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/git/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>github</title>
-      <link>http://pyyoshi.github.io/blog/tags/github/</link>
+      <link>http://github.pyyoshi.com/blog/tags/github/</link>
       <pubDate>Fri, 24 Dec 2010 00:46:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/github/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IS01</title>
-      <link>http://pyyoshi.github.io/blog/tags/IS01/</link>
+      <link>http://github.pyyoshi.com/blog/tags/IS01/</link>
       <pubDate>Sun, 12 Dec 2010 14:00:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/IS01/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/IS01/</guid>
       <description></description>
     </item>
     
     <item>
       <title>BeautifulSoup</title>
-      <link>http://pyyoshi.github.io/blog/tags/BeautifulSoup/</link>
+      <link>http://github.pyyoshi.com/blog/tags/BeautifulSoup/</link>
       <pubDate>Fri, 03 Dec 2010 01:13:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/BeautifulSoup/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/BeautifulSoup/</guid>
       <description></description>
     </item>
     
     <item>
       <title>arm</title>
-      <link>http://pyyoshi.github.io/blog/tags/arm/</link>
+      <link>http://github.pyyoshi.com/blog/tags/arm/</link>
       <pubDate>Wed, 27 Oct 2010 21:18:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/arm/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/arm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Chrome</title>
-      <link>http://pyyoshi.github.io/blog/tags/Chrome/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Chrome/</link>
       <pubDate>Sun, 24 Oct 2010 11:29:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Chrome/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Chrome/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Skype</title>
-      <link>http://pyyoshi.github.io/blog/tags/Skype/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Skype/</link>
       <pubDate>Tue, 05 Oct 2010 19:33:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Skype/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Skype/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Liquid</title>
-      <link>http://pyyoshi.github.io/blog/tags/Liquid/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Liquid/</link>
       <pubDate>Sat, 02 Oct 2010 19:08:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Liquid/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Liquid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Diary</title>
-      <link>http://pyyoshi.github.io/blog/tags/Diary/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Diary/</link>
       <pubDate>Tue, 28 Sep 2010 05:38:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Diary/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Diary/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GoogleChrome</title>
-      <link>http://pyyoshi.github.io/blog/tags/GoogleChrome/</link>
+      <link>http://github.pyyoshi.com/blog/tags/GoogleChrome/</link>
       <pubDate>Sat, 17 Jul 2010 11:41:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/GoogleChrome/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/GoogleChrome/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PSP Type B Driver</title>
-      <link>http://pyyoshi.github.io/blog/tags/PSP-Type-B-Driver/</link>
+      <link>http://github.pyyoshi.com/blog/tags/PSP-Type-B-Driver/</link>
       <pubDate>Thu, 17 Jun 2010 22:53:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/PSP-Type-B-Driver/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/PSP-Type-B-Driver/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gdipp</title>
-      <link>http://pyyoshi.github.io/blog/tags/gdipp/</link>
+      <link>http://github.pyyoshi.com/blog/tags/gdipp/</link>
       <pubDate>Wed, 19 May 2010 18:21:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/gdipp/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/gdipp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mumble</title>
-      <link>http://pyyoshi.github.io/blog/tags/Mumble/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Mumble/</link>
       <pubDate>Mon, 10 May 2010 21:26:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Mumble/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Mumble/</guid>
       <description></description>
     </item>
     
     <item>
       <title>FlashPlayer</title>
-      <link>http://pyyoshi.github.io/blog/tags/FlashPlayer/</link>
+      <link>http://github.pyyoshi.com/blog/tags/FlashPlayer/</link>
       <pubDate>Fri, 07 May 2010 14:33:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/FlashPlayer/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/FlashPlayer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MBR</title>
-      <link>http://pyyoshi.github.io/blog/tags/MBR/</link>
+      <link>http://github.pyyoshi.com/blog/tags/MBR/</link>
       <pubDate>Wed, 07 Apr 2010 21:01:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/MBR/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/MBR/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Windows7</title>
-      <link>http://pyyoshi.github.io/blog/tags/Windows7/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Windows7/</link>
       <pubDate>Wed, 07 Apr 2010 21:01:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Windows7/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Windows7/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Extension</title>
-      <link>http://pyyoshi.github.io/blog/tags/Extension/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Extension/</link>
       <pubDate>Fri, 26 Feb 2010 16:41:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Extension/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Extension/</guid>
       <description></description>
     </item>
     
     <item>
       <title>EASEUS Disk Copy</title>
-      <link>http://pyyoshi.github.io/blog/tags/EASEUS-Disk-Copy/</link>
+      <link>http://github.pyyoshi.com/blog/tags/EASEUS-Disk-Copy/</link>
       <pubDate>Wed, 03 Feb 2010 14:56:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/EASEUS-Disk-Copy/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/EASEUS-Disk-Copy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unetbootin</title>
-      <link>http://pyyoshi.github.io/blog/tags/Unetbootin/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Unetbootin/</link>
       <pubDate>Wed, 03 Feb 2010 14:56:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Unetbootin/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Unetbootin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NicoRoid</title>
-      <link>http://pyyoshi.github.io/blog/tags/NicoRoid/</link>
+      <link>http://github.pyyoshi.com/blog/tags/NicoRoid/</link>
       <pubDate>Tue, 05 Jan 2010 23:34:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/NicoRoid/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/NicoRoid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mobile</title>
-      <link>http://pyyoshi.github.io/blog/tags/Mobile/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Mobile/</link>
       <pubDate>Tue, 05 Jan 2010 22:57:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Mobile/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Mobile/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DiCE</title>
-      <link>http://pyyoshi.github.io/blog/tags/DiCE/</link>
+      <link>http://github.pyyoshi.com/blog/tags/DiCE/</link>
       <pubDate>Sun, 27 Dec 2009 19:20:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/DiCE/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/DiCE/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vsftpd</title>
-      <link>http://pyyoshi.github.io/blog/tags/vsftpd/</link>
+      <link>http://github.pyyoshi.com/blog/tags/vsftpd/</link>
       <pubDate>Thu, 24 Dec 2009 15:33:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/vsftpd/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/vsftpd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Server</title>
-      <link>http://pyyoshi.github.io/blog/tags/Server/</link>
+      <link>http://github.pyyoshi.com/blog/tags/Server/</link>
       <pubDate>Tue, 22 Dec 2009 23:54:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/Server/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/Server/</guid>
       <description></description>
     </item>
     
     <item>
       <title>当ブログについて</title>
-      <link>http://pyyoshi.github.io/blog/tags/%E5%BD%93%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
+      <link>http://github.pyyoshi.com/blog/tags/%E5%BD%93%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
       <pubDate>Sat, 12 Dec 2009 00:21:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/%E5%BD%93%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/%E5%BD%93%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SQLite3</title>
-      <link>http://pyyoshi.github.io/blog/tags/SQLite3/</link>
+      <link>http://github.pyyoshi.com/blog/tags/SQLite3/</link>
       <pubDate>Fri, 11 Dec 2009 20:53:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/SQLite3/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/SQLite3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CSS</title>
-      <link>http://pyyoshi.github.io/blog/tags/CSS/</link>
+      <link>http://github.pyyoshi.com/blog/tags/CSS/</link>
       <pubDate>Thu, 10 Dec 2009 00:38:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/tags/CSS/</guid>
+      <guid>http://github.pyyoshi.com/blog/tags/CSS/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>vsftpd on PyYoshiのログ置き場</title>
-    <link>http://pyyoshi.github.io/blog/tags/vsftpd/</link>
+    <link>http://github.pyyoshi.com/blog/tags/vsftpd/</link>
     <description>Recent content in vsftpd on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 24 Dec 2009 15:33:00 +0900</lastBuildDate>
     
-	<atom:link href="http://pyyoshi.github.io/blog/tags/vsftpd/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://github.pyyoshi.com/blog/tags/vsftpd/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ubuntuサーバ再構築(2)</title>
-      <link>http://pyyoshi.github.io/blog/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%892/</link>
+      <link>http://github.pyyoshi.com/blog/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%892/</link>
       <pubDate>Thu, 24 Dec 2009 15:33:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%892/</guid>
+      <guid>http://github.pyyoshi.com/blog/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%892/</guid>
       <description>vsftpdをインスコ
 sudo apt-get install vsftpd
 次にconfig弄りなのだが、そのまえにvimをインスコ(vimデビューなう)

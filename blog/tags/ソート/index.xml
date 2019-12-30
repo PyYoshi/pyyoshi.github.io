@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ソート on PyYoshiのログ置き場</title>
-    <link>http://pyyoshi.github.io/blog/tags/%E3%82%BD%E3%83%BC%E3%83%88/</link>
+    <link>http://github.pyyoshi.com/blog/tags/%E3%82%BD%E3%83%BC%E3%83%88/</link>
     <description>Recent content in ソート on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 26 Jan 2013 00:34:00 +0900</lastBuildDate>
     
-	<atom:link href="http://pyyoshi.github.io/blog/tags/%E3%82%BD%E3%83%BC%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://github.pyyoshi.com/blog/tags/%E3%82%BD%E3%83%BC%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ソートアルゴリズムの可視化をしたFlashアプリがすごい！</title>
-      <link>http://pyyoshi.github.io/blog/2013/01/%E3%82%BD%E3%83%BC%E3%83%88%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E3%81%AE%E5%8F%AF%E8%A6%96%E5%8C%96%E3%82%92%E3%81%97%E3%81%9FFlash%E3%82%A2%E3%83%97%E3%83%AA%E3%81%8C%E3%81%99%E3%81%94%E3%81%84/</link>
+      <link>http://github.pyyoshi.com/blog/2013/01/%E3%82%BD%E3%83%BC%E3%83%88%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E3%81%AE%E5%8F%AF%E8%A6%96%E5%8C%96%E3%82%92%E3%81%97%E3%81%9FFlash%E3%82%A2%E3%83%97%E3%83%AA%E3%81%8C%E3%81%99%E3%81%94%E3%81%84/</link>
       <pubDate>Sat, 26 Jan 2013 00:34:00 +0900</pubDate>
       
-      <guid>http://pyyoshi.github.io/blog/2013/01/%E3%82%BD%E3%83%BC%E3%83%88%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E3%81%AE%E5%8F%AF%E8%A6%96%E5%8C%96%E3%82%92%E3%81%97%E3%81%9FFlash%E3%82%A2%E3%83%97%E3%83%AA%E3%81%8C%E3%81%99%E3%81%94%E3%81%84/</guid>
+      <guid>http://github.pyyoshi.com/blog/2013/01/%E3%82%BD%E3%83%BC%E3%83%88%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E3%81%AE%E5%8F%AF%E8%A6%96%E5%8C%96%E3%82%92%E3%81%97%E3%81%9FFlash%E3%82%A2%E3%83%97%E3%83%AA%E3%81%8C%E3%81%99%E3%81%94%E3%81%84/</guid>
       <description>とてもわかり易く可視化できていると思いました。
 これ見ながら、どう動いているのかコード書くといろいろ捗りそうですね！
 Sorting Algorithms Visualizer - wonderfl build flash online</description>
