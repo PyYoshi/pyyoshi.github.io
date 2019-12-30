@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on PyYoshiのログ置き場</title>
+    <link>http://example.org/categories/</link>
+    <description>Recent content in Categories on PyYoshiのログ置き場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 31 Oct 2018 14:21:48 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>linux</title>
+      <link>http://example.org/categories/linux/</link>
+      <pubDate>Wed, 31 Oct 2018 14:21:48 +0000</pubDate>
+      
+      <guid>http://example.org/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>http://example.org/categories/ubuntu/</link>
+      <pubDate>Wed, 31 Oct 2018 14:21:48 +0000</pubDate>
+      
+      <guid>http://example.org/categories/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xps13</title>
+      <link>http://example.org/categories/xps13/</link>
+      <pubDate>Wed, 31 Oct 2018 14:21:48 +0000</pubDate>
+      
+      <guid>http://example.org/categories/xps13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>elasticsearch</title>
+      <link>http://example.org/categories/elasticsearch/</link>
+      <pubDate>Tue, 22 May 2018 15:36:00 +0000</pubDate>
+      
+      <guid>http://example.org/categories/elasticsearch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>back in time</title>
+      <link>http://example.org/categories/back-in-time/</link>
+      <pubDate>Fri, 05 Jan 2018 19:14:38 +0000</pubDate>
+      
+      <guid>http://example.org/categories/back-in-time/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>backup</title>
+      <link>http://example.org/categories/backup/</link>
+      <pubDate>Fri, 05 Jan 2018 19:14:38 +0000</pubDate>
+      
+      <guid>http://example.org/categories/backup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deja dup</title>
+      <link>http://example.org/categories/deja-dup/</link>
+      <pubDate>Fri, 05 Jan 2018 19:14:38 +0000</pubDate>
+      
+      <guid>http://example.org/categories/deja-dup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>systemback</title>
+      <link>http://example.org/categories/systemback/</link>
+      <pubDate>Fri, 05 Jan 2018 19:14:38 +0000</pubDate>
+      
+      <guid>http://example.org/categories/systemback/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>timemachine</title>
+      <link>http://example.org/categories/timemachine/</link>
+      <pubDate>Fri, 05 Jan 2018 19:14:38 +0000</pubDate>
+      
+      <guid>http://example.org/categories/timemachine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>timeshift</title>
+      <link>http://example.org/categories/timeshift/</link>
+      <pubDate>Fri, 05 Jan 2018 19:14:38 +0000</pubDate>
+      
+      <guid>http://example.org/categories/timeshift/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>typescript</title>
+      <link>http://example.org/categories/typescript/</link>
+      <pubDate>Thu, 12 Oct 2017 21:18:42 +0000</pubDate>
+      
+      <guid>http://example.org/categories/typescript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>webstorm</title>
+      <link>http://example.org/categories/webstorm/</link>
+      <pubDate>Thu, 12 Oct 2017 21:18:42 +0000</pubDate>
+      
+      <guid>http://example.org/categories/webstorm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>react-native</title>
+      <link>http://example.org/categories/react-native/</link>
+      <pubDate>Mon, 09 Oct 2017 17:49:35 +0000</pubDate>
+      
+      <guid>http://example.org/categories/react-native/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>firebase</title>
+      <link>http://example.org/categories/firebase/</link>
+      <pubDate>Fri, 06 Oct 2017 08:42:49 +0000</pubDate>
+      
+      <guid>http://example.org/categories/firebase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>firestore</title>
+      <link>http://example.org/categories/firestore/</link>
+      <pubDate>Fri, 06 Oct 2017 08:42:49 +0000</pubDate>
+      
+      <guid>http://example.org/categories/firestore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>http://example.org/categories/golang/</link>
+      <pubDate>Wed, 07 Dec 2016 18:20:12 +0000</pubDate>
+      
+      <guid>http://example.org/categories/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reactjs</title>
+      <link>http://example.org/categories/reactjs/</link>
+      <pubDate>Thu, 29 Sep 2016 23:19:01 +0000</pubDate>
+      
+      <guid>http://example.org/categories/reactjs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

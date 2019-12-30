@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c">
+<meta itemprop="name" content="PythonモジュールをSL4A向けにビルドしてみた">
+<meta itemprop="description" content="SL4AのVer.が上がってAPIも結構数サポートされて驚いていたのだが、それよりうれしいとおもったのがPythonのCモジュールのビルド方法が確立されたこと。
+以前まではソースにそのようなツールは用意されていなくクロスコンパイラでとりあえずビルドって感じだった。
+ということでPythonモジュールのビルド方法を。
+ツールのソースコード追ってないので正しいかどうか分からないけどAndroidソースが必要みたい。
+Androidのソースは各自準備してください。
+/home/hoge/android/mydroid ← Androidのソース置き場
+/home/hoge/android/sl4a ← SL4Aのソース置き場
+とします。
+今回はPyLZMAをビルドする例を紹介します。
+SL4Aのソースをとってくる。
+$pwd
+/home/hoge/android/
+$cd sl4a
+$hg clone https://android-scripting.googlecode.com/hg/ android-scripting
+ビルドツールの一部を修正する。
+$cd android-scripting/tools/agcc
+$vim agcc
+126行目以降のものを以下のように1行追加
+# Also need: -Wl,-soname,libXXXX.so
+my @shared_args = (
+ &ldquo;-nostdlib&rdquo;,
+ &ldquo;-Wl,-T,$DROID/build/core/armelf.xsc&rdquo;,
+ &ldquo;-Wl,&ndash;gc-sections&rdquo;,
+ &ldquo;-Wl,-shared,-Bsymbolic&rdquo;,
+ &ldquo;-L$ALIB&rdquo;,
+ &ldquo;-Wl,&ndash;no-whole-archive&rdquo;,
+** &ldquo;-L/home/hoge/android/mydroid/prebuilt/ndk/android-ndk-r4/platforms/android-3/arch-arm/usr/lib &ldquo;,** &ldquo;-lc&rdquo;,
+ &ldquo;-lm&rdquo;,
+ &ldquo;-ldl&rdquo;,
+ #&quot;-Wl,&ndash;no-undefined&rdquo;,
+ &ldquo;$TOOLCHAIN/lib/gcc/arm-eabi/4.4.0/interwork/libgcc.a&rdquo;,
+ &ldquo;-Wl,&ndash;whole-archive&rdquo;); # .a, .o input files go *after* here">
+<meta itemprop="datePublished" content="2011-04-06T22:49:00&#43;09:00" />
+<meta itemprop="dateModified" content="2011-04-06T22:49:00&#43;09:00" />
+<meta itemprop="wordCount" content="134">
+
+
+
+<meta itemprop="keywords" content="SL4A,Android," /><meta property="og:title" content="PythonモジュールをSL4A向けにビルドしてみた" />
+<meta property="og:description" content="SL4AのVer.が上がってAPIも結構数サポートされて驚いていたのだが、それよりうれしいとおもったのがPythonのCモジュールのビルド方法が確立されたこと。
+以前まではソースにそのようなツールは用意されていなくクロスコンパイラでとりあえずビルドって感じだった。
+ということでPythonモジュールのビルド方法を。
+ツールのソースコード追ってないので正しいかどうか分からないけどAndroidソースが必要みたい。
+Androidのソースは各自準備してください。
+/home/hoge/android/mydroid ← Androidのソース置き場
+/home/hoge/android/sl4a ← SL4Aのソース置き場
+とします。
+今回はPyLZMAをビルドする例を紹介します。
+SL4Aのソースをとってくる。
+$pwd
+/home/hoge/android/
+$cd sl4a
+$hg clone https://android-scripting.googlecode.com/hg/ android-scripting
+ビルドツールの一部を修正する。
+$cd android-scripting/tools/agcc
+$vim agcc
+126行目以降のものを以下のように1行追加
+# Also need: -Wl,-soname,libXXXX.so
+my @shared_args = (
+ &ldquo;-nostdlib&rdquo;,
+ &ldquo;-Wl,-T,$DROID/build/core/armelf.xsc&rdquo;,
+ &ldquo;-Wl,&ndash;gc-sections&rdquo;,
+ &ldquo;-Wl,-shared,-Bsymbolic&rdquo;,
+ &ldquo;-L$ALIB&rdquo;,
+ &ldquo;-Wl,&ndash;no-whole-archive&rdquo;,
+** &ldquo;-L/home/hoge/android/mydroid/prebuilt/ndk/android-ndk-r4/platforms/android-3/arch-arm/usr/lib &ldquo;,** &ldquo;-lc&rdquo;,
+ &ldquo;-lm&rdquo;,
+ &ldquo;-ldl&rdquo;,
+ #&quot;-Wl,&ndash;no-undefined&rdquo;,
+ &ldquo;$TOOLCHAIN/lib/gcc/arm-eabi/4.4.0/interwork/libgcc.a&rdquo;,
+ &ldquo;-Wl,&ndash;whole-archive&rdquo;); # .a, .o input files go *after* here" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/2011/04/Python%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%82%92SL4A%E5%90%91%E3%81%91%E3%81%AB%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/" />
+<meta property="article:published_time" content="2011-04-06T22:49:00+09:00" />
+<meta property="article:modified_time" content="2011-04-06T22:49:00+09:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="PythonモジュールをSL4A向けにビルドしてみた"/>
+<meta name="twitter:description" content="SL4AのVer.が上がってAPIも結構数サポートされて驚いていたのだが、それよりうれしいとおもったのがPythonのCモジュールのビルド方法が確立されたこと。
+以前まではソースにそのようなツールは用意されていなくクロスコンパイラでとりあえずビルドって感じだった。
+ということでPythonモジュールのビルド方法を。
+ツールのソースコード追ってないので正しいかどうか分からないけどAndroidソースが必要みたい。
+Androidのソースは各自準備してください。
+/home/hoge/android/mydroid ← Androidのソース置き場
+/home/hoge/android/sl4a ← SL4Aのソース置き場
+とします。
+今回はPyLZMAをビルドする例を紹介します。
+SL4Aのソースをとってくる。
+$pwd
+/home/hoge/android/
+$cd sl4a
+$hg clone https://android-scripting.googlecode.com/hg/ android-scripting
+ビルドツールの一部を修正する。
+$cd android-scripting/tools/agcc
+$vim agcc
+126行目以降のものを以下のように1行追加
+# Also need: -Wl,-soname,libXXXX.so
+my @shared_args = (
+ &ldquo;-nostdlib&rdquo;,
+ &ldquo;-Wl,-T,$DROID/build/core/armelf.xsc&rdquo;,
+ &ldquo;-Wl,&ndash;gc-sections&rdquo;,
+ &ldquo;-Wl,-shared,-Bsymbolic&rdquo;,
+ &ldquo;-L$ALIB&rdquo;,
+ &ldquo;-Wl,&ndash;no-whole-archive&rdquo;,
+** &ldquo;-L/home/hoge/android/mydroid/prebuilt/ndk/android-ndk-r4/platforms/android-3/arch-arm/usr/lib &ldquo;,** &ldquo;-lc&rdquo;,
+ &ldquo;-lm&rdquo;,
+ &ldquo;-ldl&rdquo;,
+ #&quot;-Wl,&ndash;no-undefined&rdquo;,
+ &ldquo;$TOOLCHAIN/lib/gcc/arm-eabi/4.4.0/interwork/libgcc.a&rdquo;,
+ &ldquo;-Wl,&ndash;whole-archive&rdquo;); # .a, .o input files go *after* here"/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<title>PythonモジュールをSL4A向けにビルドしてみた</title>
+	<link rel="stylesheet" href="http://example.org/css/style.min.657bcb7af31123e4156b1a3d2ff60a636717e54ead74f882136b5114cf72b55e.css" integrity="sha256-ZXvLevMRI+QVaxo9L/YKY2cX5U6tdPiCE2tRFM9ytV4=" crossorigin="anonymous">
+	
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp faster">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="http://example.org/">PyYoshiのログ置き場</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					
+				<a href="http://example.org/posts/">Posts(Ja)</a>
+				<a href="http://example.org/pages/">Pages</a>
+
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="https://twitter.com/PyYoshi" target="_blank" rel="noopener me" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a><a href="https://github.com/PyYoshi" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></span><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="http://example.org/posts/">Posts(Ja)</a></li>
+			<li><a href="http://example.org/pages/">Pages</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner animated fadeIn faster">
+		<article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>Apr 6, 2011</span></div>
+				<h1>PythonモジュールをSL4A向けにビルドしてみた</h1>
+			</header>
+			<div class="content">
+				<p>SL4AのVer.が上がってAPIも結構数サポートされて驚いていたのだが、それよりうれしいとおもったのがPythonのCモジュールのビルド方法が確立されたこと。<br>
+以前まではソースにそのようなツールは用意されていなくクロスコンパイラでとりあえずビルドって感じだった。</p>
+<p>ということでPythonモジュールのビルド方法を。</p>
+<p>ツールのソースコード追ってないので正しいかどうか分からないけどAndroidソースが必要みたい。</p>
+<p>Androidのソースは各自準備してください。</p>
+<p>/home/hoge/android/mydroid ← Androidのソース置き場</p>
+<p>/home/hoge/android/sl4a ← SL4Aのソース置き場</p>
+<p>とします。</p>
+<p>今回はPyLZMAをビルドする例を紹介します。</p>
+<p>SL4Aのソースをとってくる。</p>
+<p>$pwd</p>
+<p>/home/hoge/android/</p>
+<p>$cd sl4a</p>
+<p>$hg clone <a href="https://android-scripting.googlecode.com/hg/">https://android-scripting.googlecode.com/hg/</a> android-scripting</p>
+<p>ビルドツールの一部を修正する。</p>
+<p>$cd android-scripting/tools/agcc<br>
+$vim agcc</p>
+<p>126行目以降のものを以下のように1行追加</p>
+<p># Also need: -Wl,-soname,libXXXX.so</p>
+<p>my @shared_args = (</p>
+<p>    &ldquo;-nostdlib&rdquo;,</p>
+<p>    &ldquo;-Wl,-T,$DROID/build/core/armelf.xsc&rdquo;,</p>
+<p>    &ldquo;-Wl,&ndash;gc-sections&rdquo;,</p>
+<p>    &ldquo;-Wl,-shared,-Bsymbolic&rdquo;,</p>
+<p>    &ldquo;-L$ALIB&rdquo;,</p>
+<p>    &ldquo;-Wl,&ndash;no-whole-archive&rdquo;,</p>
+<p><!-- raw HTML omitted -->**   
+&ldquo;-L/home/hoge/android/mydroid/prebuilt/ndk/android-ndk-r4/platforms/android-3/arch-arm/usr/lib &ldquo;,**<!-- raw HTML omitted --></p>
+<p>    &ldquo;-lc&rdquo;,</p>
+<p>    &ldquo;-lm&rdquo;,</p>
+<p>    &ldquo;-ldl&rdquo;,</p>
+<p>    #&quot;-Wl,&ndash;no-undefined&rdquo;,</p>
+<p>    &ldquo;$TOOLCHAIN/lib/gcc/arm-eabi/4.4.0/interwork/libgcc.a&rdquo;,</p>
+<p>    &ldquo;-Wl,&ndash;whole-archive&rdquo;); # .a, .o input files go *after* here</p>
+<p>PyLZMAをとってくる。</p>
+<p>$pwd</p>
+<p>/home/hoge/android/sl4a</p>
+<p>$mkdir Modules</p>
+<p>$cd Modules</p>
+<p>$wget http://pypi.python.org/packages/source/p/pylzma/pylzma-0.4.4.tar.gz</p>
+<p>$tar zxvf pylzma-0.4.4.tar.gz</p>
+<p>Moduleをビルド</p>
+<p>$cd pylzma*<br>
+$export SL4A_TRUNC=/home/hoge/android/sl4a/android-scripting</p>
+<p>$export ANDROID_SRC=/home/hoge/android</p>
+<p>$export
+PATH=$PATH:$ANDROID_SRC/prebuilt/linux-x86/toolchain/arm-eabi-4.3.1/bin</p>
+<p>$export PATH=$PATH:$SL4A_TRUNC/tools/agcc</p>
+<p>$export AR=arm-eabi-ar</p>
+<p>$export PYBASE=$SL4A_TRUNC/python/src</p>
+<p>$export INCLUDES=&rdquo;-I$PYBASE -I$PYBASE/Include&rdquo;</p>
+<p>$export OPT=&rdquo;-DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes
+-fno-short-enums $INCLUDES&rdquo;</p>
+<p>$export CXX=agcc</p>
+<p>$export LDSHARED=&quot;agcc -shared&rdquo;</p>
+<p>$export RANLIB=arm-eabi-ranlib</p>
+<p>$export CC=agcc</p>
+<p>$python -E setup.py build</p>
+<p>これで問題なくビルド出来ると思う。</p>
+<p>$cd build/lib*</p>
+<p>$zip pylzma.zip *</p>
+<p>でパッケージングしたらPython for
+Androidでそのzipファイルをインポートすれば使えると思う。</p>
+<p>またlib*の他にscripts*ってのが出来てたらそれも必要。</p>
+<p>それを/sdcard/downloadに置く。</p>
+<p>で、これだとなんかうまくいかない…</p>
+<p>root取れれば</p>
+<p>*.soを</p>
+<p>/data/data/com.googlecode.pythonforandroid/files/python/lib/python2.6</p>
+<p>に</p>
+<p>*.pyを</p>
+<p>/sdcard/com.googlecode.pythonforandroid/extras</p>
+<p>に置けばいいと思う。</p>
+<p>なんか説明が足らないな…<br>
+ソース見ろってことかねｗ<br>
+その部分のソース: <a href="http://code.google.com/p/python-for-android/source/browse/android/PythonForAndroid/src/com/googlecode/pythonforandroid/PythonMain.java?r=42c189f5b59e5e71f25440c55855e2336a9b1f12&amp;spec=svn42c189f5b59e5e71f25440c55855e2336a9b1f12">PythonMain.java</a></p>
+
+			</div>
+			<hr class="post-end">
+			<footer class="post-info">
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg>aaaa</p>
+				<p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="http://example.org/tags/SL4A">SL4A</a></span><span class="tag"><a href="http://example.org/tags/Android">Android</a></span>
+				</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>134 Words</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2011-04-06 22:49 &#43;0900</p>
+			</footer>
+		</article>
+		<div class="post-nav thin">
+			<a class="next-post" href="http://example.org/2011/04/VS2010%E3%81%A7boost%E3%82%92%E6%89%B1%E3%81%86%E6%BA%96%E5%82%99/">
+				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;Newer</span><br><span>VS2010でboostを扱う準備</span>
+			</a>
+			<a class="prev-post" href="http://example.org/2011/03/x11vnc%E3%82%92Ubuntu10.04%E3%81%AB%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B/">
+				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>x11vncをUbuntu10.04にインストールする</span>
+			</a>
+		</div>
+		<div id="comments" class="thin">
+</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2019 <a href="http://example.org/"></a>&#183; PyYoshi</p>
+		<p>
+			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="http://example.org/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+
+	<script src="http://example.org/js/bundle.min.4a9a0ac3d2217822c7865b4161e6c2a71de1d70492264337755427898dd718f6.js" integrity="sha256-SpoKw9IheCLHhltBYebCpx3h1wSSJkM3dVQniY3XGPY=" crossorigin="anonymous"></script>
+	
+
+</body>
+
+</html>

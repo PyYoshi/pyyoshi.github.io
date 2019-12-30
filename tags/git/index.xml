@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on PyYoshiのログ置き場</title>
+    <link>http://example.org/tags/git/</link>
+    <description>Recent content in git on PyYoshiのログ置き場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 24 Dec 2010 00:46:00 +0900</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>githubにプッシュ</title>
+      <link>http://example.org/2010/12/github%E3%81%AB%E3%83%97%E3%83%83%E3%82%B7%E3%83%A5/</link>
+      <pubDate>Fri, 24 Dec 2010 00:46:00 +0900</pubDate>
+      
+      <guid>http://example.org/2010/12/github%E3%81%AB%E3%83%97%E3%83%83%E3%82%B7%E3%83%A5/</guid>
+      <description>git init
+git add .
+git commit -m &amp;lsquo;first commit&amp;rsquo;
+git remote add origin git@github.com:hoge/fuga.git
+git push origin master</description>
+    </item>
+    
+  </channel>
+</rss>

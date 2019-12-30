@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NicoRoid on PyYoshiのログ置き場</title>
+    <link>http://example.org/tags/NicoRoid/</link>
+    <description>Recent content in NicoRoid on PyYoshiのログ置き場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 05 Jan 2010 23:34:00 +0900</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/NicoRoid/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>NicoRoid</title>
+      <link>http://example.org/2010/01/NicoRoid/</link>
+      <pubDate>Tue, 05 Jan 2010 23:34:00 +0900</pubDate>
+      
+      <guid>http://example.org/2010/01/NicoRoid/</guid>
+      <description>NicoRoidはAndroidでニコニコ動画を楽しむアプリです。
+とか言っておく。
+夏コミリリースに向けて Java･C++の勉強を兼ねてとかなんとか。
+ついったーぼっと作成意欲も薄れたし、新たな目標が出来て良かった。</description>
+    </item>
+    
+  </channel>
+</rss>

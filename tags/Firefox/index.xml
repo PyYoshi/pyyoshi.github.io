@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Firefox on PyYoshiのログ置き場</title>
+    <link>http://example.org/tags/Firefox/</link>
+    <description>Recent content in Firefox on PyYoshiのログ置き場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 03 Apr 2013 10:25:00 +0900</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/Firefox/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nightingale Addonでxhr.responseTextを使用したDOMを作成する場合の注意点</title>
+      <link>http://example.org/2013/04/Nightingale-Addon%E3%81%A7xhr.responseText%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%9FDOM%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B%E5%A0%B4%E5%90%88%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</link>
+      <pubDate>Wed, 03 Apr 2013 10:25:00 +0900</pubDate>
+      
+      <guid>http://example.org/2013/04/Nightingale-Addon%E3%81%A7xhr.responseText%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%9FDOM%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B%E5%A0%B4%E5%90%88%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</guid>
+      <description>昨日の投稿でDOM操作できないことを嘆いていたのですが、その解決方法がわかりました。
+なお、この症状はaddon上でのみ起きます。それへの対処です。
+一般的にXHRのresponseTextをDOMへ変換するときは
+ var dom = document.createElement(&amp;ldquo;div&amp;rdquo;);
+dom.innerHTML = xhr.responseText;
+ のようにやるかと思います。
+しかしNightingaleやFirefoxのaddon上でこれをやるとXULなオブジェクトになってしまい、ただしくDOMを扱えなくなります(自分なりの仮説)
+そのため正しくHTMLDocumentを作ってやれば良いのです。
+以下の関数がそれを行うためのものです。
+これによってaddon上でもただしく快適にDOMを扱えるようになります！
+※このコードはNightingaleとFirefox3.6.x以前のブラウザでのみ動作保証します。それ以降のFirefoxは素直に document.implementation.createHTMLDocumentを使いましょう参考:
+ Analyzing and manipulating a responseText property containing an HTML document Safely parsing simple HTML to DOM   </description>
+    </item>
+    
+    <item>
+      <title>なんか残念なFirefoxさん</title>
+      <link>http://example.org/2009/12/%E3%81%AA%E3%82%93%E3%81%8B%E6%AE%8B%E5%BF%B5%E3%81%AAFirefox%E3%81%95%E3%82%93/</link>
+      <pubDate>Wed, 16 Dec 2009 23:46:00 +0900</pubDate>
+      
+      <guid>http://example.org/2009/12/%E3%81%AA%E3%82%93%E3%81%8B%E6%AE%8B%E5%BF%B5%E3%81%AAFirefox%E3%81%95%E3%82%93/</guid>
+      <description>アップデートを促してきて指示に従ったのだが、更新できませんでした。っと言うのダサいなぁ～とか思った。まぁそれだけ。</description>
+    </item>
+    
+  </channel>
+</rss>

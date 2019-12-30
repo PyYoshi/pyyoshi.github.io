@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c">
+<meta itemprop="name" content="Ubuntuサーバ再構築(４)">
+<meta itemprop="description" content="DynamicDNSに登録してもIPころころ変わっては意味がないのでなんとか対応したい！そういう時にスクリプト書いて対応するのは良いのだが管理が大変になるかも。そーいうときはDiCEを使おう！
+ということでDiCE導入から設定まで
+cd /usr/local/binsudo wget http://www.hi-ho.ne.jp/cgi-bin/user/yoshihiro_e/download.cgi?p=diced019sudo tar zxvf diced01914.tar.gzsudo rm &ldquo;diced01914.tar.gz&quot;
+※端末の文字コードをEUCへ変更する
+sudo ./diced
+:setupIPアドレスの検出方法を指定してください(0) 自動検出(1) ローカルのネットワークアダプタから検出(2) 外部のスクリプトから検出&lt;現在:0&gt;(N)変更しない (P)戻る&gt;2&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-スクリプトのURLを入力してください&lt;現在:&gt;(N)変更しない (P)戻る&gt;http://ipcheck.ieserver.net/&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-プライベートIPアドレスも検出対象ですか？ (Y/N)&lt;現在:いいえ&gt;(P)戻る&gt;n&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-IPアドレスの検出をテストしますか？ (Y/N)(P)戻る&gt;y検出IPアドレス&gt;*******&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-IPアドレスの検出をテストしますか？ (Y/N)(P)戻る&gt;n&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-IPアドレスをチェックする間隔を指定してください(分)設定可能範囲は5分以上です&lt;現在:10&gt;(N)変更しない (P)戻る&gt;5=================================================DNSサーバーの負荷を軽減するために頻繁なDNS更新を防ぐ必要があります前回の更新から一定時間DNS更新処理を行わないように保護時間を設定してください(分) 設定可能範囲は10分から1440分です&lt;現在:60&gt;(N)変更しない (P)戻る&gt;30=================================================設定を保存しますか? (Y/N)(P)戻る&gt;y設定を保存しました=================================================ieServerを例に
+:add新しくイベントを追加しますDynamicDNSサービス名を入力してください&rdquo;?&ldquo;で対応しているサービスを一覧表示します(P)戻る&gt;ieServer&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-&lt;&lt; ieServer Project &gt;&gt;URL: http://www.ieserver.net/&lt;/span&gt;
+*** 情報 ***IPアドレスはサーバー側で自動検出します。IPアドレスの指定は出来ません。（入力しても無視されます）=================================================ドメイン名を入力してください&rdquo;?&ldquo;でドメイン一覧を表示します(P)戻る&gt;dip.jp=================================================ドメイン名を入力してください&rdquo;?&ldquo;でドメイン一覧を表示します(P)戻る&gt;dip.jp=================================================ホスト名を入力してください(P)戻る&gt;*****=================================================ログインユーザ名を入力してください(P)戻る&gt;*****=================================================ログインパスワードを入力してください(P)戻る&gt;*****=================================================登録するIPアドレスを入力してください空白にすると現在のIPアドレスを自動検出します(P)戻る&gt;=================================================このイベントに題名を付けてください(P)戻る&gt;*****=================================================このイベントを実行するスケジュールを設定します&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-実行する頻度を指定してください (番号入力)(0)１回のみ (1)１日１回 (2)１週間に１回 (3)１ヵ月に１回(4)その他の周期 (5)IPアドレス変化時 (6)起動時(P)戻る&gt;5&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-IPアドレスがあまり変化しない環境の場合、更新せずに一定期間を過ぎるとアカウントを削除されてしまうことがありますIPアドレスの変化が無い時に実行する間隔を指定してください(0)7日毎 (1)14日毎 (2)21日毎 (3)28日毎(4)35日毎 (5)56日毎 (6)84日毎(P)戻る&gt;0=================================================詳細オプションを設定します&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-[ オフライン ](0)No (1)Yes 番号&gt;0=================================================このイベントを有効にしますか? (Y/N)(イベントの有効/無効は&quot;EN/DIS&quot;コマンドで切替えられます)&gt;y=================================================イベントを保存しますか? (Y/N)&gt;yイベント&rdquo;*******&ldquo;を保存しました=================================================:exitコマンド一覧は&rdquo;?&ldquo;で表示可能
+exit DiCEを終了します
+start DiCEを開始します
+startd DiCEをバックグラウンドで開始します
+setup DiCEの環境設定を行います
+list 登録済のイベント一覧を表示します
+add イベントを追加します
+ed[it] &lt;番号&gt; イベントを編集します
+del &lt;番号&gt; イベントを削除します">
+<meta itemprop="datePublished" content="2009-12-27T19:20:00&#43;09:00" />
+<meta itemprop="dateModified" content="2009-12-27T19:20:00&#43;09:00" />
+<meta itemprop="wordCount" content="111">
+
+
+
+<meta itemprop="keywords" content="Ubuntu,DiCE," /><meta property="og:title" content="Ubuntuサーバ再構築(４)" />
+<meta property="og:description" content="DynamicDNSに登録してもIPころころ変わっては意味がないのでなんとか対応したい！そういう時にスクリプト書いて対応するのは良いのだが管理が大変になるかも。そーいうときはDiCEを使おう！
+ということでDiCE導入から設定まで
+cd /usr/local/binsudo wget http://www.hi-ho.ne.jp/cgi-bin/user/yoshihiro_e/download.cgi?p=diced019sudo tar zxvf diced01914.tar.gzsudo rm &ldquo;diced01914.tar.gz&quot;
+※端末の文字コードをEUCへ変更する
+sudo ./diced
+:setupIPアドレスの検出方法を指定してください(0) 自動検出(1) ローカルのネットワークアダプタから検出(2) 外部のスクリプトから検出&lt;現在:0&gt;(N)変更しない (P)戻る&gt;2&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-スクリプトのURLを入力してください&lt;現在:&gt;(N)変更しない (P)戻る&gt;http://ipcheck.ieserver.net/&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-プライベートIPアドレスも検出対象ですか？ (Y/N)&lt;現在:いいえ&gt;(P)戻る&gt;n&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-IPアドレスの検出をテストしますか？ (Y/N)(P)戻る&gt;y検出IPアドレス&gt;*******&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-IPアドレスの検出をテストしますか？ (Y/N)(P)戻る&gt;n&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-IPアドレスをチェックする間隔を指定してください(分)設定可能範囲は5分以上です&lt;現在:10&gt;(N)変更しない (P)戻る&gt;5=================================================DNSサーバーの負荷を軽減するために頻繁なDNS更新を防ぐ必要があります前回の更新から一定時間DNS更新処理を行わないように保護時間を設定してください(分) 設定可能範囲は10分から1440分です&lt;現在:60&gt;(N)変更しない (P)戻る&gt;30=================================================設定を保存しますか? (Y/N)(P)戻る&gt;y設定を保存しました=================================================ieServerを例に
+:add新しくイベントを追加しますDynamicDNSサービス名を入力してください&rdquo;?&ldquo;で対応しているサービスを一覧表示します(P)戻る&gt;ieServer&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-&lt;&lt; ieServer Project &gt;&gt;URL: http://www.ieserver.net/&lt;/span&gt;
+*** 情報 ***IPアドレスはサーバー側で自動検出します。IPアドレスの指定は出来ません。（入力しても無視されます）=================================================ドメイン名を入力してください&rdquo;?&ldquo;でドメイン一覧を表示します(P)戻る&gt;dip.jp=================================================ドメイン名を入力してください&rdquo;?&ldquo;でドメイン一覧を表示します(P)戻る&gt;dip.jp=================================================ホスト名を入力してください(P)戻る&gt;*****=================================================ログインユーザ名を入力してください(P)戻る&gt;*****=================================================ログインパスワードを入力してください(P)戻る&gt;*****=================================================登録するIPアドレスを入力してください空白にすると現在のIPアドレスを自動検出します(P)戻る&gt;=================================================このイベントに題名を付けてください(P)戻る&gt;*****=================================================このイベントを実行するスケジュールを設定します&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-実行する頻度を指定してください (番号入力)(0)１回のみ (1)１日１回 (2)１週間に１回 (3)１ヵ月に１回(4)その他の周期 (5)IPアドレス変化時 (6)起動時(P)戻る&gt;5&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-IPアドレスがあまり変化しない環境の場合、更新せずに一定期間を過ぎるとアカウントを削除されてしまうことがありますIPアドレスの変化が無い時に実行する間隔を指定してください(0)7日毎 (1)14日毎 (2)21日毎 (3)28日毎(4)35日毎 (5)56日毎 (6)84日毎(P)戻る&gt;0=================================================詳細オプションを設定します&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-[ オフライン ](0)No (1)Yes 番号&gt;0=================================================このイベントを有効にしますか? (Y/N)(イベントの有効/無効は&quot;EN/DIS&quot;コマンドで切替えられます)&gt;y=================================================イベントを保存しますか? (Y/N)&gt;yイベント&rdquo;*******&ldquo;を保存しました=================================================:exitコマンド一覧は&rdquo;?&ldquo;で表示可能
+exit DiCEを終了します
+start DiCEを開始します
+startd DiCEをバックグラウンドで開始します
+setup DiCEの環境設定を行います
+list 登録済のイベント一覧を表示します
+add イベントを追加します
+ed[it] &lt;番号&gt; イベントを編集します
+del &lt;番号&gt; イベントを削除します" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%89%EF%BC%94/" />
+<meta property="article:published_time" content="2009-12-27T19:20:00+09:00" />
+<meta property="article:modified_time" content="2009-12-27T19:20:00+09:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Ubuntuサーバ再構築(４)"/>
+<meta name="twitter:description" content="DynamicDNSに登録してもIPころころ変わっては意味がないのでなんとか対応したい！そういう時にスクリプト書いて対応するのは良いのだが管理が大変になるかも。そーいうときはDiCEを使おう！
+ということでDiCE導入から設定まで
+cd /usr/local/binsudo wget http://www.hi-ho.ne.jp/cgi-bin/user/yoshihiro_e/download.cgi?p=diced019sudo tar zxvf diced01914.tar.gzsudo rm &ldquo;diced01914.tar.gz&quot;
+※端末の文字コードをEUCへ変更する
+sudo ./diced
+:setupIPアドレスの検出方法を指定してください(0) 自動検出(1) ローカルのネットワークアダプタから検出(2) 外部のスクリプトから検出&lt;現在:0&gt;(N)変更しない (P)戻る&gt;2&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-スクリプトのURLを入力してください&lt;現在:&gt;(N)変更しない (P)戻る&gt;http://ipcheck.ieserver.net/&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-プライベートIPアドレスも検出対象ですか？ (Y/N)&lt;現在:いいえ&gt;(P)戻る&gt;n&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-IPアドレスの検出をテストしますか？ (Y/N)(P)戻る&gt;y検出IPアドレス&gt;*******&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-IPアドレスの検出をテストしますか？ (Y/N)(P)戻る&gt;n&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-IPアドレスをチェックする間隔を指定してください(分)設定可能範囲は5分以上です&lt;現在:10&gt;(N)変更しない (P)戻る&gt;5=================================================DNSサーバーの負荷を軽減するために頻繁なDNS更新を防ぐ必要があります前回の更新から一定時間DNS更新処理を行わないように保護時間を設定してください(分) 設定可能範囲は10分から1440分です&lt;現在:60&gt;(N)変更しない (P)戻る&gt;30=================================================設定を保存しますか? (Y/N)(P)戻る&gt;y設定を保存しました=================================================ieServerを例に
+:add新しくイベントを追加しますDynamicDNSサービス名を入力してください&rdquo;?&ldquo;で対応しているサービスを一覧表示します(P)戻る&gt;ieServer&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-&lt;&lt; ieServer Project &gt;&gt;URL: http://www.ieserver.net/&lt;/span&gt;
+*** 情報 ***IPアドレスはサーバー側で自動検出します。IPアドレスの指定は出来ません。（入力しても無視されます）=================================================ドメイン名を入力してください&rdquo;?&ldquo;でドメイン一覧を表示します(P)戻る&gt;dip.jp=================================================ドメイン名を入力してください&rdquo;?&ldquo;でドメイン一覧を表示します(P)戻る&gt;dip.jp=================================================ホスト名を入力してください(P)戻る&gt;*****=================================================ログインユーザ名を入力してください(P)戻る&gt;*****=================================================ログインパスワードを入力してください(P)戻る&gt;*****=================================================登録するIPアドレスを入力してください空白にすると現在のIPアドレスを自動検出します(P)戻る&gt;=================================================このイベントに題名を付けてください(P)戻る&gt;*****=================================================このイベントを実行するスケジュールを設定します&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-実行する頻度を指定してください (番号入力)(0)１回のみ (1)１日１回 (2)１週間に１回 (3)１ヵ月に１回(4)その他の周期 (5)IPアドレス変化時 (6)起動時(P)戻る&gt;5&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-IPアドレスがあまり変化しない環境の場合、更新せずに一定期間を過ぎるとアカウントを削除されてしまうことがありますIPアドレスの変化が無い時に実行する間隔を指定してください(0)7日毎 (1)14日毎 (2)21日毎 (3)28日毎(4)35日毎 (5)56日毎 (6)84日毎(P)戻る&gt;0=================================================詳細オプションを設定します&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-[ オフライン ](0)No (1)Yes 番号&gt;0=================================================このイベントを有効にしますか? (Y/N)(イベントの有効/無効は&quot;EN/DIS&quot;コマンドで切替えられます)&gt;y=================================================イベントを保存しますか? (Y/N)&gt;yイベント&rdquo;*******&ldquo;を保存しました=================================================:exitコマンド一覧は&rdquo;?&ldquo;で表示可能
+exit DiCEを終了します
+start DiCEを開始します
+startd DiCEをバックグラウンドで開始します
+setup DiCEの環境設定を行います
+list 登録済のイベント一覧を表示します
+add イベントを追加します
+ed[it] &lt;番号&gt; イベントを編集します
+del &lt;番号&gt; イベントを削除します"/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<title>Ubuntuサーバ再構築(４)</title>
+	<link rel="stylesheet" href="http://example.org/css/style.min.657bcb7af31123e4156b1a3d2ff60a636717e54ead74f882136b5114cf72b55e.css" integrity="sha256-ZXvLevMRI+QVaxo9L/YKY2cX5U6tdPiCE2tRFM9ytV4=" crossorigin="anonymous">
+	
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp faster">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="http://example.org/">PyYoshiのログ置き場</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					
+				<a href="http://example.org/posts/">Posts(Ja)</a>
+				<a href="http://example.org/pages/">Pages</a>
+
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="https://twitter.com/PyYoshi" target="_blank" rel="noopener me" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a><a href="https://github.com/PyYoshi" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></span><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="http://example.org/posts/">Posts(Ja)</a></li>
+			<li><a href="http://example.org/pages/">Pages</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner animated fadeIn faster">
+		<article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>Dec 27, 2009</span></div>
+				<h1>Ubuntuサーバ再構築(４)</h1>
+			</header>
+			<div class="content">
+				<p>DynamicDNSに登録してもIPころころ変わっては意味がないのでなんとか対応したい！そういう時にスクリプト書いて対応するのは良いのだが管理が大変になるかも。そーいうときはDiCEを使おう！</p>
+<p>ということでDiCE導入から設定まで</p>
+<p><strong><!-- raw HTML omitted -->cd /usr/local/bin<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->sudo wget
+<a href="http://www.hi-ho.ne.jp/cgi-bin/user/yoshihiro">http://www.hi-ho.ne.jp/cgi-bin/user/yoshihiro</a>_e/download.cgi?p=diced019<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->sudo tar zxvf diced01914.tar.gz<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->sudo rm &ldquo;diced01914.tar.gz&quot;<!-- raw HTML omitted --></strong></p>
+<p>※端末の文字コードをEUCへ変更する</p>
+<p><strong>sudo ./diced</strong><br>
+<!-- raw HTML omitted -->:setup<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->IPアドレスの検出方法を指定してください<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(0) 自動検出<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(1)
+ローカルのネットワークアダプタから検出<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(2) 外部のスクリプトから検出<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&lt;現在:0&gt;<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(N)変更しない  (P)戻る<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&gt;2<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->スクリプトのURLを入力してください<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&lt;現在:&gt;<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(N)変更しない  (P)戻る<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&gt;http://ipcheck.ieserver.net/<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->プライベートIPアドレスも検出対象ですか？
+(Y/N)<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&lt;現在:いいえ&gt;<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(P)戻る<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&gt;n<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->IPアドレスの検出をテストしますか？
+(Y/N)<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(P)戻る<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&gt;y<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->検出IPアドレス&gt;*******<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->IPアドレスの検出をテストしますか？
+(Y/N)<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(P)戻る<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&gt;n<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->IPアドレスをチェックする間隔を指定してください(分)<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->設定可能範囲は5分以上です<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&lt;現在:10&gt;<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(N)変更しない  (P)戻る<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&gt;5<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->=================================================<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->DNSサーバーの負荷を軽減するために頻繁なDNS更新を防ぐ必要があります<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->前回の更新から一定時間DNS更新処理を行わないように保護時間を設定して<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->ください(分) 
+設定可能範囲は10分から1440分です<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&lt;現在:60&gt;<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(N)変更しない  (P)戻る<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&gt;30<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->=================================================<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->設定を保存しますか? (Y/N)<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(P)戻る<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&gt;y<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->設定を保存しました<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->=================================================<!-- raw HTML omitted --></p>
+<p>ieServerを例に</p>
+<p><!-- raw HTML omitted -->:add<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->新しくイベントを追加します<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->DynamicDNSサービス名を入力してください<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&rdquo;?&ldquo;で対応しているサービスを一覧表示します<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(P)戻る<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&gt;ieServer<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&lt;&lt; ieServer Project &gt;&gt;<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->URL: <a href="http://www.ieserver.net/%3C/span%3E">http://www.ieserver.net/&lt;/span&gt;</a><br>
+<!-- raw HTML omitted -->*** 情報 ***<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->IPアドレスはサーバー側で自動検出します。<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->IPアドレスの指定は出来ません。<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->（入力しても無視されます）<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->=================================================<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->ドメイン名を入力してください<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&rdquo;?&ldquo;でドメイン一覧を表示します<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(P)戻る<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&gt;dip.jp<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->=================================================<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->ドメイン名を入力してください<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&rdquo;?&ldquo;でドメイン一覧を表示します<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(P)戻る<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&gt;dip.jp<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->=================================================<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->ホスト名を入力してください<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(P)戻る<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&gt;*****<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->=================================================<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->ログインユーザ名を入力してください<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(P)戻る<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&gt;*****<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->=================================================<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->ログインパスワードを入力してください<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(P)戻る<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&gt;*****<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->=================================================<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->登録するIPアドレスを入力してください<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->空白にすると現在のIPアドレスを自動検出します<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(P)戻る<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&gt;<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->=================================================<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->このイベントに題名を付けてください<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(P)戻る<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&gt;*****<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->=================================================<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->このイベントを実行するスケジュールを設定します<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->実行する頻度を指定してください
+(番号入力)<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(0)１回のみ (1)１日１回 (2)１週間に１回
+(3)１ヵ月に１回<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(4)その他の周期 (5)IPアドレス変化時
+(6)起動時<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(P)戻る<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&gt;5<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->IPアドレスがあまり変化しない環境の場合、更新せずに一定期間を過ぎると<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->アカウントを削除されてしまうことがあります<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->IPアドレスの変化が無い時に実行する間隔を指定してください<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(0)7日毎   (1)14日毎  (2)21日毎 
+(3)28日毎<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(4)35日毎  (5)56日毎  (6)84日毎<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(P)戻る<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&gt;0<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->=================================================<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->詳細オプションを設定します<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->[ オフライン ]<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(0)No (1)Yes <!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->番号&gt;0<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->=================================================<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->このイベントを有効にしますか? (Y/N)<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->(イベントの有効/無効は&quot;EN/DIS&quot;コマンドで切替えられます)<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&gt;y<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->=================================================<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->イベントを保存しますか? (Y/N)<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->&gt;y<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->イベント&rdquo;*******&ldquo;を保存しました<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->=================================================<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->:exit<!-- raw HTML omitted --></p>
+<p>コマンド一覧は&rdquo;?&ldquo;で表示可能<br>
+exit             DiCEを終了します<br>
+start            DiCEを開始します<br>
+startd           DiCEをバックグラウンドで開始します<br>
+setup            DiCEの環境設定を行います<br>
+list             登録済のイベント一覧を表示します<br>
+add              イベントを追加します<br>
+ed[it] &lt;番号&gt;    イベントを編集します<br>
+del &lt;番号&gt;       イベントを削除します<br>
+en[able] &lt;番号&gt;  イベントを有効にします<br>
+dis[able] &lt;番号&gt; イベントを無効にします<br>
+ev[ent] &lt;番号&gt;   イベントの情報を表示します<br>
+ex[ec] &lt;番号&gt;    イベントを今すぐ実行します<br>
+logcr            ログをクリアします</p>
+<p>次にシステム起動時のスクリプトを設定</p>
+<p><strong><!-- raw HTML omitted -->cd /etc/init.d/<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->sudo cp skelton diced<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->vim diced<!-- raw HTML omitted --></strong></p>
+<p>以下編集した部分<br>
+<!-- raw HTML omitted -->DESC=&quot;DiCE Daemon&quot;<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->NAME=diced<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->DAEMON=/usr/local/bin/DiCE/$NAME<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->PIDFILE=/var/run/$NAME.pid<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->SCRIPTNAME=/etc/init.d/$NAME<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->do_start() {<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->start-stop-daemon &ndash;start &ndash;quiet &ndash;pidfile
+$PIDFILE \ &ndash;exec $DAEMON &ndash; -d -l<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted -->}<!-- raw HTML omitted --></p>
+<p><strong>sudo update-rc.d diced defaults 96 5</strong></p>
+<p>あとはシステム再起してプロセス確認して立ち上がっていればおｋ</p>
+
+			</div>
+			<hr class="post-end">
+			<footer class="post-info">
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg>aaaa</p>
+				<p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="http://example.org/tags/Ubuntu">Ubuntu</a></span><span class="tag"><a href="http://example.org/tags/DiCE">DiCE</a></span>
+				</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>111 Words</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2009-12-27 19:20 &#43;0900</p>
+			</footer>
+		</article>
+		<div class="post-nav thin">
+			<a class="next-post" href="http://example.org/2010/01/Android%E7%AB%AF%E6%9C%AB%E8%B2%B7%E3%81%A3%E3%81%9F/">
+				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;Newer</span><br><span>Android端末買った。</span>
+			</a>
+			<a class="prev-post" href="http://example.org/2009/12/Qt4%E7%92%B0%E5%A2%83%E3%82%92%E6%A7%8B%E7%AF%89/">
+				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>Qt4環境を構築</span>
+			</a>
+		</div>
+		<div id="comments" class="thin">
+</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2019 <a href="http://example.org/"></a>&#183; PyYoshi</p>
+		<p>
+			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="http://example.org/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+
+	<script src="http://example.org/js/bundle.min.4a9a0ac3d2217822c7865b4161e6c2a71de1d70492264337755427898dd718f6.js" integrity="sha256-SpoKw9IheCLHhltBYebCpx3h1wSSJkM3dVQniY3XGPY=" crossorigin="anonymous"></script>
+	
+
+</body>
+
+</html>

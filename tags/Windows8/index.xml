@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows8 on PyYoshiのログ置き場</title>
+    <link>http://example.org/tags/Windows8/</link>
+    <description>Recent content in Windows8 on PyYoshiのログ置き場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 21 Sep 2011 13:47:00 +0900</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/Windows8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Windows8をWinPE3を使ったネットワーク経由でインストール</title>
+      <link>http://example.org/2011/09/Windows8%E3%82%92WinPE3%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E7%B5%8C%E7%94%B1%E3%81%A7%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</link>
+      <pubDate>Wed, 21 Sep 2011 13:47:00 +0900</pubDate>
+      
+      <guid>http://example.org/2011/09/Windows8%E3%82%92WinPE3%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E7%B5%8C%E7%94%B1%E3%81%A7%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</guid>
+      <description>たまたま4GBのUSBメモリ無く、それとネットワーク経由でのOSのインストールってどんなものなのか知りたくなったので試してみた。
+使用したPCはdynabook S30。 こいつにRAM4GB+SSD64GBでアップグレードしてるのでWin7でもそれなり頑張ってくれていた。そんで今度はWin8で犠牲になってもらおうという魂胆である。
+手順
+1, USBから起動できるWindows PE 3の作成
+1-1, Windows PEのイメージ作成
+とりあえずここからWindows AIKをDLしてインスコ
+インスコ終わったら管理者権限でWindows AIKの「Deployment ツールのコマンド プロンプト」を起動します。
+そして以下のコマンドを実行するとWinPE起動イメージが出来上がります。
+copype x86 D:\WinPE3imagex /apply D:\WinPE3\winpe.wim 1 D:\WinPE3\mountimagex /capture D:\WinPE3\mount D:\WinPE3\ISO\SOURCES\BOOT.WIM &amp;ldquo;WinPE for recovery&amp;rdquo; /boot /compress maximum oscdimg -n -bD:\WinPE3\etfsboot.com D:\WinPE3\ISO D:\WinPE3\recovery.iso1-2, USBメモリにイメージを書き込む
+USBメモリの初期化を行わなければなりません。
+それ自体はこちらの記事を参照すると良いでしょう。
+さて初期化が終わった所で1-1で作ったイメージをUSBメモリに書き込みます。と言ってもコピーだけなんですが。
+D:\WinPE3以下のISOフォルダ内をすべてUSBメモリにコピーすれば完了です。
+あとはUSBメモリにドライバー類をおいて起動します。
+2, WindowsPE上からネットワークインストール
+2-1, ドライバの読み込み
+うまく起動できたらコマンドプロンプトが表示されているかと思います。
+そこで
+drvload &amp;ldquo;読み込みたいドライバのINFパス&amp;quot;を実行すると良いと思う。
+S30の場合RAIDドライバが無いといけないので
+例) drvload C:\drivers\KR10.INFとしてドライバを読み込ませた。
+2-2, ネットワークドライブのマウント
+※ネットワーク越しからインストールするということでWin8のISOをマウントし、共有してあることを前提にします。
+net use &amp;ldquo;任意のドライブレター&amp;rdquo; &amp;ldquo;共有先のパス&amp;rdquo; &amp;ldquo;ログインパスワード&amp;rdquo; /user:&amp;ldquo;ユーザ名&amp;quot;という感じに実行します。
+例) net use n: \\test-user\h password /user:test-userこうすることでネットワークからOSインストールに必要なファイルへアクセスすることができます。</description>
+    </item>
+    
+  </channel>
+</rss>

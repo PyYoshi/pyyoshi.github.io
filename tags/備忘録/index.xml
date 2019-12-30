@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>備忘録 on PyYoshiのログ置き場</title>
+    <link>http://example.org/tags/%E5%82%99%E5%BF%98%E9%8C%B2/</link>
+    <description>Recent content in 備忘録 on PyYoshiのログ置き場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 23 Sep 2012 09:20:00 +0900</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/%E5%82%99%E5%BF%98%E9%8C%B2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Chrome Extension API] Manifestをapp内からアクセスする方法</title>
+      <link>http://example.org/2012/09/Chrome-Extension-API-Manifest%E3%82%92app%E5%86%85%E3%81%8B%E3%82%89%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Sun, 23 Sep 2012 09:20:00 +0900</pubDate>
+      
+      <guid>http://example.org/2012/09/Chrome-Extension-API-Manifest%E3%82%92app%E5%86%85%E3%81%8B%E3%82%89%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</guid>
+      <description>chrome.app.getDetails()
+ で取得することが可能。</description>
+    </item>
+    
+    <item>
+      <title>Bloggerのポスト日付取得うんたら</title>
+      <link>http://example.org/2010/06/Blogger%E3%81%AE%E3%83%9D%E3%82%B9%E3%83%88%E6%97%A5%E4%BB%98%E5%8F%96%E5%BE%97%E3%81%86%E3%82%93%E3%81%9F%E3%82%89/</link>
+      <pubDate>Sat, 05 Jun 2010 15:53:00 +0900</pubDate>
+      
+      <guid>http://example.org/2010/06/Blogger%E3%81%AE%E3%83%9D%E3%82%B9%E3%83%88%E6%97%A5%E4%BB%98%E5%8F%96%E5%BE%97%E3%81%86%E3%82%93%E3%81%9F%E3%82%89/</guid>
+      <description>なんか、仕様変更？があったみたいでtimestampでの取得は時刻のみっぽい。
+いや、わからないんだけど。別ブログでテンプレートDLしたやつ使ってたら未定義値が返ってきたので。
+まぁ備忘録ということで。
+投稿のデザイン編集で、日付の雛形は20001231みたいなかたちのやつで。
+他のやつの対応はだるいのでしないｗ
+以下ソース
+&amp;lt;div class=&#39;post&#39; id=&#39;post&#39;&amp;gt; &amp;lt;div class=&#39;date&#39;&amp;gt; &amp;lt;small&amp;gt; &amp;lt;script type=&#39;text/javascript&#39;&amp;gt; var date = &amp;lt;data:post.dateHeader/&amp;gt; var date2 = date.toString(); var year = date2.substring(0,4); var month = date2.substring(4,6); var day = date2.substring(6,8); &amp;lt;/script&amp;gt; &amp;lt;div class=&#39;date_y&#39;&amp;gt;&amp;lt;script type=&#39;text/javascript&#39;&amp;gt;document.write(year);&amp;lt;/script&amp;gt;年&amp;lt;/div&amp;gt; &amp;lt;div class=&#39;date_m&#39;&amp;gt;&amp;lt;script type=&#39;text/javascript&#39;&amp;gt;document.write(month);&amp;lt;/script&amp;gt;月&amp;lt;/div&amp;gt; &amp;lt;div class=&#39;date_d&#39;&amp;gt;&amp;lt;script type=&#39;text/javascript&#39;&amp;gt;document.write(day);&amp;lt;/script&amp;gt;日&amp;lt;/div&amp;gt; &amp;lt;/small&amp;gt; &amp;lt;/div&amp;gt;  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c">
+<meta itemprop="name" content="bmobile、DTIやIIJなどの速度のでないSIMで快適(高速)にWebブラウジングする方法">
+<meta itemprop="description" content="DTIワンコインSIMを使って9ヶ月くらいになります。
+昨年まではそんなに遅さを感じなかったのですが、外出先でどうしてもWebを開かなくてはいけないことがちょっとずつですが多くなって来ました。
+そこでWebコンテンツなどを最適化(圧縮)するようなプロキシをたてようかと思いました。
+DTIの他にbmobileやIIJのSIMにも有効だと思います。
+プロキシサーバは以下の3つを使用します。
+ Privoxy: 広告削除などの不必要なコンテンツをフィルタリングできるプロキシ。 Squid: リバースプロキシ。キャッシュ。負荷分散に使われることが多いです。(nginxで代用する場合もありますね。) Ziproxy: 画像などのコンテンツを圧縮するプロキシ。  通信の流れは以下の順番で行われます。
+インターネット-&gt;Privoxy(フィルタリング)-&gt;Ziproxy(コンテンツ圧縮)-&gt;Squid(キャッシュ)-&gt;スマフォ
+それでは構築はじめます。
+環境はUbuntu 12.04 64bit
+ Privoxyの構築 Ziproxyの構築 Squidの構築  1. Privoxyの構築  $ sudo apt-get install privoxy
+ ※フィルタリングの設定等はここでは書きません。私の鯖ではアダルト広告をブロックするようなフィルタリングをしています。 他の広告は基本的にブロックしていません。
+2. Ziproxyの構築 ziproxyは新しいstableを使用したいのでソースからビルド
+ $ wget &ldquo;http://downloads.sourceforge.net/project/ziproxy/ziproxy/ziproxy-3.3.0/ziproxy-3.3.0.tar.bz2?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fziproxy%2Ffiles%2Fziproxy%2Fziproxy-3.3.0%2F&amp;ts=1366246950&amp;use_mirror=jaist&rdquo; -O ziproxy-3.3.0.tar.bz2
+$ tar lxvf ziproxy-3.3.0.tar.bz2
+$ sudo apt-get install libgif-dev libjasper-dev libsasl2-dev
+$ make -j8
+$ sudo make install
+$ sudo cp -ra etc/ziproxy /usr/local/etc/
+$ ziproxy -h">
+<meta itemprop="datePublished" content="2013-05-10T16:43:00&#43;09:00" />
+<meta itemprop="dateModified" content="2013-05-10T16:43:00&#43;09:00" />
+<meta itemprop="wordCount" content="212">
+
+
+
+<meta itemprop="keywords" content="squid,ziproxy,proxy,privoxy,dti," /><meta property="og:title" content="bmobile、DTIやIIJなどの速度のでないSIMで快適(高速)にWebブラウジングする方法" />
+<meta property="og:description" content="DTIワンコインSIMを使って9ヶ月くらいになります。
+昨年まではそんなに遅さを感じなかったのですが、外出先でどうしてもWebを開かなくてはいけないことがちょっとずつですが多くなって来ました。
+そこでWebコンテンツなどを最適化(圧縮)するようなプロキシをたてようかと思いました。
+DTIの他にbmobileやIIJのSIMにも有効だと思います。
+プロキシサーバは以下の3つを使用します。
+ Privoxy: 広告削除などの不必要なコンテンツをフィルタリングできるプロキシ。 Squid: リバースプロキシ。キャッシュ。負荷分散に使われることが多いです。(nginxで代用する場合もありますね。) Ziproxy: 画像などのコンテンツを圧縮するプロキシ。  通信の流れは以下の順番で行われます。
+インターネット-&gt;Privoxy(フィルタリング)-&gt;Ziproxy(コンテンツ圧縮)-&gt;Squid(キャッシュ)-&gt;スマフォ
+それでは構築はじめます。
+環境はUbuntu 12.04 64bit
+ Privoxyの構築 Ziproxyの構築 Squidの構築  1. Privoxyの構築  $ sudo apt-get install privoxy
+ ※フィルタリングの設定等はここでは書きません。私の鯖ではアダルト広告をブロックするようなフィルタリングをしています。 他の広告は基本的にブロックしていません。
+2. Ziproxyの構築 ziproxyは新しいstableを使用したいのでソースからビルド
+ $ wget &ldquo;http://downloads.sourceforge.net/project/ziproxy/ziproxy/ziproxy-3.3.0/ziproxy-3.3.0.tar.bz2?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fziproxy%2Ffiles%2Fziproxy%2Fziproxy-3.3.0%2F&amp;ts=1366246950&amp;use_mirror=jaist&rdquo; -O ziproxy-3.3.0.tar.bz2
+$ tar lxvf ziproxy-3.3.0.tar.bz2
+$ sudo apt-get install libgif-dev libjasper-dev libsasl2-dev
+$ make -j8
+$ sudo make install
+$ sudo cp -ra etc/ziproxy /usr/local/etc/
+$ ziproxy -h" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/2013/05/bmobileDTI%E3%82%84IIJ%E3%81%AA%E3%81%A9%E3%81%AE%E9%80%9F%E5%BA%A6%E3%81%AE%E3%81%A7%E3%81%AA%E3%81%84SIM%E3%81%A7%E5%BF%AB%E9%81%A9%E9%AB%98%E9%80%9F%E3%81%ABWeb%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B8%E3%83%B3%E3%82%B0%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/" />
+<meta property="article:published_time" content="2013-05-10T16:43:00+09:00" />
+<meta property="article:modified_time" content="2013-05-10T16:43:00+09:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="bmobile、DTIやIIJなどの速度のでないSIMで快適(高速)にWebブラウジングする方法"/>
+<meta name="twitter:description" content="DTIワンコインSIMを使って9ヶ月くらいになります。
+昨年まではそんなに遅さを感じなかったのですが、外出先でどうしてもWebを開かなくてはいけないことがちょっとずつですが多くなって来ました。
+そこでWebコンテンツなどを最適化(圧縮)するようなプロキシをたてようかと思いました。
+DTIの他にbmobileやIIJのSIMにも有効だと思います。
+プロキシサーバは以下の3つを使用します。
+ Privoxy: 広告削除などの不必要なコンテンツをフィルタリングできるプロキシ。 Squid: リバースプロキシ。キャッシュ。負荷分散に使われることが多いです。(nginxで代用する場合もありますね。) Ziproxy: 画像などのコンテンツを圧縮するプロキシ。  通信の流れは以下の順番で行われます。
+インターネット-&gt;Privoxy(フィルタリング)-&gt;Ziproxy(コンテンツ圧縮)-&gt;Squid(キャッシュ)-&gt;スマフォ
+それでは構築はじめます。
+環境はUbuntu 12.04 64bit
+ Privoxyの構築 Ziproxyの構築 Squidの構築  1. Privoxyの構築  $ sudo apt-get install privoxy
+ ※フィルタリングの設定等はここでは書きません。私の鯖ではアダルト広告をブロックするようなフィルタリングをしています。 他の広告は基本的にブロックしていません。
+2. Ziproxyの構築 ziproxyは新しいstableを使用したいのでソースからビルド
+ $ wget &ldquo;http://downloads.sourceforge.net/project/ziproxy/ziproxy/ziproxy-3.3.0/ziproxy-3.3.0.tar.bz2?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fziproxy%2Ffiles%2Fziproxy%2Fziproxy-3.3.0%2F&amp;ts=1366246950&amp;use_mirror=jaist&rdquo; -O ziproxy-3.3.0.tar.bz2
+$ tar lxvf ziproxy-3.3.0.tar.bz2
+$ sudo apt-get install libgif-dev libjasper-dev libsasl2-dev
+$ make -j8
+$ sudo make install
+$ sudo cp -ra etc/ziproxy /usr/local/etc/
+$ ziproxy -h"/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<title>bmobile、DTIやIIJなどの速度のでないSIMで快適(高速)にWebブラウジングする方法</title>
+	<link rel="stylesheet" href="http://example.org/css/style.min.657bcb7af31123e4156b1a3d2ff60a636717e54ead74f882136b5114cf72b55e.css" integrity="sha256-ZXvLevMRI+QVaxo9L/YKY2cX5U6tdPiCE2tRFM9ytV4=" crossorigin="anonymous">
+	
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp faster">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="http://example.org/">PyYoshiのログ置き場</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					
+				<a href="http://example.org/posts/">Posts(Ja)</a>
+				<a href="http://example.org/pages/">Pages</a>
+
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="https://twitter.com/PyYoshi" target="_blank" rel="noopener me" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a><a href="https://github.com/PyYoshi" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></span><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="http://example.org/posts/">Posts(Ja)</a></li>
+			<li><a href="http://example.org/pages/">Pages</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner animated fadeIn faster">
+		<article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>May 10, 2013</span></div>
+				<h1>bmobile、DTIやIIJなどの速度のでないSIMで快適(高速)にWebブラウジングする方法</h1>
+			</header>
+			<div class="content">
+				<p>DTIワンコインSIMを使って9ヶ月くらいになります。</p>
+<p>昨年まではそんなに遅さを感じなかったのですが、外出先でどうしてもWebを開かなくてはいけないことがちょっとずつですが多くなって来ました。</p>
+<p>そこでWebコンテンツなどを最適化(圧縮)するようなプロキシをたてようかと思いました。</p>
+<p>DTIの他にbmobileやIIJのSIMにも有効だと思います。</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>プロキシサーバは以下の3つを使用します。</p>
+<ul>
+<li><a href="http://www.privoxy.org/">Privoxy</a>:
+広告削除などの不必要なコンテンツをフィルタリングできるプロキシ。</li>
+<li><a href="http://www.squid-cache.org/">Squid</a>: <a href="http://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%90%E3%83%BC%E3%82%B9%E3%83%97%E3%83%AD%E3%82%AD%E3%82%B7">リバースプロキシ</a>。キャッシュ。負荷分散に使われることが多いです。(nginxで代用する場合もありますね。)</li>
+<li><a href="http://ziproxy.sourceforge.net/">Ziproxy</a>:
+画像などのコンテンツを圧縮するプロキシ。</li>
+</ul>
+<p>通信の流れは以下の順番で行われます。</p>
+<p><!-- raw HTML omitted --><strong>インターネット</strong><!-- raw HTML omitted -->-&gt;<!-- raw HTML omitted --><strong>Privoxy(フィルタリング)<strong><!-- raw HTML omitted -->-&gt;<!-- raw HTML omitted --></strong>Ziproxy(コンテンツ圧縮)<strong><!-- raw HTML omitted -->-&gt;<!-- raw HTML omitted -->Squid(キャッシュ)<!-- raw HTML omitted --><!-- raw HTML omitted -->-&gt;<!-- raw HTML omitted --></strong>スマフォ</strong></p>
+<p>それでは構築はじめます。</p>
+<p>環境はUbuntu 12.04 64bit</p>
+<ol>
+<li><a href="http://blog.remu.biz/2013/05/blog-post_10.html#privoxy_env">Privoxyの構築</a></li>
+<li><a href="http://blog.remu.biz/2013/05/blog-post_10.html#ziproxy_env">Ziproxyの構築</a></li>
+<li><a href="http://blog.remu.biz/2013/05/blog-post_10.html#squid_env">Squidの構築</a></li>
+</ol>
+<h3 id="1-privoxy">1. Privoxyの構築<a href="#1-privoxy" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<blockquote>
+<p>$ sudo apt-get install privoxy</p>
+</blockquote>
+<p>※フィルタリングの設定等はここでは書きません。私の鯖ではアダルト広告をブロックするようなフィルタリングをしています。
+他の広告は基本的にブロックしていません。</p>
+<h3 id="2-ziproxy">2. Ziproxyの構築<a href="#2-ziproxy" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>ziproxyは新しいstableを使用したいのでソースからビルド</p>
+<blockquote>
+<p>$ wget
+&ldquo;<a href="http://downloads.sourceforge.net/project/ziproxy/ziproxy/ziproxy-3.3.0/ziproxy-3.3.0.tar.bz2?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fziproxy%2Ffiles%2Fziproxy%2Fziproxy-3.3.0%2F&amp;ts=1366246950&amp;use">http://downloads.sourceforge.net/project/ziproxy/ziproxy/ziproxy-3.3.0/ziproxy-3.3.0.tar.bz2?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fziproxy%2Ffiles%2Fziproxy%2Fziproxy-3.3.0%2F&amp;ts=1366246950&amp;use</a>_mirror=jaist&rdquo;
+-O ziproxy-3.3.0.tar.bz2<br>
+$ tar lxvf ziproxy-3.3.0.tar.bz2<br>
+$ sudo apt-get install libgif-dev libjasper-dev libsasl2-dev<br>
+$ make -j8<br>
+$ sudo make install<br>
+$ sudo cp -ra etc/ziproxy /usr/local/etc/<br>
+$ ziproxy -h<br>
+$ sudo mkdir -p /var/log/ziproxy<br>
+$ sudo chown ziproxy:ziproxy /var/log/ziproxy<br>
+$ sudo adduser &ndash;no-create-home &ndash;disabled-password ziproxy<br>
+$ sudo vim /etc/init.d/ziproxy<br>
+$ sudo chmod +x /etc/init.d/ziproxy<br>
+$ sudo update-rc.d ziproxy defaults<br>
+$ sudo service ziproxy start<br>
+$ sudo service ziproxy status</p>
+</blockquote>
+<p>続いて設定</p>
+<blockquote>
+<p>$ sudo vim /usr/local/etc/ziproxy/ziproxy.conf</p>
+</blockquote>
+<h3 id="3-squid">3. Squidの構築<a href="#3-squid" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>squidは新しいstableを使用したいのでソースからビルド</p>
+<blockquote>
+<p>$ wget <a href="http://www.squid-cache.org/Versions/v3/3.3/squid-3.3.3.tar.gz">http://www.squid-cache.org/Versions/v3/3.3/squid-3.3.3.tar.gz</a><br>
+$ tar zxvf squid-3.3.３.tar.gz<br>
+$ cd squid-3.3.3<br>
+$ ./configure &ndash;prefix=/usr/local/squid<br>
+$ make -j8<br>
+$ sudo make install<br>
+$ sudo ln -s /usr/local/squid/sbin/squid /usr/local/sbin/<br>
+$ sudo ln -s /usr/local/squid/bin/squidclient /usr/local/bin/<br>
+$ squid -v<br>
+$ sudo chown nobody:nogroup -R /usr/local/squid/var/<br>
+$ sudo vim /etc/init.d/squid<br>
+$ sudo update-rc.d squid defaults</p>
+</blockquote>
+<p>start-stop-daemonだと複数pid管理ができないっぽい？のかプロセスを殺しきれなかったので<a href="http://tbaba-prog.blogspot.jp/2011/04/chkconfigsquid-init-script_29.html">こちら</a>を参考にしました。</p>
+<p>続いて設定<br>
+$ sudo vim /usr/local/squid/etc/squid.conf<br>
+以上で構築終了です。</p>
+<p>各プロキシサーバを再起動します</p>
+<blockquote>
+<p>$ sudo service privoxy restart<br>
+$ sudo service ziproxy restart<br>
+$ sudo squid -f /usr/local/squid/etc/squid.conf -z<br>
+$ sudo service squid restart</p>
+</blockquote>
+<p>squid -zでスワップファイルを最初に必ず作ってください。</p>
+<p>squidサービスを起動してもすぐに終了してしまう場合の一つにこれがあります。</p>
+<p>以上で終了です。</p>
+<p>ちなみに</p>
+<blockquote>
+<p>$ squidclient mgr:info</p>
+</blockquote>
+<p>でsquidのキャッシュ情報等が見れます。</p>
+<p>Cache information for
+squidのヒット率を見ながらrefresh_patternを調整していけばいいと思います。</p>
+<p>私はこの他にユーザ認証とクライアント-リモート鯖間で通信を暗号化したかったので</p>
+<p>SSH
+Tunnelを使ってリモート鯖にあるプロキシへアクセスするようにしています。</p>
+<p>そのためプロキシサーバを内側からのみアクセスできるようにsquidのaclはそのままにしています。</p>
+<p>これをするとパフォーマンスが結構落ちちゃう場合がありますが、公衆無線LANなどでも安心して使えるようになります。</p>
+<p>最後に、ポート等はデフォルトを避けるようにしましょう！</p>
+<p>今後の予定:<br>
+よくアクセスするサイトのフィードから事前にクローラを走らせキャッシュさせる仕組みをつくろうかなと考えています。</p>
+
+			</div>
+			<hr class="post-end">
+			<footer class="post-info">
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg>aaaa</p>
+				<p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="http://example.org/tags/squid">squid</a></span><span class="tag"><a href="http://example.org/tags/ziproxy">ziproxy</a></span><span class="tag"><a href="http://example.org/tags/proxy">proxy</a></span><span class="tag"><a href="http://example.org/tags/privoxy">privoxy</a></span><span class="tag"><a href="http://example.org/tags/dti">dti</a></span>
+				</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>212 Words</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2013-05-10 16:43 &#43;0900</p>
+			</footer>
+		</article>
+		<div class="post-nav thin">
+			<a class="next-post" href="http://example.org/2013/05/KDE%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%8F%E3%82%8BKonsole%E3%81%8C%E3%81%A8%E3%82%93%E3%81%A7%E3%82%82%E3%81%AA%E3%81%84%E5%A5%B4%E3%81%A0%E3%81%A3%E3%81%9F/">
+				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;Newer</span><br><span>KDEについてくるKonsoleがとんでもない奴だった…</span>
+			</a>
+			<a class="prev-post" href="http://example.org/2013/05/Python%E3%81%A7%E8%A1%8C%E5%84%80%E3%81%AE%E8%89%AF%E3%81%84%E3%83%87%E3%83%BC%E3%83%A2%E3%83%B3%E3%82%92%E4%BD%9C%E3%82%8Bpython-daemon%E3%82%92%E7%8F%BE%E8%A1%8C%E3%81%AEPython%E3%81%A7%E3%82%82%E5%8B%95%E4%BD%9C%E3%81%99%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%81%9F/">
+				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>Pythonで行儀の良いデーモンを作るpython-daemonを現行のPythonでも動作するようにした</span>
+			</a>
+		</div>
+		<div id="comments" class="thin">
+</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2019 <a href="http://example.org/"></a>&#183; PyYoshi</p>
+		<p>
+			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="http://example.org/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+
+	<script src="http://example.org/js/bundle.min.4a9a0ac3d2217822c7865b4161e6c2a71de1d70492264337755427898dd718f6.js" integrity="sha256-SpoKw9IheCLHhltBYebCpx3h1wSSJkM3dVQniY3XGPY=" crossorigin="anonymous"></script>
+	
+
+</body>
+
+</html>

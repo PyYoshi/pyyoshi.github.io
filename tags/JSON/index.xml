@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JSON on PyYoshiのログ置き場</title>
+    <link>http://example.org/tags/JSON/</link>
+    <description>Recent content in JSON on PyYoshiのログ置き場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 01 May 2013 18:06:00 +0900</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/JSON/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>androidで使えるjson parserの速度比較をしてみる</title>
+      <link>http://example.org/2013/05/android%E3%81%A7%E4%BD%BF%E3%81%88%E3%82%8Bjson-parser%E3%81%AE%E9%80%9F%E5%BA%A6%E6%AF%94%E8%BC%83%E3%82%92%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B/</link>
+      <pubDate>Wed, 01 May 2013 18:06:00 +0900</pubDate>
+      
+      <guid>http://example.org/2013/05/android%E3%81%A7%E4%BD%BF%E3%81%88%E3%82%8Bjson-parser%E3%81%AE%E9%80%9F%E5%BA%A6%E6%AF%94%E8%BC%83%E3%82%92%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B/</guid>
+      <description>json-android-compareをベースにJsonPullParserとJackson JsonのObject Mappingのベンチを追加してAndroid上で走らせてみました。
+比較してるParserは以下の通り
+ Android標準(API依存) gson 2.2.3 json simple 1.1.1 json smart 1.1.1 Jackson Json 1.9.12 Jackson Json 1.9.12 - Object Mapping JsonPullParser 1.6.1  テストした端末は2つ
+ CM10ベースのAinol Elf(ROM) 私が開発してるCM9ベースのP-01D(ROM)  ベンチ結果:
+まずは1のAinol Elf
+
+続いてP-01D
+
+
+
+Streaming処理ならJackson Json一択ですね。 個人的にJacksonは使いやすいので、この場合はこれを選択すると思います。
+一方Object MappingではJacksonはJPPと比べると遅いですねぇ。
+まぁでも許容範囲なのかな。
+TwitterみてるとJPP熱いみたいだし、開発者も日本の方なのでコミュニティに質問すればすぐ返ってきそうではあります。
+コードはこちらです。正しいベンチの走らせ方してると思えないので、指摘アレばissueに投げてください。
+ではでは</description>
+    </item>
+    
+  </channel>
+</rss>

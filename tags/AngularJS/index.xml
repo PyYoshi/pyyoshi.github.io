@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AngularJS on PyYoshiのログ置き場</title>
+    <link>http://example.org/tags/AngularJS/</link>
+    <description>Recent content in AngularJS on PyYoshiのログ置き場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 29 Jan 2013 19:47:00 +0900</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/AngularJS/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AngularJSがやばい</title>
+      <link>http://example.org/2013/01/AngularJS%E3%81%8C%E3%82%84%E3%81%B0%E3%81%84/</link>
+      <pubDate>Tue, 29 Jan 2013 19:47:00 +0900</pubDate>
+      
+      <guid>http://example.org/2013/01/AngularJS%E3%81%8C%E3%82%84%E3%81%B0%E3%81%84/</guid>
+      <description>なにがやばいってチュートリアルの動画とかドットインストールのチュートリアルを見てもらえばわかる。
+あたまおかしい
+なにこれ
+実際組み込むとなると、やっぱりめんどくさくなるだろうけど。
+コーディングなにそれ美味しいの？ってくらい便利な機能がつきまくってる。
+いろいろ調べて、現在やってるプロジェクトをこちらに鞍替えも辞さない構え
+あと見てて思ったのは、JSの勉強がてらWebAppとか作る程度なら一瞬でできそうだし、モック作ってテストするときとかの簡易ページとかそのへんに有効活用できそうってことかな。
+なにがやばいのかそのうちまとめたい</description>
+    </item>
+    
+  </channel>
+</rss>

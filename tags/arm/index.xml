@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>arm on PyYoshiのログ置き場</title>
+    <link>http://example.org/tags/arm/</link>
+    <description>Recent content in arm on PyYoshiのログ置き場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 27 Oct 2010 21:18:00 +0900</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/arm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>arm-Ubuntuのビルド（qemu用</title>
+      <link>http://example.org/2010/10/arm-Ubuntu%E3%81%AE%E3%83%93%E3%83%AB%E3%83%89qemu%E7%94%A8/</link>
+      <pubDate>Wed, 27 Oct 2010 21:18:00 +0900</pubDate>
+      
+      <guid>http://example.org/2010/10/arm-Ubuntu%E3%81%AE%E3%83%93%E3%83%AB%E3%83%89qemu%E7%94%A8/</guid>
+      <description>ちょっとarm触る必要あったのでUbuntuでいくかと。
+ビルドはいつも通りUbuntuで行います。はい。
+ちなみに10.10です。もしかしたら、それ以前ではうまくいかないかもしれません。
+んでは。
+あ、今回QEMU上で動かすVer.は9.04です＾＾；
+QEMU用のimg作成
+#sudo mkdir arm-ubuntu
+#cd arm-ubuntu
+#sudo wget http://people.ubuntu.com/~ogra/arm/build-arm-rootfs&amp;lt;/span&amp;gt;
+#sudo wget http://ports.ubuntu.com/ubuntu-ports/dists/lucid/main/installer-armel/current/images/versatile/netboot/vmlinuz
+#sudo chmod 744 build-arm-rootfs
+#sudo ./build-arm-rootfs &amp;ndash;fqdn ubuntu &amp;ndash;login ubuntuuser &amp;ndash;password hogefuga &amp;ndash;notarball &amp;ndash;imagesize 1G
+※fdqn、login、passwordは任意のものに変えること。imagesizeも任意に変えるといいと思います。
+QEMU上でUbuntuを起動
+#cp qemu-armel-&amp;lt;タイムスタンプ&amp;gt;.img qemu-armel.img
+※cpで元残すのも良いし、mvで名前変えるのもよし。
+#sudo qemu-system-arm -M versatilepb -cpu cortex-a8 -kernel vmlinuz -hda qemu-armel.img -m 256 -append &amp;ldquo;root=/dev/sda rootwait&amp;quot;
+起動後にやること
+**#LANG=C****#sudo vi /etc/network/interfaces****auto eth0**
+**iface eth0 inet dhcp**
+**#sudo ifconfig eth0 up**
+**#sudo dhclient eth0**
+**#sudo apt-get update**</description>
+    </item>
+    
+  </channel>
+</rss>

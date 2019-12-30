@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VirtualenvWrapper on PyYoshiのログ置き場</title>
+    <link>http://example.org/tags/VirtualenvWrapper/</link>
+    <description>Recent content in VirtualenvWrapper on PyYoshiのログ置き場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 02 Aug 2012 21:34:00 +0900</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/VirtualenvWrapper/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Windows環境下でもVirtualenvWrapperを使う</title>
+      <link>http://example.org/2012/08/Windows%E7%92%B0%E5%A2%83%E4%B8%8B%E3%81%A7%E3%82%82VirtualenvWrapper%E3%82%92%E4%BD%BF%E3%81%86/</link>
+      <pubDate>Thu, 02 Aug 2012 21:34:00 +0900</pubDate>
+      
+      <guid>http://example.org/2012/08/Windows%E7%92%B0%E5%A2%83%E4%B8%8B%E3%81%A7%E3%82%82VirtualenvWrapper%E3%82%92%E4%BD%BF%E3%81%86/</guid>
+      <description>とても便利なvirtualenvwrapperですが、なぜかWindowsには対応していません。
+MSYS下なら動かせないこともないのですが、PythonがMSYS環境であまり良い挙動を取りません。
+どうしたら良いものか調べていたらPowerShell2で動かすことができる
+virtualenvwrapper-powershellというものを見つけました。
+なにやらvirtualenvwrapperをPowerShellスクリプト用に再実装したものみたいです。
+ということで
+使えるところまで準備していこうかと思います。
+前提条件としてPowerShell(Win7はビルトイン)とvirtualenvはインストール済みとします。
+**なお、私はPS初心者です。なのでPSの環境を一から作るところから始めます。ご了承ください。**１. PSスクリプトを使えるようにする。 まず、PSでPSスクリプトを使えるようにしなくてはいけません。
+PSを管理者権限で起動します。
+&amp;gt; Get-ExecutionPolicy
+と実行すると「Restricted」 「AllSigned」 「RemoteSigned」 「Unrestricted」のいずれかが出力されるかと思います。
+ Restrictedはすべてのスクリプトの実行を禁止している状態 AllSignedは署名済みスクリプトのみ実行可能な状態 RemoteSignedはローカルに保存されているスクリプト、ダウンロードされた署名済みスクリプトが実行可能な状態 Unrestrictedはすべて実行可能な状態  という感じです。
+デフォルトだと1だと思います。これを3の状態に変更します。
+&amp;gt; Set-ExecutionPolicy RemoteSigned
+こうすることで、PSスクリプトを実行できる状態になりました。
+PSを一旦終了します。
+※なお、この状態変更時に管理者権限がないとエラーを吐きます。そのために最初に管理者権限で実行するようにしました。
+２. PS環境の作成 PSを起動します。
+&amp;gt; $profile
+を実行すると、PS起動時に読み込むプロファイルのパスが出力されます。
+設定していない場合パスに書かれているファイルが作成されていないので、
+&amp;gt; New-Item -type file -force $profile
+を実行してあげると空のファイルがパスに作成されます。
+これをエディタで編集すれば、起動時にいろいろできるそうです。bashrcとかそのへんを浮かべればよいかと思います。
+これを現在のセッションで有効にしてあげます。 今のところ空ファイルですけどね＾＾；
+&amp;gt; . $profile
+unix系だと source .hoge というのと同じ要領かと思います。
+PSを終了します。
+３. virtualenvwrapper-powershellをインストールする。 スクリプトをダウンロードしてきましょう。 pipやeasy_installではダメ
+解凍したらPS起動します。
+&amp;gt; cd \Bin
+&amp;gt; .\Setup.ps1
+と実行します。
+「virtualenvwrapper: Installation complete.</description>
+    </item>
+    
+  </channel>
+</rss>

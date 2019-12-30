@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tumblr on PyYoshiのログ置き場</title>
+    <link>http://example.org/tags/Tumblr/</link>
+    <description>Recent content in Tumblr on PyYoshiのログ置き場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 14 Jul 2012 23:06:00 +0900</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/Tumblr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python向けTumblrライブラリPytumb2をリリース</title>
+      <link>http://example.org/2012/07/Python%E5%90%91%E3%81%91Tumblr%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AAPytumb2%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/</link>
+      <pubDate>Sat, 14 Jul 2012 23:06:00 +0900</pubDate>
+      
+      <guid>http://example.org/2012/07/Python%E5%90%91%E3%81%91Tumblr%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AAPytumb2%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/</guid>
+      <description>Python向けTumblrライブラリPytumb2をリリースしました。
+１年くらい前にPytumbをリリースして以来まったくメンテナンスせずに放置状態だったので、この際コードの書き直しを行いました。
+使い方はTweepyのように手軽に扱えるようにしています。
+詳しくはtests.pyやexample.pyを見ていただければとおもいます。
+また、ドキュメントはまだ揃えていませんが、api.pyにある程度書かれています。
+バグや要望等は随時承っております。
+では
+PyYoshi/Pytumb2 · GitHub</description>
+    </item>
+    
+    <item>
+      <title>Python向けTumblr APIライブラリ更新</title>
+      <link>http://example.org/2011/08/Python%E5%90%91%E3%81%91Tumblr-API%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E6%9B%B4%E6%96%B0/</link>
+      <pubDate>Mon, 15 Aug 2011 08:25:00 +0900</pubDate>
+      
+      <guid>http://example.org/2011/08/Python%E5%90%91%E3%81%91Tumblr-API%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E6%9B%B4%E6%96%B0/</guid>
+      <description>v1からv2に新しくAPIが更新されたのでライブラリもそれに従いました。
+使い方はtest.py見てください。 これまでどおりv1で良い方はリポジトリ変更して持って行ってください。
+PyYoshi/Pytumb
+実装していく中でわけわからないものとかあったし、そのうちDocなり書くかなぁ～。
+まだまだv2の修正来るだろうし、新しく追加されるであろうapiを楽しみにしますかねぇ。 like/unlikeは早く実装して欲しいところｗ</description>
+    </item>
+    
+    <item>
+      <title>Python向けtumblr APIライブラリ公開した。</title>
+      <link>http://example.org/2011/06/Python%E5%90%91%E3%81%91tumblr-API%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E5%85%AC%E9%96%8B%E3%81%97%E3%81%9F/</link>
+      <pubDate>Mon, 06 Jun 2011 00:38:00 +0900</pubDate>
+      
+      <guid>http://example.org/2011/06/Python%E5%90%91%E3%81%91tumblr-API%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E5%85%AC%E9%96%8B%E3%81%97%E3%81%9F/</guid>
+      <description>OAuthにしか対応してないtumblr APIライブラリ公開した。
+test.pyとかapi.pyとか見ればいいと思うよ。
+各API毎のパラメータは公式API DOC見てください。
+まぁtumblr api叩いたことある人なら大丈夫だと思うけど。
+ということでほい
+PyYoshi/Pytumb at master - GitHub</description>
+    </item>
+    
+    <item>
+      <title>Tumbler Photoバックアップスクリプトを作ったのだが…</title>
+      <link>http://example.org/2010/03/Tumbler-Photo%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%A0%E3%81%8C/</link>
+      <pubDate>Sat, 06 Mar 2010 23:37:00 +0900</pubDate>
+      
+      <guid>http://example.org/2010/03/Tumbler-Photo%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%A0%E3%81%8C/</guid>
+      <description>DL→Ziped→配布までするスクリプト書いたんだけど、I/Oがネックで時間かかりすぎた。なので、キューリスト作成だけでいいかと、コード書き直して実行したのですが、拡張子判定のために頻繁にI/Oでやっぱり時間喰う。 700位Photo投稿数あると10分くらいかかるｗ（最適化できるところはしたのだがただ、URLだけで良いというのであればAPIにアクセスするだけなのでそんなに時間はかからなかった。でも、拡張子判定されていないので各自で行って貰わなければいけないのだけれど。といううことで、クローラー作れば、いいんじゃね？って展開になったのだが。クローラー作る知識なくて＼(^o^)／状態ｗ幸いなことにPythonには数多くのモジュール＆情報が流れているので何とかなりそうなんだけど。一から作ることになったら、ついったーの皆さんに聞きまくりながらどうにかしたいところｗ（人頼みURLリストだけで良いよってかたがいたら、CGIにして公開しようと思います。</description>
+    </item>
+    
+  </channel>
+</rss>

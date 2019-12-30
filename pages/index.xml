@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on PyYoshiのログ置き場</title>
+    <link>http://example.org/pages/</link>
+    <description>Recent content in Pages on PyYoshiのログ置き場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 31 Oct 2016 20:47:58 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>個人開発でお世話になっているサービス</title>
+      <link>http://example.org/pages/subsc-services-list/</link>
+      <pubDate>Mon, 31 Oct 2016 20:47:58 +0000</pubDate>
+      
+      <guid>http://example.org/pages/subsc-services-list/</guid>
+      <description>特に利用しているものをリストアップしている.
+※2018年1月1日現在
+有償  Apple Music(980円 / 月): BGM代わり Conoha VPS: PoCに利用したり, Jenkins動かしたり Docker Cloud(7ドル / 月): プライベートなベースコンテナをアップしてる Github(7ドル / 月): お仕事リポジトリなどなど Google Cloud Platform: 主にCompute Engine, Cloud Storage, Cloud SQL Grammarly: 英語文法添削サービス. 18年1月より使い始めた.  無償  AppVeyor: Windows用パッケージのビルド Bitbucket: バックアップ用途などで利用 Discord: 主にVC Fabric: モバイルアプリのクラッシュ解析で重宝! Flickr: 開発環境で利用する素材(CCライセンス)に利用 Pinterest: アプリのUI/UXなどのデザインの参考にしたり Slack: いわずもがな Travis Ci: 自動テストで利用  これまで使っていたもの  esa.io(500円 / 月): ひとりドキュメント駆動開発🐣  </description>
+    </item>
+    
+  </channel>
+</rss>

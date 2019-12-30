@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c">
+<meta itemprop="name" content="Windows環境下でもVirtualenvWrapperを使う">
+<meta itemprop="description" content="とても便利なvirtualenvwrapperですが、なぜかWindowsには対応していません。
+MSYS下なら動かせないこともないのですが、PythonがMSYS環境であまり良い挙動を取りません。
+どうしたら良いものか調べていたらPowerShell2で動かすことができる
+virtualenvwrapper-powershellというものを見つけました。
+なにやらvirtualenvwrapperをPowerShellスクリプト用に再実装したものみたいです。
+ということで
+使えるところまで準備していこうかと思います。
+前提条件としてPowerShell(Win7はビルトイン)とvirtualenvはインストール済みとします。
+**なお、私はPS初心者です。なのでPSの環境を一から作るところから始めます。ご了承ください。**１. PSスクリプトを使えるようにする。 まず、PSでPSスクリプトを使えるようにしなくてはいけません。
+PSを管理者権限で起動します。
+&gt; Get-ExecutionPolicy
+と実行すると「Restricted」 「AllSigned」 「RemoteSigned」 「Unrestricted」のいずれかが出力されるかと思います。
+ Restrictedはすべてのスクリプトの実行を禁止している状態 AllSignedは署名済みスクリプトのみ実行可能な状態 RemoteSignedはローカルに保存されているスクリプト、ダウンロードされた署名済みスクリプトが実行可能な状態 Unrestrictedはすべて実行可能な状態  という感じです。
+デフォルトだと1だと思います。これを3の状態に変更します。
+&gt; Set-ExecutionPolicy RemoteSigned
+こうすることで、PSスクリプトを実行できる状態になりました。
+PSを一旦終了します。
+※なお、この状態変更時に管理者権限がないとエラーを吐きます。そのために最初に管理者権限で実行するようにしました。
+２. PS環境の作成 PSを起動します。
+&gt; $profile
+を実行すると、PS起動時に読み込むプロファイルのパスが出力されます。
+設定していない場合パスに書かれているファイルが作成されていないので、
+&gt; New-Item -type file -force $profile
+を実行してあげると空のファイルがパスに作成されます。
+これをエディタで編集すれば、起動時にいろいろできるそうです。bashrcとかそのへんを浮かべればよいかと思います。
+これを現在のセッションで有効にしてあげます。 今のところ空ファイルですけどね＾＾；
+&gt; . $profile
+unix系だと source .hoge というのと同じ要領かと思います。
+PSを終了します。
+３. virtualenvwrapper-powershellをインストールする。 スクリプトをダウンロードしてきましょう。 pipやeasy_installではダメ
+解凍したらPS起動します。
+&gt; cd \Bin
+&gt; .\Setup.ps1
+と実行します。
+「virtualenvwrapper: Installation complete.">
+<meta itemprop="datePublished" content="2012-08-02T21:34:00&#43;09:00" />
+<meta itemprop="dateModified" content="2012-08-02T21:34:00&#43;09:00" />
+<meta itemprop="wordCount" content="145">
+
+
+
+<meta itemprop="keywords" content="PowerShell,Python,VirtualenvWrapper," /><meta property="og:title" content="Windows環境下でもVirtualenvWrapperを使う" />
+<meta property="og:description" content="とても便利なvirtualenvwrapperですが、なぜかWindowsには対応していません。
+MSYS下なら動かせないこともないのですが、PythonがMSYS環境であまり良い挙動を取りません。
+どうしたら良いものか調べていたらPowerShell2で動かすことができる
+virtualenvwrapper-powershellというものを見つけました。
+なにやらvirtualenvwrapperをPowerShellスクリプト用に再実装したものみたいです。
+ということで
+使えるところまで準備していこうかと思います。
+前提条件としてPowerShell(Win7はビルトイン)とvirtualenvはインストール済みとします。
+**なお、私はPS初心者です。なのでPSの環境を一から作るところから始めます。ご了承ください。**１. PSスクリプトを使えるようにする。 まず、PSでPSスクリプトを使えるようにしなくてはいけません。
+PSを管理者権限で起動します。
+&gt; Get-ExecutionPolicy
+と実行すると「Restricted」 「AllSigned」 「RemoteSigned」 「Unrestricted」のいずれかが出力されるかと思います。
+ Restrictedはすべてのスクリプトの実行を禁止している状態 AllSignedは署名済みスクリプトのみ実行可能な状態 RemoteSignedはローカルに保存されているスクリプト、ダウンロードされた署名済みスクリプトが実行可能な状態 Unrestrictedはすべて実行可能な状態  という感じです。
+デフォルトだと1だと思います。これを3の状態に変更します。
+&gt; Set-ExecutionPolicy RemoteSigned
+こうすることで、PSスクリプトを実行できる状態になりました。
+PSを一旦終了します。
+※なお、この状態変更時に管理者権限がないとエラーを吐きます。そのために最初に管理者権限で実行するようにしました。
+２. PS環境の作成 PSを起動します。
+&gt; $profile
+を実行すると、PS起動時に読み込むプロファイルのパスが出力されます。
+設定していない場合パスに書かれているファイルが作成されていないので、
+&gt; New-Item -type file -force $profile
+を実行してあげると空のファイルがパスに作成されます。
+これをエディタで編集すれば、起動時にいろいろできるそうです。bashrcとかそのへんを浮かべればよいかと思います。
+これを現在のセッションで有効にしてあげます。 今のところ空ファイルですけどね＾＾；
+&gt; . $profile
+unix系だと source .hoge というのと同じ要領かと思います。
+PSを終了します。
+３. virtualenvwrapper-powershellをインストールする。 スクリプトをダウンロードしてきましょう。 pipやeasy_installではダメ
+解凍したらPS起動します。
+&gt; cd \Bin
+&gt; .\Setup.ps1
+と実行します。
+「virtualenvwrapper: Installation complete." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/2012/08/Windows%E7%92%B0%E5%A2%83%E4%B8%8B%E3%81%A7%E3%82%82VirtualenvWrapper%E3%82%92%E4%BD%BF%E3%81%86/" />
+<meta property="article:published_time" content="2012-08-02T21:34:00+09:00" />
+<meta property="article:modified_time" content="2012-08-02T21:34:00+09:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Windows環境下でもVirtualenvWrapperを使う"/>
+<meta name="twitter:description" content="とても便利なvirtualenvwrapperですが、なぜかWindowsには対応していません。
+MSYS下なら動かせないこともないのですが、PythonがMSYS環境であまり良い挙動を取りません。
+どうしたら良いものか調べていたらPowerShell2で動かすことができる
+virtualenvwrapper-powershellというものを見つけました。
+なにやらvirtualenvwrapperをPowerShellスクリプト用に再実装したものみたいです。
+ということで
+使えるところまで準備していこうかと思います。
+前提条件としてPowerShell(Win7はビルトイン)とvirtualenvはインストール済みとします。
+**なお、私はPS初心者です。なのでPSの環境を一から作るところから始めます。ご了承ください。**１. PSスクリプトを使えるようにする。 まず、PSでPSスクリプトを使えるようにしなくてはいけません。
+PSを管理者権限で起動します。
+&gt; Get-ExecutionPolicy
+と実行すると「Restricted」 「AllSigned」 「RemoteSigned」 「Unrestricted」のいずれかが出力されるかと思います。
+ Restrictedはすべてのスクリプトの実行を禁止している状態 AllSignedは署名済みスクリプトのみ実行可能な状態 RemoteSignedはローカルに保存されているスクリプト、ダウンロードされた署名済みスクリプトが実行可能な状態 Unrestrictedはすべて実行可能な状態  という感じです。
+デフォルトだと1だと思います。これを3の状態に変更します。
+&gt; Set-ExecutionPolicy RemoteSigned
+こうすることで、PSスクリプトを実行できる状態になりました。
+PSを一旦終了します。
+※なお、この状態変更時に管理者権限がないとエラーを吐きます。そのために最初に管理者権限で実行するようにしました。
+２. PS環境の作成 PSを起動します。
+&gt; $profile
+を実行すると、PS起動時に読み込むプロファイルのパスが出力されます。
+設定していない場合パスに書かれているファイルが作成されていないので、
+&gt; New-Item -type file -force $profile
+を実行してあげると空のファイルがパスに作成されます。
+これをエディタで編集すれば、起動時にいろいろできるそうです。bashrcとかそのへんを浮かべればよいかと思います。
+これを現在のセッションで有効にしてあげます。 今のところ空ファイルですけどね＾＾；
+&gt; . $profile
+unix系だと source .hoge というのと同じ要領かと思います。
+PSを終了します。
+３. virtualenvwrapper-powershellをインストールする。 スクリプトをダウンロードしてきましょう。 pipやeasy_installではダメ
+解凍したらPS起動します。
+&gt; cd \Bin
+&gt; .\Setup.ps1
+と実行します。
+「virtualenvwrapper: Installation complete."/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<title>Windows環境下でもVirtualenvWrapperを使う</title>
+	<link rel="stylesheet" href="http://example.org/css/style.min.657bcb7af31123e4156b1a3d2ff60a636717e54ead74f882136b5114cf72b55e.css" integrity="sha256-ZXvLevMRI+QVaxo9L/YKY2cX5U6tdPiCE2tRFM9ytV4=" crossorigin="anonymous">
+	
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp faster">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="http://example.org/">PyYoshiのログ置き場</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					
+				<a href="http://example.org/posts/">Posts(Ja)</a>
+				<a href="http://example.org/pages/">Pages</a>
+
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="https://twitter.com/PyYoshi" target="_blank" rel="noopener me" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a><a href="https://github.com/PyYoshi" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></span><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="http://example.org/posts/">Posts(Ja)</a></li>
+			<li><a href="http://example.org/pages/">Pages</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner animated fadeIn faster">
+		<article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>Aug 2, 2012</span></div>
+				<h1>Windows環境下でもVirtualenvWrapperを使う</h1>
+			</header>
+			<div class="content">
+				<p>とても便利なvirtualenvwrapperですが、なぜかWindowsには対応していません。</p>
+<p>MSYS下なら動かせないこともないのですが、PythonがMSYS環境であまり良い挙動を取りません。</p>
+<p>どうしたら良いものか調べていたらPowerShell2で動かすことができる</p>
+<p><!-- raw HTML omitted -->virtualenvwrapper-powershell<!-- raw HTML omitted --></p>
+<p>というものを見つけました。</p>
+<p>なにやらvirtualenvwrapperをPowerShellスクリプト用に再実装したものみたいです。</p>
+<p>ということで</p>
+<p>使えるところまで準備していこうかと思います。</p>
+<p>前提条件としてPowerShell(Win7はビルトイン)とvirtualenvはインストール済みとします。</p>
+<p><!-- raw HTML omitted -->**なお、私はPS初心者です。なのでPSの環境を一から作るところから始めます。ご了承ください。**<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h4 id="-ps">１. PSスクリプトを使えるようにする。<a href="#-ps" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<p>まず、PSでPSスクリプトを使えるようにしなくてはいけません。</p>
+<p>PSを管理者権限で起動します。</p>
+<p>&gt; Get-ExecutionPolicy</p>
+<p>と実行すると「Restricted」 「AllSigned」 「RemoteSigned」
+「Unrestricted」のいずれかが出力されるかと思います。</p>
+<ol>
+<li>Restrictedはすべてのスクリプトの実行を禁止している状態</li>
+<li>AllSignedは署名済みスクリプトのみ実行可能な状態</li>
+<li>RemoteSignedはローカルに保存されているスクリプト、ダウンロードされた署名済みスクリプトが実行可能な状態</li>
+<li>Unrestrictedはすべて実行可能な状態</li>
+</ol>
+<p>という感じです。</p>
+<p>デフォルトだと1だと思います。これを3の状態に変更します。</p>
+<p>&gt; Set-ExecutionPolicy RemoteSigned</p>
+<p>こうすることで、PSスクリプトを実行できる状態になりました。</p>
+<p>PSを一旦終了します。</p>
+<p>※なお、この状態変更時に管理者権限がないとエラーを吐きます。そのために最初に管理者権限で実行するようにしました。</p>
+<h4 id="-ps-1">２. PS環境の作成<a href="#-ps-1" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<p>PSを起動します。</p>
+<p>&gt; $profile</p>
+<p>を実行すると、PS起動時に読み込むプロファイルのパスが出力されます。</p>
+<p>設定していない場合パスに書かれているファイルが作成されていないので、</p>
+<p>&gt; New-Item -type file -force $profile</p>
+<p>を実行してあげると空のファイルがパスに作成されます。</p>
+<p>これをエディタで編集すれば、起動時にいろいろできるそうです。bashrcとかそのへんを浮かべればよいかと思います。</p>
+<p>これを現在のセッションで有効にしてあげます。
+今のところ空ファイルですけどね＾＾；</p>
+<p>&gt; . $profile</p>
+<p>unix系だと source .hoge というのと同じ要領かと思います。</p>
+<p>PSを終了します。</p>
+<h4 id="-virtualenvwrapper-powershell">３.  virtualenvwrapper-powershellをインストールする。<a href="#-virtualenvwrapper-powershell" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<p>スクリプトを<a href="https://bitbucket.org/guillermooo/virtualenvwrapper-powershell/downloads">ダウンロード</a>してきましょう。
+pipやeasy_installではダメ</p>
+<p>解凍したらPS起動します。</p>
+<p>&gt; cd \Bin</p>
+<p>&gt; .\Setup.ps1</p>
+<p>と実行します。</p>
+<p>「virtualenvwrapper: Installation
+complete.」となれば、2で作成されたプロファイルのあるディレクトリに</p>
+<p>「Modules」というディレクトリが作成され、virtualenvwrapper-powershellがインストールされたと思います。</p>
+<p>PSを終了します。</p>
+<h4 id="virtualenvwrapper-powershell">４. virtualenvwrapper-powershell用の設定を行います。<a href="#virtualenvwrapper-powershell" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<p>せっかくプロファイルを作成したので、これを元に設定していきたいと思います。</p>
+<p>エディタで2で作成したプロファイルを開きましょう。</p>
+<p>まずはvirtualenvwrapperで使用するディレクトリを設定します。</p>
+<blockquote>
+<p>$WORKON_HOME = &ldquo;$HOME\.virtualenvs&rdquo;</p>
+</blockquote>
+<p>Homeディレクトリ+「.virtualenvs」というディレクトリパスを指定しました。</p>
+<p>これを環境変数に代入します。</p>
+<blockquote>
+<p>$env:WORKON_HOME = $WORKON_HOME</p>
+</blockquote>
+<p>VirtualEnvWrapperをロードさせます。</p>
+<blockquote>
+<p>$virtualenv_module_path =
+&ldquo;$profile\..\Modules\VirtualEnvWrapper&rdquo;<br>
+Import-Module $virtualenv_module_path</p>
+</blockquote>
+<p>最終的にプロファイルの中身は以下のようになりました。</p>
+<p>$WORKON_HOMEがない場合、それを作成するように処理を追加しました。</p>
+<p>&gt; . $profile</p>
+<p>を実行しプロファイルを読み込ませます。</p>
+<p>これで設定は終了です。</p>
+<p>５. 実際に使ってみる。</p>
+<p>&gt; mkvirtualenv test</p>
+<p>$HOME_WORKON以下にもろもろのファイルができていれば完了です。 ※1</p>
+<p>&gt; workon test</p>
+<p>とすればtestの環境に変更されるし</p>
+<p>&gt; deactivate</p>
+<p>とすればvirtualenvの環境から出ることもできますね。</p>
+<p>virtualenvwrapperそのものの使い方がPS内でできるようになりました。</p>
+<p>これでいつもと変わらない環境がてにはいりました。</p>
+<p>他に使えるコマンドを知りたい場合は</p>
+<p>&gt; Get-Module virtualenvwrapper | Select-Object -ExpandProperty
+ExportedFunctions</p>
+<p>を実行すればひと通り出力されます。</p>
+<p>以上でひと通り終わりです。 開発者の方には本当に感謝です。</p>
+<p>ただ、PS初心者の方はとても導入が困難だと思うので、私含めそのような方でも手軽に導入できるようにドキュメントを作っていただけると、なお良いのではないかとも思います。</p>
+<p>※1: mkvirtualenv時に、なにやらファイルが無いいよってエラーが出る。
+気になる方は「$profile\..\Modules\Extensions」の中にあるファイルを削除するとよいでしょう。</p>
+<p>追記(20120802):<br>
+PowerShell
+3で使用する場合は<a href="https://bitbucket.org/PyYoshi/virtualenvwrapper-powershell/changeset/58ebd8fcd394340397eb310f77a76f110fad7b6f">こちら</a>を使ってください。
+開発者にpull
+requestしたので、もしかしたら対応していただけるかもしれません。</p>
+<p>追記(20120807)<br>
+無事Pull RequestがConfirmedされました。
+次回リリース以降にPowerShell3で上記エラーにはならないかと思います。</p>
+<p>追記(20120808)<br>
+<a href="http://powertab.codeplex.com/">PowerTab</a>を入れるとタブ補完でenvsの選択が楽になります。<br>
+インストールはModulesの中にPowerTabディレクトリを作成してそこにひと通りのスクリプトを入れて、VirtualenvWrappeより前にImport-Moduleしました。<br>
+Modulesの中がごちゃごちゃしだしたのでVirtualenvWrapperはVirtualenvWrapperディレクトリの作成の上そこにスクリプトを起きました。</p>
+<p>そんでもってこっちがPS3対応のdiff</p>
+<h4 id="heading">参考:<a href="#heading" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<p><a href="http://technet.microsoft.com/ja-jp/scriptcenter/powershell_owner05.aspx">http://technet.microsoft.com/ja-jp/scriptcenter/powershell_owner05.aspx</a><br>
+<a href="http://technet.microsoft.com/ja-jp/scriptcenter/powershell_owner06.aspx">http://technet.microsoft.com/ja-jp/scriptcenter/powershell_owner06.aspx</a></p>
+
+			</div>
+			<hr class="post-end">
+			<footer class="post-info">
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg>aaaa</p>
+				<p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="http://example.org/tags/PowerShell">PowerShell</a></span><span class="tag"><a href="http://example.org/tags/Python">Python</a></span><span class="tag"><a href="http://example.org/tags/VirtualenvWrapper">VirtualenvWrapper</a></span>
+				</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>145 Words</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2012-08-02 21:34 &#43;0900</p>
+			</footer>
+		</article>
+		<div class="post-nav thin">
+			<a class="next-post" href="http://example.org/2012/08/NAS%E3%81%AEHDD%E3%82%92%E5%BE%A9%E6%97%A7%E6%BA%96%E5%82%99/">
+				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;Newer</span><br><span>NASのHDDを復旧準備</span>
+			</a>
+			<a class="prev-post" href="http://example.org/2012/07/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E7%9B%A3%E8%A6%96%E3%81%ABwatchdog%E3%81%8C%E3%81%8B%E3%81%AA%E3%82%8A%E4%BE%BF%E5%88%A9%E3%81%AA%E4%BB%B6/">
+				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>ファイル監視にwatchdogがかなり便利な件</span>
+			</a>
+		</div>
+		<div id="comments" class="thin">
+</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2019 <a href="http://example.org/"></a>&#183; PyYoshi</p>
+		<p>
+			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="http://example.org/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+
+	<script src="http://example.org/js/bundle.min.4a9a0ac3d2217822c7865b4161e6c2a71de1d70492264337755427898dd718f6.js" integrity="sha256-SpoKw9IheCLHhltBYebCpx3h1wSSJkM3dVQniY3XGPY=" crossorigin="anonymous"></script>
+	
+
+</body>
+
+</html>

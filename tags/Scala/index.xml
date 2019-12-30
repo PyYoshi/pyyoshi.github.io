@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scala on PyYoshiのログ置き場</title>
+    <link>http://example.org/tags/Scala/</link>
+    <description>Recent content in Scala on PyYoshiのログ置き場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 18 Mar 2011 02:31:00 +0900</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/Scala/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Win7でScalaとScalaAndroid環境構築とか</title>
+      <link>http://example.org/2011/03/Win7%E3%81%A7Scala%E3%81%A8ScalaAndroid%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%81%A8%E3%81%8B/</link>
+      <pubDate>Fri, 18 Mar 2011 02:31:00 +0900</pubDate>
+      
+      <guid>http://example.org/2011/03/Win7%E3%81%A7Scala%E3%81%A8ScalaAndroid%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%81%A8%E3%81%8B/</guid>
+      <description>ただの備忘ログ
+構築とかわかりにくかったのでまとめただけ。転んだら泣いてください。
+サイトScala
+Index of /gnu/windows/emacs か NTemacs
+[](http://www.scala-ide.org/)[Apache Ant](http://ant.apache.org/bindownload.cgi)
+[](http://ant.apache.org/bindownload.cgi)[ProGuard](http://proguard.sourceforge.net/)
+[](http://proguard.sourceforge.net/)[simple-build-tool](http://code.google.com/p/simple-build-tool/)
+[](http://code.google.com/p/simple-build-tool/)[object版create_project](https://gist.github.com/486306)
+準備1:
+ScalaのサイトからIzPack Installerをダウンロードして指示通りインスコ。インストーラ版だとPATHも勝手に追加してくれるので楽。
+2:
+最新のemacsを持ってくる。
+「scala/misc/scala-tool-support/emacs」のファイルを「.emacs.d/scala-mode」に置く
+C:\Users\***\AppData\Roaming\.emacs.dにinit.elを作成
+以下内容
+;; Set default fonts and fonts for Japaense (cond (window-system (set-default-font &amp;quot;Courier New-10&amp;quot;) ;; Japanese(japanese-jisx0208)font (set-fontset-font (frame-parameter nil &#39;font) &#39;japanese-jisx0208 (font-spec :family &amp;quot;Meiryo&amp;quot; :size 12) ;;&#39;(&amp;quot;Meiryo&amp;quot; . &amp;quot;unicode-bmp&amp;quot;) ) ) ) ;; Set scala-mode (add-to-list &#39;load-path &amp;quot;~/.emacs.d/scala-mode&amp;quot;) (require &#39;scala-mode-auto)  起動はbin以下の「runemacs.exe」でおｋみたい。
+cuiでは「emacs -nw」みたい。
+使い方とかよく分からないので追々。
+3:
+Apache AntからWindowsバイナリをダウンロード解凍後、適宜場所へ。 そのあと環境変数のPATHに「apache-ant/bin」がある場所を追加。
+端末から「ant -version」でPATH通っているか確認。</description>
+    </item>
+    
+  </channel>
+</rss>

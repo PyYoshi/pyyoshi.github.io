@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SL4A on PyYoshiのログ置き場</title>
+    <link>http://example.org/tags/SL4A/</link>
+    <description>Recent content in SL4A on PyYoshiのログ置き場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 06 Apr 2011 22:49:00 +0900</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/SL4A/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PythonモジュールをSL4A向けにビルドしてみた</title>
+      <link>http://example.org/2011/04/Python%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%82%92SL4A%E5%90%91%E3%81%91%E3%81%AB%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</link>
+      <pubDate>Wed, 06 Apr 2011 22:49:00 +0900</pubDate>
+      
+      <guid>http://example.org/2011/04/Python%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%82%92SL4A%E5%90%91%E3%81%91%E3%81%AB%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
+      <description>SL4AのVer.が上がってAPIも結構数サポートされて驚いていたのだが、それよりうれしいとおもったのがPythonのCモジュールのビルド方法が確立されたこと。
+以前まではソースにそのようなツールは用意されていなくクロスコンパイラでとりあえずビルドって感じだった。
+ということでPythonモジュールのビルド方法を。
+ツールのソースコード追ってないので正しいかどうか分からないけどAndroidソースが必要みたい。
+Androidのソースは各自準備してください。
+/home/hoge/android/mydroid ← Androidのソース置き場
+/home/hoge/android/sl4a ← SL4Aのソース置き場
+とします。
+今回はPyLZMAをビルドする例を紹介します。
+SL4Aのソースをとってくる。
+$pwd
+/home/hoge/android/
+$cd sl4a
+$hg clone https://android-scripting.googlecode.com/hg/ android-scripting
+ビルドツールの一部を修正する。
+$cd android-scripting/tools/agcc
+$vim agcc
+126行目以降のものを以下のように1行追加
+# Also need: -Wl,-soname,libXXXX.so
+my @shared_args = (
+ &amp;ldquo;-nostdlib&amp;rdquo;,
+ &amp;ldquo;-Wl,-T,$DROID/build/core/armelf.xsc&amp;rdquo;,
+ &amp;ldquo;-Wl,&amp;ndash;gc-sections&amp;rdquo;,
+ &amp;ldquo;-Wl,-shared,-Bsymbolic&amp;rdquo;,
+ &amp;ldquo;-L$ALIB&amp;rdquo;,
+ &amp;ldquo;-Wl,&amp;ndash;no-whole-archive&amp;rdquo;,
+** &amp;ldquo;-L/home/hoge/android/mydroid/prebuilt/ndk/android-ndk-r4/platforms/android-3/arch-arm/usr/lib &amp;ldquo;,** &amp;ldquo;-lc&amp;rdquo;,
+ &amp;ldquo;-lm&amp;rdquo;,
+ &amp;ldquo;-ldl&amp;rdquo;,
+ #&amp;quot;-Wl,&amp;ndash;no-undefined&amp;rdquo;,
+ &amp;ldquo;$TOOLCHAIN/lib/gcc/arm-eabi/4.4.0/interwork/libgcc.a&amp;rdquo;,
+ &amp;ldquo;-Wl,&amp;ndash;whole-archive&amp;rdquo;); # .a, .o input files go *after* here</description>
+    </item>
+    
+  </channel>
+</rss>

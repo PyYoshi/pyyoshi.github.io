@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>typescript on PyYoshiのログ置き場</title>
+    <link>http://example.org/categories/typescript/</link>
+    <description>Recent content in typescript on PyYoshiのログ置き場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 12 Oct 2017 21:18:42 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/categories/typescript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WebStormの時代は終わったのかもしれない</title>
+      <link>http://example.org/2017/10/WebStorm%E3%81%AE%E6%99%82%E4%BB%A3%E3%81%AF%E7%B5%82%E3%82%8F%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%8B%E3%82%82%E3%81%97%E3%82%8C%E3%81%AA%E3%81%84/</link>
+      <pubDate>Thu, 12 Oct 2017 21:18:42 +0000</pubDate>
+      
+      <guid>http://example.org/2017/10/WebStorm%E3%81%AE%E6%99%82%E4%BB%A3%E3%81%AF%E7%B5%82%E3%82%8F%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%8B%E3%82%82%E3%81%97%E3%82%8C%E3%81%AA%E3%81%84/</guid>
+      <description>JavaScriptの補完もTypeScriptの補完もVSCodeがとても賢く余計なことはしないでシンプル
+一方WebStormは頼んでいない補完をサジェストしてくるは関係ない(名前が同じ)コンポネントを拾ってくるわでひどいなっと思った
+どう困っているかというと下の画像の通り, import済みのコンポネントがあるのに繰り返し, このコンポネントじゃね?ってサジェストしてきてコードを書くことに集中できない…
+ちな, EAPでも治らなかった…
+IDEA, PyCharm, PHPStormっと使ってきて本当にありがたい気持ちでいっぱいだったけど, 正直がっかりした</description>
+    </item>
+    
+  </channel>
+</rss>

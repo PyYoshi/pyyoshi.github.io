@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>znc on PyYoshiのログ置き場</title>
+    <link>http://example.org/tags/znc/</link>
+    <description>Recent content in znc on PyYoshiのログ置き場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 18 Sep 2012 01:16:00 +0900</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/znc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>mono&#43;TwitterIrcGateway&#43;znc環境の構築</title>
+      <link>http://example.org/2012/09/mono-TwitterIrcGateway-znc%E7%92%B0%E5%A2%83%E3%81%AE%E6%A7%8B%E7%AF%89/</link>
+      <pubDate>Tue, 18 Sep 2012 01:16:00 +0900</pubDate>
+      
+      <guid>http://example.org/2012/09/mono-TwitterIrcGateway-znc%E7%92%B0%E5%A2%83%E3%81%AE%E6%A7%8B%E7%AF%89/</guid>
+      <description>TwitterIrcGatewayをCentOS6環境で使うための備忘録
+1. まずWindowsでTIGのバイナリを作成する。  $ svn co http://svn.misuzilla.org/etcetera/TwitterIrcGateway/trunk/ tig
+ TwitterIrcGateway.slnを開いて、&amp;ldquo;ISO-&amp;ldquo;という文字を検索して、一致する文字列をすべて&amp;quot;UTF-8&amp;quot;に書き換え。 #これをしないとmono環境ではうまく起動できなかった。
+それをリリースなりでビルドしておく。
+2. TIGを動かす環境を作る  $ sudo yum install mono-devel &amp;ndash;enablerepo=epel
+$ sudo useradd tig
+$ sudo su tig
+$ cd ~
+$ mkdir tig
+$ cd tig
+ 先ほどビルドしたものをtig内に入れる。
+&amp;ldquo;mono TwitterIrcGatewayCLI.exe&amp;quot;とやると起動スクリプト書くときいろいろ大変になるので、スタンドアロン実行ファイルを作る
+ $ mkbundle -o TwitterIrcGatewayCLI_START TwitterIrcGatewayCLI.exe
+ 起動スクリプトは以下になりました。
+ $ sudo vim /etc/rc.d/init.d/TwitterIrcGateway
+  $ sudo chmod +x /etc/rc.d/init.d/TwitterIrcGateway  で上記スクリプトを記述
+起動スクリプトを登録
+ $ sudo chkconfig &amp;ndash;add TwitterIrcGateway</description>
+    </item>
+    
+  </channel>
+</rss>

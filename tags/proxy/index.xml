@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>proxy on PyYoshiのログ置き場</title>
+    <link>http://example.org/tags/proxy/</link>
+    <description>Recent content in proxy on PyYoshiのログ置き場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 10 May 2013 16:43:00 +0900</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/proxy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>bmobile、DTIやIIJなどの速度のでないSIMで快適(高速)にWebブラウジングする方法</title>
+      <link>http://example.org/2013/05/bmobileDTI%E3%82%84IIJ%E3%81%AA%E3%81%A9%E3%81%AE%E9%80%9F%E5%BA%A6%E3%81%AE%E3%81%A7%E3%81%AA%E3%81%84SIM%E3%81%A7%E5%BF%AB%E9%81%A9%E9%AB%98%E9%80%9F%E3%81%ABWeb%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B8%E3%83%B3%E3%82%B0%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Fri, 10 May 2013 16:43:00 +0900</pubDate>
+      
+      <guid>http://example.org/2013/05/bmobileDTI%E3%82%84IIJ%E3%81%AA%E3%81%A9%E3%81%AE%E9%80%9F%E5%BA%A6%E3%81%AE%E3%81%A7%E3%81%AA%E3%81%84SIM%E3%81%A7%E5%BF%AB%E9%81%A9%E9%AB%98%E9%80%9F%E3%81%ABWeb%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B8%E3%83%B3%E3%82%B0%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</guid>
+      <description>DTIワンコインSIMを使って9ヶ月くらいになります。
+昨年まではそんなに遅さを感じなかったのですが、外出先でどうしてもWebを開かなくてはいけないことがちょっとずつですが多くなって来ました。
+そこでWebコンテンツなどを最適化(圧縮)するようなプロキシをたてようかと思いました。
+DTIの他にbmobileやIIJのSIMにも有効だと思います。
+プロキシサーバは以下の3つを使用します。
+ Privoxy: 広告削除などの不必要なコンテンツをフィルタリングできるプロキシ。 Squid: リバースプロキシ。キャッシュ。負荷分散に使われることが多いです。(nginxで代用する場合もありますね。) Ziproxy: 画像などのコンテンツを圧縮するプロキシ。  通信の流れは以下の順番で行われます。
+インターネット-&amp;gt;Privoxy(フィルタリング)-&amp;gt;Ziproxy(コンテンツ圧縮)-&amp;gt;Squid(キャッシュ)-&amp;gt;スマフォ
+それでは構築はじめます。
+環境はUbuntu 12.04 64bit
+ Privoxyの構築 Ziproxyの構築 Squidの構築  1. Privoxyの構築  $ sudo apt-get install privoxy
+ ※フィルタリングの設定等はここでは書きません。私の鯖ではアダルト広告をブロックするようなフィルタリングをしています。 他の広告は基本的にブロックしていません。
+2. Ziproxyの構築 ziproxyは新しいstableを使用したいのでソースからビルド
+ $ wget &amp;ldquo;http://downloads.sourceforge.net/project/ziproxy/ziproxy/ziproxy-3.3.0/ziproxy-3.3.0.tar.bz2?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fziproxy%2Ffiles%2Fziproxy%2Fziproxy-3.3.0%2F&amp;amp;ts=1366246950&amp;amp;use_mirror=jaist&amp;rdquo; -O ziproxy-3.3.0.tar.bz2
+$ tar lxvf ziproxy-3.3.0.tar.bz2
+$ sudo apt-get install libgif-dev libjasper-dev libsasl2-dev
+$ make -j8
+$ sudo make install
+$ sudo cp -ra etc/ziproxy /usr/local/etc/
+$ ziproxy -h</description>
+    </item>
+    
+  </channel>
+</rss>

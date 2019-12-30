@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>back in time on PyYoshiのログ置き場</title>
+    <link>http://example.org/categories/back-in-time/</link>
+    <description>Recent content in back in time on PyYoshiのログ置き場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 05 Jan 2018 19:14:38 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/categories/back-in-time/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ubuntuのバックアップ環境 - 調査</title>
+      <link>http://example.org/2018/01/Ubuntu%E3%81%AE%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E7%92%B0%E5%A2%83-%E8%AA%BF%E6%9F%BB/</link>
+      <pubDate>Fri, 05 Jan 2018 19:14:38 +0000</pubDate>
+      
+      <guid>http://example.org/2018/01/Ubuntu%E3%81%AE%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E7%92%B0%E5%A2%83-%E8%AA%BF%E6%9F%BB/</guid>
+      <description>以前まではバックアップソフトは使わず必要なものはプライベートリポジトリに入れたりGdriveに入れたりしてた. (macOSはTimeMachineを常用)
+これで十分だったけど, どうせならエンジニアらしくそれらをそれらしく自動化するのもおもしろそうなのでやっていく.
+■ 欲しい機能 暗号化 バックアップ用ストレージは基本持って歩かないけれど, 仕事でもつかうので.
+できるならば秘密鍵はYubiKey(PGP)で管理したい.
+フルバックアップ 月1ペースでクリーンアップしたい.
+差分バックアップ リストアは全体より単一ファイルで行う用途のほうが圧倒的に多い.
+メンテが止まってもベースとなるツール(rsyncなど)でリストアが可能 これは大前提.
+どうせ新しいUbuntuが出たら乗り換えるとおもうけど, そのリリースでも使えるかどうかはわからん.
+あくまでバックアップだけど, リストアしたいときにメンテされて無くてリストアできないのは大変困る.
+ディスクベースじゃなくてディレクトリベースで管理 ファイルシステムになるべく依存したくない.
+NASへアップロードしたい.
+■ TimeShift https://launchpad.net/timeshift
+システムのバックアップ･リストアにフォーカスしている.
+なのでHomeとかキャッシュとかそういうのは除外リストに入ってる.
+Homeなどのユーザデータは別アプリに頼るべき.
+暗号化されたファイルシステムのバックアップは可能.
+ファイル自体の暗号化はたぶんできない(要調査).
+なのでファイルシステム側で暗号化したほうがいいかも.
+フルバックアップ後のバックアップは差分バックアップで行っていくようだ.
+■ Deja Dup https://launchpad.net/deja-dup
+ubuntuに標準で搭載されてるあれ.
+Homeディレクトリ以下はこれでバックアップしたほうがよいっぽい.
+差分バックアップの他にフルバックアップも用意されているので, 差分バックアップは2時間おき, フルバックアップは1ヶ月おきくらいで良いかもしれない.
+これにすることで, あたらしいフルバックアップが作られたとき, 差分バックアップはそれをベースに行っていくみたい.
+パスワードやPGPによる暗号化が可能.
+■ Back In Time https://github.com/bit-team/backintime
+TimeShift同様シンプル.
+EncFSによるファイルシステムベースでの暗号化.
+SSHでファイル転送できる.
+EncFS使ってるので正直使いたいとは思えない…
+■ Systemback https://launchpad.net/systemback
+メンテしないようなので使わない.
+■ 参考:  https://wiki.ubuntulinux.jp/UbuntuTips/Install/Backup http://gihyo.jp/admin/serial/01/ubuntu-recipe/0399 https://allabout.co.jp/gm/gc/436735/  </description>
+    </item>
+    
+  </channel>
+</rss>
