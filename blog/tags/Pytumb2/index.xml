@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pytumb2 on PyYoshiのログ置き場</title>
-    <link>http://github.pyyoshi.com/blog/tags/Pytumb2/</link>
+    <link>https://github.pyyoshi.com/blog/tags/Pytumb2/</link>
     <description>Recent content in Pytumb2 on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 14 Jul 2012 23:06:00 +0900</lastBuildDate>
     
-	<atom:link href="http://github.pyyoshi.com/blog/tags/Pytumb2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://github.pyyoshi.com/blog/tags/Pytumb2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Python向けTumblrライブラリPytumb2をリリース</title>
-      <link>http://github.pyyoshi.com/blog/2012/07/Python%E5%90%91%E3%81%91Tumblr%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AAPytumb2%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/</link>
+      <link>https://github.pyyoshi.com/blog/2012/07/Python%E5%90%91%E3%81%91Tumblr%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AAPytumb2%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/</link>
       <pubDate>Sat, 14 Jul 2012 23:06:00 +0900</pubDate>
       
-      <guid>http://github.pyyoshi.com/blog/2012/07/Python%E5%90%91%E3%81%91Tumblr%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AAPytumb2%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/</guid>
+      <guid>https://github.pyyoshi.com/blog/2012/07/Python%E5%90%91%E3%81%91Tumblr%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AAPytumb2%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/</guid>
       <description>Python向けTumblrライブラリPytumb2をリリースしました。
 １年くらい前にPytumbをリリースして以来まったくメンテナンスせずに放置状態だったので、この際コードの書き直しを行いました。
 使い方はTweepyのように手軽に扱えるようにしています。

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Skype on PyYoshiのログ置き場</title>
-    <link>http://github.pyyoshi.com/blog/tags/Skype/</link>
+    <link>https://github.pyyoshi.com/blog/tags/Skype/</link>
     <description>Recent content in Skype on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 05 Oct 2010 19:33:00 +0900</lastBuildDate>
     
-	<atom:link href="http://github.pyyoshi.com/blog/tags/Skype/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://github.pyyoshi.com/blog/tags/Skype/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>AndroidでSkypeAppが復活したのでさっそく</title>
-      <link>http://github.pyyoshi.com/blog/2010/10/Android%E3%81%A7SkypeApp%E3%81%8C%E5%BE%A9%E6%B4%BB%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7%E3%81%95%E3%81%A3%E3%81%9D%E3%81%8F/</link>
+      <link>https://github.pyyoshi.com/blog/2010/10/Android%E3%81%A7SkypeApp%E3%81%8C%E5%BE%A9%E6%B4%BB%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7%E3%81%95%E3%81%A3%E3%81%9D%E3%81%8F/</link>
       <pubDate>Tue, 05 Oct 2010 19:33:00 +0900</pubDate>
       
-      <guid>http://github.pyyoshi.com/blog/2010/10/Android%E3%81%A7SkypeApp%E3%81%8C%E5%BE%A9%E6%B4%BB%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7%E3%81%95%E3%81%A3%E3%81%9D%E3%81%8F/</guid>
+      <guid>https://github.pyyoshi.com/blog/2010/10/Android%E3%81%A7SkypeApp%E3%81%8C%E5%BE%A9%E6%B4%BB%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7%E3%81%95%E3%81%A3%E3%81%9D%E3%81%8F/</guid>
       <description>やっと来ました！！
 今年初めに一部のキャリアでしかSkypeを使用することが出来ないようになってしまいましたが、いよいよ復活です！
 ただし、日本のプロバイダー(ストア固有ID)情報だとマーケットで表示することが出来ませんのでちょっとしたてこ入れをしてあげないといけません。

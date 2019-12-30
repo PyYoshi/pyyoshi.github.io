@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>coffeescript on PyYoshiのログ置き場</title>
-    <link>http://github.pyyoshi.com/blog/tags/coffeescript/</link>
+    <link>https://github.pyyoshi.com/blog/tags/coffeescript/</link>
     <description>Recent content in coffeescript on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 18 Sep 2012 22:05:00 +0900</lastBuildDate>
     
-	<atom:link href="http://github.pyyoshi.com/blog/tags/coffeescript/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://github.pyyoshi.com/blog/tags/coffeescript/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>自動でCoffeeScriptをコンパイルするPythonスクリプトを書いた</title>
-      <link>http://github.pyyoshi.com/blog/2012/09/%E8%87%AA%E5%8B%95%E3%81%A7CoffeeScript%E3%82%92%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%AB%E3%81%99%E3%82%8BPython%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%82%92%E6%9B%B8%E3%81%84%E3%81%9F/</link>
+      <link>https://github.pyyoshi.com/blog/2012/09/%E8%87%AA%E5%8B%95%E3%81%A7CoffeeScript%E3%82%92%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%AB%E3%81%99%E3%82%8BPython%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%82%92%E6%9B%B8%E3%81%84%E3%81%9F/</link>
       <pubDate>Tue, 18 Sep 2012 22:05:00 +0900</pubDate>
       
-      <guid>http://github.pyyoshi.com/blog/2012/09/%E8%87%AA%E5%8B%95%E3%81%A7CoffeeScript%E3%82%92%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%AB%E3%81%99%E3%82%8BPython%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%82%92%E6%9B%B8%E3%81%84%E3%81%9F/</guid>
+      <guid>https://github.pyyoshi.com/blog/2012/09/%E8%87%AA%E5%8B%95%E3%81%A7CoffeeScript%E3%82%92%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%AB%E3%81%99%E3%82%8BPython%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%82%92%E6%9B%B8%E3%81%84%E3%81%9F/</guid>
       <description>いちいちコマンド書いてられないので、ファイルに変更があった場合にビルドするスクリプトを書いた。
 Python 2.7環境でテストしました。
 必要なモジュールは

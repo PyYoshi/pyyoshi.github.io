@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>yakuake on PyYoshiのログ置き場</title>
-    <link>http://github.pyyoshi.com/blog/tags/yakuake/</link>
+    <link>https://github.pyyoshi.com/blog/tags/yakuake/</link>
     <description>Recent content in yakuake on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 10 May 2013 18:37:00 +0900</lastBuildDate>
     
-	<atom:link href="http://github.pyyoshi.com/blog/tags/yakuake/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://github.pyyoshi.com/blog/tags/yakuake/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>KDEについてくるKonsoleがとんでもない奴だった…</title>
-      <link>http://github.pyyoshi.com/blog/2013/05/KDE%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%8F%E3%82%8BKonsole%E3%81%8C%E3%81%A8%E3%82%93%E3%81%A7%E3%82%82%E3%81%AA%E3%81%84%E5%A5%B4%E3%81%A0%E3%81%A3%E3%81%9F/</link>
+      <link>https://github.pyyoshi.com/blog/2013/05/KDE%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%8F%E3%82%8BKonsole%E3%81%8C%E3%81%A8%E3%82%93%E3%81%A7%E3%82%82%E3%81%AA%E3%81%84%E5%A5%B4%E3%81%A0%E3%81%A3%E3%81%9F/</link>
       <pubDate>Fri, 10 May 2013 18:37:00 +0900</pubDate>
       
-      <guid>http://github.pyyoshi.com/blog/2013/05/KDE%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%8F%E3%82%8BKonsole%E3%81%8C%E3%81%A8%E3%82%93%E3%81%A7%E3%82%82%E3%81%AA%E3%81%84%E5%A5%B4%E3%81%A0%E3%81%A3%E3%81%9F/</guid>
+      <guid>https://github.pyyoshi.com/blog/2013/05/KDE%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%8F%E3%82%8BKonsole%E3%81%8C%E3%81%A8%E3%82%93%E3%81%A7%E3%82%82%E3%81%AA%E3%81%84%E5%A5%B4%E3%81%A0%E3%81%A3%E3%81%9F/</guid>
       <description>Konsoleをリサイズすると高確率でXもろとも落とすクソみたいな機能がついてる。
 これはバグじゃなくて”しよう”なんだと思う。いつになっても修正されない。
 解決策の一つとして&amp;ndash;notransparencyをつければいいみたいだが

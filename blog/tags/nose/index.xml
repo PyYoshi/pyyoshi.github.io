@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>nose on PyYoshiのログ置き場</title>
-    <link>http://github.pyyoshi.com/blog/tags/nose/</link>
+    <link>https://github.pyyoshi.com/blog/tags/nose/</link>
     <description>Recent content in nose on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 18 Jun 2012 15:58:00 +0900</lastBuildDate>
     
-	<atom:link href="http://github.pyyoshi.com/blog/tags/nose/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://github.pyyoshi.com/blog/tags/nose/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>PyGooglePlusをプロファイリングしてみた</title>
-      <link>http://github.pyyoshi.com/blog/2012/06/PyGooglePlus%E3%82%92%E3%83%97%E3%83%AD%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</link>
+      <link>https://github.pyyoshi.com/blog/2012/06/PyGooglePlus%E3%82%92%E3%83%97%E3%83%AD%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</link>
       <pubDate>Mon, 18 Jun 2012 15:58:00 +0900</pubDate>
       
-      <guid>http://github.pyyoshi.com/blog/2012/06/PyGooglePlus%E3%82%92%E3%83%97%E3%83%AD%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
+      <guid>https://github.pyyoshi.com/blog/2012/06/PyGooglePlus%E3%82%92%E3%83%97%E3%83%AD%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
       <description>現在noseでテストコードを書いてるのだけれど、ついでにどこが足を引っ張っているのか知るためにnose経由でプロファイリングしてみた。
 準備
  Graphizをインストール $ pip install https://guppy-pe.svn.sourceforge.net/svnroot/guppy-pe/trunk/guppy&amp;lt;/span&amp;gt; $ pip install pbp.scripts  テストコードをtests.pyとして書いたら

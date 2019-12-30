@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>gdipp on PyYoshiのログ置き場</title>
-    <link>http://github.pyyoshi.com/blog/tags/gdipp/</link>
+    <link>https://github.pyyoshi.com/blog/tags/gdipp/</link>
     <description>Recent content in gdipp on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 19 May 2010 18:21:00 +0900</lastBuildDate>
     
-	<atom:link href="http://github.pyyoshi.com/blog/tags/gdipp/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://github.pyyoshi.com/blog/tags/gdipp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>gdippを各々のアプリケーションに適用させる方法</title>
-      <link>http://github.pyyoshi.com/blog/2010/05/gdipp%E3%82%92%E5%90%84%E3%80%85%E3%81%AE%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AB%E9%81%A9%E7%94%A8%E3%81%95%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95/</link>
+      <link>https://github.pyyoshi.com/blog/2010/05/gdipp%E3%82%92%E5%90%84%E3%80%85%E3%81%AE%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AB%E9%81%A9%E7%94%A8%E3%81%95%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95/</link>
       <pubDate>Wed, 19 May 2010 18:21:00 +0900</pubDate>
       
-      <guid>http://github.pyyoshi.com/blog/2010/05/gdipp%E3%82%92%E5%90%84%E3%80%85%E3%81%AE%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AB%E9%81%A9%E7%94%A8%E3%81%95%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95/</guid>
+      <guid>https://github.pyyoshi.com/blog/2010/05/gdipp%E3%82%92%E5%90%84%E3%80%85%E3%81%AE%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AB%E9%81%A9%E7%94%A8%E3%81%95%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95/</guid>
       <description>Twitter上で相性悪いアプリがあるなー云々とかいってたので、全体適用ではなく各々のアプリに適用させる方法を紹介したいと思います。(やり方自体はgdi++の時と一緒ｗ)
 ダウンロード:
 gdippのダウンロードはこちら。32bit, 64bit版があるので使っているOSにあわせてください。
