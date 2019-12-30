@@ -3593,9 +3593,9 @@ $ ziproxy -h</description>
 <p>それでは構築はじめます。</p>
 <p>環境はUbuntu 12.04 64bit</p>
 <ol>
-<li><a href="http://blog.remu.biz/2013/05/blog-post_10.html#privoxy_env">Privoxyの構築</a></li>
-<li><a href="http://blog.remu.biz/2013/05/blog-post_10.html#ziproxy_env">Ziproxyの構築</a></li>
-<li><a href="http://blog.remu.biz/2013/05/blog-post_10.html#squid_env">Squidの構築</a></li>
+<li><a href="#1-privoxy">Privoxyの構築</a></li>
+<li><a href="#2-ziproxy">Ziproxyの構築</a></li>
+<li><a href="#3-squid">Squidの構築</a></li>
 </ol>
 <h3 id="1-privoxy">1. Privoxyの構築</h3>
 <blockquote>
@@ -4010,7 +4010,7 @@ dom.innerHTML = xhr.responseText;
 これによってaddon上でもただしく快適にDOMを扱えるようになります！
 ※このコードはNightingaleとFirefox3.6.x以前のブラウザでのみ動作保証します。それ以降のFirefoxは素直に document.implementation.createHTMLDocumentを使いましょう参考:
  Analyzing and manipulating a responseText property containing an HTML document Safely parsing simple HTML to DOM   </description>
-			<content type="html"><![CDATA[<p><a href="http://blog.remu.biz/2013/04/nightingaleaddondom.html">昨日の投稿</a>でDOM操作できないことを嘆いていたのですが、その解決方法がわかりました。</p>
+			<content type="html"><![CDATA[<p><a href="/2013/04/Nightingale%E3%81%AEaddon%E3%81%A7dom%E3%81%8C%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%84/">昨日の投稿</a>でDOM操作できないことを嘆いていたのですが、その解決方法がわかりました。</p>
 <p>なお、この症状はaddon上でのみ起きます。それへの対処です。</p>
 <p>一般的にXHRのresponseTextをDOMへ変換するときは</p>
 <blockquote>
@@ -4050,7 +4050,7 @@ DOM </a></li>
 <p>普通のFirefoxでもaddonではdom扱えないのかな？</p>
 <p>正直、これ使えないのクソだと思います。スクレイピングやりたかったら文字列操作ですべてやれとか僕には無理です…</p>
 <p><!-- raw HTML omitted -->解決策ないのかしら<!-- raw HTML omitted --></p>
-<p>解決策は<a href="http://blog.remu.biz/2013/04/nightingale-addonxhrresponsetextdom.html">こちら</a></p>
+<p>解決策は<a href="/2013/04/Nightingale-Addon%E3%81%A7xhr.responseText%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%9FDOM%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B%E5%A0%B4%E5%90%88%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/">こちら</a></p>
 ]]></content>
 		</item>
 		
@@ -4194,7 +4194,7 @@ IM</a>版をLinuxで動くように移植しました。</p>
 			<description>以前の記事をgolangではどうなるのかやってみた。
 結果:
 $ go build fib.go$ go versiongo version go1$ time ./fib 63245986**./fib 0.54s user 0.00s system 99% cpu 0.548 total**</description>
-			<content type="html"><![CDATA[<p>以前の<a href="http://blog.remu.biz/2013/03/pythonfib39.html">記事</a>をgolangではどうなるのかやってみた。<br>
+			<content type="html"><![CDATA[<p>以前の<a href="/2013/03/Python%E3%81%A7%E3%81%AEfib39%E3%81%AE%E5%AE%9F%E8%A1%8C%E6%99%82%E9%96%93%E6%AF%94%E8%BC%83/">記事</a>をgolangではどうなるのかやってみた。<br>
 結果:<br>
 <!-- raw HTML omitted -->$ go build fib.go<!-- raw HTML omitted --><br>
 <!-- raw HTML omitted -->$ go version<!-- raw HTML omitted --><br>
@@ -6408,7 +6408,7 @@ STEP 番外編1: android.kernel.orgとcode auroraからのkernelソース取得
 <p>で、まぁカスタムロム作りたくてandroidのソースをぼちぼち読んでいるのですが云々。</p>
 <p>さてさて、今回はSH Developers
 Squareに公開されているIS01のkernelソースをビルドしていきます。</p>
-<p>ソースは<a href="http://renax64.blogspot.com/2010/12/sh-developerssquareis01androiddl.html">前記事</a>のスクリプトから取得しておきましょう。</p>
+<p>ソースは<a href="/2010/12/SH-DevelopersSquare%E3%81%8B%E3%82%89IS01%E7%AD%89%E3%81%AEAndroid%E5%90%91%E3%81%91%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92DL%E3%81%99%E3%82%8B%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F%E3%82%88/">前記事</a>のスクリプトから取得しておきましょう。</p>
 <p>STEP1:
 android.git.kernel.orgからコンパイル用ソースをとってきましょう。(既にやっている人はSTEP2へ)<br>
 <strong><!-- raw HTML omitted -->#mkdir
@@ -6727,7 +6727,7 @@ except HTMLParseError, e:
  soup = parser.parse(html)
 </code></pre>
 <p>とかやって別なパーサーでエラー部分を除去って貰う形をとっていたことが必要なくなったのかな？</p>
-<p>ということで前回書いた記事「<a href="http://renax64.blogspot.com/2010/11/beautifulsouphtmlparseerror.html">BeautifulSoupでHTMLParseErrorが起きた時の対処</a>」もこんなことやれば良かったのかな？</p>
+<p>ということで前回書いた記事「<a href="/2010/11/BeautifulSoup%E3%81%A7HTMLParseError%E3%81%8C%E8%B5%B7%E3%81%8D%E3%81%9F%E6%99%82%E3%81%AE%E5%AF%BE%E5%87%A6/">BeautifulSoupでHTMLParseErrorが起きた時の対処</a>」もこんなことやれば良かったのかな？</p>
 <p>まぁまとめるとアップデートしとけ(ﾟДﾟ)ｺﾞﾙｧ!! ですね・・・ｗ</p>
 ]]></content>
 		</item>
@@ -7002,8 +7002,7 @@ A1を起動し、先ほどDLしてきたROMをBrowseから選択してくださ�
 <p><strong>Part2:</strong><br>
 カスタムリカバリーの導入です。</p>
 <p>こちらのやり方自体は、以前の記事で解説済みですので割愛させていただきまする。</p>
-<p><a href="http://renax64.blogspot.com/2010/10/acer-liquid-e_01.html">Acer Liquid
-Eにカスタムリカバリーを入れてみたよ</a></p>
+<p><a href="/2010/10/Acer-Liquid-E%E3%81%AB%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E3%83%AA%E3%82%AB%E3%83%90%E3%83%AA%E3%83%BC%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/">Acer Liquid Eにカスタムリカバリーを入れてみたよ</a></p>
 <p><strong>Part3</strong>:<br>
 リカバリーモードに入ってFull Wipe, System Root Menuからrooted化する</p>
 <p>以上で終了です。</p>
@@ -7225,8 +7224,8 @@ Driverを<a href="http://dl.qj.net/psp/homebrew-applications/remotejoy-sdl-2007.
 <li>makecert -sv &ldquo;libusb0_x64.pvk&rdquo; -a sha1 -eku 1.3.6.1.5.5.7.3.3 -r
 -ss Root -len 1024 -sr localMachine -n CN=&quot;libusb0_x64.sys&rdquo;
 &ldquo;libusb0_x64.cer&rdquo;</li>
-<li>ダイアログが出るのでパスワードを決める。（<a href="http://2.bp.blogspot.com/_Ibruhn8YtWU/TBojF8Oq_GI/AAAAAAAAASM/byxQftNEJ8g/s1600/passssssss.jpg">参考画像</a>）</li>
-<li>もう1つダイアログでるので、先ほど決めたパスワードを入力（<a href="http://1.bp.blogspot.com/_Ibruhn8YtWU/TBojxKzUcGI/AAAAAAAAASU/WdqRr84fPio/s1600/paaaaaaaaaaaaaaaaaaaa.jpg">参考画像</a>）</li>
+<li>ダイアログが出るのでパスワードを決める。（<a href="/images/2010-06-17-passssssss.jpg">参考画像</a>）</li>
+<li>もう1つダイアログでるので、先ほど決めたパスワードを入力（<a href="/images/2010-06-17-paaaaaaaaaaaaaaaaaaaa.jpg">参考画像</a>）</li>
 <li>cert2spc &ldquo;libusb0_x64.cer&rdquo; &ldquo;libusb0_x64.spc&rdquo;</li>
 <li>pvk2pfx -pvk &ldquo;libusb0_x64.pvk&rdquo; -pi &ldquo;パスワード&rdquo; -spc
 &ldquo;libusb0_x64.spc&rdquo; -pfx &ldquo;libusb0_x64.pfx&rdquo; -po &ldquo;パスワード&rdquo;
@@ -8072,11 +8071,10 @@ sudo apt-get install lxde
 			<pubDate>Mon, 21 Dec 2009 21:02:00 +0900</pubDate>
 			
 			<guid>https://pyyoshi.github.io/blog/2009/12/CSV%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%A7%E3%81%AE%E3%82%A8%E3%83%A9%E3%83%BC%E8%A7%A3%E6%B1%BA/</guid>
-			<description>この記事でとっても悩んでいたのですが、ついったーでこの問題を解決していただきました。
-以下がやりとりです。
+			<description>この記事でとっても悩んでいたのですが、ついったーでこの問題を解決していただきました。 以下がやりとりです。
 Dirにあるファイルのプライオリティが高いみたいです。
 こーいう問題にぶち当たる辺り、ちゃんとどういう動作をしているのか意識しながらやらないといけないのかな。触り始めたばかり、なんて言って逃げたくはないので頑張ろう。</description>
-			<content type="html"><![CDATA[<p><a href="http://renax64.blogspot.com/2009/12/csv.html">この</a>記事でとっても悩んでいたのですが、ついったーでこの問題を解決していただきました。<br>
+			<content type="html"><![CDATA[<p><a href="/2009/12/csv%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%8C/">この</a>記事でとっても悩んでいたのですが、ついったーでこの問題を解決していただきました。
 以下がやりとりです。</p>
 <p>Dirにあるファイルのプライオリティが高いみたいです。<br>
 こーいう問題にぶち当たる辺り、ちゃんとどういう動作をしているのか意識しながらやらないといけないのかな。触り始めたばかり、なんて言って逃げたくはないので頑張ろう。</p>
@@ -8130,8 +8128,6 @@ Biz・ホーダイ ダブル　5,700円(税込5,985円)/月<br>
 			
 			<guid>https://pyyoshi.github.io/blog/2009/12/%E8%87%AA%E9%AF%96%E3%81%AE%E4%B8%AD%E8%BA%AB%E3%82%92%E5%BC%95%E8%B6%8A%E3%81%97%E3%81%9F/</guid>
 			<description>以前のケースがMini-ITX用で鯖に不向きだったのでATXケースに換装。
-[](http://4.bp.blogspot.com/_Ibruhn8YtWU/SyUBRTLjDSI/AAAAAAAAAA0/5pHKyRdNyFA/s1600-h/TS3H0094.jpg)[![](/images/2009-12-14-zi-qing-nozhong-shen-woyin-yue-shita-TS3H0092.jpg)](/images/2009-12-14-zi-qing-nozhong-shen-woyin-yue-shita-TS3H0092.jpg)
-
 まぁこんな感じに。
 構成は
 MB:D945GCLF2D
@@ -8142,8 +8138,8 @@ HDD:160GB(HGST)
 ケースはDPC-2768BKを3980円で入手。
 久しぶりのアキバでものすごく疲れたけど、楽しめたので良しとしよう。</description>
 			<content type="html"><![CDATA[<p>以前のケースがMini-ITX用で鯖に不向きだったのでATXケースに換装。<br>
-[](<a href="http://4.bp.blogspot.com/_Ibruhn8YtWU/SyUBRTLjDSI/AAAAAAAAAA0/5pHKyRdNyFA/s1600-h/TS3H0094.jpg)%5B!%5B%5D(/images/2009-12-14-zi-qing-nozhong-shen-woyin-yue-shita-TS3H0092.jpg)%5D(/images/2009-12-14-zi-qing-nozhong-shen-woyin-yue-shita-TS3H0092.jpg">http://4.bp.blogspot.com/_Ibruhn8YtWU/SyUBRTLjDSI/AAAAAAAAAA0/5pHKyRdNyFA/s1600-h/TS3H0094.jpg)[![](/images/2009-12-14-zi-qing-nozhong-shen-woyin-yue-shita-TS3H0092.jpg)](/images/2009-12-14-zi-qing-nozhong-shen-woyin-yue-shita-TS3H0092.jpg</a>)</p>
-<p><a href="/images/2009-12-14-zi-qing-nozhong-shen-woyin-yue-shita-TS3H0094.jpg"><img src="/images/2009-12-14-zi-qing-nozhong-shen-woyin-yue-shita-TS3H0094.jpg" alt=""></a></p>
+<img src="/images/2009-12-14-zi-qing-nozhong-shen-woyin-yue-shita-TS3H0092.jpg" alt=""></p>
+<p><img src="/images/2009-12-14-zi-qing-nozhong-shen-woyin-yue-shita-TS3H0094.jpg" alt=""></p>
 <p>まぁこんな感じに。</p>
 <p>構成は</p>
 <p>MB:<a href="https://www.amazon.co.jp/dp/B001FBWYGG?tag=kimin-22&amp;camp=243&amp;creative=1615&amp;linkCode=as1&amp;creativeASIN=B001FBWYGG&amp;adid=0H7MNMQ43CT0FSVQ7DDY&amp;">D945GCLF2D</a></p>
@@ -8177,7 +8173,7 @@ for row in reader:
 <p>謎すぎる。解決策をぼちぼち調べないと・・・</p>
 <p>追記：<br>
 <!-- raw HTML omitted -->問題解決しました。<!-- raw HTML omitted -->
-→<a href="http://renax64.blogspot.com/2009/12/csv_21.html">記事</a></p>
+→<a href="/2009/12/CSV%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%A7%E3%81%AE%E3%82%A8%E3%83%A9%E3%83%BC%E8%A7%A3%E6%B1%BA/">記事</a></p>
 ]]></content>
 		</item>
 		
