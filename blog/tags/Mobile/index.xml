@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mobile on PyYoshiのログ置き場</title>
-    <link>http://example.org/tags/Mobile/</link>
+    <link>https://pyyoshi.github.io/blog/tags/Mobile/</link>
     <description>Recent content in Mobile on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 05 Jan 2010 22:57:00 +0900</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/Mobile/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pyyoshi.github.io/blog/tags/Mobile/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Android端末買った。</title>
-      <link>http://example.org/2010/01/Android%E7%AB%AF%E6%9C%AB%E8%B2%B7%E3%81%A3%E3%81%9F/</link>
+      <link>https://pyyoshi.github.io/blog/2010/01/Android%E7%AB%AF%E6%9C%AB%E8%B2%B7%E3%81%A3%E3%81%9F/</link>
       <pubDate>Tue, 05 Jan 2010 22:57:00 +0900</pubDate>
       
-      <guid>http://example.org/2010/01/Android%E7%AB%AF%E6%9C%AB%E8%B2%B7%E3%81%A3%E3%81%9F/</guid>
+      <guid>https://pyyoshi.github.io/blog/2010/01/Android%E7%AB%AF%E6%9C%AB%E8%B2%B7%E3%81%A3%E3%81%9F/</guid>
       <description>あけましておめでとうございます。
 さてAndroid端末の件ですが、思い切ってauからDoCoMoへMNPでHT-03Aを0円で入手。
 今のところさくさく動いてるところ。

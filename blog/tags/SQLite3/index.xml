@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SQLite3 on PyYoshiのログ置き場</title>
-    <link>http://example.org/tags/SQLite3/</link>
+    <link>https://pyyoshi.github.io/blog/tags/SQLite3/</link>
     <description>Recent content in SQLite3 on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 11 Dec 2009 20:53:00 +0900</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/SQLite3/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pyyoshi.github.io/blog/tags/SQLite3/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SQLiteでデータ型指定の有無</title>
-      <link>http://example.org/2009/12/SQLite%E3%81%A7%E3%83%87%E3%83%BC%E3%82%BF%E5%9E%8B%E6%8C%87%E5%AE%9A%E3%81%AE%E6%9C%89%E7%84%A1/</link>
+      <link>https://pyyoshi.github.io/blog/2009/12/SQLite%E3%81%A7%E3%83%87%E3%83%BC%E3%82%BF%E5%9E%8B%E6%8C%87%E5%AE%9A%E3%81%AE%E6%9C%89%E7%84%A1/</link>
       <pubDate>Fri, 11 Dec 2009 20:53:00 +0900</pubDate>
       
-      <guid>http://example.org/2009/12/SQLite%E3%81%A7%E3%83%87%E3%83%BC%E3%82%BF%E5%9E%8B%E6%8C%87%E5%AE%9A%E3%81%AE%E6%9C%89%E7%84%A1/</guid>
+      <guid>https://pyyoshi.github.io/blog/2009/12/SQLite%E3%81%A7%E3%83%87%E3%83%BC%E3%82%BF%E5%9E%8B%E6%8C%87%E5%AE%9A%E3%81%AE%E6%9C%89%E7%84%A1/</guid>
       <description>詳しくはどうなっているか分からないけど、データ型を指定しなくても通る。
 INSERT INTOで『&#39;&#39;』で括っているか否かで判定しているのかな？</description>
     </item>
     
     <item>
       <title>CSV2SQLなるものを見つけた。</title>
-      <link>http://example.org/2009/12/CSV2SQL%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E8%A6%8B%E3%81%A4%E3%81%91%E3%81%9F/</link>
+      <link>https://pyyoshi.github.io/blog/2009/12/CSV2SQL%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E8%A6%8B%E3%81%A4%E3%81%91%E3%81%9F/</link>
       <pubDate>Thu, 10 Dec 2009 23:37:00 +0900</pubDate>
       
-      <guid>http://example.org/2009/12/CSV2SQL%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E8%A6%8B%E3%81%A4%E3%81%91%E3%81%9F/</guid>
+      <guid>https://pyyoshi.github.io/blog/2009/12/CSV2SQL%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E8%A6%8B%E3%81%A4%E3%81%91%E3%81%9F/</guid>
       <description>題通りなんか見つけた。とりあえず参考にしながら自分でもCSV2SQL for Pythonを作ってみようと思う。
 import sqlite3 import csv # SQLite内のデータはutf-8を想定 def sqlite2csv(db_name, table_name, out_filename): dbh = sqlite3.connect(db_name) writer = csv.writer(file(out_filename, &#39;w&#39;)) for row in dbh.execute(&#39;SELECT * FROM %(table_name)s&#39; % locals()): writer.writerow([col.encode(&#39;utf-8&#39;) if isinstance(col, unicode) else col for col in row]) dbh.close() # csvのセパレータはカンマを想定 def csv2sqlite(db_name, table_name, in_filename): dbh = sqlite3.connect(db_name) reader = csv.reader(open(&amp;quot;import.csv&amp;quot;, &amp;quot;rb&amp;quot;)) for row in reader: ph = &amp;quot;?,&amp;quot; * (len(row) - 1) + &amp;quot;?&amp;quot; dbh.execute(&amp;quot;INSERT INTO %(table_name)s VALUES(%(ph)s)&amp;quot; % locals(), tuple(row)) dbh.</description>
     </item>
     
     <item>
       <title>カラム名でDBからデータを取得する方法</title>
-      <link>http://example.org/2009/12/%E3%82%AB%E3%83%A9%E3%83%A0%E5%90%8D%E3%81%A7DB%E3%81%8B%E3%82%89%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</link>
+      <link>https://pyyoshi.github.io/blog/2009/12/%E3%82%AB%E3%83%A9%E3%83%A0%E5%90%8D%E3%81%A7DB%E3%81%8B%E3%82%89%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</link>
       <pubDate>Tue, 08 Dec 2009 23:41:00 +0900</pubDate>
       
-      <guid>http://example.org/2009/12/%E3%82%AB%E3%83%A9%E3%83%A0%E5%90%8D%E3%81%A7DB%E3%81%8B%E3%82%89%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</guid>
+      <guid>https://pyyoshi.github.io/blog/2009/12/%E3%82%AB%E3%83%A9%E3%83%A0%E5%90%8D%E3%81%A7DB%E3%81%8B%E3%82%89%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</guid>
       <description>row_factory = sqlite3.Rowを利用する。
 ex)
 db = sqlite3.connect(&#39;xxx&#39;, isolation_level=None) sql = u”select * from hoge” db.row_factory = sqlite3.Row c = db.execute(sql) for row in c: print row[&amp;quot;カラム名を指定&amp;quot;]  </description>

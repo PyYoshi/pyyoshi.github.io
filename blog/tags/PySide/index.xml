@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PySide on PyYoshiのログ置き場</title>
-    <link>http://example.org/tags/PySide/</link>
+    <link>https://pyyoshi.github.io/blog/tags/PySide/</link>
     <description>Recent content in PySide on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 25 Apr 2013 19:09:00 +0900</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/PySide/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pyyoshi.github.io/blog/tags/PySide/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>投稿だけできるTwitterクライアント作った</title>
-      <link>http://example.org/2013/04/%E6%8A%95%E7%A8%BF%E3%81%A0%E3%81%91%E3%81%A7%E3%81%8D%E3%82%8BTwitter%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F/</link>
+      <link>https://pyyoshi.github.io/blog/2013/04/%E6%8A%95%E7%A8%BF%E3%81%A0%E3%81%91%E3%81%A7%E3%81%8D%E3%82%8BTwitter%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F/</link>
       <pubDate>Thu, 25 Apr 2013 19:09:00 +0900</pubDate>
       
-      <guid>http://example.org/2013/04/%E6%8A%95%E7%A8%BF%E3%81%A0%E3%81%91%E3%81%A7%E3%81%8D%E3%82%8BTwitter%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F/</guid>
+      <guid>https://pyyoshi.github.io/blog/2013/04/%E6%8A%95%E7%A8%BF%E3%81%A0%E3%81%91%E3%81%A7%E3%81%8D%E3%82%8BTwitter%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F/</guid>
       <description>デスクトップにツイッタクライアント置くとどうしてもスペースの無駄になってしまうので、タイムラインはAndroidタブレットにtwicle plusを入れて監視していました。
 投稿する都度TwitterWeb開いてやっていたのですが、それこそ効率を落とす原因だと思ったのでさくっと投稿だけできるツイッタクライアント作りました。
 Twiq for Desktop - Github

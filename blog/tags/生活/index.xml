@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>生活 on PyYoshiのログ置き場</title>
-    <link>http://example.org/tags/%E7%94%9F%E6%B4%BB/</link>
+    <link>https://pyyoshi.github.io/blog/tags/%E7%94%9F%E6%B4%BB/</link>
     <description>Recent content in 生活 on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 07 Aug 2012 22:09:00 +0900</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pyyoshi.github.io/blog/tags/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>何か一つ自身を持てるもの・強みになるものをもつ</title>
-      <link>http://example.org/2012/08/%E4%BD%95%E3%81%8B%E4%B8%80%E3%81%A4%E8%87%AA%E8%BA%AB%E3%82%92%E6%8C%81%E3%81%A6%E3%82%8B%E3%82%82%E3%81%AE%E5%BC%B7%E3%81%BF%E3%81%AB%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E3%82%82%E3%81%A4/</link>
+      <link>https://pyyoshi.github.io/blog/2012/08/%E4%BD%95%E3%81%8B%E4%B8%80%E3%81%A4%E8%87%AA%E8%BA%AB%E3%82%92%E6%8C%81%E3%81%A6%E3%82%8B%E3%82%82%E3%81%AE%E5%BC%B7%E3%81%BF%E3%81%AB%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E3%82%82%E3%81%A4/</link>
       <pubDate>Tue, 07 Aug 2012 22:09:00 +0900</pubDate>
       
-      <guid>http://example.org/2012/08/%E4%BD%95%E3%81%8B%E4%B8%80%E3%81%A4%E8%87%AA%E8%BA%AB%E3%82%92%E6%8C%81%E3%81%A6%E3%82%8B%E3%82%82%E3%81%AE%E5%BC%B7%E3%81%BF%E3%81%AB%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E3%82%82%E3%81%A4/</guid>
+      <guid>https://pyyoshi.github.io/blog/2012/08/%E4%BD%95%E3%81%8B%E4%B8%80%E3%81%A4%E8%87%AA%E8%BA%AB%E3%82%92%E6%8C%81%E3%81%A6%E3%82%8B%E3%82%82%E3%81%AE%E5%BC%B7%E3%81%BF%E3%81%AB%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E3%82%82%E3%81%A4/</guid>
       <description>pull requestが通るとニヤニヤが止まらなくなる僕です。
 たとえ本当に小さな事でも誰かの役に立ったと思うと嬉しいのです。
 誰がなんと言おうと僕はこれからもこれに快楽を得ていくでしょう。
@@ -44,10 +44,10 @@ rejectを恐れずpull requestして行きましょう！</description>
     
     <item>
       <title>ネタが無くなった</title>
-      <link>http://example.org/2012/06/%E3%83%8D%E3%82%BF%E3%81%8C%E7%84%A1%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F/</link>
+      <link>https://pyyoshi.github.io/blog/2012/06/%E3%83%8D%E3%82%BF%E3%81%8C%E7%84%A1%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F/</link>
       <pubDate>Thu, 28 Jun 2012 18:38:00 +0900</pubDate>
       
-      <guid>http://example.org/2012/06/%E3%83%8D%E3%82%BF%E3%81%8C%E7%84%A1%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F/</guid>
+      <guid>https://pyyoshi.github.io/blog/2012/06/%E3%83%8D%E3%82%BF%E3%81%8C%E7%84%A1%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F/</guid>
       <description>cchardetを作るまではいろいろはかどっていたプログラミングですが、それを終えるとネタがないことに気づいた。
 PyGooglePlusは仕様変更の速度についていけないのとサンプリングデータの数が少ないのでという理由であまり更新できない。
 もっとも仕様変更に柔軟に対応できるプログラミングの仕方が考えつかない自分のせいでもあるのですがXD

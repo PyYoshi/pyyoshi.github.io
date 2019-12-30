@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows8 on PyYoshiのログ置き場</title>
-    <link>http://example.org/tags/Windows8/</link>
+    <link>https://pyyoshi.github.io/blog/tags/Windows8/</link>
     <description>Recent content in Windows8 on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 21 Sep 2011 13:47:00 +0900</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/Windows8/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pyyoshi.github.io/blog/tags/Windows8/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Windows8をWinPE3を使ったネットワーク経由でインストール</title>
-      <link>http://example.org/2011/09/Windows8%E3%82%92WinPE3%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E7%B5%8C%E7%94%B1%E3%81%A7%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</link>
+      <link>https://pyyoshi.github.io/blog/2011/09/Windows8%E3%82%92WinPE3%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E7%B5%8C%E7%94%B1%E3%81%A7%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</link>
       <pubDate>Wed, 21 Sep 2011 13:47:00 +0900</pubDate>
       
-      <guid>http://example.org/2011/09/Windows8%E3%82%92WinPE3%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E7%B5%8C%E7%94%B1%E3%81%A7%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</guid>
+      <guid>https://pyyoshi.github.io/blog/2011/09/Windows8%E3%82%92WinPE3%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E7%B5%8C%E7%94%B1%E3%81%A7%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</guid>
       <description>たまたま4GBのUSBメモリ無く、それとネットワーク経由でのOSのインストールってどんなものなのか知りたくなったので試してみた。
 使用したPCはdynabook S30。 こいつにRAM4GB+SSD64GBでアップグレードしてるのでWin7でもそれなり頑張ってくれていた。そんで今度はWin8で犠牲になってもらおうという魂胆である。
 手順

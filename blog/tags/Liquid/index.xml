@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Liquid on PyYoshiのログ置き場</title>
-    <link>http://example.org/tags/Liquid/</link>
+    <link>https://pyyoshi.github.io/blog/tags/Liquid/</link>
     <description>Recent content in Liquid on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 02 Oct 2010 19:08:00 +0900</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/Liquid/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pyyoshi.github.io/blog/tags/Liquid/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Acer Liquid EにLeaked Froyoを入れてみたよ</title>
-      <link>http://example.org/2010/10/Acer-Liquid-E%E3%81%ABLeaked-Froyo%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</link>
+      <link>https://pyyoshi.github.io/blog/2010/10/Acer-Liquid-E%E3%81%ABLeaked-Froyo%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</link>
       <pubDate>Sat, 02 Oct 2010 19:08:00 +0900</pubDate>
       
-      <guid>http://example.org/2010/10/Acer-Liquid-E%E3%81%ABLeaked-Froyo%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</guid>
+      <guid>https://pyyoshi.github.io/blog/2010/10/Acer-Liquid-E%E3%81%ABLeaked-Froyo%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</guid>
       <description>用意するもの：
 Leaked Froyo
 Acer Download Tool for A1
@@ -43,10 +43,10 @@ Liquidを購入し、rooted, ROM焼きを通して思ったことは、とても
     
     <item>
       <title>Acer Liquid Eをrooted化しちゃおう！</title>
-      <link>http://example.org/2010/10/Acer-Liquid-E%E3%82%92rooted%E5%8C%96%E3%81%97%E3%81%A1%E3%82%83%E3%81%8A%E3%81%86/</link>
+      <link>https://pyyoshi.github.io/blog/2010/10/Acer-Liquid-E%E3%82%92rooted%E5%8C%96%E3%81%97%E3%81%A1%E3%82%83%E3%81%8A%E3%81%86/</link>
       <pubDate>Sat, 02 Oct 2010 09:58:00 +0900</pubDate>
       
-      <guid>http://example.org/2010/10/Acer-Liquid-E%E3%82%92rooted%E5%8C%96%E3%81%97%E3%81%A1%E3%82%83%E3%81%8A%E3%81%86/</guid>
+      <guid>https://pyyoshi.github.io/blog/2010/10/Acer-Liquid-E%E3%82%92rooted%E5%8C%96%E3%81%97%E3%81%A1%E3%82%83%E3%81%8A%E3%81%86/</guid>
       <description>リカバリーモードに入り（Vol- カメラキー　電源 で三回振動するのを待つ）
 System Root menuから好きなモードを選んでrooted化終了です。
 とても簡単にできますね。
@@ -63,10 +63,10 @@ apk版rootedのリンク張り忘れていたので修正。</description>
     
     <item>
       <title>Acer Liquid Eにカスタムリカバリーを入れてみたよ</title>
-      <link>http://example.org/2010/10/Acer-Liquid-E%E3%81%AB%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E3%83%AA%E3%82%AB%E3%83%90%E3%83%AA%E3%83%BC%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</link>
+      <link>https://pyyoshi.github.io/blog/2010/10/Acer-Liquid-E%E3%81%AB%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E3%83%AA%E3%82%AB%E3%83%90%E3%83%AA%E3%83%BC%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</link>
       <pubDate>Fri, 01 Oct 2010 19:41:00 +0900</pubDate>
       
-      <guid>http://example.org/2010/10/Acer-Liquid-E%E3%81%AB%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E3%83%AA%E3%82%AB%E3%83%90%E3%83%AA%E3%83%BC%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</guid>
+      <guid>https://pyyoshi.github.io/blog/2010/10/Acer-Liquid-E%E3%81%AB%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E3%83%AA%E3%82%AB%E3%83%90%E3%83%AA%E3%83%BC%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</guid>
       <description>すっごく簡単にカスタムリカバリーが導入できました。
 こちらからファイルをDLして解凍しましょう。
 解凍先を開き、install_malez_recovery.cmdを開きいくつかスペース叩けば終了します。（英語だけど説明はちゃんと読んでね）
@@ -79,10 +79,10 @@ apk版rootedのリンク張り忘れていたので修正。</description>
     
     <item>
       <title>Acer Liquid Eを購入したよ！</title>
-      <link>http://example.org/2010/10/Acer-Liquid-E%E3%82%92%E8%B3%BC%E5%85%A5%E3%81%97%E3%81%9F%E3%82%88/</link>
+      <link>https://pyyoshi.github.io/blog/2010/10/Acer-Liquid-E%E3%82%92%E8%B3%BC%E5%85%A5%E3%81%97%E3%81%9F%E3%82%88/</link>
       <pubDate>Fri, 01 Oct 2010 19:17:00 +0900</pubDate>
       
-      <guid>http://example.org/2010/10/Acer-Liquid-E%E3%82%92%E8%B3%BC%E5%85%A5%E3%81%97%E3%81%9F%E3%82%88/</guid>
+      <guid>https://pyyoshi.github.io/blog/2010/10/Acer-Liquid-E%E3%82%92%E8%B3%BC%E5%85%A5%E3%81%97%E3%81%9F%E3%82%88/</guid>
       <description>GDD2010であまりにも刺激されてしまい、Acer Liquid EをIYH!してしまいました。
 HT-03A持っているのですが、なにぶんこれからのAndroid開発はARMv7以降じゃないときついのかな？
 って感じですね。ジンジャーブレッド（噂されてるやつ）や、AdobeさんがつくってるAppの仕様要件を見ていると。

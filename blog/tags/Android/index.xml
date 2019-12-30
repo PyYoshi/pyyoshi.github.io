@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Android on PyYoshiのログ置き場</title>
-    <link>http://example.org/tags/Android/</link>
+    <link>https://pyyoshi.github.io/blog/tags/Android/</link>
     <description>Recent content in Android on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 01 May 2013 18:06:00 +0900</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/Android/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pyyoshi.github.io/blog/tags/Android/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>androidで使えるjson parserの速度比較をしてみる</title>
-      <link>http://example.org/2013/05/android%E3%81%A7%E4%BD%BF%E3%81%88%E3%82%8Bjson-parser%E3%81%AE%E9%80%9F%E5%BA%A6%E6%AF%94%E8%BC%83%E3%82%92%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B/</link>
+      <link>https://pyyoshi.github.io/blog/2013/05/android%E3%81%A7%E4%BD%BF%E3%81%88%E3%82%8Bjson-parser%E3%81%AE%E9%80%9F%E5%BA%A6%E6%AF%94%E8%BC%83%E3%82%92%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B/</link>
       <pubDate>Wed, 01 May 2013 18:06:00 +0900</pubDate>
       
-      <guid>http://example.org/2013/05/android%E3%81%A7%E4%BD%BF%E3%81%88%E3%82%8Bjson-parser%E3%81%AE%E9%80%9F%E5%BA%A6%E6%AF%94%E8%BC%83%E3%82%92%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B/</guid>
+      <guid>https://pyyoshi.github.io/blog/2013/05/android%E3%81%A7%E4%BD%BF%E3%81%88%E3%82%8Bjson-parser%E3%81%AE%E9%80%9F%E5%BA%A6%E6%AF%94%E8%BC%83%E3%82%92%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B/</guid>
       <description>json-android-compareをベースにJsonPullParserとJackson JsonのObject Mappingのベンチを追加してAndroid上で走らせてみました。
 比較してるParserは以下の通り
  Android標準(API依存) gson 2.2.3 json simple 1.1.1 json smart 1.1.1 Jackson Json 1.9.12 Jackson Json 1.9.12 - Object Mapping JsonPullParser 1.6.1  テストした端末は2つ
@@ -37,10 +37,10 @@ TwitterみてるとJPP熱いみたいだし、開発者も日本の方なので�
     
     <item>
       <title>PythonモジュールをSL4A向けにビルドしてみた</title>
-      <link>http://example.org/2011/04/Python%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%82%92SL4A%E5%90%91%E3%81%91%E3%81%AB%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</link>
+      <link>https://pyyoshi.github.io/blog/2011/04/Python%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%82%92SL4A%E5%90%91%E3%81%91%E3%81%AB%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</link>
       <pubDate>Wed, 06 Apr 2011 22:49:00 +0900</pubDate>
       
-      <guid>http://example.org/2011/04/Python%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%82%92SL4A%E5%90%91%E3%81%91%E3%81%AB%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
+      <guid>https://pyyoshi.github.io/blog/2011/04/Python%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%82%92SL4A%E5%90%91%E3%81%91%E3%81%AB%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
       <description>SL4AのVer.が上がってAPIも結構数サポートされて驚いていたのだが、それよりうれしいとおもったのがPythonのCモジュールのビルド方法が確立されたこと。
 以前まではソースにそのようなツールは用意されていなくクロスコンパイラでとりあえずビルドって感じだった。
 ということでPythonモジュールのビルド方法を。
@@ -77,10 +77,10 @@ my @shared_args = (
     
     <item>
       <title>Win7でScalaとScalaAndroid環境構築とか</title>
-      <link>http://example.org/2011/03/Win7%E3%81%A7Scala%E3%81%A8ScalaAndroid%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%81%A8%E3%81%8B/</link>
+      <link>https://pyyoshi.github.io/blog/2011/03/Win7%E3%81%A7Scala%E3%81%A8ScalaAndroid%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%81%A8%E3%81%8B/</link>
       <pubDate>Fri, 18 Mar 2011 02:31:00 +0900</pubDate>
       
-      <guid>http://example.org/2011/03/Win7%E3%81%A7Scala%E3%81%A8ScalaAndroid%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%81%A8%E3%81%8B/</guid>
+      <guid>https://pyyoshi.github.io/blog/2011/03/Win7%E3%81%A7Scala%E3%81%A8ScalaAndroid%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%81%A8%E3%81%8B/</guid>
       <description>ただの備忘ログ
 構築とかわかりにくかったのでまとめただけ。転んだら泣いてください。
 サイトScala
@@ -106,19 +106,19 @@ Apache AntからWindowsバイナリをダウンロード解凍後、適宜場所
     
     <item>
       <title>Androidのライブラリの依存関係を調べる。</title>
-      <link>http://example.org/2011/03/Android%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%81%AE%E4%BE%9D%E5%AD%98%E9%96%A2%E4%BF%82%E3%82%92%E8%AA%BF%E3%81%B9%E3%82%8B/</link>
+      <link>https://pyyoshi.github.io/blog/2011/03/Android%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%81%AE%E4%BE%9D%E5%AD%98%E9%96%A2%E4%BF%82%E3%82%92%E8%AA%BF%E3%81%B9%E3%82%8B/</link>
       <pubDate>Tue, 08 Mar 2011 16:47:00 +0900</pubDate>
       
-      <guid>http://example.org/2011/03/Android%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%81%AE%E4%BE%9D%E5%AD%98%E9%96%A2%E4%BF%82%E3%82%92%E8%AA%BF%E3%81%B9%E3%82%8B/</guid>
+      <guid>https://pyyoshi.github.io/blog/2011/03/Android%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%81%AE%E4%BE%9D%E5%AD%98%E9%96%A2%E4%BF%82%E3%82%92%E8%AA%BF%E3%81%B9%E3%82%8B/</guid>
       <description>バイナリ開けるのめんどくさかったので書いた。やってることが分かる人のみで。スクリプトと同じフォルダにbin, lib作って適宜ファイル入れること。また、arm-eabi-objdumpも入れておくこと。# -*- coding: utf-8 -*- #!/usr/bin/env python from os import getcwd, listdir from popen2 import popen3 cdir = getcwd() lib_flist = listdir(cdir+&#39;/lib/&#39;) bin_flist = listdir(cdir+&#39;/bin/&#39;) for file in lib_flist: cmd = &#39;./arm-eabi-objdump -x ./lib/&#39;+ file + &#39; |grep -e NEEDED&#39; stdout, stdin, stderr = popen3(cmd) print file print stdout.read() print stderr.read() for file in bin_flist: cmd = &#39;./arm-eabi-objdump -x ./bin/&#39;+ file + &#39; |grep -e NEEDED&#39; stdout, stdin, stderr = popen3(cmd) print file print stdout.</description>
     </item>
     
     <item>
       <title>IS01 rooterでうまーくモジュールが呼び出せないとおもったらの巻き</title>
-      <link>http://example.org/2010/12/IS01-rooter%E3%81%A7%E3%81%86%E3%81%BE%E3%83%BC%E3%81%8F%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%8C%E5%91%BC%E3%81%B3%E5%87%BA%E3%81%9B%E3%81%AA%E3%81%84%E3%81%A8%E3%81%8A%E3%82%82%E3%81%A3%E3%81%9F%E3%82%89%E3%81%AE%E5%B7%BB%E3%81%8D/</link>
+      <link>https://pyyoshi.github.io/blog/2010/12/IS01-rooter%E3%81%A7%E3%81%86%E3%81%BE%E3%83%BC%E3%81%8F%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%8C%E5%91%BC%E3%81%B3%E5%87%BA%E3%81%9B%E3%81%AA%E3%81%84%E3%81%A8%E3%81%8A%E3%82%82%E3%81%A3%E3%81%9F%E3%82%89%E3%81%AE%E5%B7%BB%E3%81%8D/</link>
       <pubDate>Sun, 12 Dec 2010 14:00:00 +0900</pubDate>
       
-      <guid>http://example.org/2010/12/IS01-rooter%E3%81%A7%E3%81%86%E3%81%BE%E3%83%BC%E3%81%8F%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%8C%E5%91%BC%E3%81%B3%E5%87%BA%E3%81%9B%E3%81%AA%E3%81%84%E3%81%A8%E3%81%8A%E3%82%82%E3%81%A3%E3%81%9F%E3%82%89%E3%81%AE%E5%B7%BB%E3%81%8D/</guid>
+      <guid>https://pyyoshi.github.io/blog/2010/12/IS01-rooter%E3%81%A7%E3%81%86%E3%81%BE%E3%83%BC%E3%81%8F%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%8C%E5%91%BC%E3%81%B3%E5%87%BA%E3%81%9B%E3%81%AA%E3%81%84%E3%81%A8%E3%81%8A%E3%82%82%E3%81%A3%E3%81%9F%E3%82%89%E3%81%AE%E5%B7%BB%E3%81%8D/</guid>
       <description>※文鎮化する可能性が高い操作を行っていますので注意してください。
 いやはや便利な者が出来てしまうとそれに頼ってしまうのですが、それが盲点となってしまった。
 たぶん僕だけの環境で起こったことだと思うので気にせずに＾＾；
@@ -139,10 +139,10 @@ adb push _su /sqlite_journals/is01root/
     
     <item>
       <title>IS01のkernelをビルドしちゃおう！ ※修正: 20101213</title>
-      <link>http://example.org/2010/12/IS01%E3%81%AEkernel%E3%82%92%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A1%E3%82%83%E3%81%8A%E3%81%86-%E4%BF%AE%E6%AD%A3-20101213/</link>
+      <link>https://pyyoshi.github.io/blog/2010/12/IS01%E3%81%AEkernel%E3%82%92%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A1%E3%82%83%E3%81%8A%E3%81%86-%E4%BF%AE%E6%AD%A3-20101213/</link>
       <pubDate>Sat, 04 Dec 2010 20:08:00 +0900</pubDate>
       
-      <guid>http://example.org/2010/12/IS01%E3%81%AEkernel%E3%82%92%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A1%E3%82%83%E3%81%8A%E3%81%86-%E4%BF%AE%E6%AD%A3-20101213/</guid>
+      <guid>https://pyyoshi.github.io/blog/2010/12/IS01%E3%81%AEkernel%E3%82%92%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A1%E3%82%83%E3%81%8A%E3%81%86-%E4%BF%AE%E6%AD%A3-20101213/</guid>
       <description>※このビルドはNANDロック解除などのセキュリティ部分の解除はしていません。
 nandロックが解除出きるようになって、recovery等の書き変えも可能になりいろいろと旬になってきたIS01ですが、まだまだスタートしたばかりです。
 で、まぁカスタムロム作りたくてandroidのソースをぼちぼち読んでいるのですが云々。
@@ -182,19 +182,19 @@ STEP 番外編1: android.kernel.orgとcode auroraからのkernelソース取得
     
     <item>
       <title>SH DevelopersSquareからIS01等のAndroid向けソースをDLするスクリプト作ったよ！</title>
-      <link>http://example.org/2010/12/SH-DevelopersSquare%E3%81%8B%E3%82%89IS01%E7%AD%89%E3%81%AEAndroid%E5%90%91%E3%81%91%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92DL%E3%81%99%E3%82%8B%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F%E3%82%88/</link>
+      <link>https://pyyoshi.github.io/blog/2010/12/SH-DevelopersSquare%E3%81%8B%E3%82%89IS01%E7%AD%89%E3%81%AEAndroid%E5%90%91%E3%81%91%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92DL%E3%81%99%E3%82%8B%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F%E3%82%88/</link>
       <pubDate>Fri, 03 Dec 2010 16:43:00 +0900</pubDate>
       
-      <guid>http://example.org/2010/12/SH-DevelopersSquare%E3%81%8B%E3%82%89IS01%E7%AD%89%E3%81%AEAndroid%E5%90%91%E3%81%91%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92DL%E3%81%99%E3%82%8B%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F%E3%82%88/</guid>
+      <guid>https://pyyoshi.github.io/blog/2010/12/SH-DevelopersSquare%E3%81%8B%E3%82%89IS01%E7%AD%89%E3%81%AEAndroid%E5%90%91%E3%81%91%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92DL%E3%81%99%E3%82%8B%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F%E3%82%88/</guid>
       <description>SH DevelopersSquareがgitとかsvnとか用意してくれていないのでソースのDLがまんどくさいことこの上ないのでPythonでスクリプトを作成しました。このスクリプトを利用することにより、is01, sh-10b, jn-dk01のソースを取得・展開してくれます。使い方（Ubuntu環境）は以下の通りです。まず、easy_install等で必要なモジュールをインストールします。**#sudo apt-get install setup_tools**←インストールしていない場合**#sudo easy_install -U MultipartPostHandler****#sudo easy_install -U BeautifulSoup**スクリプトの実行例は以下の通りです。**#python ./sdasg.py is01**←is01のソースを取得・展開したい場合**#python ./sdasg.py sh-10b** ←sh-10bのソースを取得・展開したい場合**#python ./sdasg.py jn-dk01** ←jn-dk01のソースを取得・展開したい場合以下がスクリプトです。# -*- coding: utf-8 -*- #------------------------------------------------------------------------------- # Name: SH Dev Android Source Getter(特に名前決めてない) # Purpose: (https://sh-dev.sharp.co.jp/android/modules/oss/)がsvnやgitでの # ソース公開してなかったので自動でダウンロードしてきて展開するスク # リプト作った。 # 使用する際は、GPL(http://www.gnu.org/licenses/)と各々のソフトウェ # ア使用許諾契約書に同意すること。 # # Usage: 引数にis01, sh-10b, jn-dk01のどれかを与えてください。 # スクリプト直下にディレクトリを作られ保存されます。 # 例)is01のソースを取得・展開します。 # #python ./sdasg.py is01 # # Require MultipartPostHandler, BeautifulSoupをeasy_installなどでインストー # ルしてください。 # # Author: renax64.blogspot.com # # Created: 02/12/2010, ver.</description>
     </item>
     
     <item>
       <title>AndroidでSkypeAppが復活したのでさっそく</title>
-      <link>http://example.org/2010/10/Android%E3%81%A7SkypeApp%E3%81%8C%E5%BE%A9%E6%B4%BB%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7%E3%81%95%E3%81%A3%E3%81%9D%E3%81%8F/</link>
+      <link>https://pyyoshi.github.io/blog/2010/10/Android%E3%81%A7SkypeApp%E3%81%8C%E5%BE%A9%E6%B4%BB%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7%E3%81%95%E3%81%A3%E3%81%9D%E3%81%8F/</link>
       <pubDate>Tue, 05 Oct 2010 19:33:00 +0900</pubDate>
       
-      <guid>http://example.org/2010/10/Android%E3%81%A7SkypeApp%E3%81%8C%E5%BE%A9%E6%B4%BB%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7%E3%81%95%E3%81%A3%E3%81%9D%E3%81%8F/</guid>
+      <guid>https://pyyoshi.github.io/blog/2010/10/Android%E3%81%A7SkypeApp%E3%81%8C%E5%BE%A9%E6%B4%BB%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7%E3%81%95%E3%81%A3%E3%81%9D%E3%81%8F/</guid>
       <description>やっと来ました！！
 今年初めに一部のキャリアでしかSkypeを使用することが出来ないようになってしまいましたが、いよいよ復活です！
 ただし、日本のプロバイダー(ストア固有ID)情報だとマーケットで表示することが出来ませんのでちょっとしたてこ入れをしてあげないといけません。
@@ -209,10 +209,10 @@ STEP 番外編1: android.kernel.orgとcode auroraからのkernelソース取得
     
     <item>
       <title>Acer Liquid EにLeaked Froyoを入れてみたよ</title>
-      <link>http://example.org/2010/10/Acer-Liquid-E%E3%81%ABLeaked-Froyo%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</link>
+      <link>https://pyyoshi.github.io/blog/2010/10/Acer-Liquid-E%E3%81%ABLeaked-Froyo%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</link>
       <pubDate>Sat, 02 Oct 2010 19:08:00 +0900</pubDate>
       
-      <guid>http://example.org/2010/10/Acer-Liquid-E%E3%81%ABLeaked-Froyo%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</guid>
+      <guid>https://pyyoshi.github.io/blog/2010/10/Acer-Liquid-E%E3%81%ABLeaked-Froyo%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</guid>
       <description>用意するもの：
 Leaked Froyo
 Acer Download Tool for A1
@@ -239,10 +239,10 @@ Liquidを購入し、rooted, ROM焼きを通して思ったことは、とても
     
     <item>
       <title>Acer Liquid Eをrooted化しちゃおう！</title>
-      <link>http://example.org/2010/10/Acer-Liquid-E%E3%82%92rooted%E5%8C%96%E3%81%97%E3%81%A1%E3%82%83%E3%81%8A%E3%81%86/</link>
+      <link>https://pyyoshi.github.io/blog/2010/10/Acer-Liquid-E%E3%82%92rooted%E5%8C%96%E3%81%97%E3%81%A1%E3%82%83%E3%81%8A%E3%81%86/</link>
       <pubDate>Sat, 02 Oct 2010 09:58:00 +0900</pubDate>
       
-      <guid>http://example.org/2010/10/Acer-Liquid-E%E3%82%92rooted%E5%8C%96%E3%81%97%E3%81%A1%E3%82%83%E3%81%8A%E3%81%86/</guid>
+      <guid>https://pyyoshi.github.io/blog/2010/10/Acer-Liquid-E%E3%82%92rooted%E5%8C%96%E3%81%97%E3%81%A1%E3%82%83%E3%81%8A%E3%81%86/</guid>
       <description>リカバリーモードに入り（Vol- カメラキー　電源 で三回振動するのを待つ）
 System Root menuから好きなモードを選んでrooted化終了です。
 とても簡単にできますね。
@@ -259,10 +259,10 @@ apk版rootedのリンク張り忘れていたので修正。</description>
     
     <item>
       <title>Acer Liquid Eにカスタムリカバリーを入れてみたよ</title>
-      <link>http://example.org/2010/10/Acer-Liquid-E%E3%81%AB%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E3%83%AA%E3%82%AB%E3%83%90%E3%83%AA%E3%83%BC%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</link>
+      <link>https://pyyoshi.github.io/blog/2010/10/Acer-Liquid-E%E3%81%AB%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E3%83%AA%E3%82%AB%E3%83%90%E3%83%AA%E3%83%BC%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</link>
       <pubDate>Fri, 01 Oct 2010 19:41:00 +0900</pubDate>
       
-      <guid>http://example.org/2010/10/Acer-Liquid-E%E3%81%AB%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E3%83%AA%E3%82%AB%E3%83%90%E3%83%AA%E3%83%BC%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</guid>
+      <guid>https://pyyoshi.github.io/blog/2010/10/Acer-Liquid-E%E3%81%AB%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E3%83%AA%E3%82%AB%E3%83%90%E3%83%AA%E3%83%BC%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</guid>
       <description>すっごく簡単にカスタムリカバリーが導入できました。
 こちらからファイルをDLして解凍しましょう。
 解凍先を開き、install_malez_recovery.cmdを開きいくつかスペース叩けば終了します。（英語だけど説明はちゃんと読んでね）
@@ -275,10 +275,10 @@ apk版rootedのリンク張り忘れていたので修正。</description>
     
     <item>
       <title>Acer Liquid Eを購入したよ！</title>
-      <link>http://example.org/2010/10/Acer-Liquid-E%E3%82%92%E8%B3%BC%E5%85%A5%E3%81%97%E3%81%9F%E3%82%88/</link>
+      <link>https://pyyoshi.github.io/blog/2010/10/Acer-Liquid-E%E3%82%92%E8%B3%BC%E5%85%A5%E3%81%97%E3%81%9F%E3%82%88/</link>
       <pubDate>Fri, 01 Oct 2010 19:17:00 +0900</pubDate>
       
-      <guid>http://example.org/2010/10/Acer-Liquid-E%E3%82%92%E8%B3%BC%E5%85%A5%E3%81%97%E3%81%9F%E3%82%88/</guid>
+      <guid>https://pyyoshi.github.io/blog/2010/10/Acer-Liquid-E%E3%82%92%E8%B3%BC%E5%85%A5%E3%81%97%E3%81%9F%E3%82%88/</guid>
       <description>GDD2010であまりにも刺激されてしまい、Acer Liquid EをIYH!してしまいました。
 HT-03A持っているのですが、なにぶんこれからのAndroid開発はARMv7以降じゃないときついのかな？
 って感じですね。ジンジャーブレッド（噂されてるやつ）や、AdobeさんがつくってるAppの仕様要件を見ていると。
@@ -288,10 +288,10 @@ HT-03A持っているのですが、なにぶんこれからのAndroid開発はA
     
     <item>
       <title>NicoRoid</title>
-      <link>http://example.org/2010/01/NicoRoid/</link>
+      <link>https://pyyoshi.github.io/blog/2010/01/NicoRoid/</link>
       <pubDate>Tue, 05 Jan 2010 23:34:00 +0900</pubDate>
       
-      <guid>http://example.org/2010/01/NicoRoid/</guid>
+      <guid>https://pyyoshi.github.io/blog/2010/01/NicoRoid/</guid>
       <description>NicoRoidはAndroidでニコニコ動画を楽しむアプリです。
 とか言っておく。
 夏コミリリースに向けて Java･C++の勉強を兼ねてとかなんとか。
@@ -300,10 +300,10 @@ HT-03A持っているのですが、なにぶんこれからのAndroid開発はA
     
     <item>
       <title>Android端末買った。</title>
-      <link>http://example.org/2010/01/Android%E7%AB%AF%E6%9C%AB%E8%B2%B7%E3%81%A3%E3%81%9F/</link>
+      <link>https://pyyoshi.github.io/blog/2010/01/Android%E7%AB%AF%E6%9C%AB%E8%B2%B7%E3%81%A3%E3%81%9F/</link>
       <pubDate>Tue, 05 Jan 2010 22:57:00 +0900</pubDate>
       
-      <guid>http://example.org/2010/01/Android%E7%AB%AF%E6%9C%AB%E8%B2%B7%E3%81%A3%E3%81%9F/</guid>
+      <guid>https://pyyoshi.github.io/blog/2010/01/Android%E7%AB%AF%E6%9C%AB%E8%B2%B7%E3%81%A3%E3%81%9F/</guid>
       <description>あけましておめでとうございます。
 さてAndroid端末の件ですが、思い切ってauからDoCoMoへMNPでHT-03Aを0円で入手。
 今のところさくさく動いてるところ。

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TwitterIrcGateway on PyYoshiのログ置き場</title>
-    <link>http://example.org/tags/TwitterIrcGateway/</link>
+    <link>https://pyyoshi.github.io/blog/tags/TwitterIrcGateway/</link>
     <description>Recent content in TwitterIrcGateway on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 18 Sep 2012 01:16:00 +0900</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/TwitterIrcGateway/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pyyoshi.github.io/blog/tags/TwitterIrcGateway/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>mono&#43;TwitterIrcGateway&#43;znc環境の構築</title>
-      <link>http://example.org/2012/09/mono-TwitterIrcGateway-znc%E7%92%B0%E5%A2%83%E3%81%AE%E6%A7%8B%E7%AF%89/</link>
+      <link>https://pyyoshi.github.io/blog/2012/09/mono-TwitterIrcGateway-znc%E7%92%B0%E5%A2%83%E3%81%AE%E6%A7%8B%E7%AF%89/</link>
       <pubDate>Tue, 18 Sep 2012 01:16:00 +0900</pubDate>
       
-      <guid>http://example.org/2012/09/mono-TwitterIrcGateway-znc%E7%92%B0%E5%A2%83%E3%81%AE%E6%A7%8B%E7%AF%89/</guid>
+      <guid>https://pyyoshi.github.io/blog/2012/09/mono-TwitterIrcGateway-znc%E7%92%B0%E5%A2%83%E3%81%AE%E6%A7%8B%E7%AF%89/</guid>
       <description>TwitterIrcGatewayをCentOS6環境で使うための備忘録
 1. まずWindowsでTIGのバイナリを作成する。  $ svn co http://svn.misuzilla.org/etcetera/TwitterIrcGateway/trunk/ tig
  TwitterIrcGateway.slnを開いて、&amp;ldquo;ISO-&amp;ldquo;という文字を検索して、一致する文字列をすべて&amp;quot;UTF-8&amp;quot;に書き換え。 #これをしないとmono環境ではうまく起動できなかった。

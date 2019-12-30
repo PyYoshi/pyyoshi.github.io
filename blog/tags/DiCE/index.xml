@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DiCE on PyYoshiのログ置き場</title>
-    <link>http://example.org/tags/DiCE/</link>
+    <link>https://pyyoshi.github.io/blog/tags/DiCE/</link>
     <description>Recent content in DiCE on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 27 Dec 2009 19:20:00 +0900</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/DiCE/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pyyoshi.github.io/blog/tags/DiCE/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ubuntuサーバ再構築(４)</title>
-      <link>http://example.org/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%89%EF%BC%94/</link>
+      <link>https://pyyoshi.github.io/blog/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%89%EF%BC%94/</link>
       <pubDate>Sun, 27 Dec 2009 19:20:00 +0900</pubDate>
       
-      <guid>http://example.org/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%89%EF%BC%94/</guid>
+      <guid>https://pyyoshi.github.io/blog/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%89%EF%BC%94/</guid>
       <description>DynamicDNSに登録してもIPころころ変わっては意味がないのでなんとか対応したい！そういう時にスクリプト書いて対応するのは良いのだが管理が大変になるかも。そーいうときはDiCEを使おう！
 ということでDiCE導入から設定まで
 cd /usr/local/binsudo wget http://www.hi-ho.ne.jp/cgi-bin/user/yoshihiro_e/download.cgi?p=diced019sudo tar zxvf diced01914.tar.gzsudo rm &amp;ldquo;diced01914.tar.gz&amp;quot;

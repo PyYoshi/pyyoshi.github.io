@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>boost on PyYoshiのログ置き場</title>
-    <link>http://example.org/tags/boost/</link>
+    <link>https://pyyoshi.github.io/blog/tags/boost/</link>
     <description>Recent content in boost on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 18 Apr 2011 18:12:00 +0900</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/boost/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pyyoshi.github.io/blog/tags/boost/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>VS2010でboostを扱う準備</title>
-      <link>http://example.org/2011/04/VS2010%E3%81%A7boost%E3%82%92%E6%89%B1%E3%81%86%E6%BA%96%E5%82%99/</link>
+      <link>https://pyyoshi.github.io/blog/2011/04/VS2010%E3%81%A7boost%E3%82%92%E6%89%B1%E3%81%86%E6%BA%96%E5%82%99/</link>
       <pubDate>Mon, 18 Apr 2011 18:12:00 +0900</pubDate>
       
-      <guid>http://example.org/2011/04/VS2010%E3%81%A7boost%E3%82%92%E6%89%B1%E3%81%86%E6%BA%96%E5%82%99/</guid>
+      <guid>https://pyyoshi.github.io/blog/2011/04/VS2010%E3%81%A7boost%E3%82%92%E6%89%B1%E3%81%86%E6%BA%96%E5%82%99/</guid>
       <description>研究室配属されて、スクリプト言語ばかり使っていた生活も変わるだろうとDreamSparkからVS2010を拝借した。
 で、巷で話題のboostをVS2010で使えるようにした。（boostすげぇーってしか分かってないｗ
 それとVSがうまくインスコされていないのか各PATHを手動で通している。

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>jdk on PyYoshiのログ置き場</title>
-    <link>http://example.org/tags/jdk/</link>
+    <link>https://pyyoshi.github.io/blog/tags/jdk/</link>
     <description>Recent content in jdk on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 27 Dec 2012 17:46:00 +0900</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/jdk/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pyyoshi.github.io/blog/tags/jdk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>JDKをwgetする</title>
-      <link>http://example.org/2012/12/JDK%E3%82%92wget%E3%81%99%E3%82%8B/</link>
+      <link>https://pyyoshi.github.io/blog/2012/12/JDK%E3%82%92wget%E3%81%99%E3%82%8B/</link>
       <pubDate>Thu, 27 Dec 2012 17:46:00 +0900</pubDate>
       
-      <guid>http://example.org/2012/12/JDK%E3%82%92wget%E3%81%99%E3%82%8B/</guid>
+      <guid>https://pyyoshi.github.io/blog/2012/12/JDK%E3%82%92wget%E3%81%99%E3%82%8B/</guid>
       <description>JDKはブラウザで同意のもとでDLしなくてはいけなくて、それがサーバのセットアップとなると結構めんどくさくて頭にきていたのですが、なにやら調べてみるとwgetでいけるみたいです。
  $ wget &amp;ndash;no-cookies &amp;ndash;header &amp;ldquo;Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com&amp;rdquo; &amp;ldquo;http://download.oracle.com/otn-pub/java/jdk/6u38-b05/jdk-6u38-linux-x64.bin&amp;quot;
  こんなかんじでおｋみたいです。

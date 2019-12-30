@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BeautifulSoup on PyYoshiのログ置き場</title>
-    <link>http://example.org/tags/BeautifulSoup/</link>
+    <link>https://pyyoshi.github.io/blog/tags/BeautifulSoup/</link>
     <description>Recent content in BeautifulSoup on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 03 Dec 2010 01:13:00 +0900</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/BeautifulSoup/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pyyoshi.github.io/blog/tags/BeautifulSoup/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>beautifulsoupが3.0.1から3.2.0に変わったらHTMLParseErrorなくなってた！</title>
-      <link>http://example.org/2010/12/beautifulsoup%E3%81%8C3.0.1%E3%81%8B%E3%82%893.2.0%E3%81%AB%E5%A4%89%E3%82%8F%E3%81%A3%E3%81%9F%E3%82%89HTMLParseError%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%9F/</link>
+      <link>https://pyyoshi.github.io/blog/2010/12/beautifulsoup%E3%81%8C3.0.1%E3%81%8B%E3%82%893.2.0%E3%81%AB%E5%A4%89%E3%82%8F%E3%81%A3%E3%81%9F%E3%82%89HTMLParseError%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%9F/</link>
       <pubDate>Fri, 03 Dec 2010 01:13:00 +0900</pubDate>
       
-      <guid>http://example.org/2010/12/beautifulsoup%E3%81%8C3.0.1%E3%81%8B%E3%82%893.2.0%E3%81%AB%E5%A4%89%E3%82%8F%E3%81%A3%E3%81%9F%E3%82%89HTMLParseError%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%9F/</guid>
+      <guid>https://pyyoshi.github.io/blog/2010/12/beautifulsoup%E3%81%8C3.0.1%E3%81%8B%E3%82%893.2.0%E3%81%AB%E5%A4%89%E3%82%8F%E3%81%A3%E3%81%9F%E3%82%89HTMLParseError%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%9F/</guid>
       <description>beautifulsoupが3.0.1から3.2.0に変わったらHTMLParseErrorなくなっていました。そういえばアップデートしてないなーとか思いながらeasy_installから実行したら、そうなっちまった。良いことなのか悪いのか、間違いなく例外とかfrom importとか書き換えないと行けない場所が出てしまった。しかし、パースエラーあった部分が問題なくパースされるようになったりどっこいどっこいなのかな。で、まぁアップデートによってfrom html5lib import HTMLParser from html5lib import treebuilders from BeautifulSoup import HTMLParseError try: soup = BeautifulSoup(html) except HTMLParseError, e: parser = HTMLParser(tree=treebuilders.getTreeBuilder(&amp;quot;beautifulsoup&amp;quot;)) soup = parser.parse(html)  とかやって別なパーサーでエラー部分を除去って貰う形をとっていたことが必要なくなったのかな？
 ということで前回書いた記事「BeautifulSoupでHTMLParseErrorが起きた時の対処」もこんなことやれば良かったのかな？
 まぁまとめるとアップデートしとけ(ﾟДﾟ)ｺﾞﾙｧ!! ですね・・・ｗ</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>BeautifulSoupでHTMLParseErrorが起きた時の対処</title>
-      <link>http://example.org/2010/11/BeautifulSoup%E3%81%A7HTMLParseError%E3%81%8C%E8%B5%B7%E3%81%8D%E3%81%9F%E6%99%82%E3%81%AE%E5%AF%BE%E5%87%A6/</link>
+      <link>https://pyyoshi.github.io/blog/2010/11/BeautifulSoup%E3%81%A7HTMLParseError%E3%81%8C%E8%B5%B7%E3%81%8D%E3%81%9F%E6%99%82%E3%81%AE%E5%AF%BE%E5%87%A6/</link>
       <pubDate>Thu, 04 Nov 2010 21:16:00 +0900</pubDate>
       
-      <guid>http://example.org/2010/11/BeautifulSoup%E3%81%A7HTMLParseError%E3%81%8C%E8%B5%B7%E3%81%8D%E3%81%9F%E6%99%82%E3%81%AE%E5%AF%BE%E5%87%A6/</guid>
+      <guid>https://pyyoshi.github.io/blog/2010/11/BeautifulSoup%E3%81%A7HTMLParseError%E3%81%8C%E8%B5%B7%E3%81%8D%E3%81%9F%E6%99%82%E3%81%AE%E5%AF%BE%E5%87%A6/</guid>
       <description>BeautifulSoupでスクレイピングしていたとき、「bad end tag: u&amp;rdquo;&amp;quot;」というHTMLParseErrorが起きてしまった。
 これから研究でぶち当たっていきそうなのでとりあえずメモ。
 結果から言うと単純に例外処理で該当部分を書き換えてしまえばいいのだ。

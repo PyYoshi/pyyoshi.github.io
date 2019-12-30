@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>EASEUS Disk Copy on PyYoshiのログ置き場</title>
-    <link>http://example.org/tags/EASEUS-Disk-Copy/</link>
+    <link>https://pyyoshi.github.io/blog/tags/EASEUS-Disk-Copy/</link>
     <description>Recent content in EASEUS Disk Copy on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 03 Feb 2010 14:56:00 +0900</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/EASEUS-Disk-Copy/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pyyoshi.github.io/blog/tags/EASEUS-Disk-Copy/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>EASEUS Disk CopyをブータブルUSBメモリで。</title>
-      <link>http://example.org/2010/02/EASEUS-Disk-Copy%E3%82%92%E3%83%96%E3%83%BC%E3%82%BF%E3%83%96%E3%83%ABUSB%E3%83%A1%E3%83%A2%E3%83%AA%E3%81%A7/</link>
+      <link>https://pyyoshi.github.io/blog/2010/02/EASEUS-Disk-Copy%E3%82%92%E3%83%96%E3%83%BC%E3%82%BF%E3%83%96%E3%83%ABUSB%E3%83%A1%E3%83%A2%E3%83%AA%E3%81%A7/</link>
       <pubDate>Wed, 03 Feb 2010 14:56:00 +0900</pubDate>
       
-      <guid>http://example.org/2010/02/EASEUS-Disk-Copy%E3%82%92%E3%83%96%E3%83%BC%E3%82%BF%E3%83%96%E3%83%ABUSB%E3%83%A1%E3%83%A2%E3%83%AA%E3%81%A7/</guid>
+      <guid>https://pyyoshi.github.io/blog/2010/02/EASEUS-Disk-Copy%E3%82%92%E3%83%96%E3%83%BC%E3%82%BF%E3%83%96%E3%83%ABUSB%E3%83%A1%E3%83%A2%E3%83%AA%E3%81%A7/</guid>
       <description>EASEUS Disk Copy自体はDiskからの起動をサポートしていますが、ネットブックなどのドライブを持たないPCからは、USBドライブで使わなくてはいけなく非常にだるいですね。
 とりあえずEASEUS Disk CopyをDLしてきてiso内を見たらGrubにより起動させているみたいなのでUnetbootinでいけるんじゃね？ということで試したらいけたのでその時のメモ。
 手順
