@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>daemon on PyYoshiのログ置き場</title>
-    <link>https://pyyoshi.github.io/blog/tags/daemon/</link>
+    <link>http://pyyoshi.github.io/blog/tags/daemon/</link>
     <description>Recent content in daemon on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 09 May 2013 00:02:00 +0900</lastBuildDate>
     
-	<atom:link href="https://pyyoshi.github.io/blog/tags/daemon/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://pyyoshi.github.io/blog/tags/daemon/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Pythonで行儀の良いデーモンを作るpython-daemonを現行のPythonでも動作するようにした</title>
-      <link>https://pyyoshi.github.io/blog/2013/05/Python%E3%81%A7%E8%A1%8C%E5%84%80%E3%81%AE%E8%89%AF%E3%81%84%E3%83%87%E3%83%BC%E3%83%A2%E3%83%B3%E3%82%92%E4%BD%9C%E3%82%8Bpython-daemon%E3%82%92%E7%8F%BE%E8%A1%8C%E3%81%AEPython%E3%81%A7%E3%82%82%E5%8B%95%E4%BD%9C%E3%81%99%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%81%9F/</link>
+      <link>http://pyyoshi.github.io/blog/2013/05/Python%E3%81%A7%E8%A1%8C%E5%84%80%E3%81%AE%E8%89%AF%E3%81%84%E3%83%87%E3%83%BC%E3%83%A2%E3%83%B3%E3%82%92%E4%BD%9C%E3%82%8Bpython-daemon%E3%82%92%E7%8F%BE%E8%A1%8C%E3%81%AEPython%E3%81%A7%E3%82%82%E5%8B%95%E4%BD%9C%E3%81%99%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%81%9F/</link>
       <pubDate>Thu, 09 May 2013 00:02:00 +0900</pubDate>
       
-      <guid>https://pyyoshi.github.io/blog/2013/05/Python%E3%81%A7%E8%A1%8C%E5%84%80%E3%81%AE%E8%89%AF%E3%81%84%E3%83%87%E3%83%BC%E3%83%A2%E3%83%B3%E3%82%92%E4%BD%9C%E3%82%8Bpython-daemon%E3%82%92%E7%8F%BE%E8%A1%8C%E3%81%AEPython%E3%81%A7%E3%82%82%E5%8B%95%E4%BD%9C%E3%81%99%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%81%9F/</guid>
+      <guid>http://pyyoshi.github.io/blog/2013/05/Python%E3%81%A7%E8%A1%8C%E5%84%80%E3%81%AE%E8%89%AF%E3%81%84%E3%83%87%E3%83%BC%E3%83%A2%E3%83%B3%E3%82%92%E4%BD%9C%E3%82%8Bpython-daemon%E3%82%92%E7%8F%BE%E8%A1%8C%E3%81%AEPython%E3%81%A7%E3%82%82%E5%8B%95%E4%BD%9C%E3%81%99%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%81%9F/</guid>
       <description>行儀が良いデーモンを作るのはとても複雑で難しい。
 それをpython-daemonを使えば簡単に行儀の良いデーモンがつくれちゃう。
 とっても便利で良いのですが。

@@ -3,1737 +3,1737 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/</loc>
+    <loc>http://pyyoshi.github.io/blog/categories/</loc>
     <lastmod>2018-10-31T14:21:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/linux/</loc>
+    <loc>http://pyyoshi.github.io/blog/categories/linux/</loc>
     <lastmod>2018-10-31T14:21:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/linux/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/linux/</loc>
     <lastmod>2018-10-31T14:21:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/posts/</loc>
+    <loc>http://pyyoshi.github.io/blog/posts/</loc>
     <lastmod>2018-10-31T14:21:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/</loc>
+    <loc>http://pyyoshi.github.io/blog/</loc>
     <lastmod>2018-10-31T14:21:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/</loc>
     <lastmod>2018-10-31T14:21:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/ubuntu/</loc>
+    <loc>http://pyyoshi.github.io/blog/categories/ubuntu/</loc>
     <lastmod>2018-10-31T14:21:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/ubuntu/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/ubuntu/</loc>
     <lastmod>2018-10-31T14:21:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2018/10/XPS-139360-Intel-8th-gen%E3%81%AEi915%E8%A8%AD%E5%AE%9A/</loc>
+    <loc>http://pyyoshi.github.io/blog/2018/10/XPS-139360-Intel-8th-gen%E3%81%AEi915%E8%A8%AD%E5%AE%9A/</loc>
     <lastmod>2018-10-31T14:21:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/xps13/</loc>
+    <loc>http://pyyoshi.github.io/blog/categories/xps13/</loc>
     <lastmod>2018-10-31T14:21:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/xps13/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/xps13/</loc>
     <lastmod>2018-10-31T14:21:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2018/10/XPS-139360-Intel-8th-gen%E3%81%AENVME%E3%81%AE%E7%9C%81%E9%9B%BB%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%82%92%E6%9C%89%E5%8A%B9%E3%81%AB%E3%81%99%E3%82%8B/</loc>
+    <loc>http://pyyoshi.github.io/blog/2018/10/XPS-139360-Intel-8th-gen%E3%81%AENVME%E3%81%AE%E7%9C%81%E9%9B%BB%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%82%92%E6%9C%89%E5%8A%B9%E3%81%AB%E3%81%99%E3%82%8B/</loc>
     <lastmod>2018-10-31T13:53:07+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2018/10/Ubuntu-18.04%E3%81%A7%E8%B5%B7%E5%8B%95%E6%99%82%E9%96%93%E3%81%8C%E9%81%85%E3%81%84%E5%A0%B4%E5%90%88%E3%81%AE%E5%AF%BE%E5%87%A6/</loc>
+    <loc>http://pyyoshi.github.io/blog/2018/10/Ubuntu-18.04%E3%81%A7%E8%B5%B7%E5%8B%95%E6%99%82%E9%96%93%E3%81%8C%E9%81%85%E3%81%84%E5%A0%B4%E5%90%88%E3%81%AE%E5%AF%BE%E5%87%A6/</loc>
     <lastmod>2018-10-09T19:19:21+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/elasticsearch/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/elasticsearch/</loc>
     <lastmod>2018-05-22T15:36:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/elasticsearch/</loc>
+    <loc>http://pyyoshi.github.io/blog/categories/elasticsearch/</loc>
     <lastmod>2018-05-22T15:36:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2018/05/%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E7%92%B0%E5%A2%83%E3%81%ABElasticSearch%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</loc>
+    <loc>http://pyyoshi.github.io/blog/2018/05/%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E7%92%B0%E5%A2%83%E3%81%ABElasticSearch%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</loc>
     <lastmod>2018-05-22T15:36:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/back-in-time/</loc>
+    <loc>http://pyyoshi.github.io/blog/categories/back-in-time/</loc>
     <lastmod>2018-01-05T19:14:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/back-in-time/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/back-in-time/</loc>
     <lastmod>2018-01-05T19:14:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/backup/</loc>
+    <loc>http://pyyoshi.github.io/blog/categories/backup/</loc>
     <lastmod>2018-01-05T19:14:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/backup/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/backup/</loc>
     <lastmod>2018-01-05T19:14:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/deja-dup/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/deja-dup/</loc>
     <lastmod>2018-01-05T19:14:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/deja-dup/</loc>
+    <loc>http://pyyoshi.github.io/blog/categories/deja-dup/</loc>
     <lastmod>2018-01-05T19:14:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/systemback/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/systemback/</loc>
     <lastmod>2018-01-05T19:14:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/systemback/</loc>
+    <loc>http://pyyoshi.github.io/blog/categories/systemback/</loc>
     <lastmod>2018-01-05T19:14:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/timemachine/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/timemachine/</loc>
     <lastmod>2018-01-05T19:14:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/timemachine/</loc>
+    <loc>http://pyyoshi.github.io/blog/categories/timemachine/</loc>
     <lastmod>2018-01-05T19:14:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/timeshift/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/timeshift/</loc>
     <lastmod>2018-01-05T19:14:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/timeshift/</loc>
+    <loc>http://pyyoshi.github.io/blog/categories/timeshift/</loc>
     <lastmod>2018-01-05T19:14:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2018/01/Ubuntu%E3%81%AE%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E7%92%B0%E5%A2%83-%E8%AA%BF%E6%9F%BB/</loc>
+    <loc>http://pyyoshi.github.io/blog/2018/01/Ubuntu%E3%81%AE%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E7%92%B0%E5%A2%83-%E8%AA%BF%E6%9F%BB/</loc>
     <lastmod>2018-01-05T19:14:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2017/12/2018%E5%B9%B4%E3%82%84%E3%82%8A%E3%81%9F%E3%81%84%E3%83%AA%E3%82%B9%E3%83%88/</loc>
+    <loc>http://pyyoshi.github.io/blog/2017/12/2018%E5%B9%B4%E3%82%84%E3%82%8A%E3%81%9F%E3%81%84%E3%83%AA%E3%82%B9%E3%83%88/</loc>
     <lastmod>2017-12-31T15:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2017/12/2017%E5%B9%B4%E3%81%A8%E3%81%93%E3%82%8C%E3%81%8B%E3%82%89/</loc>
+    <loc>http://pyyoshi.github.io/blog/2017/12/2017%E5%B9%B4%E3%81%A8%E3%81%93%E3%82%8C%E3%81%8B%E3%82%89/</loc>
     <lastmod>2017-12-31T01:38:05+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2017/11/WebAssembly%E3%82%92%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%81%A7%E5%AE%9F%E8%A1%8C%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AB%E3%83%8F%E3%83%9E%E3%81%A3%E3%81%9F/</loc>
+    <loc>http://pyyoshi.github.io/blog/2017/11/WebAssembly%E3%82%92%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%81%A7%E5%AE%9F%E8%A1%8C%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AB%E3%83%8F%E3%83%9E%E3%81%A3%E3%81%9F/</loc>
     <lastmod>2017-11-14T16:55:30+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2017/11/react-native-bundle/start%E5%AE%9F%E8%A1%8C%E6%99%82%E3%81%ABbundling%E3%81%8C0%E3%81%AE%E3%81%BE%E3%81%BE%E9%80%B2%E3%81%BE%E3%81%AA%E3%81%84%E5%A0%B4%E5%90%88/</loc>
+    <loc>http://pyyoshi.github.io/blog/2017/11/react-native-bundle/start%E5%AE%9F%E8%A1%8C%E6%99%82%E3%81%ABbundling%E3%81%8C0%E3%81%AE%E3%81%BE%E3%81%BE%E9%80%B2%E3%81%BE%E3%81%AA%E3%81%84%E5%A0%B4%E5%90%88/</loc>
     <lastmod>2017-11-05T01:59:59+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2017/10/github%E3%81%AA%E3%81%A9%E3%81%AEwebhook%E3%82%92%E3%81%86%E3%81%91%E3%81%A8%E3%82%8B%E4%BE%BF%E5%88%A9%E3%81%AAGo%E8%A3%BD%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC-adnanh/webhook/</loc>
+    <loc>http://pyyoshi.github.io/blog/2017/10/github%E3%81%AA%E3%81%A9%E3%81%AEwebhook%E3%82%92%E3%81%86%E3%81%91%E3%81%A8%E3%82%8B%E4%BE%BF%E5%88%A9%E3%81%AAGo%E8%A3%BD%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC-adnanh/webhook/</loc>
     <lastmod>2017-10-25T21:45:08+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/typescript/</loc>
+    <loc>http://pyyoshi.github.io/blog/categories/typescript/</loc>
     <lastmod>2017-10-12T21:18:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/typescript/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/typescript/</loc>
     <lastmod>2017-10-12T21:18:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/webstorm/</loc>
+    <loc>http://pyyoshi.github.io/blog/categories/webstorm/</loc>
     <lastmod>2017-10-12T21:18:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/webstorm/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/webstorm/</loc>
     <lastmod>2017-10-12T21:18:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2017/10/WebStorm%E3%81%AE%E6%99%82%E4%BB%A3%E3%81%AF%E7%B5%82%E3%82%8F%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%8B%E3%82%82%E3%81%97%E3%82%8C%E3%81%AA%E3%81%84/</loc>
+    <loc>http://pyyoshi.github.io/blog/2017/10/WebStorm%E3%81%AE%E6%99%82%E4%BB%A3%E3%81%AF%E7%B5%82%E3%82%8F%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%8B%E3%82%82%E3%81%97%E3%82%8C%E3%81%AA%E3%81%84/</loc>
     <lastmod>2017-10-12T21:18:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/react-native/</loc>
+    <loc>http://pyyoshi.github.io/blog/categories/react-native/</loc>
     <lastmod>2017-10-09T17:49:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/react-native/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/react-native/</loc>
     <lastmod>2017-10-09T17:49:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2017/10/react-native-camera%E3%82%92Android%E3%81%A7%E4%BD%BF%E3%81%86%E3%81%A8%E3%81%8D%E3%81%AE%E3%81%A1%E3%82%87%E3%81%A3%E3%81%A8%E3%81%97%E3%81%9F%E7%BD%A0/</loc>
+    <loc>http://pyyoshi.github.io/blog/2017/10/react-native-camera%E3%82%92Android%E3%81%A7%E4%BD%BF%E3%81%86%E3%81%A8%E3%81%8D%E3%81%AE%E3%81%A1%E3%82%87%E3%81%A3%E3%81%A8%E3%81%97%E3%81%9F%E7%BD%A0/</loc>
     <lastmod>2017-10-09T17:49:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/firebase/</loc>
+    <loc>http://pyyoshi.github.io/blog/categories/firebase/</loc>
     <lastmod>2017-10-06T08:42:49+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/firebase/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/firebase/</loc>
     <lastmod>2017-10-06T08:42:49+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2017/10/Firebase-Database%E3%81%A7%E3%83%91%E3%82%B9%E3%81%ABuid%E3%82%92%E5%90%AB%E3%82%81%E3%81%9F%E3%83%A6%E3%83%BC%E3%82%B6%E6%A8%A9%E9%99%90%E5%91%A8%E3%82%8A%E3%82%92Firestore%E3%81%A7%E3%82%84%E3%82%8B%E3%81%AB%E3%81%AF/</loc>
+    <loc>http://pyyoshi.github.io/blog/2017/10/Firebase-Database%E3%81%A7%E3%83%91%E3%82%B9%E3%81%ABuid%E3%82%92%E5%90%AB%E3%82%81%E3%81%9F%E3%83%A6%E3%83%BC%E3%82%B6%E6%A8%A9%E9%99%90%E5%91%A8%E3%82%8A%E3%82%92Firestore%E3%81%A7%E3%82%84%E3%82%8B%E3%81%AB%E3%81%AF/</loc>
     <lastmod>2017-10-06T08:42:49+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/firestore/</loc>
+    <loc>http://pyyoshi.github.io/blog/categories/firestore/</loc>
     <lastmod>2017-10-06T08:42:49+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/firestore/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/firestore/</loc>
     <lastmod>2017-10-06T08:42:49+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2017/09/react-native%E3%81%AEpackager%E3%81%8CAmbiguous-resolution-of-react-native%E3%81%A8%E3%82%A8%E3%83%A9%E3%83%BC%E3%82%92%E5%90%90%E3%81%84%E3%81%9F%E3%82%89%E8%A9%A6%E3%81%99%E3%81%93%E3%81%A8/</loc>
+    <loc>http://pyyoshi.github.io/blog/2017/09/react-native%E3%81%AEpackager%E3%81%8CAmbiguous-resolution-of-react-native%E3%81%A8%E3%82%A8%E3%83%A9%E3%83%BC%E3%82%92%E5%90%90%E3%81%84%E3%81%9F%E3%82%89%E8%A9%A6%E3%81%99%E3%81%93%E3%81%A8/</loc>
     <lastmod>2017-09-27T03:36:06+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2017/09/Xcode%E3%81%A7CoreFoundation%E3%81%AA%E3%81%A9%E3%81%AE%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%AE%E3%83%93%E3%83%AB%E3%83%89%E3%81%AB%E5%A4%B1%E6%95%97%E3%81%97%E3%81%9F/</loc>
+    <loc>http://pyyoshi.github.io/blog/2017/09/Xcode%E3%81%A7CoreFoundation%E3%81%AA%E3%81%A9%E3%81%AE%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%AE%E3%83%93%E3%83%AB%E3%83%89%E3%81%AB%E5%A4%B1%E6%95%97%E3%81%97%E3%81%9F/</loc>
     <lastmod>2017-09-26T16:40:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2017/08/%E3%81%8A%E4%BB%95%E4%BA%8B%E6%8E%A2%E3%81%97%E3%81%A6%E3%81%BE%E3%81%99/</loc>
+    <loc>http://pyyoshi.github.io/blog/2017/08/%E3%81%8A%E4%BB%95%E4%BA%8B%E6%8E%A2%E3%81%97%E3%81%A6%E3%81%BE%E3%81%99/</loc>
     <lastmod>2017-08-07T15:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2017/02/brotli/</loc>
+    <loc>http://pyyoshi.github.io/blog/2017/02/brotli/</loc>
     <lastmod>2017-02-28T09:29:30+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2017/02/bazel%E3%81%A7docker%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E3%82%92%E4%BD%9C%E3%82%8B%E3%81%AE%E3%81%A4%E3%82%89%E3%81%84/</loc>
+    <loc>http://pyyoshi.github.io/blog/2017/02/bazel%E3%81%A7docker%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E3%82%92%E4%BD%9C%E3%82%8B%E3%81%AE%E3%81%A4%E3%82%89%E3%81%84/</loc>
     <lastmod>2017-02-27T04:45:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2017/02/X96-TV-BoxARMv8%E3%81%ABArmbian%E3%81%AAUbuntu-16.04%E3%82%92%E5%85%A5%E3%82%8C%E3%82%8B/</loc>
+    <loc>http://pyyoshi.github.io/blog/2017/02/X96-TV-BoxARMv8%E3%81%ABArmbian%E3%81%AAUbuntu-16.04%E3%82%92%E5%85%A5%E3%82%8C%E3%82%8B/</loc>
     <lastmod>2017-02-22T01:47:04+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2017/02/%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</loc>
+    <loc>http://pyyoshi.github.io/blog/2017/02/%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</loc>
     <lastmod>2017-02-08T07:13:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/golang/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/golang/</loc>
     <lastmod>2016-12-07T18:20:12+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/golang/</loc>
+    <loc>http://pyyoshi.github.io/blog/categories/golang/</loc>
     <lastmod>2016-12-07T18:20:12+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2016/12/redigo%E3%81%AEPool%E3%81%A8redigomock%E3%82%92%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</loc>
+    <loc>http://pyyoshi.github.io/blog/2016/12/redigo%E3%81%AEPool%E3%81%A8redigomock%E3%82%92%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2016-12-07T18:20:12+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2016/11/Lets-encrypt%E3%82%92nginx%E3%81%A7%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B%E9%9A%9B%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</loc>
+    <loc>http://pyyoshi.github.io/blog/2016/11/Lets-encrypt%E3%82%92nginx%E3%81%A7%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B%E9%9A%9B%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</loc>
     <lastmod>2016-11-14T01:17:47+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/pages/</loc>
+    <loc>http://pyyoshi.github.io/blog/pages/</loc>
     <lastmod>2016-10-31T20:47:58+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/pages/subsc-services-list/</loc>
+    <loc>http://pyyoshi.github.io/blog/pages/subsc-services-list/</loc>
     <lastmod>2016-10-31T20:47:58+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2016/10/OGP%E3%82%84Twitter-Cards%E3%81%AA%E3%81%A9%E3%81%AE%E7%94%BB%E5%83%8F%E8%A7%A3%E5%83%8F%E5%BA%A6%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</loc>
+    <loc>http://pyyoshi.github.io/blog/2016/10/OGP%E3%82%84Twitter-Cards%E3%81%AA%E3%81%A9%E3%81%AE%E7%94%BB%E5%83%8F%E8%A7%A3%E5%83%8F%E5%BA%A6%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</loc>
     <lastmod>2016-10-25T18:25:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2016/10/slack%E3%81%AE%E3%83%81%E3%83%A3%E3%83%83%E3%83%88%E3%83%AD%E3%82%B0%E3%82%92%E3%81%8A%E6%89%8B%E8%BB%BD%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97/</loc>
+    <loc>http://pyyoshi.github.io/blog/2016/10/slack%E3%81%AE%E3%83%81%E3%83%A3%E3%83%83%E3%83%88%E3%83%AD%E3%82%B0%E3%82%92%E3%81%8A%E6%89%8B%E8%BB%BD%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97/</loc>
     <lastmod>2016-10-18T01:09:16+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2016/09/ReactJS-Server-side-rendering%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%95%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB/</loc>
+    <loc>http://pyyoshi.github.io/blog/2016/09/ReactJS-Server-side-rendering%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%95%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB/</loc>
     <lastmod>2016-09-29T23:19:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/reactjs/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/reactjs/</loc>
     <lastmod>2016-09-29T23:19:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/reactjs/</loc>
+    <loc>http://pyyoshi.github.io/blog/categories/reactjs/</loc>
     <lastmod>2016-09-29T23:19:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2016/09/golang%E3%81%A7struct%E3%81%AB%E3%83%9E%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0%E5%89%8D%E3%81%ABJSON%E3%81%AE%E7%89%B9%E5%AE%9A%E3%81%AE%E3%83%97%E3%83%AD%E3%83%91%E3%83%86%E3%82%A3%E3%81%AE%E5%80%A4%E3%82%92%E7%A2%BA%E8%AA%8D%E3%81%97%E3%81%9F%E3%81%84/</loc>
+    <loc>http://pyyoshi.github.io/blog/2016/09/golang%E3%81%A7struct%E3%81%AB%E3%83%9E%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0%E5%89%8D%E3%81%ABJSON%E3%81%AE%E7%89%B9%E5%AE%9A%E3%81%AE%E3%83%97%E3%83%AD%E3%83%91%E3%83%86%E3%82%A3%E3%81%AE%E5%80%A4%E3%82%92%E7%A2%BA%E8%AA%8D%E3%81%97%E3%81%9F%E3%81%84/</loc>
     <lastmod>2016-09-13T06:11:20+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2016/09/%E3%83%96%E3%83%AD%E3%82%B0%E9%AF%96%E3%81%AE%E6%9B%B4%E6%96%B0/</loc>
+    <loc>http://pyyoshi.github.io/blog/2016/09/%E3%83%96%E3%83%AD%E3%82%B0%E9%AF%96%E3%81%AE%E6%9B%B4%E6%96%B0/</loc>
     <lastmod>2016-09-05T03:44:36+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2016/08/golang-%E9%96%A2%E6%95%B0%E3%81%AE%E5%8F%82%E7%85%A7%E6%B8%A1%E3%81%97%E3%83%9D%E3%82%A4%E3%83%B3%E3%82%BF%E3%81%A8%E5%80%A4%E6%B8%A1%E3%81%97%E3%81%A8%E8%BF%94%E3%82%8A%E5%80%A4%E3%81%AE%E9%80%9F%E5%BA%A6%E3%81%AE%E9%81%95%E3%81%84%E3%81%A8%E3%81%8B/</loc>
+    <loc>http://pyyoshi.github.io/blog/2016/08/golang-%E9%96%A2%E6%95%B0%E3%81%AE%E5%8F%82%E7%85%A7%E6%B8%A1%E3%81%97%E3%83%9D%E3%82%A4%E3%83%B3%E3%82%BF%E3%81%A8%E5%80%A4%E6%B8%A1%E3%81%97%E3%81%A8%E8%BF%94%E3%82%8A%E5%80%A4%E3%81%AE%E9%80%9F%E5%BA%A6%E3%81%AE%E9%81%95%E3%81%84%E3%81%A8%E3%81%8B/</loc>
     <lastmod>2016-08-19T19:07:19+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2016/07/react-router%E3%81%AEpush%E6%99%82%E3%81%AB%E9%81%B7%E7%A7%BB%E5%85%88%E3%82%B3%E3%83%B3%E3%83%9D%E3%83%8D%E3%83%B3%E3%83%88%E3%81%ABprops%E3%82%92%E6%B8%A1%E3%81%97%E3%81%9F%E3%81%84/</loc>
+    <loc>http://pyyoshi.github.io/blog/2016/07/react-router%E3%81%AEpush%E6%99%82%E3%81%AB%E9%81%B7%E7%A7%BB%E5%85%88%E3%82%B3%E3%83%B3%E3%83%9D%E3%83%8D%E3%83%B3%E3%83%88%E3%81%ABprops%E3%82%92%E6%B8%A1%E3%81%97%E3%81%9F%E3%81%84/</loc>
     <lastmod>2016-07-29T01:01:17+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2016/07/Unity-5.3.x%E3%81%AEUnityFS%E3%81%AE%E6%A7%8B%E9%80%A0/</loc>
+    <loc>http://pyyoshi.github.io/blog/2016/07/Unity-5.3.x%E3%81%AEUnityFS%E3%81%AE%E6%A7%8B%E9%80%A0/</loc>
     <lastmod>2016-07-16T07:58:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2016/06/WIP-realm-js%E3%81%AE%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B6%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%8C%E6%89%B1%E3%81%84%E3%81%A5%E3%82%89%E3%81%84/</loc>
+    <loc>http://pyyoshi.github.io/blog/2016/06/WIP-realm-js%E3%81%AE%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B6%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%8C%E6%89%B1%E3%81%84%E3%81%A5%E3%82%89%E3%81%84/</loc>
     <lastmod>2016-06-06T00:35:24+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2016/05/react-native%E3%81%AEImage%E3%82%B3%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%8D%E3%83%B3%E3%83%88%E3%81%AEURL%E3%82%AD%E3%83%A3%E3%83%83%E3%82%B7%E3%83%A5%E3%81%AE%E6%8C%99%E5%8B%95/</loc>
+    <loc>http://pyyoshi.github.io/blog/2016/05/react-native%E3%81%AEImage%E3%82%B3%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%8D%E3%83%B3%E3%83%88%E3%81%AEURL%E3%82%AD%E3%83%A3%E3%83%83%E3%82%B7%E3%83%A5%E3%81%AE%E6%8C%99%E5%8B%95/</loc>
     <lastmod>2016-05-30T23:21:18+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2016/05/%E3%81%93%E3%81%93%E6%9C%80%E8%BF%91%E3%81%AEGo%E7%92%B0%E5%A2%83/</loc>
+    <loc>http://pyyoshi.github.io/blog/2016/05/%E3%81%93%E3%81%93%E6%9C%80%E8%BF%91%E3%81%AEGo%E7%92%B0%E5%A2%83/</loc>
     <lastmod>2016-05-30T13:55:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2016/05/%E5%BD%93%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92HTTPS%E5%8C%96/</loc>
+    <loc>http://pyyoshi.github.io/blog/2016/05/%E5%BD%93%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92HTTPS%E5%8C%96/</loc>
     <lastmod>2016-05-30T06:17:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2016/05/reactjs%E3%81%A8goa/</loc>
+    <loc>http://pyyoshi.github.io/blog/2016/05/reactjs%E3%81%A8goa/</loc>
     <lastmod>2016-05-22T20:27:22+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2015/12/react-native-react-redux%E3%81%AE%E5%B0%8E%E5%85%A5%E3%81%AE%E9%9A%9B%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</loc>
+    <loc>http://pyyoshi.github.io/blog/2015/12/react-native-react-redux%E3%81%AE%E5%B0%8E%E5%85%A5%E3%81%AE%E9%9A%9B%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</loc>
     <lastmod>2015-12-11T18:24:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2015/11/%E3%83%8F%E3%82%A4%E3%83%96%E3%83%AA%E3%83%83%E3%83%89App%E3%81%AF%E6%89%8B%E3%82%92%E5%87%BA%E3%81%99%E3%81%AB%E3%81%AF%E3%81%BE%E3%81%A0%E6%97%A9%E3%81%84/</loc>
+    <loc>http://pyyoshi.github.io/blog/2015/11/%E3%83%8F%E3%82%A4%E3%83%96%E3%83%AA%E3%83%83%E3%83%89App%E3%81%AF%E6%89%8B%E3%82%92%E5%87%BA%E3%81%99%E3%81%AB%E3%81%AF%E3%81%BE%E3%81%A0%E6%97%A9%E3%81%84/</loc>
     <lastmod>2015-11-27T22:36:44+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2015/11/IonicCordova%E3%81%A7iOS9%E3%81%AESlideOver%E3%81%AB%E5%AF%BE%E5%BF%9C%E3%81%99%E3%82%8B/</loc>
+    <loc>http://pyyoshi.github.io/blog/2015/11/IonicCordova%E3%81%A7iOS9%E3%81%AESlideOver%E3%81%AB%E5%AF%BE%E5%BF%9C%E3%81%99%E3%82%8B/</loc>
     <lastmod>2015-11-10T16:27:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2015/11/ReactJS%E3%81%A7%E4%BD%9C%E3%82%8B%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%82%A2%E3%83%97%E3%83%AA%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AF-Reapp/</loc>
+    <loc>http://pyyoshi.github.io/blog/2015/11/ReactJS%E3%81%A7%E4%BD%9C%E3%82%8B%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%82%A2%E3%83%97%E3%83%AA%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AF-Reapp/</loc>
     <lastmod>2015-11-09T23:09:33+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2015/10/imagemagick%E3%81%A7%E3%83%A1%E3%82%A4%E3%83%B3%E7%94%BB%E5%83%8F%E3%81%A8%E3%83%9E%E3%82%B9%E3%82%AF%E7%94%BB%E5%83%8F%E3%82%92%E7%B6%BA%E9%BA%97%E3%81%AB%E5%90%88%E6%88%90%E3%81%99%E3%82%8B/</loc>
+    <loc>http://pyyoshi.github.io/blog/2015/10/imagemagick%E3%81%A7%E3%83%A1%E3%82%A4%E3%83%B3%E7%94%BB%E5%83%8F%E3%81%A8%E3%83%9E%E3%82%B9%E3%82%AF%E7%94%BB%E5%83%8F%E3%82%92%E7%B6%BA%E9%BA%97%E3%81%AB%E5%90%88%E6%88%90%E3%81%99%E3%82%8B/</loc>
     <lastmod>2015-10-30T16:59:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2015/09/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%AF%E3%81%AE%E3%83%AB%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%81%8C%E3%81%94%E3%81%BF/</loc>
+    <loc>http://pyyoshi.github.io/blog/2015/09/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%AF%E3%81%AE%E3%83%AB%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%81%8C%E3%81%94%E3%81%BF/</loc>
     <lastmod>2015-09-15T18:43:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2015/08/xcode7%E3%81%A7bitcode_strip%E5%91%A8%E3%82%8A%E3%81%A7%E3%82%A8%E3%83%A9%E3%83%BC%E3%81%8C%E5%87%BA%E3%81%9F%E6%99%82%E3%81%AE%E5%AF%BE%E5%87%A6/</loc>
+    <loc>http://pyyoshi.github.io/blog/2015/08/xcode7%E3%81%A7bitcode_strip%E5%91%A8%E3%82%8A%E3%81%A7%E3%82%A8%E3%83%A9%E3%83%BC%E3%81%8C%E5%87%BA%E3%81%9F%E6%99%82%E3%81%AE%E5%AF%BE%E5%87%A6/</loc>
     <lastmod>2015-08-29T03:16:43+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2015/08/Facebook-Graph-API%E3%81%A7email%E3%81%8C%E3%81%A9%E3%81%86%E3%81%97%E3%81%A6%E3%82%82%E6%AC%B2%E3%81%97%E3%81%84%E5%A0%B4%E5%90%88/</loc>
+    <loc>http://pyyoshi.github.io/blog/2015/08/Facebook-Graph-API%E3%81%A7email%E3%81%8C%E3%81%A9%E3%81%86%E3%81%97%E3%81%A6%E3%82%82%E6%AC%B2%E3%81%97%E3%81%84%E5%A0%B4%E5%90%88/</loc>
     <lastmod>2015-08-13T21:24:54+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2015/07/go1.5%E3%81%AE%E6%96%87%E5%AD%97%E9%80%A3%E7%B5%90%E5%87%A6%E7%90%86%E3%81%8C%E9%80%9F%E3%81%84/</loc>
+    <loc>http://pyyoshi.github.io/blog/2015/07/go1.5%E3%81%AE%E6%96%87%E5%AD%97%E9%80%A3%E7%B5%90%E5%87%A6%E7%90%86%E3%81%8C%E9%80%9F%E3%81%84/</loc>
     <lastmod>2015-07-29T23:46:45+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2015/04/KB3033929%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%8C%E5%A4%B1%E6%95%97%E3%81%99%E3%82%8B/</loc>
+    <loc>http://pyyoshi.github.io/blog/2015/04/KB3033929%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%8C%E5%A4%B1%E6%95%97%E3%81%99%E3%82%8B/</loc>
     <lastmod>2015-04-05T16:25:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2015/03/SSL%E8%A8%BC%E6%98%8E%E6%9B%B8%E3%82%92%E4%BD%9C%E6%88%90%E3%81%97%E3%81%A6GeoTrust%E3%81%B8%E6%8F%90%E5%87%BA/</loc>
+    <loc>http://pyyoshi.github.io/blog/2015/03/SSL%E8%A8%BC%E6%98%8E%E6%9B%B8%E3%82%92%E4%BD%9C%E6%88%90%E3%81%97%E3%81%A6GeoTrust%E3%81%B8%E6%8F%90%E5%87%BA/</loc>
     <lastmod>2015-03-25T03:07:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2015/03/VM%E7%92%B0%E5%A2%83%E3%81%AEChromium41%E3%81%A7%E8%B5%B7%E3%81%8D%E3%82%8B%E5%95%8F%E9%A1%8C%E3%81%B8%E3%81%AE%E5%AF%BE%E5%87%A6/</loc>
+    <loc>http://pyyoshi.github.io/blog/2015/03/VM%E7%92%B0%E5%A2%83%E3%81%AEChromium41%E3%81%A7%E8%B5%B7%E3%81%8D%E3%82%8B%E5%95%8F%E9%A1%8C%E3%81%B8%E3%81%AE%E5%AF%BE%E5%87%A6/</loc>
     <lastmod>2015-03-14T18:33:02+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2015/03/fcitx%E7%92%B0%E5%A2%83%E3%81%AEQt5.4%E3%81%A7%E6%97%A5%E6%9C%AC%E8%AA%9E%E5%85%A5%E5%8A%9B%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%99%E3%82%8B/</loc>
+    <loc>http://pyyoshi.github.io/blog/2015/03/fcitx%E7%92%B0%E5%A2%83%E3%81%AEQt5.4%E3%81%A7%E6%97%A5%E6%9C%AC%E8%AA%9E%E5%85%A5%E5%8A%9B%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%99%E3%82%8B/</loc>
     <lastmod>2015-03-03T07:11:04+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2015/02/VMWare%E3%81%A7%E3%83%9E%E3%82%A6%E3%82%B95%E3%83%9C%E3%82%BF%E3%83%B3%E3%82%92%E5%88%A9%E7%94%A8%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%99%E3%82%8B/</loc>
+    <loc>http://pyyoshi.github.io/blog/2015/02/VMWare%E3%81%A7%E3%83%9E%E3%82%A6%E3%82%B95%E3%83%9C%E3%82%BF%E3%83%B3%E3%82%92%E5%88%A9%E7%94%A8%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%99%E3%82%8B/</loc>
     <lastmod>2015-02-18T18:16:27+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2015/02/Pen_Tablet.exe%E3%81%AE%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%AF/</loc>
+    <loc>http://pyyoshi.github.io/blog/2015/02/Pen_Tablet.exe%E3%81%AE%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%AF/</loc>
     <lastmod>2015-02-16T01:28:23+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2015/01/%E9%9B%91%E8%A8%98/</loc>
+    <loc>http://pyyoshi.github.io/blog/2015/01/%E9%9B%91%E8%A8%98/</loc>
     <lastmod>2015-01-25T16:51:24+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2015/01/fcitx%E3%81%A7%E6%97%A5%E6%9C%AC%E8%AA%9E%E5%85%A5%E5%8A%9B%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E5%A0%B4%E5%90%88/</loc>
+    <loc>http://pyyoshi.github.io/blog/2015/01/fcitx%E3%81%A7%E6%97%A5%E6%9C%AC%E8%AA%9E%E5%85%A5%E5%8A%9B%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E5%A0%B4%E5%90%88/</loc>
     <lastmod>2015-01-22T06:48:46+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2015/01/Intel%E3%81%AE%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E4%BD%9C%E6%88%90%E3%81%A8INDE/</loc>
+    <loc>http://pyyoshi.github.io/blog/2015/01/Intel%E3%81%AE%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E4%BD%9C%E6%88%90%E3%81%A8INDE/</loc>
     <lastmod>2015-01-10T19:27:33+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2015/01/AngularJS-%E5%83%95%E3%81%AB%E3%81%AF%E3%81%BE%E3%81%A0%E3%81%AF%E3%82%84%E3%81%8B%E3%81%A3%E3%81%9F/</loc>
+    <loc>http://pyyoshi.github.io/blog/2015/01/AngularJS-%E5%83%95%E3%81%AB%E3%81%AF%E3%81%BE%E3%81%A0%E3%81%AF%E3%82%84%E3%81%8B%E3%81%A3%E3%81%9F/</loc>
     <lastmod>2015-01-09T00:15:23+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2015/01/Intel-QSV%E3%81%A8%E7%9B%B8%E6%80%A7%E3%81%AE%E8%89%AF%E3%81%84AviSynth-Script-TS%E3%82%A8%E3%83%B3%E3%82%B3/</loc>
+    <loc>http://pyyoshi.github.io/blog/2015/01/Intel-QSV%E3%81%A8%E7%9B%B8%E6%80%A7%E3%81%AE%E8%89%AF%E3%81%84AviSynth-Script-TS%E3%82%A8%E3%83%B3%E3%82%B3/</loc>
     <lastmod>2015-01-05T00:43:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2015/01/Python%E3%81%A7%E3%83%AD%E3%82%AE%E3%83%B3%E3%82%B0/</loc>
+    <loc>http://pyyoshi.github.io/blog/2015/01/Python%E3%81%A7%E3%83%AD%E3%82%AE%E3%83%B3%E3%82%B0/</loc>
     <lastmod>2015-01-03T19:48:21+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2015/01/nginx%E3%81%AElocation%E3%81%AE%E6%8C%99%E5%8B%95/</loc>
+    <loc>http://pyyoshi.github.io/blog/2015/01/nginx%E3%81%AElocation%E3%81%AE%E6%8C%99%E5%8B%95/</loc>
     <lastmod>2015-01-02T01:35:12+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/12/%E4%BB%8A%E5%B9%B4%E3%81%AE%E6%8A%B1%E8%B2%A0/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/12/%E4%BB%8A%E5%B9%B4%E3%81%AE%E6%8A%B1%E8%B2%A0/</loc>
     <lastmod>2014-12-31T06:18:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/12/2014%E5%B9%B4/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/12/2014%E5%B9%B4/</loc>
     <lastmod>2014-12-30T18:20:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/12/Windows%E3%81%A7US%E9%85%8D%E5%88%97%E3%82%92%E4%BD%BF%E3%81%86/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/12/Windows%E3%81%A7US%E9%85%8D%E5%88%97%E3%82%92%E4%BD%BF%E3%81%86/</loc>
     <lastmod>2014-12-25T05:23:40+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/12/Radeon-HD-7770%E3%81%8B%E3%82%89NVIDIA-GTX-750Ti%E3%81%B8/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/12/Radeon-HD-7770%E3%81%8B%E3%82%89NVIDIA-GTX-750Ti%E3%81%B8/</loc>
     <lastmod>2014-12-23T19:52:59+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/12/PHP/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/12/PHP/</loc>
     <lastmod>2014-12-20T21:04:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/12/%E5%A7%BF%E5%8B%A2/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/12/%E5%A7%BF%E5%8B%A2/</loc>
     <lastmod>2014-12-16T16:59:07+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/12/PeerCastIM-Mod/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/12/PeerCastIM-Mod/</loc>
     <lastmod>2014-12-16T06:50:34+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/12/a/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/12/a/</loc>
     <lastmod>2014-12-07T22:08:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/12/PeerCastIM4Linux%E3%82%92PeerCastIM-Mod%E3%81%B8%E3%83%AA%E3%83%8D%E3%83%BC%E3%83%A0/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/12/PeerCastIM4Linux%E3%82%92PeerCastIM-Mod%E3%81%B8%E3%83%AA%E3%83%8D%E3%83%BC%E3%83%A0/</loc>
     <lastmod>2014-12-04T20:47:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/12/OSX%E3%81%A7Core-Dump%E3%82%92%E6%8B%BE%E3%81%86/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/12/OSX%E3%81%A7Core-Dump%E3%82%92%E6%8B%BE%E3%81%86/</loc>
     <lastmod>2014-12-02T07:31:57+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/11/Marvericks%E3%81%A7qmake%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%81%99%E3%82%8B%E3%81%A8%E3%81%A7%E3%82%8B%E3%82%A8%E3%83%A9%E3%83%BC/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/11/Marvericks%E3%81%A7qmake%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%81%99%E3%82%8B%E3%81%A8%E3%81%A7%E3%82%8B%E3%82%A8%E3%83%A9%E3%83%BC/</loc>
     <lastmod>2014-11-30T21:26:40+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/11/%E3%83%A2%E3%83%81%E3%83%99%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E4%B8%8A%E3%81%92%E3%82%8B/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/11/%E3%83%A2%E3%83%81%E3%83%99%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E4%B8%8A%E3%81%92%E3%82%8B/</loc>
     <lastmod>2014-11-30T20:15:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/11/%E9%87%91%E6%AC%A0/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/11/%E9%87%91%E6%AC%A0/</loc>
     <lastmod>2014-11-29T17:51:57+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/11/P55-SD60%E3%81%AAM/B%E3%81%AEBIOS%E3%82%92%E6%9B%B4%E6%96%B0/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/11/P55-SD60%E3%81%AAM/B%E3%81%AEBIOS%E3%82%92%E6%9B%B4%E6%96%B0/</loc>
     <lastmod>2014-11-27T06:27:04+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/10/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E4%BC%9A%E7%A4%BE%E3%81%AB%E5%8B%A4%E3%82%81%E3%81%A6%E3%82%8B%E3%82%93%E3%81%A0%E3%81%8C%E3%82%82%E3%81%86%E4%BF%BA%E3%81%AF%E9%99%90%E7%95%8C%E3%81%8B%E3%82%82%E3%81%97%E3%82%8C%E3%81%AA%E3%81%84/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/10/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E4%BC%9A%E7%A4%BE%E3%81%AB%E5%8B%A4%E3%82%81%E3%81%A6%E3%82%8B%E3%82%93%E3%81%A0%E3%81%8C%E3%82%82%E3%81%86%E4%BF%BA%E3%81%AF%E9%99%90%E7%95%8C%E3%81%8B%E3%82%82%E3%81%97%E3%82%8C%E3%81%AA%E3%81%84/</loc>
     <lastmod>2014-10-18T02:00:12+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/10/.hack/%E3%81%A7%E6%80%9D%E3%81%84%E5%87%BA%E3%81%97%E3%81%9F/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/10/.hack/%E3%81%A7%E6%80%9D%E3%81%84%E5%87%BA%E3%81%97%E3%81%9F/</loc>
     <lastmod>2014-10-14T03:41:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/10/.hack/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/10/.hack/</loc>
     <lastmod>2014-10-13T19:01:12+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/10/CyanogenMod%E3%81%AE%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%82%92%E3%83%9F%E3%83%A9%E3%83%BC%E3%81%99%E3%82%8B/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/10/CyanogenMod%E3%81%AE%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%82%92%E3%83%9F%E3%83%A9%E3%83%BC%E3%81%99%E3%82%8B/</loc>
     <lastmod>2014-10-04T07:16:47+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/10/OSX%E3%81%A7%E3%83%9E%E3%82%A6%E3%82%B945%E3%83%9C%E3%82%BF%E3%83%B3%E3%82%92%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/10/OSX%E3%81%A7%E3%83%9E%E3%82%A6%E3%82%B945%E3%83%9C%E3%82%BF%E3%83%B3%E3%82%92%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B/</loc>
     <lastmod>2014-10-01T22:39:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/09/HUNTERXHUNTER%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%81%84/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/09/HUNTERXHUNTER%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%81%84/</loc>
     <lastmod>2014-09-29T18:55:45+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/09/Redis-Sentinel%E3%81%A7%E3%81%AE%E3%83%95%E3%82%A7%E3%82%A4%E3%83%AB%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/09/Redis-Sentinel%E3%81%A7%E3%81%AE%E3%83%95%E3%82%A7%E3%82%A4%E3%83%AB%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC/</loc>
     <lastmod>2014-09-16T10:44:27+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/09/Windows%E3%81%A7OpenVPN%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E3%81%8C%E3%81%86%E3%81%BE%E3%81%8F%E5%8B%95%E3%81%8B%E3%81%AA%E3%81%84%E6%99%82/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/09/Windows%E3%81%A7OpenVPN%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E3%81%8C%E3%81%86%E3%81%BE%E3%81%8F%E5%8B%95%E3%81%8B%E3%81%AA%E3%81%84%E6%99%82/</loc>
     <lastmod>2014-09-15T16:39:36+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/09/boot2docker%E3%81%A8VOLUME/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/09/boot2docker%E3%81%A8VOLUME/</loc>
     <lastmod>2014-09-13T17:17:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/09/Docker-Hub%E3%81%AE%E6%9C%89%E6%96%99%E3%83%97%E3%83%A9%E3%83%B3/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/09/Docker-Hub%E3%81%AE%E6%9C%89%E6%96%99%E3%83%97%E3%83%A9%E3%83%B3/</loc>
     <lastmod>2014-09-12T16:16:28+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/09/%E3%83%A1%E3%83%BC%E3%83%AB%E9%85%8D%E4%BF%A1%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%A8DNS%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E7%9B%B8%E6%80%A7/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/09/%E3%83%A1%E3%83%BC%E3%83%AB%E9%85%8D%E4%BF%A1%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%A8DNS%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E7%9B%B8%E6%80%A7/</loc>
     <lastmod>2014-09-12T16:02:05+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/08/%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9%E3%81%A7%E3%81%AE%E3%81%AF%E3%81%A3%E3%81%91%E3%82%93/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/08/%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9%E3%81%A7%E3%81%AE%E3%81%AF%E3%81%A3%E3%81%91%E3%82%93/</loc>
     <lastmod>2014-08-27T13:27:25+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/08/%E3%81%8B%E3%81%9C2/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/08/%E3%81%8B%E3%81%9C2/</loc>
     <lastmod>2014-08-20T13:22:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/08/%E3%81%8B%E3%81%9C/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/08/%E3%81%8B%E3%81%9C/</loc>
     <lastmod>2014-08-13T08:23:20+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/08/%E3%81%84%E3%81%8E%E3%82%8A%E3%81%99%E3%81%A4%E3%82%89/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/08/%E3%81%84%E3%81%8E%E3%82%8A%E3%81%99%E3%81%A4%E3%82%89/</loc>
     <lastmod>2014-08-11T10:42:02+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/08/%E3%81%8A%E3%82%89%E3%81%88%E3%81%92%E3%82%8C%E3%81%99%E3%81%B8%E3%81%84%E3%81%8F%E3%81%A0%E3%81%81/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/08/%E3%81%8A%E3%82%89%E3%81%88%E3%81%92%E3%82%8C%E3%81%99%E3%81%B8%E3%81%84%E3%81%8F%E3%81%A0%E3%81%81/</loc>
     <lastmod>2014-08-01T00:03:02+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/06/%E3%81%AA%E3%81%9COSX%E3%81%AA%E3%81%AE%E3%81%8B/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/06/%E3%81%AA%E3%81%9COSX%E3%81%AA%E3%81%AE%E3%81%8B/</loc>
     <lastmod>2014-06-30T19:26:19+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/06/%E6%9C%80%E8%BF%91%E3%81%AE%E3%81%93%E3%81%A8-2/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/06/%E6%9C%80%E8%BF%91%E3%81%AE%E3%81%93%E3%81%A8-2/</loc>
     <lastmod>2014-06-17T20:53:19+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/06/%E6%9C%80%E8%BF%91%E3%81%AE%E3%81%93%E3%81%A8/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/06/%E6%9C%80%E8%BF%91%E3%81%AE%E3%81%93%E3%81%A8/</loc>
     <lastmod>2014-06-17T20:50:10+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/06/%E9%80%80%E8%81%B7%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/06/%E9%80%80%E8%81%B7%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</loc>
     <lastmod>2014-06-08T20:26:12+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/04/%E6%96%B0%E3%81%97%E3%81%84%E3%83%96%E3%83%AD%E3%82%B0%E3%81%B8%E7%A7%BB%E8%A1%8C%E3%81%97%E3%81%BE%E3%81%99/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/04/%E6%96%B0%E3%81%97%E3%81%84%E3%83%96%E3%83%AD%E3%82%B0%E3%81%B8%E7%A7%BB%E8%A1%8C%E3%81%97%E3%81%BE%E3%81%99/</loc>
     <lastmod>2014-04-01T18:08:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2014/03/%E5%B9%B4%E5%BA%A6%E3%81%8C%E5%A4%89%E3%82%8F%E3%82%8A%E3%81%BE%E3%81%97%E3%81%A6/</loc>
+    <loc>http://pyyoshi.github.io/blog/2014/03/%E5%B9%B4%E5%BA%A6%E3%81%8C%E5%A4%89%E3%82%8F%E3%82%8A%E3%81%BE%E3%81%97%E3%81%A6/</loc>
     <lastmod>2014-03-31T23:21:28+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/10/%E6%96%B0%E3%83%96%E3%83%AD%E3%82%B0%E3%81%B8%E7%A7%BB%E8%A1%8C%E3%81%97%E3%81%BE%E3%81%99/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/10/%E6%96%B0%E3%83%96%E3%83%AD%E3%82%B0%E3%81%B8%E7%A7%BB%E8%A1%8C%E3%81%97%E3%81%BE%E3%81%99/</loc>
     <lastmod>2013-10-15T13:28:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/05/1%E5%B9%B4%E9%96%93%E3%83%8B%E3%83%BC%E3%83%88%E3%82%92%E3%81%97%E3%81%A6%E3%81%BF%E3%81%A6%E6%84%9F%E3%81%98%E3%81%9F%E3%81%93%E3%81%A8/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/05/1%E5%B9%B4%E9%96%93%E3%83%8B%E3%83%BC%E3%83%88%E3%82%92%E3%81%97%E3%81%A6%E3%81%BF%E3%81%A6%E6%84%9F%E3%81%98%E3%81%9F%E3%81%93%E3%81%A8/</loc>
     <lastmod>2013-05-28T23:23:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/05/%E7%A4%BE%E4%BC%9A%E4%BA%BA%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%A8%E3%81%84%E3%81%86%E4%BA%8B%E3%81%A7/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/05/%E7%A4%BE%E4%BC%9A%E4%BA%BA%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%A8%E3%81%84%E3%81%86%E4%BA%8B%E3%81%A7/</loc>
     <lastmod>2013-05-28T22:19:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/%E9%9B%91/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/%E9%9B%91/</loc>
     <lastmod>2013-05-28T22:19:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/05/Google-Drive%E3%81%AB%E3%81%82%E3%82%8B%E7%94%BB%E5%83%8F%E3%83%93%E3%83%A5%E3%83%AF%E3%83%BC%E4%B8%8A%E3%81%A7%E7%94%BB%E5%83%8F%E3%81%AB%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%E3%81%99%E3%82%8B%E6%A9%9F%E8%83%BD%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/05/Google-Drive%E3%81%AB%E3%81%82%E3%82%8B%E7%94%BB%E5%83%8F%E3%83%93%E3%83%A5%E3%83%AF%E3%83%BC%E4%B8%8A%E3%81%A7%E7%94%BB%E5%83%8F%E3%81%AB%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%E3%81%99%E3%82%8B%E6%A9%9F%E8%83%BD%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</loc>
     <lastmod>2013-05-22T06:15:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/05/Go%E8%A8%80%E8%AA%9EWeb%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AFrevel%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-%E5%8B%95%E4%BD%9C%E7%A2%BA%E8%AA%8D%E7%B7%A8/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/05/Go%E8%A8%80%E8%AA%9EWeb%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AFrevel%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-%E5%8B%95%E4%BD%9C%E7%A2%BA%E8%AA%8D%E7%B7%A8/</loc>
     <lastmod>2013-05-22T05:58:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/revel/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/revel/</loc>
     <lastmod>2013-05-22T05:58:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/MySQL/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/MySQL/</loc>
     <lastmod>2013-05-15T07:36:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/05/MySQLMariaDB%E3%81%A7%E4%B9%85%E3%80%85%E3%81%ABError-2006%E3%82%92%E3%82%84%E3%82%89%E3%81%8B%E3%81%97%E3%81%9F/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/05/MySQLMariaDB%E3%81%A7%E4%B9%85%E3%80%85%E3%81%ABError-2006%E3%82%92%E3%82%84%E3%82%89%E3%81%8B%E3%81%97%E3%81%9F/</loc>
     <lastmod>2013-05-15T07:36:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/KDE/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/KDE/</loc>
     <lastmod>2013-05-10T18:37:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/05/KDE%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%8F%E3%82%8BKonsole%E3%81%8C%E3%81%A8%E3%82%93%E3%81%A7%E3%82%82%E3%81%AA%E3%81%84%E5%A5%B4%E3%81%A0%E3%81%A3%E3%81%9F/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/05/KDE%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%8F%E3%82%8BKonsole%E3%81%8C%E3%81%A8%E3%82%93%E3%81%A7%E3%82%82%E3%81%AA%E3%81%84%E5%A5%B4%E3%81%A0%E3%81%A3%E3%81%9F/</loc>
     <lastmod>2013-05-10T18:37:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/yakuake/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/yakuake/</loc>
     <lastmod>2013-05-10T18:37:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/05/bmobileDTI%E3%82%84IIJ%E3%81%AA%E3%81%A9%E3%81%AE%E9%80%9F%E5%BA%A6%E3%81%AE%E3%81%A7%E3%81%AA%E3%81%84SIM%E3%81%A7%E5%BF%AB%E9%81%A9%E9%AB%98%E9%80%9F%E3%81%ABWeb%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B8%E3%83%B3%E3%82%B0%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/05/bmobileDTI%E3%82%84IIJ%E3%81%AA%E3%81%A9%E3%81%AE%E9%80%9F%E5%BA%A6%E3%81%AE%E3%81%A7%E3%81%AA%E3%81%84SIM%E3%81%A7%E5%BF%AB%E9%81%A9%E9%AB%98%E9%80%9F%E3%81%ABWeb%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B8%E3%83%B3%E3%82%B0%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2013-05-10T16:43:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/dti/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/dti/</loc>
     <lastmod>2013-05-10T16:43:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/privoxy/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/privoxy/</loc>
     <lastmod>2013-05-10T16:43:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/proxy/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/proxy/</loc>
     <lastmod>2013-05-10T16:43:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/squid/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/squid/</loc>
     <lastmod>2013-05-10T16:43:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/ziproxy/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/ziproxy/</loc>
     <lastmod>2013-05-10T16:43:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/daemon/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/daemon/</loc>
     <lastmod>2013-05-09T00:02:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Python/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Python/</loc>
     <lastmod>2013-05-09T00:02:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/05/Python%E3%81%A7%E8%A1%8C%E5%84%80%E3%81%AE%E8%89%AF%E3%81%84%E3%83%87%E3%83%BC%E3%83%A2%E3%83%B3%E3%82%92%E4%BD%9C%E3%82%8Bpython-daemon%E3%82%92%E7%8F%BE%E8%A1%8C%E3%81%AEPython%E3%81%A7%E3%82%82%E5%8B%95%E4%BD%9C%E3%81%99%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%81%9F/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/05/Python%E3%81%A7%E8%A1%8C%E5%84%80%E3%81%AE%E8%89%AF%E3%81%84%E3%83%87%E3%83%BC%E3%83%A2%E3%83%B3%E3%82%92%E4%BD%9C%E3%82%8Bpython-daemon%E3%82%92%E7%8F%BE%E8%A1%8C%E3%81%AEPython%E3%81%A7%E3%82%82%E5%8B%95%E4%BD%9C%E3%81%99%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%81%9F/</loc>
     <lastmod>2013-05-09T00:02:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/05/%E3%81%9D%E3%82%8D%E3%81%9D%E3%82%8D/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/05/%E3%81%9D%E3%82%8D%E3%81%9D%E3%82%8D/</loc>
     <lastmod>2013-05-02T19:13:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Android/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Android/</loc>
     <lastmod>2013-05-01T18:06:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/05/android%E3%81%A7%E4%BD%BF%E3%81%88%E3%82%8Bjson-parser%E3%81%AE%E9%80%9F%E5%BA%A6%E6%AF%94%E8%BC%83%E3%82%92%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/05/android%E3%81%A7%E4%BD%BF%E3%81%88%E3%82%8Bjson-parser%E3%81%AE%E9%80%9F%E5%BA%A6%E6%AF%94%E8%BC%83%E3%82%92%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B/</loc>
     <lastmod>2013-05-01T18:06:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/JSON/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/JSON/</loc>
     <lastmod>2013-05-01T18:06:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/04/boost.regex-re2-pcre-oniguruma%E3%81%AE4%E3%81%A4regex%E3%81%AE%E9%80%9F%E5%BA%A6%E6%AF%94%E8%BC%83/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/04/boost.regex-re2-pcre-oniguruma%E3%81%AE4%E3%81%A4regex%E3%81%AE%E9%80%9F%E5%BA%A6%E6%AF%94%E8%BC%83/</loc>
     <lastmod>2013-04-28T11:49:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/regex/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/regex/</loc>
     <lastmod>2013-04-28T11:49:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Ginger/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Ginger/</loc>
     <lastmod>2013-04-27T22:32:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/04/Ginger%E3%82%92Linux%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97%E7%92%B0%E5%A2%83%E3%81%A7%E3%82%82%E4%BD%BF%E3%81%88%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%82%A2%E3%83%97%E3%83%AA%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/04/Ginger%E3%82%92Linux%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97%E7%92%B0%E5%A2%83%E3%81%A7%E3%82%82%E4%BD%BF%E3%81%88%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%82%A2%E3%83%97%E3%83%AA%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</loc>
     <lastmod>2013-04-27T22:32:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/QML/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/QML/</loc>
     <lastmod>2013-04-27T22:32:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Qt/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Qt/</loc>
     <lastmod>2013-04-27T22:32:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/PySide/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/PySide/</loc>
     <lastmod>2013-04-25T19:09:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Twitter/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Twitter/</loc>
     <lastmod>2013-04-25T19:09:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/04/%E6%8A%95%E7%A8%BF%E3%81%A0%E3%81%91%E3%81%A7%E3%81%8D%E3%82%8BTwitter%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/04/%E6%8A%95%E7%A8%BF%E3%81%A0%E3%81%91%E3%81%A7%E3%81%8D%E3%82%8BTwitter%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F/</loc>
     <lastmod>2013-04-25T19:09:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/04/mamemose%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%9F%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%A0markdown%E7%B7%A8%E9%9B%86/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/04/mamemose%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%9F%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%A0markdown%E7%B7%A8%E9%9B%86/</loc>
     <lastmod>2013-04-19T12:59:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Markdown/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Markdown/</loc>
     <lastmod>2013-04-19T12:59:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Ruby/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Ruby/</loc>
     <lastmod>2013-04-19T12:59:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/04/%E3%83%A1%E3%82%A4%E3%83%B3PC%E3%82%92Linux%E3%81%AB%E3%81%97%E3%81%A6%E3%81%8B%E3%82%89%E5%A4%89%E3%82%8F%E3%81%A3%E3%81%9F%E3%81%93%E3%81%A8/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/04/%E3%83%A1%E3%82%A4%E3%83%B3PC%E3%82%92Linux%E3%81%AB%E3%81%97%E3%81%A6%E3%81%8B%E3%82%89%E5%A4%89%E3%82%8F%E3%81%A3%E3%81%9F%E3%81%93%E3%81%A8/</loc>
     <lastmod>2013-04-09T12:43:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/DOM/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/DOM/</loc>
     <lastmod>2013-04-03T10:25:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Firefox/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Firefox/</loc>
     <lastmod>2013-04-03T10:25:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Nightingale/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Nightingale/</loc>
     <lastmod>2013-04-03T10:25:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/04/Nightingale-Addon%E3%81%A7xhr.responseText%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%9FDOM%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B%E5%A0%B4%E5%90%88%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/04/Nightingale-Addon%E3%81%A7xhr.responseText%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%9FDOM%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B%E5%A0%B4%E5%90%88%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</loc>
     <lastmod>2013-04-03T10:25:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/04/Nightingale%E3%81%AEaddon%E3%81%A7dom%E3%81%8C%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%84/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/04/Nightingale%E3%81%AEaddon%E3%81%A7dom%E3%81%8C%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%84/</loc>
     <lastmod>2013-04-02T23:01:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/04/Nightingale%E3%81%A7addon%E3%81%AE%E3%83%87%E3%83%90%E3%83%83%E3%82%B0%E3%81%AB%E5%BF%85%E8%A6%81%E3%81%AA%E3%82%82%E3%81%AE/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/04/Nightingale%E3%81%A7addon%E3%81%AE%E3%83%87%E3%83%90%E3%83%83%E3%82%B0%E3%81%AB%E5%BF%85%E8%A6%81%E3%81%AA%E3%82%82%E3%81%AE/</loc>
     <lastmod>2013-04-02T01:28:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Audio/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Audio/</loc>
     <lastmod>2013-03-29T15:30:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/03/PL-US35AP%E3%82%92Linux%E3%81%A7%E4%BD%BF%E3%81%86/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/03/PL-US35AP%E3%82%92Linux%E3%81%A7%E4%BD%BF%E3%81%86/</loc>
     <lastmod>2013-03-29T15:30:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/03/%E5%A4%A7%E3%81%8D%E3%82%81%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/03/%E5%A4%A7%E3%81%8D%E3%82%81%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D/</loc>
     <lastmod>2013-03-27T01:35:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/PeerCast/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/PeerCast/</loc>
     <lastmod>2013-03-25T12:12:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/03/PeerCast-IM%E7%89%88%E3%82%92Linux%E3%81%A7%E5%8B%95%E4%BD%9C%E3%81%99%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E7%A7%BB%E6%A4%8D%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/03/PeerCast-IM%E7%89%88%E3%82%92Linux%E3%81%A7%E5%8B%95%E4%BD%9C%E3%81%99%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E7%A7%BB%E6%A4%8D%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</loc>
     <lastmod>2013-03-25T12:12:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/03/golang%E3%81%A7fib39%E3%81%AE%E5%AE%9F%E8%A1%8C%E6%99%82%E9%96%93/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/03/golang%E3%81%A7fib39%E3%81%AE%E5%AE%9F%E8%A1%8C%E6%99%82%E9%96%93/</loc>
     <lastmod>2013-03-18T00:43:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/03/Python%E3%81%A7%E3%81%AEfib39%E3%81%AE%E5%AE%9F%E8%A1%8C%E6%99%82%E9%96%93%E6%AF%94%E8%BC%83/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/03/Python%E3%81%A7%E3%81%AEfib39%E3%81%AE%E5%AE%9F%E8%A1%8C%E6%99%82%E9%96%93%E6%AF%94%E8%BC%83/</loc>
     <lastmod>2013-03-13T10:08:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/JavaScript/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/JavaScript/</loc>
     <lastmod>2013-03-12T18:52:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Node.js/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Node.js/</loc>
     <lastmod>2013-03-12T18:52:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/03/node.js%E3%81%A7Buffer%E7%B5%8C%E7%94%B1%E3%81%A7ArrayBuffer%E3%82%92%E4%BD%BF%E3%81%86/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/03/node.js%E3%81%A7Buffer%E7%B5%8C%E7%94%B1%E3%81%A7ArrayBuffer%E3%82%92%E4%BD%BF%E3%81%86/</loc>
     <lastmod>2013-03-12T18:52:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/03/%E9%BB%92%E6%AD%B4%E5%8F%B2%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%BC%E3%82%88%E3%82%8A%E3%82%82%E7%A2%BA%E5%AE%9F%E3%81%AB%E3%83%84%E3%82%A4%E3%83%BC%E3%83%88%E3%82%92%E6%B6%88%E3%81%99%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/03/%E9%BB%92%E6%AD%B4%E5%8F%B2%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%BC%E3%82%88%E3%82%8A%E3%82%82%E7%A2%BA%E5%AE%9F%E3%81%AB%E3%83%84%E3%82%A4%E3%83%BC%E3%83%88%E3%82%92%E6%B6%88%E3%81%99%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88/</loc>
     <lastmod>2013-03-12T01:17:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/AngularJS/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/AngularJS/</loc>
     <lastmod>2013-01-29T19:47:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/01/AngularJS%E3%81%8C%E3%82%84%E3%81%B0%E3%81%84/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/01/AngularJS%E3%81%8C%E3%82%84%E3%81%B0%E3%81%84/</loc>
     <lastmod>2013-01-29T19:47:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/%E3%82%BD%E3%83%BC%E3%83%88/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/%E3%82%BD%E3%83%BC%E3%83%88/</loc>
     <lastmod>2013-01-26T00:34:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/01/%E3%82%BD%E3%83%BC%E3%83%88%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E3%81%AE%E5%8F%AF%E8%A6%96%E5%8C%96%E3%82%92%E3%81%97%E3%81%9FFlash%E3%82%A2%E3%83%97%E3%83%AA%E3%81%8C%E3%81%99%E3%81%94%E3%81%84/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/01/%E3%82%BD%E3%83%BC%E3%83%88%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E3%81%AE%E5%8F%AF%E8%A6%96%E5%8C%96%E3%82%92%E3%81%97%E3%81%9FFlash%E3%82%A2%E3%83%97%E3%83%AA%E3%81%8C%E3%81%99%E3%81%94%E3%81%84/</loc>
     <lastmod>2013-01-26T00:34:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/chromiumembedded/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/chromiumembedded/</loc>
     <lastmod>2013-01-08T14:12:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2013/01/chromiumembedded%E3%81%AEautomate%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B%E5%A0%B4%E5%90%88%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</loc>
+    <loc>http://pyyoshi.github.io/blog/2013/01/chromiumembedded%E3%81%AEautomate%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B%E5%A0%B4%E5%90%88%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</loc>
     <lastmod>2013-01-08T14:12:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/jdk/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/jdk/</loc>
     <lastmod>2012-12-27T17:46:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2012/12/JDK%E3%82%92wget%E3%81%99%E3%82%8B/</loc>
+    <loc>http://pyyoshi.github.io/blog/2012/12/JDK%E3%82%92wget%E3%81%99%E3%82%8B/</loc>
     <lastmod>2012-12-27T17:46:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/License/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/License/</loc>
     <lastmod>2012-12-02T12:35:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/MIT-License/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/MIT-License/</loc>
     <lastmod>2012-12-02T12:35:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2012/12/%E8%87%AA%E5%88%86%E3%81%AEMIT-License%E3%83%9A%E3%83%BC%E3%82%B8%E3%82%92%E4%BD%9C%E3%82%8B%E7%B0%A1%E5%8D%98%E3%81%AA%E6%96%B9%E6%B3%95/</loc>
+    <loc>http://pyyoshi.github.io/blog/2012/12/%E8%87%AA%E5%88%86%E3%81%AEMIT-License%E3%83%9A%E3%83%BC%E3%82%B8%E3%82%92%E4%BD%9C%E3%82%8B%E7%B0%A1%E5%8D%98%E3%81%AA%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2012-12-02T12:35:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2012/09/Chrome-Extension-API-Manifest%E3%82%92app%E5%86%85%E3%81%8B%E3%82%89%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</loc>
+    <loc>http://pyyoshi.github.io/blog/2012/09/Chrome-Extension-API-Manifest%E3%82%92app%E5%86%85%E3%81%8B%E3%82%89%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2012-09-23T09:20:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Chrome-Extension-API/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Chrome-Extension-API/</loc>
     <lastmod>2012-09-23T09:20:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/%E5%82%99%E5%BF%98%E9%8C%B2/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/%E5%82%99%E5%BF%98%E9%8C%B2/</loc>
     <lastmod>2012-09-23T09:20:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2012/09/%E3%83%A1%E3%83%A2C-%E3%81%AE%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%AF%E3%82%92%E6%A4%9C%E5%87%BA%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</loc>
+    <loc>http://pyyoshi.github.io/blog/2012/09/%E3%83%A1%E3%83%A2C-%E3%81%AE%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%AF%E3%82%92%E6%A4%9C%E5%87%BA%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2012-09-19T19:26:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/C&#43;&#43;/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/C&#43;&#43;/</loc>
     <lastmod>2012-09-19T19:26:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/VC&#43;&#43;/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/VC&#43;&#43;/</loc>
     <lastmod>2012-09-19T19:26:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%AF/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%AF/</loc>
     <lastmod>2012-09-19T19:26:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/coffeescript/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/coffeescript/</loc>
     <lastmod>2012-09-18T22:05:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/watchdog/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/watchdog/</loc>
     <lastmod>2012-09-18T22:05:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2012/09/%E8%87%AA%E5%8B%95%E3%81%A7CoffeeScript%E3%82%92%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%AB%E3%81%99%E3%82%8BPython%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%82%92%E6%9B%B8%E3%81%84%E3%81%9F/</loc>
+    <loc>http://pyyoshi.github.io/blog/2012/09/%E8%87%AA%E5%8B%95%E3%81%A7CoffeeScript%E3%82%92%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%AB%E3%81%99%E3%82%8BPython%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%82%92%E6%9B%B8%E3%81%84%E3%81%9F/</loc>
     <lastmod>2012-09-18T22:05:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2012/09/mono-TwitterIrcGateway-znc%E7%92%B0%E5%A2%83%E3%81%AE%E6%A7%8B%E7%AF%89/</loc>
+    <loc>http://pyyoshi.github.io/blog/2012/09/mono-TwitterIrcGateway-znc%E7%92%B0%E5%A2%83%E3%81%AE%E6%A7%8B%E7%AF%89/</loc>
     <lastmod>2012-09-18T01:16:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/TwitterIrcGateway/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/TwitterIrcGateway/</loc>
     <lastmod>2012-09-18T01:16:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/znc/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/znc/</loc>
     <lastmod>2012-09-18T01:16:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/cchardet/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/cchardet/</loc>
     <lastmod>2012-08-22T22:25:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Cython/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Cython/</loc>
     <lastmod>2012-08-22T22:25:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2012/08/%E7%92%B0%E5%A2%83%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6Cython%E3%81%A7%E3%81%86%E3%81%BE%E3%81%8F%E3%82%B3%E3%83%BC%E3%83%89%E5%A4%89%E6%8F%9B%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E5%A0%B4%E5%90%88%E3%81%AE%E5%AF%BE%E5%87%A6/</loc>
+    <loc>http://pyyoshi.github.io/blog/2012/08/%E7%92%B0%E5%A2%83%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6Cython%E3%81%A7%E3%81%86%E3%81%BE%E3%81%8F%E3%82%B3%E3%83%BC%E3%83%89%E5%A4%89%E6%8F%9B%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E5%A0%B4%E5%90%88%E3%81%AE%E5%AF%BE%E5%87%A6/</loc>
     <lastmod>2012-08-22T22:25:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2012/08/%E4%BD%95%E3%81%8B%E4%B8%80%E3%81%A4%E8%87%AA%E8%BA%AB%E3%82%92%E6%8C%81%E3%81%A6%E3%82%8B%E3%82%82%E3%81%AE%E5%BC%B7%E3%81%BF%E3%81%AB%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E3%82%82%E3%81%A4/</loc>
+    <loc>http://pyyoshi.github.io/blog/2012/08/%E4%BD%95%E3%81%8B%E4%B8%80%E3%81%A4%E8%87%AA%E8%BA%AB%E3%82%92%E6%8C%81%E3%81%A6%E3%82%8B%E3%82%82%E3%81%AE%E5%BC%B7%E3%81%BF%E3%81%AB%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E3%82%82%E3%81%A4/</loc>
     <lastmod>2012-08-07T22:09:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2012-08-07T22:09:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/NAS/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/NAS/</loc>
     <lastmod>2012-08-07T06:59:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2012/08/NAS%E3%81%AEHDD%E3%82%92%E5%BE%A9%E6%97%A7%E6%BA%96%E5%82%99/</loc>
+    <loc>http://pyyoshi.github.io/blog/2012/08/NAS%E3%81%AEHDD%E3%82%92%E5%BE%A9%E6%97%A7%E6%BA%96%E5%82%99/</loc>
     <lastmod>2012-08-07T06:59:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/XFS/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/XFS/</loc>
     <lastmod>2012-08-07T06:59:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/PowerShell/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/PowerShell/</loc>
     <lastmod>2012-08-02T21:34:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/VirtualenvWrapper/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/VirtualenvWrapper/</loc>
     <lastmod>2012-08-02T21:34:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2012/08/Windows%E7%92%B0%E5%A2%83%E4%B8%8B%E3%81%A7%E3%82%82VirtualenvWrapper%E3%82%92%E4%BD%BF%E3%81%86/</loc>
+    <loc>http://pyyoshi.github.io/blog/2012/08/Windows%E7%92%B0%E5%A2%83%E4%B8%8B%E3%81%A7%E3%82%82VirtualenvWrapper%E3%82%92%E4%BD%BF%E3%81%86/</loc>
     <lastmod>2012-08-02T21:34:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2012/07/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E7%9B%A3%E8%A6%96%E3%81%ABwatchdog%E3%81%8C%E3%81%8B%E3%81%AA%E3%82%8A%E4%BE%BF%E5%88%A9%E3%81%AA%E4%BB%B6/</loc>
+    <loc>http://pyyoshi.github.io/blog/2012/07/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E7%9B%A3%E8%A6%96%E3%81%ABwatchdog%E3%81%8C%E3%81%8B%E3%81%AA%E3%82%8A%E4%BE%BF%E5%88%A9%E3%81%AA%E4%BB%B6/</loc>
     <lastmod>2012-07-17T17:40:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2012/07/Python%E5%90%91%E3%81%91Tumblr%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AAPytumb2%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/</loc>
+    <loc>http://pyyoshi.github.io/blog/2012/07/Python%E5%90%91%E3%81%91Tumblr%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AAPytumb2%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/</loc>
     <lastmod>2012-07-14T23:06:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Pytumb2/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Pytumb2/</loc>
     <lastmod>2012-07-14T23:06:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Tumblr/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Tumblr/</loc>
     <lastmod>2012-07-14T23:06:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2012/07/%E4%B9%85%E3%81%97%E3%81%B6%E3%82%8A%E3%81%AB%E6%95%B0%E5%AD%A6%E7%9A%84%E3%81%AA%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/</loc>
+    <loc>http://pyyoshi.github.io/blog/2012/07/%E4%B9%85%E3%81%97%E3%81%B6%E3%82%8A%E3%81%AB%E6%95%B0%E5%AD%A6%E7%9A%84%E3%81%AA%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/</loc>
     <lastmod>2012-07-10T21:32:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2012/06/%E3%83%8D%E3%82%BF%E3%81%8C%E7%84%A1%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F/</loc>
+    <loc>http://pyyoshi.github.io/blog/2012/06/%E3%83%8D%E3%82%BF%E3%81%8C%E7%84%A1%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F/</loc>
     <lastmod>2012-06-28T18:38:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2012/06/cChardet%E3%82%92PyPi%E3%81%AB%E7%99%BB%E9%8C%B2%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</loc>
+    <loc>http://pyyoshi.github.io/blog/2012/06/cChardet%E3%82%92PyPi%E3%81%AB%E7%99%BB%E9%8C%B2%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</loc>
     <lastmod>2012-06-26T18:40:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2012/06/%E3%82%88%E3%82%8A%E9%AB%98%E9%80%9F%E3%81%AAchardetcchardet%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</loc>
+    <loc>http://pyyoshi.github.io/blog/2012/06/%E3%82%88%E3%82%8A%E9%AB%98%E9%80%9F%E3%81%AAchardetcchardet%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</loc>
     <lastmod>2012-06-20T11:52:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/nose/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/nose/</loc>
     <lastmod>2012-06-18T15:58:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2012/06/PyGooglePlus%E3%82%92%E3%83%97%E3%83%AD%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</loc>
+    <loc>http://pyyoshi.github.io/blog/2012/06/PyGooglePlus%E3%82%92%E3%83%97%E3%83%AD%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</loc>
     <lastmod>2012-06-18T15:58:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/cx_freeze/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/cx_freeze/</loc>
     <lastmod>2012-06-05T11:16:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/py2exe/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/py2exe/</loc>
     <lastmod>2012-06-05T11:16:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2012/06/Python%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92%E5%AE%9F%E8%A1%8C%E3%83%95%E3%82%A1%E3%82%A4%E3%83%ABexe%E3%81%AB%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</loc>
+    <loc>http://pyyoshi.github.io/blog/2012/06/Python%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92%E5%AE%9F%E8%A1%8C%E3%83%95%E3%82%A1%E3%82%A4%E3%83%ABexe%E3%81%AB%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</loc>
     <lastmod>2012-06-05T11:16:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2012/06/IronPython%E3%81%AF%E3%82%AF%E3%82%BD/</loc>
+    <loc>http://pyyoshi.github.io/blog/2012/06/IronPython%E3%81%AF%E3%82%AF%E3%82%BD/</loc>
     <lastmod>2012-06-01T11:26:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Python-IronPython-C#/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Python-IronPython-C#/</loc>
     <lastmod>2012-06-01T11:26:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Google&#43;/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Google&#43;/</loc>
     <lastmod>2012-05-25T22:38:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2012/05/PyGooglePlus%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</loc>
+    <loc>http://pyyoshi.github.io/blog/2012/05/PyGooglePlus%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</loc>
     <lastmod>2012-05-25T22:38:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2012/05/Python2.7.3-x64%E3%82%92%E8%87%AA%E3%83%93%E3%83%AB%E3%83%89-for-Windows/</loc>
+    <loc>http://pyyoshi.github.io/blog/2012/05/Python2.7.3-x64%E3%82%92%E8%87%AA%E3%83%93%E3%83%AB%E3%83%89-for-Windows/</loc>
     <lastmod>2012-05-17T22:26:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/IRC/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/IRC/</loc>
     <lastmod>2012-02-20T04:14:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2012/02/ircBot-console%E3%81%A7%E8%87%AA%E5%8B%95%E3%82%AA%E3%83%9A%E3%83%AC%E3%83%BC%E3%82%BF%E6%A8%A9%E9%99%90%E4%BB%98%E4%B8%8E%E3%81%99%E3%82%8B%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E6%9B%B8%E3%81%84%E3%81%9F%E3%82%88/</loc>
+    <loc>http://pyyoshi.github.io/blog/2012/02/ircBot-console%E3%81%A7%E8%87%AA%E5%8B%95%E3%82%AA%E3%83%9A%E3%83%AC%E3%83%BC%E3%82%BF%E6%A8%A9%E9%99%90%E4%BB%98%E4%B8%8E%E3%81%99%E3%82%8B%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E6%9B%B8%E3%81%84%E3%81%9F%E3%82%88/</loc>
     <lastmod>2012-02-20T04:14:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/nginx/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/nginx/</loc>
     <lastmod>2011-10-05T23:43:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/redmine/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/redmine/</loc>
     <lastmod>2011-10-05T23:43:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2011/10/redmine%E3%82%92nginx%E3%81%A7%E6%89%B1%E3%81%86/</loc>
+    <loc>http://pyyoshi.github.io/blog/2011/10/redmine%E3%82%92nginx%E3%81%A7%E6%89%B1%E3%81%86/</loc>
     <lastmod>2011-10-05T23:43:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/MongoDB/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/MongoDB/</loc>
     <lastmod>2011-10-05T12:33:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2011/10/mongodb%E3%81%AE%E8%AA%8D%E8%A8%BC%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</loc>
+    <loc>http://pyyoshi.github.io/blog/2011/10/mongodb%E3%81%AE%E8%AA%8D%E8%A8%BC%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</loc>
     <lastmod>2011-10-05T12:33:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Windows8/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Windows8/</loc>
     <lastmod>2011-09-21T13:47:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2011/09/Windows8%E3%82%92WinPE3%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E7%B5%8C%E7%94%B1%E3%81%A7%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</loc>
+    <loc>http://pyyoshi.github.io/blog/2011/09/Windows8%E3%82%92WinPE3%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E7%B5%8C%E7%94%B1%E3%81%A7%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</loc>
     <lastmod>2011-09-21T13:47:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2011/08/Python%E5%90%91%E3%81%91Tumblr-API%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E6%9B%B4%E6%96%B0/</loc>
+    <loc>http://pyyoshi.github.io/blog/2011/08/Python%E5%90%91%E3%81%91Tumblr-API%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E6%9B%B4%E6%96%B0/</loc>
     <lastmod>2011-08-15T08:25:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2011/06/JavaScript%E3%81%A7OAuth%E8%AA%8D%E8%A8%BC%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</loc>
+    <loc>http://pyyoshi.github.io/blog/2011/06/JavaScript%E3%81%A7OAuth%E8%AA%8D%E8%A8%BC%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</loc>
     <lastmod>2011-06-30T19:18:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/OAuth/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/OAuth/</loc>
     <lastmod>2011-06-30T19:18:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/fastcgi/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/fastcgi/</loc>
     <lastmod>2011-06-29T18:23:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2011/06/nginx%E3%81%A7fastcgi%E3%82%92%E4%BD%BF%E3%81%86%E3%81%A8%E3%81%8D/</loc>
+    <loc>http://pyyoshi.github.io/blog/2011/06/nginx%E3%81%A7fastcgi%E3%82%92%E4%BD%BF%E3%81%86%E3%81%A8%E3%81%8D/</loc>
     <lastmod>2011-06-29T18:23:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2011/06/Python%E5%90%91%E3%81%91tumblr-API%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E5%85%AC%E9%96%8B%E3%81%97%E3%81%9F/</loc>
+    <loc>http://pyyoshi.github.io/blog/2011/06/Python%E5%90%91%E3%81%91tumblr-API%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E5%85%AC%E9%96%8B%E3%81%97%E3%81%9F/</loc>
     <lastmod>2011-06-06T00:38:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2011/06/libwebp%E3%81%AE%E3%83%93%E3%83%AB%E3%83%89/</loc>
+    <loc>http://pyyoshi.github.io/blog/2011/06/libwebp%E3%81%AE%E3%83%93%E3%83%AB%E3%83%89/</loc>
     <lastmod>2011-06-03T19:00:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/webp/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/webp/</loc>
     <lastmod>2011-06-03T19:00:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/boost/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/boost/</loc>
     <lastmod>2011-04-18T18:12:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2011/04/VS2010%E3%81%A7boost%E3%82%92%E6%89%B1%E3%81%86%E6%BA%96%E5%82%99/</loc>
+    <loc>http://pyyoshi.github.io/blog/2011/04/VS2010%E3%81%A7boost%E3%82%92%E6%89%B1%E3%81%86%E6%BA%96%E5%82%99/</loc>
     <lastmod>2011-04-18T18:12:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2011/04/Python%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%82%92SL4A%E5%90%91%E3%81%91%E3%81%AB%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</loc>
+    <loc>http://pyyoshi.github.io/blog/2011/04/Python%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%82%92SL4A%E5%90%91%E3%81%91%E3%81%AB%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</loc>
     <lastmod>2011-04-06T22:49:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/SL4A/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/SL4A/</loc>
     <lastmod>2011-04-06T22:49:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2011/03/x11vnc%E3%82%92Ubuntu10.04%E3%81%AB%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B/</loc>
+    <loc>http://pyyoshi.github.io/blog/2011/03/x11vnc%E3%82%92Ubuntu10.04%E3%81%AB%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B/</loc>
     <lastmod>2011-03-21T19:57:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Scala/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Scala/</loc>
     <lastmod>2011-03-18T02:31:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2011/03/Win7%E3%81%A7Scala%E3%81%A8ScalaAndroid%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%81%A8%E3%81%8B/</loc>
+    <loc>http://pyyoshi.github.io/blog/2011/03/Win7%E3%81%A7Scala%E3%81%A8ScalaAndroid%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%81%A8%E3%81%8B/</loc>
     <lastmod>2011-03-18T02:31:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2011/03/Android%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%81%AE%E4%BE%9D%E5%AD%98%E9%96%A2%E4%BF%82%E3%82%92%E8%AA%BF%E3%81%B9%E3%82%8B/</loc>
+    <loc>http://pyyoshi.github.io/blog/2011/03/Android%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%81%AE%E4%BE%9D%E5%AD%98%E9%96%A2%E4%BF%82%E3%82%92%E8%AA%BF%E3%81%B9%E3%82%8B/</loc>
     <lastmod>2011-03-08T16:47:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2011/02/cd-hoge-ls-a%E3%81%A8%E6%89%93%E3%81%A4%E3%81%AE%E3%81%8C%E3%82%81%E3%82%93%E3%81%A9%E3%81%8F%E3%81%95%E3%81%8F%E3%81%A6/</loc>
+    <loc>http://pyyoshi.github.io/blog/2011/02/cd-hoge-ls-a%E3%81%A8%E6%89%93%E3%81%A4%E3%81%AE%E3%81%8C%E3%82%81%E3%82%93%E3%81%A9%E3%81%8F%E3%81%95%E3%81%8F%E3%81%A6/</loc>
     <lastmod>2011-02-09T17:00:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/SSH/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/SSH/</loc>
     <lastmod>2011-01-15T19:20:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2011/01/%E6%9A%97%E5%8F%B7%E5%8C%96%E3%81%97%E3%81%9FHome%E3%81%A7%E6%B3%A8%E6%84%8F%E3%81%99%E3%82%8B%E3%81%93%E3%81%A8-SSH%E7%B7%A8/</loc>
+    <loc>http://pyyoshi.github.io/blog/2011/01/%E6%9A%97%E5%8F%B7%E5%8C%96%E3%81%97%E3%81%9FHome%E3%81%A7%E6%B3%A8%E6%84%8F%E3%81%99%E3%82%8B%E3%81%93%E3%81%A8-SSH%E7%B7%A8/</loc>
     <lastmod>2011-01-15T19:20:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/git/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/git/</loc>
     <lastmod>2010-12-24T00:46:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/github/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/github/</loc>
     <lastmod>2010-12-24T00:46:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/12/github%E3%81%AB%E3%83%97%E3%83%83%E3%82%B7%E3%83%A5/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/12/github%E3%81%AB%E3%83%97%E3%83%83%E3%82%B7%E3%83%A5/</loc>
     <lastmod>2010-12-24T00:46:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/IS01/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/IS01/</loc>
     <lastmod>2010-12-12T14:00:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/12/IS01-rooter%E3%81%A7%E3%81%86%E3%81%BE%E3%83%BC%E3%81%8F%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%8C%E5%91%BC%E3%81%B3%E5%87%BA%E3%81%9B%E3%81%AA%E3%81%84%E3%81%A8%E3%81%8A%E3%82%82%E3%81%A3%E3%81%9F%E3%82%89%E3%81%AE%E5%B7%BB%E3%81%8D/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/12/IS01-rooter%E3%81%A7%E3%81%86%E3%81%BE%E3%83%BC%E3%81%8F%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%8C%E5%91%BC%E3%81%B3%E5%87%BA%E3%81%9B%E3%81%AA%E3%81%84%E3%81%A8%E3%81%8A%E3%82%82%E3%81%A3%E3%81%9F%E3%82%89%E3%81%AE%E5%B7%BB%E3%81%8D/</loc>
     <lastmod>2010-12-12T14:00:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/12/IS01%E3%81%AEkernel%E3%82%92%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A1%E3%82%83%E3%81%8A%E3%81%86-%E4%BF%AE%E6%AD%A3-20101213/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/12/IS01%E3%81%AEkernel%E3%82%92%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A1%E3%82%83%E3%81%8A%E3%81%86-%E4%BF%AE%E6%AD%A3-20101213/</loc>
     <lastmod>2010-12-04T20:08:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/12/SH-DevelopersSquare%E3%81%8B%E3%82%89IS01%E7%AD%89%E3%81%AEAndroid%E5%90%91%E3%81%91%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92DL%E3%81%99%E3%82%8B%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F%E3%82%88/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/12/SH-DevelopersSquare%E3%81%8B%E3%82%89IS01%E7%AD%89%E3%81%AEAndroid%E5%90%91%E3%81%91%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92DL%E3%81%99%E3%82%8B%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F%E3%82%88/</loc>
     <lastmod>2010-12-03T16:43:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/BeautifulSoup/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/BeautifulSoup/</loc>
     <lastmod>2010-12-03T01:13:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/12/beautifulsoup%E3%81%8C3.0.1%E3%81%8B%E3%82%893.2.0%E3%81%AB%E5%A4%89%E3%82%8F%E3%81%A3%E3%81%9F%E3%82%89HTMLParseError%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%9F/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/12/beautifulsoup%E3%81%8C3.0.1%E3%81%8B%E3%82%893.2.0%E3%81%AB%E5%A4%89%E3%82%8F%E3%81%A3%E3%81%9F%E3%82%89HTMLParseError%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%9F/</loc>
     <lastmod>2010-12-03T01:13:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/11/UnicodeEncodeError-ascii-codec...%E3%81%8C%E5%87%BA%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/11/UnicodeEncodeError-ascii-codec...%E3%81%8C%E5%87%BA%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F/</loc>
     <lastmod>2010-11-05T22:29:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/11/BeautifulSoup%E3%81%A7HTMLParseError%E3%81%8C%E8%B5%B7%E3%81%8D%E3%81%9F%E6%99%82%E3%81%AE%E5%AF%BE%E5%87%A6/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/11/BeautifulSoup%E3%81%A7HTMLParseError%E3%81%8C%E8%B5%B7%E3%81%8D%E3%81%9F%E6%99%82%E3%81%AE%E5%AF%BE%E5%87%A6/</loc>
     <lastmod>2010-11-04T21:16:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/arm/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/arm/</loc>
     <lastmod>2010-10-27T21:18:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/10/arm-Ubuntu%E3%81%AE%E3%83%93%E3%83%AB%E3%83%89qemu%E7%94%A8/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/10/arm-Ubuntu%E3%81%AE%E3%83%93%E3%83%AB%E3%83%89qemu%E7%94%A8/</loc>
     <lastmod>2010-10-27T21:18:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Chrome/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Chrome/</loc>
     <lastmod>2010-10-24T11:29:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/10/document.getElementsByClassName%E3%81%8CChrome%E3%81%A7%E5%AE%9F%E8%A3%85%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%81%9F/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/10/document.getElementsByClassName%E3%81%8CChrome%E3%81%A7%E5%AE%9F%E8%A3%85%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%81%9F/</loc>
     <lastmod>2010-10-24T11:29:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/10/Android%E3%81%A7SkypeApp%E3%81%8C%E5%BE%A9%E6%B4%BB%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7%E3%81%95%E3%81%A3%E3%81%9D%E3%81%8F/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/10/Android%E3%81%A7SkypeApp%E3%81%8C%E5%BE%A9%E6%B4%BB%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7%E3%81%95%E3%81%A3%E3%81%9D%E3%81%8F/</loc>
     <lastmod>2010-10-05T19:33:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Skype/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Skype/</loc>
     <lastmod>2010-10-05T19:33:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/10/Acer-Liquid-E%E3%81%ABLeaked-Froyo%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/10/Acer-Liquid-E%E3%81%ABLeaked-Froyo%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</loc>
     <lastmod>2010-10-02T19:08:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Liquid/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Liquid/</loc>
     <lastmod>2010-10-02T19:08:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/10/Acer-Liquid-E%E3%82%92rooted%E5%8C%96%E3%81%97%E3%81%A1%E3%82%83%E3%81%8A%E3%81%86/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/10/Acer-Liquid-E%E3%82%92rooted%E5%8C%96%E3%81%97%E3%81%A1%E3%82%83%E3%81%8A%E3%81%86/</loc>
     <lastmod>2010-10-02T09:58:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/10/Acer-Liquid-E%E3%81%AB%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E3%83%AA%E3%82%AB%E3%83%90%E3%83%AA%E3%83%BC%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/10/Acer-Liquid-E%E3%81%AB%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E3%83%AA%E3%82%AB%E3%83%90%E3%83%AA%E3%83%BC%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</loc>
     <lastmod>2010-10-01T19:41:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/10/Acer-Liquid-E%E3%82%92%E8%B3%BC%E5%85%A5%E3%81%97%E3%81%9F%E3%82%88/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/10/Acer-Liquid-E%E3%82%92%E8%B3%BC%E5%85%A5%E3%81%97%E3%81%9F%E3%82%88/</loc>
     <lastmod>2010-10-01T19:17:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Diary/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Diary/</loc>
     <lastmod>2010-09-28T05:38:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/09/%E6%9C%AC%E6%97%A5GDD2010%E3%81%AB%E5%8F%82%E5%8A%A0%E3%81%97%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%99/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/09/%E6%9C%AC%E6%97%A5GDD2010%E3%81%AB%E5%8F%82%E5%8A%A0%E3%81%97%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%99/</loc>
     <lastmod>2010-09-28T05:38:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/09/9%E6%9C%88%E3%81%AF1%E6%97%A51App%E3%82%92%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86%E3%81%8B%E3%81%A8%E6%80%9D%E3%81%86/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/09/9%E6%9C%88%E3%81%AF1%E6%97%A51App%E3%82%92%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86%E3%81%8B%E3%81%A8%E6%80%9D%E3%81%86/</loc>
     <lastmod>2010-09-01T00:32:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/07/Chrome%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%92%E6%88%BB%E3%81%99%E6%96%B9%E6%B3%95/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/07/Chrome%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%92%E6%88%BB%E3%81%99%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2010-07-17T11:41:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/GoogleChrome/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/GoogleChrome/</loc>
     <lastmod>2010-07-17T11:41:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/06/PortablePython2.6.x%E3%81%ABeasy_install%E3%82%92%E5%85%A5%E3%82%8C%E3%82%8B/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/06/PortablePython2.6.x%E3%81%ABeasy_install%E3%82%92%E5%85%A5%E3%82%8C%E3%82%8B/</loc>
     <lastmod>2010-06-21T11:06:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/PSP-Type-B-Driver/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/PSP-Type-B-Driver/</loc>
     <lastmod>2010-06-17T22:53:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/06/PSP-Type-B-Driver-64bit%E3%82%92%E3%82%AA%E3%83%AC%E3%82%AA%E3%83%AC%E7%BD%B2%E5%90%8D%E3%81%99%E3%82%8B/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/06/PSP-Type-B-Driver-64bit%E3%82%92%E3%82%AA%E3%83%AC%E3%82%AA%E3%83%AC%E7%BD%B2%E5%90%8D%E3%81%99%E3%82%8B/</loc>
     <lastmod>2010-06-17T22:53:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/06/Blogger%E3%81%AE%E3%83%9D%E3%82%B9%E3%83%88%E6%97%A5%E4%BB%98%E5%8F%96%E5%BE%97%E3%81%86%E3%82%93%E3%81%9F%E3%82%89/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/06/Blogger%E3%81%AE%E3%83%9D%E3%82%B9%E3%83%88%E6%97%A5%E4%BB%98%E5%8F%96%E5%BE%97%E3%81%86%E3%82%93%E3%81%9F%E3%82%89/</loc>
     <lastmod>2010-06-05T15:53:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/gdipp/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/gdipp/</loc>
     <lastmod>2010-05-19T18:21:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/05/gdipp%E3%82%92%E5%90%84%E3%80%85%E3%81%AE%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AB%E9%81%A9%E7%94%A8%E3%81%95%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/05/gdipp%E3%82%92%E5%90%84%E3%80%85%E3%81%AE%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AB%E9%81%A9%E7%94%A8%E3%81%95%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2010-05-19T18:21:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/05/%E8%BF%91%E6%B3%81/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/05/%E8%BF%91%E6%B3%81/</loc>
     <lastmod>2010-05-10T21:52:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Mumble/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Mumble/</loc>
     <lastmod>2010-05-10T21:26:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/05/Ubuntu%E3%81%A7Mumble-Server%E3%82%92/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/05/Ubuntu%E3%81%A7Mumble-Server%E3%82%92/</loc>
     <lastmod>2010-05-10T21:26:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/FlashPlayer/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/FlashPlayer/</loc>
     <lastmod>2010-05-07T14:33:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/05/Ubuntu-64bit%E7%92%B0%E5%A2%83%E3%81%A7Flash-Player%E3%82%92%E4%BD%BF%E3%81%86/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/05/Ubuntu-64bit%E7%92%B0%E5%A2%83%E3%81%A7Flash-Player%E3%82%92%E4%BD%BF%E3%81%86/</loc>
     <lastmod>2010-05-07T14:33:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/MBR/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/MBR/</loc>
     <lastmod>2010-04-07T21:01:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/04/Win7%E3%81%AE%E3%83%96%E3%83%BC%E3%83%88%E3%83%AD%E3%83%BC%E3%83%80%E3%81%8C%E5%88%A5HDD%E3%81%AB%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%97%E3%82%84%E3%81%8C%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%A7/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/04/Win7%E3%81%AE%E3%83%96%E3%83%BC%E3%83%88%E3%83%AD%E3%83%BC%E3%83%80%E3%81%8C%E5%88%A5HDD%E3%81%AB%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%97%E3%82%84%E3%81%8C%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%A7/</loc>
     <lastmod>2010-04-07T21:01:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Windows7/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Windows7/</loc>
     <lastmod>2010-04-07T21:01:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/03/Ubuntu-9.10%E3%81%ABMongoDB%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/03/Ubuntu-9.10%E3%81%ABMongoDB%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</loc>
     <lastmod>2010-03-26T01:15:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/03/Tumbler-Photo%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%A0%E3%81%8C/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/03/Tumbler-Photo%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%A0%E3%81%8C/</loc>
     <lastmod>2010-03-06T23:37:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Extension/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Extension/</loc>
     <lastmod>2010-02-26T16:41:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/02/%E5%88%9DJavaScript-%E5%88%9DGoogleChromeExtension%E3%81%A7/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/02/%E5%88%9DJavaScript-%E5%88%9DGoogleChromeExtension%E3%81%A7/</loc>
     <lastmod>2010-02-26T16:41:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/EASEUS-Disk-Copy/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/EASEUS-Disk-Copy/</loc>
     <lastmod>2010-02-03T14:56:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/02/EASEUS-Disk-Copy%E3%82%92%E3%83%96%E3%83%BC%E3%82%BF%E3%83%96%E3%83%ABUSB%E3%83%A1%E3%83%A2%E3%83%AA%E3%81%A7/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/02/EASEUS-Disk-Copy%E3%82%92%E3%83%96%E3%83%BC%E3%82%BF%E3%83%96%E3%83%ABUSB%E3%83%A1%E3%83%A2%E3%83%AA%E3%81%A7/</loc>
     <lastmod>2010-02-03T14:56:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Unetbootin/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Unetbootin/</loc>
     <lastmod>2010-02-03T14:56:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/NicoRoid/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/NicoRoid/</loc>
     <lastmod>2010-01-05T23:34:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/01/NicoRoid/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/01/NicoRoid/</loc>
     <lastmod>2010-01-05T23:34:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2010/01/Android%E7%AB%AF%E6%9C%AB%E8%B2%B7%E3%81%A3%E3%81%9F/</loc>
+    <loc>http://pyyoshi.github.io/blog/2010/01/Android%E7%AB%AF%E6%9C%AB%E8%B2%B7%E3%81%A3%E3%81%9F/</loc>
     <lastmod>2010-01-05T22:57:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Mobile/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Mobile/</loc>
     <lastmod>2010-01-05T22:57:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/DiCE/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/DiCE/</loc>
     <lastmod>2009-12-27T19:20:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%89%EF%BC%94/</loc>
+    <loc>http://pyyoshi.github.io/blog/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%89%EF%BC%94/</loc>
     <lastmod>2009-12-27T19:20:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2009/12/Qt4%E7%92%B0%E5%A2%83%E3%82%92%E6%A7%8B%E7%AF%89/</loc>
+    <loc>http://pyyoshi.github.io/blog/2009/12/Qt4%E7%92%B0%E5%A2%83%E3%82%92%E6%A7%8B%E7%AF%89/</loc>
     <lastmod>2009-12-27T17:04:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2009/12/Ubuntu-64bit%E7%92%B0%E5%A2%83%E3%81%A732bit%E3%82%A2%E3%83%97%E3%83%AA%E3%82%92%E4%BD%BF%E3%81%86%E5%A0%B4%E5%90%88/</loc>
+    <loc>http://pyyoshi.github.io/blog/2009/12/Ubuntu-64bit%E7%92%B0%E5%A2%83%E3%81%A732bit%E3%82%A2%E3%83%97%E3%83%AA%E3%82%92%E4%BD%BF%E3%81%86%E5%A0%B4%E5%90%88/</loc>
     <lastmod>2009-12-27T16:35:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%893/</loc>
+    <loc>http://pyyoshi.github.io/blog/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%893/</loc>
     <lastmod>2009-12-27T15:51:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%892/</loc>
+    <loc>http://pyyoshi.github.io/blog/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%892/</loc>
     <lastmod>2009-12-24T15:33:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/vsftpd/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/vsftpd/</loc>
     <lastmod>2009-12-24T15:33:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2009/12/%E3%83%A1%E3%83%A2%E3%83%AA%E4%BD%BF%E7%94%A8%E9%87%8F%E3%81%AE%E7%A2%BA%E8%AA%8D%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89/</loc>
+    <loc>http://pyyoshi.github.io/blog/2009/12/%E3%83%A1%E3%83%A2%E3%83%AA%E4%BD%BF%E7%94%A8%E9%87%8F%E3%81%AE%E7%A2%BA%E8%AA%8D%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89/</loc>
     <lastmod>2009-12-23T00:52:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/Server/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/Server/</loc>
     <lastmod>2009-12-22T23:54:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%891/</loc>
+    <loc>http://pyyoshi.github.io/blog/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%891/</loc>
     <lastmod>2009-12-22T23:54:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2009/12/CSV%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%A7%E3%81%AE%E3%82%A8%E3%83%A9%E3%83%BC%E8%A7%A3%E6%B1%BA/</loc>
+    <loc>http://pyyoshi.github.io/blog/2009/12/CSV%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%A7%E3%81%AE%E3%82%A8%E3%83%A9%E3%83%BC%E8%A7%A3%E6%B1%BA/</loc>
     <lastmod>2009-12-21T21:02:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2009/12/DoCoMo%E3%81%A7%E3%82%B9%E3%83%9E%E3%83%95%E3%82%A9%E7%94%9F%E6%B4%BB/</loc>
+    <loc>http://pyyoshi.github.io/blog/2009/12/DoCoMo%E3%81%A7%E3%82%B9%E3%83%9E%E3%83%95%E3%82%A9%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2009-12-19T19:06:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2009/12/%E3%81%AA%E3%82%93%E3%81%8B%E6%AE%8B%E5%BF%B5%E3%81%AAFirefox%E3%81%95%E3%82%93/</loc>
+    <loc>http://pyyoshi.github.io/blog/2009/12/%E3%81%AA%E3%82%93%E3%81%8B%E6%AE%8B%E5%BF%B5%E3%81%AAFirefox%E3%81%95%E3%82%93/</loc>
     <lastmod>2009-12-16T23:46:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2009/12/%E8%87%AA%E9%AF%96%E3%81%AE%E4%B8%AD%E8%BA%AB%E3%82%92%E5%BC%95%E8%B6%8A%E3%81%97%E3%81%9F/</loc>
+    <loc>http://pyyoshi.github.io/blog/2009/12/%E8%87%AA%E9%AF%96%E3%81%AE%E4%B8%AD%E8%BA%AB%E3%82%92%E5%BC%95%E8%B6%8A%E3%81%97%E3%81%9F/</loc>
     <lastmod>2009-12-14T00:18:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2009/12/csv%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%8C/</loc>
+    <loc>http://pyyoshi.github.io/blog/2009/12/csv%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%8C/</loc>
     <lastmod>2009-12-12T17:23:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/%E5%BD%93%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/%E5%BD%93%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</loc>
     <lastmod>2009-12-12T00:21:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2009/12/%E5%BD%93%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</loc>
+    <loc>http://pyyoshi.github.io/blog/2009/12/%E5%BD%93%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</loc>
     <lastmod>2009-12-12T00:21:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2009/12/Python%E3%81%AEcsv%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%8CUTF-16%E3%81%AB%E5%AF%BE%E5%BF%9C%E3%81%97%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84%E4%BB%B6%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</loc>
+    <loc>http://pyyoshi.github.io/blog/2009/12/Python%E3%81%AEcsv%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%8CUTF-16%E3%81%AB%E5%AF%BE%E5%BF%9C%E3%81%97%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84%E4%BB%B6%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</loc>
     <lastmod>2009-12-12T00:07:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/SQLite3/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/SQLite3/</loc>
     <lastmod>2009-12-11T20:53:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2009/12/SQLite%E3%81%A7%E3%83%87%E3%83%BC%E3%82%BF%E5%9E%8B%E6%8C%87%E5%AE%9A%E3%81%AE%E6%9C%89%E7%84%A1/</loc>
+    <loc>http://pyyoshi.github.io/blog/2009/12/SQLite%E3%81%A7%E3%83%87%E3%83%BC%E3%82%BF%E5%9E%8B%E6%8C%87%E5%AE%9A%E3%81%AE%E6%9C%89%E7%84%A1/</loc>
     <lastmod>2009-12-11T20:53:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2009/12/CSV2SQL%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E8%A6%8B%E3%81%A4%E3%81%91%E3%81%9F/</loc>
+    <loc>http://pyyoshi.github.io/blog/2009/12/CSV2SQL%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E8%A6%8B%E3%81%A4%E3%81%91%E3%81%9F/</loc>
     <lastmod>2009-12-10T23:37:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/CSS/</loc>
+    <loc>http://pyyoshi.github.io/blog/tags/CSS/</loc>
     <lastmod>2009-12-10T00:38:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2009/12/CSS-small-caps/</loc>
+    <loc>http://pyyoshi.github.io/blog/2009/12/CSS-small-caps/</loc>
     <lastmod>2009-12-10T00:38:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2009/12/%E3%82%AB%E3%83%A9%E3%83%A0%E5%90%8D%E3%81%A7DB%E3%81%8B%E3%82%89%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</loc>
+    <loc>http://pyyoshi.github.io/blog/2009/12/%E3%82%AB%E3%83%A9%E3%83%A0%E5%90%8D%E3%81%A7DB%E3%81%8B%E3%82%89%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2009-12-08T23:41:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2009/12/Python%E3%81%A7%E3%81%AE%E9%96%A2%E6%95%B0%E5%AE%9A%E7%BE%A9/</loc>
+    <loc>http://pyyoshi.github.io/blog/2009/12/Python%E3%81%A7%E3%81%AE%E9%96%A2%E6%95%B0%E5%AE%9A%E7%BE%A9/</loc>
     <lastmod>2009-12-08T23:00:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/2009/12/Python%E3%81%A7%E7%89%B9%E5%AE%9A%E3%81%AE%E8%A1%8C%E3%82%92%E8%AA%AD%E3%81%BF%E8%BE%BC%E3%81%BE%E3%81%9B%E3%82%8B/</loc>
+    <loc>http://pyyoshi.github.io/blog/2009/12/Python%E3%81%A7%E7%89%B9%E5%AE%9A%E3%81%AE%E8%A1%8C%E3%82%92%E8%AA%AD%E3%81%BF%E8%BE%BC%E3%81%BE%E3%81%9B%E3%82%8B/</loc>
     <lastmod>2009-12-08T22:53:00+09:00</lastmod>
   </url>
   

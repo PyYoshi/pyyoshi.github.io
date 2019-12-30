@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows7 on PyYoshiのログ置き場</title>
-    <link>https://pyyoshi.github.io/blog/tags/Windows7/</link>
+    <link>http://pyyoshi.github.io/blog/tags/Windows7/</link>
     <description>Recent content in Windows7 on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 07 Apr 2010 21:01:00 +0900</lastBuildDate>
     
-	<atom:link href="https://pyyoshi.github.io/blog/tags/Windows7/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://pyyoshi.github.io/blog/tags/Windows7/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Win7のブートローダが別HDDにインストールしやがったので</title>
-      <link>https://pyyoshi.github.io/blog/2010/04/Win7%E3%81%AE%E3%83%96%E3%83%BC%E3%83%88%E3%83%AD%E3%83%BC%E3%83%80%E3%81%8C%E5%88%A5HDD%E3%81%AB%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%97%E3%82%84%E3%81%8C%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%A7/</link>
+      <link>http://pyyoshi.github.io/blog/2010/04/Win7%E3%81%AE%E3%83%96%E3%83%BC%E3%83%88%E3%83%AD%E3%83%BC%E3%83%80%E3%81%8C%E5%88%A5HDD%E3%81%AB%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%97%E3%82%84%E3%81%8C%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%A7/</link>
       <pubDate>Wed, 07 Apr 2010 21:01:00 +0900</pubDate>
       
-      <guid>https://pyyoshi.github.io/blog/2010/04/Win7%E3%81%AE%E3%83%96%E3%83%BC%E3%83%88%E3%83%AD%E3%83%BC%E3%83%80%E3%81%8C%E5%88%A5HDD%E3%81%AB%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%97%E3%82%84%E3%81%8C%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%A7/</guid>
+      <guid>http://pyyoshi.github.io/blog/2010/04/Win7%E3%81%AE%E3%83%96%E3%83%BC%E3%83%88%E3%83%AD%E3%83%BC%E3%83%80%E3%81%8C%E5%88%A5HDD%E3%81%AB%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%97%E3%82%84%E3%81%8C%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%A7/</guid>
       <description>SSDにWin7をインスコした際、めんどくさかったのでほかのHDDを接続したまま行ったせいか、
 うんこWindows様はOSがインスコされたSSDにMBRを書き込まずに、別HDDに書き込んでしまいました。
 その際の修復方法の備忘録です。

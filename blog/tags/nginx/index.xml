@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>nginx on PyYoshiのログ置き場</title>
-    <link>https://pyyoshi.github.io/blog/tags/nginx/</link>
+    <link>http://pyyoshi.github.io/blog/tags/nginx/</link>
     <description>Recent content in nginx on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 05 Oct 2011 23:43:00 +0900</lastBuildDate>
     
-	<atom:link href="https://pyyoshi.github.io/blog/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://pyyoshi.github.io/blog/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>redmineをnginxで扱う</title>
-      <link>https://pyyoshi.github.io/blog/2011/10/redmine%E3%82%92nginx%E3%81%A7%E6%89%B1%E3%81%86/</link>
+      <link>http://pyyoshi.github.io/blog/2011/10/redmine%E3%82%92nginx%E3%81%A7%E6%89%B1%E3%81%86/</link>
       <pubDate>Wed, 05 Oct 2011 23:43:00 +0900</pubDate>
       
-      <guid>https://pyyoshi.github.io/blog/2011/10/redmine%E3%82%92nginx%E3%81%A7%E6%89%B1%E3%81%86/</guid>
+      <guid>http://pyyoshi.github.io/blog/2011/10/redmine%E3%82%92nginx%E3%81%A7%E6%89%B1%E3%81%86/</guid>
       <description>教授から成果を見える形で出せと言われたのでとりあえず備忘録。。
 Redmineの設定とかsudo apt-get install ruby ruby1.8-dev rubygems sendmail imagemagick libmagick9-devsudo gem update &amp;ndash;system 1.6.2sudo gem install sqlite3-ruby sudo gem install -v=2.3.11 railssudo gem install -v=0.4.2 i18nsudo gem install rakesudo mkdir -p /var/www/redmine_testcd /var/www/redmine_testsudo git clone git://github.com/edavis10/redmine.gitcd redminesudo vim config/database.ymlproduction:adapter: sqlite3database: db/redmine.dbtimeout: 5000sudo rake generate_session_storesudo rake db:migrate RAILS_ENV=&amp;quot;production&amp;quot;sudo rake redmine:load_default_data RAILS_ENV=production&amp;gt;jaメールの設定がいまいちわからない。
 使わないしテキトーでいいよね。sudo vim config/email.ymldelivery_method: :async_smtpsmtp_settings:address: localhostport: 25domain: host.example.jpsudo ruby script/server webrick -e productionhttp://serverip:3000にアクセスして動くかチェック
@@ -26,10 +26,10 @@ redmineをnginxで動かすときのもろもろsudo gem install passengersudo g
     
     <item>
       <title>nginxでfastcgiを使うとき</title>
-      <link>https://pyyoshi.github.io/blog/2011/06/nginx%E3%81%A7fastcgi%E3%82%92%E4%BD%BF%E3%81%86%E3%81%A8%E3%81%8D/</link>
+      <link>http://pyyoshi.github.io/blog/2011/06/nginx%E3%81%A7fastcgi%E3%82%92%E4%BD%BF%E3%81%86%E3%81%A8%E3%81%8D/</link>
       <pubDate>Wed, 29 Jun 2011 18:23:00 +0900</pubDate>
       
-      <guid>https://pyyoshi.github.io/blog/2011/06/nginx%E3%81%A7fastcgi%E3%82%92%E4%BD%BF%E3%81%86%E3%81%A8%E3%81%8D/</guid>
+      <guid>http://pyyoshi.github.io/blog/2011/06/nginx%E3%81%A7fastcgi%E3%82%92%E4%BD%BF%E3%81%86%E3%81%A8%E3%81%8D/</guid>
       <description>Pythonでweb app作ったので動かそうとサーバ周りをいろいろやってみたのだがfastcgiでの動作方法がいまいちよくわからなかった。
 apacheのようにhoge.fcgiを指定してやれば動く、というものではないらしくどうすればいいのか結構時間を費やしてしまった。
 １つのやり方としてspawn-fcgiを使ってプロセスを生成してやればいいらしい。 それをnginx.confのfastcgi_passに指定してやることでいいみたいだ。

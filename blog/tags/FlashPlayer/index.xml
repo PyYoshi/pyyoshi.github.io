@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FlashPlayer on PyYoshiのログ置き場</title>
-    <link>https://pyyoshi.github.io/blog/tags/FlashPlayer/</link>
+    <link>http://pyyoshi.github.io/blog/tags/FlashPlayer/</link>
     <description>Recent content in FlashPlayer on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 07 May 2010 14:33:00 +0900</lastBuildDate>
     
-	<atom:link href="https://pyyoshi.github.io/blog/tags/FlashPlayer/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://pyyoshi.github.io/blog/tags/FlashPlayer/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ubuntu 64bit環境でFlash Playerを使う</title>
-      <link>https://pyyoshi.github.io/blog/2010/05/Ubuntu-64bit%E7%92%B0%E5%A2%83%E3%81%A7Flash-Player%E3%82%92%E4%BD%BF%E3%81%86/</link>
+      <link>http://pyyoshi.github.io/blog/2010/05/Ubuntu-64bit%E7%92%B0%E5%A2%83%E3%81%A7Flash-Player%E3%82%92%E4%BD%BF%E3%81%86/</link>
       <pubDate>Fri, 07 May 2010 14:33:00 +0900</pubDate>
       
-      <guid>https://pyyoshi.github.io/blog/2010/05/Ubuntu-64bit%E7%92%B0%E5%A2%83%E3%81%A7Flash-Player%E3%82%92%E4%BD%BF%E3%81%86/</guid>
+      <guid>http://pyyoshi.github.io/blog/2010/05/Ubuntu-64bit%E7%92%B0%E5%A2%83%E3%81%A7Flash-Player%E3%82%92%E4%BD%BF%E3%81%86/</guid>
       <description>すっかり忘れておったのでメモsudo apt-get install flashplugin-installerで、いちよインストールされる。Google ChromeとかFirefoxで使えるようにするにはChromeはsudo mkdir /opt/google/chrome/pluginssudo ln -s /usr/lib/flashplugin-installer/libflashplayer.so /opt/google/chrome/pluginsFirefoxはsudo ln -s /usr/lib/flashplugin-installer/libflashplayer.so /usr/lib/mozilla/plugins**</description>
     </item>
     

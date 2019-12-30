@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chrome on PyYoshiのログ置き場</title>
-    <link>https://pyyoshi.github.io/blog/tags/Chrome/</link>
+    <link>http://pyyoshi.github.io/blog/tags/Chrome/</link>
     <description>Recent content in Chrome on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 24 Oct 2010 11:29:00 +0900</lastBuildDate>
     
-	<atom:link href="https://pyyoshi.github.io/blog/tags/Chrome/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://pyyoshi.github.io/blog/tags/Chrome/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>document.getElementsByClassNameがChromeで実装されていた。</title>
-      <link>https://pyyoshi.github.io/blog/2010/10/document.getElementsByClassName%E3%81%8CChrome%E3%81%A7%E5%AE%9F%E8%A3%85%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%81%9F/</link>
+      <link>http://pyyoshi.github.io/blog/2010/10/document.getElementsByClassName%E3%81%8CChrome%E3%81%A7%E5%AE%9F%E8%A3%85%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%81%9F/</link>
       <pubDate>Sun, 24 Oct 2010 11:29:00 +0900</pubDate>
       
-      <guid>https://pyyoshi.github.io/blog/2010/10/document.getElementsByClassName%E3%81%8CChrome%E3%81%A7%E5%AE%9F%E8%A3%85%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%81%9F/</guid>
+      <guid>http://pyyoshi.github.io/blog/2010/10/document.getElementsByClassName%E3%81%8CChrome%E3%81%A7%E5%AE%9F%E8%A3%85%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%81%9F/</guid>
       <description>いつに実装されたかは知らないがなんか使えた。(ソース)</description>
     </item>
     

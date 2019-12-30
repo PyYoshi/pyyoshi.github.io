@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Diary on PyYoshiのログ置き場</title>
-    <link>https://pyyoshi.github.io/blog/tags/Diary/</link>
+    <link>http://pyyoshi.github.io/blog/tags/Diary/</link>
     <description>Recent content in Diary on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 28 Sep 2010 05:38:00 +0900</lastBuildDate>
     
-	<atom:link href="https://pyyoshi.github.io/blog/tags/Diary/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://pyyoshi.github.io/blog/tags/Diary/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>本日、GDD2010に参加してきます！！</title>
-      <link>https://pyyoshi.github.io/blog/2010/09/%E6%9C%AC%E6%97%A5GDD2010%E3%81%AB%E5%8F%82%E5%8A%A0%E3%81%97%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%99/</link>
+      <link>http://pyyoshi.github.io/blog/2010/09/%E6%9C%AC%E6%97%A5GDD2010%E3%81%AB%E5%8F%82%E5%8A%A0%E3%81%97%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%99/</link>
       <pubDate>Tue, 28 Sep 2010 05:38:00 +0900</pubDate>
       
-      <guid>https://pyyoshi.github.io/blog/2010/09/%E6%9C%AC%E6%97%A5GDD2010%E3%81%AB%E5%8F%82%E5%8A%A0%E3%81%97%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%99/</guid>
+      <guid>http://pyyoshi.github.io/blog/2010/09/%E6%9C%AC%E6%97%A5GDD2010%E3%81%AB%E5%8F%82%E5%8A%A0%E3%81%97%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%99/</guid>
       <description>去年からずっと楽しみにしていたイベントの一つGDDに参加できる資格を貰えたので参加してきます！
 HTML5やChromeエクステンション、Androidなどのたくさんのディベロッパさんのセッション聞いて刺激をいっぱい貰って
 次に活かせるように楽しんできたいと思います！！！！！
@@ -31,10 +31,10 @@ http://gddjp-devlink.appspot.com/v.html?action=view&amp;amp;edit=true&amp;amp;id
     
     <item>
       <title>9月は1日1Appをやってみようかと思う。</title>
-      <link>https://pyyoshi.github.io/blog/2010/09/9%E6%9C%88%E3%81%AF1%E6%97%A51App%E3%82%92%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86%E3%81%8B%E3%81%A8%E6%80%9D%E3%81%86/</link>
+      <link>http://pyyoshi.github.io/blog/2010/09/9%E6%9C%88%E3%81%AF1%E6%97%A51App%E3%82%92%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86%E3%81%8B%E3%81%A8%E6%80%9D%E3%81%86/</link>
       <pubDate>Wed, 01 Sep 2010 00:32:00 +0900</pubDate>
       
-      <guid>https://pyyoshi.github.io/blog/2010/09/9%E6%9C%88%E3%81%AF1%E6%97%A51App%E3%82%92%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86%E3%81%8B%E3%81%A8%E6%80%9D%E3%81%86/</guid>
+      <guid>http://pyyoshi.github.io/blog/2010/09/9%E6%9C%88%E3%81%AF1%E6%97%A51App%E3%82%92%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86%E3%81%8B%E3%81%A8%E6%80%9D%E3%81%86/</guid>
       <description>タイトル通り頑張る。
 頑張るって言うと途中であきらめちゃうん？って感じだけど
 やれるだけやってみる。糞みたいなAppが30個生成されると思うけど。
@@ -44,10 +44,10 @@ http://gddjp-devlink.appspot.com/v.html?action=view&amp;amp;edit=true&amp;amp;id
     
     <item>
       <title>近況</title>
-      <link>https://pyyoshi.github.io/blog/2010/05/%E8%BF%91%E6%B3%81/</link>
+      <link>http://pyyoshi.github.io/blog/2010/05/%E8%BF%91%E6%B3%81/</link>
       <pubDate>Mon, 10 May 2010 21:52:00 +0900</pubDate>
       
-      <guid>https://pyyoshi.github.io/blog/2010/05/%E8%BF%91%E6%B3%81/</guid>
+      <guid>http://pyyoshi.github.io/blog/2010/05/%E8%BF%91%E6%B3%81/</guid>
       <description>クローラのテストコードをPythonで記述。
 本コードをC++で。という感じ。GUIにするならC#あたり？ さわってみたのだけれども、Cという名前がついているだけであんまりCっぽくない。ちょっと微妙… MS製だし… あと、Linuxでやりたいし…
 来期から研究室配属（単位次第ｗ）なのでその前までには完成させて、研究内容と結合してサービス云々。
@@ -56,10 +56,10 @@ http://gddjp-devlink.appspot.com/v.html?action=view&amp;amp;edit=true&amp;amp;id
     
     <item>
       <title>DoCoMoでスマフォ生活</title>
-      <link>https://pyyoshi.github.io/blog/2009/12/DoCoMo%E3%81%A7%E3%82%B9%E3%83%9E%E3%83%95%E3%82%A9%E7%94%9F%E6%B4%BB/</link>
+      <link>http://pyyoshi.github.io/blog/2009/12/DoCoMo%E3%81%A7%E3%82%B9%E3%83%9E%E3%83%95%E3%82%A9%E7%94%9F%E6%B4%BB/</link>
       <pubDate>Sat, 19 Dec 2009 19:06:00 +0900</pubDate>
       
-      <guid>https://pyyoshi.github.io/blog/2009/12/DoCoMo%E3%81%A7%E3%82%B9%E3%83%9E%E3%83%95%E3%82%A9%E7%94%9F%E6%B4%BB/</guid>
+      <guid>http://pyyoshi.github.io/blog/2009/12/DoCoMo%E3%81%A7%E3%82%B9%E3%83%9E%E3%83%95%E3%82%A9%E7%94%9F%E6%B4%BB/</guid>
       <description>DoCoMoのサイトで見て、てきとーに計算した。
 タイプSS バリュー(ひとりでも割50)　934円(税込980円)/月
 mopera U(Uライトプラン)　300円(税込315円)/月
@@ -74,19 +74,19 @@ http://www40.atwiki.jp/ht03a2ch/</description>
     
     <item>
       <title>なんか残念なFirefoxさん</title>
-      <link>https://pyyoshi.github.io/blog/2009/12/%E3%81%AA%E3%82%93%E3%81%8B%E6%AE%8B%E5%BF%B5%E3%81%AAFirefox%E3%81%95%E3%82%93/</link>
+      <link>http://pyyoshi.github.io/blog/2009/12/%E3%81%AA%E3%82%93%E3%81%8B%E6%AE%8B%E5%BF%B5%E3%81%AAFirefox%E3%81%95%E3%82%93/</link>
       <pubDate>Wed, 16 Dec 2009 23:46:00 +0900</pubDate>
       
-      <guid>https://pyyoshi.github.io/blog/2009/12/%E3%81%AA%E3%82%93%E3%81%8B%E6%AE%8B%E5%BF%B5%E3%81%AAFirefox%E3%81%95%E3%82%93/</guid>
+      <guid>http://pyyoshi.github.io/blog/2009/12/%E3%81%AA%E3%82%93%E3%81%8B%E6%AE%8B%E5%BF%B5%E3%81%AAFirefox%E3%81%95%E3%82%93/</guid>
       <description>アップデートを促してきて指示に従ったのだが、更新できませんでした。っと言うのダサいなぁ～とか思った。まぁそれだけ。</description>
     </item>
     
     <item>
       <title>自鯖の中身を引越した。</title>
-      <link>https://pyyoshi.github.io/blog/2009/12/%E8%87%AA%E9%AF%96%E3%81%AE%E4%B8%AD%E8%BA%AB%E3%82%92%E5%BC%95%E8%B6%8A%E3%81%97%E3%81%9F/</link>
+      <link>http://pyyoshi.github.io/blog/2009/12/%E8%87%AA%E9%AF%96%E3%81%AE%E4%B8%AD%E8%BA%AB%E3%82%92%E5%BC%95%E8%B6%8A%E3%81%97%E3%81%9F/</link>
       <pubDate>Mon, 14 Dec 2009 00:18:00 +0900</pubDate>
       
-      <guid>https://pyyoshi.github.io/blog/2009/12/%E8%87%AA%E9%AF%96%E3%81%AE%E4%B8%AD%E8%BA%AB%E3%82%92%E5%BC%95%E8%B6%8A%E3%81%97%E3%81%9F/</guid>
+      <guid>http://pyyoshi.github.io/blog/2009/12/%E8%87%AA%E9%AF%96%E3%81%AE%E4%B8%AD%E8%BA%AB%E3%82%92%E5%BC%95%E8%B6%8A%E3%81%97%E3%81%9F/</guid>
       <description>以前のケースがMini-ITX用で鯖に不向きだったのでATXケースに換装。
 まぁこんな感じに。
 構成は

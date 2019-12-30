@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python IronPython C# on PyYoshiのログ置き場</title>
-    <link>https://pyyoshi.github.io/blog/tags/Python-IronPython-C#/</link>
+    <link>http://pyyoshi.github.io/blog/tags/Python-IronPython-C#/</link>
     <description>Recent content in Python IronPython C# on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 01 Jun 2012 11:26:00 +0900</lastBuildDate>
     
-	<atom:link href="https://pyyoshi.github.io/blog/tags/Python-IronPython-C#/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://pyyoshi.github.io/blog/tags/Python-IronPython-C#/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>IronPythonはクソ</title>
-      <link>https://pyyoshi.github.io/blog/2012/06/IronPython%E3%81%AF%E3%82%AF%E3%82%BD/</link>
+      <link>http://pyyoshi.github.io/blog/2012/06/IronPython%E3%81%AF%E3%82%AF%E3%82%BD/</link>
       <pubDate>Fri, 01 Jun 2012 11:26:00 +0900</pubDate>
       
-      <guid>https://pyyoshi.github.io/blog/2012/06/IronPython%E3%81%AF%E3%82%AF%E3%82%BD/</guid>
+      <guid>http://pyyoshi.github.io/blog/2012/06/IronPython%E3%81%AF%E3%82%AF%E3%82%BD/</guid>
       <description>PyGooglePlusでクライアントでも作ろうかとC#にIronPythonを組み込んで実験していたのだけれど、どうもうまく動かない。
 というのもIronPython単体ではCPythonには負けるものの、いちよ実行はできたのだけれどC#から呼ぶとログイン処理からユーザ情報取得処理までに５分くらいかかる始末
 せっかくdynamic使えてかなり親和性が上がっているのにもったいないなぁ…

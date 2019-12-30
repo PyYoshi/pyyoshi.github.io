@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cython on PyYoshiのログ置き場</title>
-    <link>https://pyyoshi.github.io/blog/tags/Cython/</link>
+    <link>http://pyyoshi.github.io/blog/tags/Cython/</link>
     <description>Recent content in Cython on PyYoshiのログ置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 22 Aug 2012 22:25:00 +0900</lastBuildDate>
     
-	<atom:link href="https://pyyoshi.github.io/blog/tags/Cython/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://pyyoshi.github.io/blog/tags/Cython/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>環境によってCythonでうまくコード変換ができない場合の対処</title>
-      <link>https://pyyoshi.github.io/blog/2012/08/%E7%92%B0%E5%A2%83%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6Cython%E3%81%A7%E3%81%86%E3%81%BE%E3%81%8F%E3%82%B3%E3%83%BC%E3%83%89%E5%A4%89%E6%8F%9B%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E5%A0%B4%E5%90%88%E3%81%AE%E5%AF%BE%E5%87%A6/</link>
+      <link>http://pyyoshi.github.io/blog/2012/08/%E7%92%B0%E5%A2%83%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6Cython%E3%81%A7%E3%81%86%E3%81%BE%E3%81%8F%E3%82%B3%E3%83%BC%E3%83%89%E5%A4%89%E6%8F%9B%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E5%A0%B4%E5%90%88%E3%81%AE%E5%AF%BE%E5%87%A6/</link>
       <pubDate>Wed, 22 Aug 2012 22:25:00 +0900</pubDate>
       
-      <guid>https://pyyoshi.github.io/blog/2012/08/%E7%92%B0%E5%A2%83%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6Cython%E3%81%A7%E3%81%86%E3%81%BE%E3%81%8F%E3%82%B3%E3%83%BC%E3%83%89%E5%A4%89%E6%8F%9B%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E5%A0%B4%E5%90%88%E3%81%AE%E5%AF%BE%E5%87%A6/</guid>
+      <guid>http://pyyoshi.github.io/blog/2012/08/%E7%92%B0%E5%A2%83%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6Cython%E3%81%A7%E3%81%86%E3%81%BE%E3%81%8F%E3%82%B3%E3%83%BC%E3%83%89%E5%A4%89%E6%8F%9B%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E5%A0%B4%E5%90%88%E3%81%AE%E5%AF%BE%E5%87%A6/</guid>
       <description>なぜかWindowsやUbuntuでは素直に変換しビルドが成功するのに、CentOSではうまくpyxをC/CPPに変換できない問題が発生しました。
 この原因がどのようなものなのか色々と調べてみたのですが、検索の仕方がまずかったのか謎のままでいました。
 きっとCython.Distutils.build_extが悪さしてるんだろうなという検討はついていたので、
