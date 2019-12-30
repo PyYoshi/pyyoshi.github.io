@@ -8,12 +8,12 @@
   </url>
   
   <url>
-    <loc>http://example.org/tags/linux/</loc>
+    <loc>http://example.org/categories/linux/</loc>
     <lastmod>2018-10-31T14:21:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/linux/</loc>
+    <loc>http://example.org/tags/linux/</loc>
     <lastmod>2018-10-31T14:21:48+00:00</lastmod>
   </url>
   
@@ -103,22 +103,22 @@
   </url>
   
   <url>
-    <loc>http://example.org/categories/deja-dup/</loc>
-    <lastmod>2018-01-05T19:14:38+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://example.org/tags/deja-dup/</loc>
     <lastmod>2018-01-05T19:14:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/systemback/</loc>
+    <loc>http://example.org/categories/deja-dup/</loc>
     <lastmod>2018-01-05T19:14:38+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://example.org/tags/systemback/</loc>
+    <lastmod>2018-01-05T19:14:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/systemback/</loc>
     <lastmod>2018-01-05T19:14:38+00:00</lastmod>
   </url>
   
@@ -133,12 +133,12 @@
   </url>
   
   <url>
-    <loc>http://example.org/tags/timeshift/</loc>
+    <loc>http://example.org/categories/timeshift/</loc>
     <lastmod>2018-01-05T19:14:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/timeshift/</loc>
+    <loc>http://example.org/tags/timeshift/</loc>
     <lastmod>2018-01-05T19:14:38+00:00</lastmod>
   </url>
   
@@ -173,17 +173,12 @@
   </url>
   
   <url>
-    <loc>http://example.org/categories/typescript/</loc>
-    <lastmod>2017-10-12T21:18:42+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://example.org/tags/typescript/</loc>
     <lastmod>2017-10-12T21:18:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/webstorm/</loc>
+    <loc>http://example.org/categories/typescript/</loc>
     <lastmod>2017-10-12T21:18:42+00:00</lastmod>
   </url>
   
@@ -193,17 +188,22 @@
   </url>
   
   <url>
+    <loc>http://example.org/categories/webstorm/</loc>
+    <lastmod>2017-10-12T21:18:42+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://example.org/2017/10/WebStorm%E3%81%AE%E6%99%82%E4%BB%A3%E3%81%AF%E7%B5%82%E3%82%8F%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%8B%E3%82%82%E3%81%97%E3%82%8C%E3%81%AA%E3%81%84/</loc>
     <lastmod>2017-10-12T21:18:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/react-native/</loc>
+    <loc>http://example.org/tags/react-native/</loc>
     <lastmod>2017-10-09T17:49:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/tags/react-native/</loc>
+    <loc>http://example.org/categories/react-native/</loc>
     <lastmod>2017-10-09T17:49:35+00:00</lastmod>
   </url>
   
@@ -213,12 +213,12 @@
   </url>
   
   <url>
-    <loc>http://example.org/tags/firebase/</loc>
+    <loc>http://example.org/categories/firebase/</loc>
     <lastmod>2017-10-06T08:42:49+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/firebase/</loc>
+    <loc>http://example.org/tags/firebase/</loc>
     <lastmod>2017-10-06T08:42:49+00:00</lastmod>
   </url>
   
@@ -228,12 +228,12 @@
   </url>
   
   <url>
-    <loc>http://example.org/tags/firestore/</loc>
+    <loc>http://example.org/categories/firestore/</loc>
     <lastmod>2017-10-06T08:42:49+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/firestore/</loc>
+    <loc>http://example.org/tags/firestore/</loc>
     <lastmod>2017-10-06T08:42:49+00:00</lastmod>
   </url>
   
