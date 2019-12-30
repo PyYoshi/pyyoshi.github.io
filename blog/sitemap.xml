@@ -8,12 +8,12 @@
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/linux/</loc>
+    <loc>https://pyyoshi.github.io/blog/tags/linux/</loc>
     <lastmod>2018-10-31T14:21:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/linux/</loc>
+    <loc>https://pyyoshi.github.io/blog/categories/linux/</loc>
     <lastmod>2018-10-31T14:21:48+00:00</lastmod>
   </url>
   
@@ -48,12 +48,12 @@
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/xps13/</loc>
+    <loc>https://pyyoshi.github.io/blog/tags/xps13/</loc>
     <lastmod>2018-10-31T14:21:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/xps13/</loc>
+    <loc>https://pyyoshi.github.io/blog/categories/xps13/</loc>
     <lastmod>2018-10-31T14:21:48+00:00</lastmod>
   </url>
   
@@ -93,17 +93,12 @@
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/backup/</loc>
-    <lastmod>2018-01-05T19:14:38+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://pyyoshi.github.io/blog/tags/backup/</loc>
     <lastmod>2018-01-05T19:14:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/deja-dup/</loc>
+    <loc>https://pyyoshi.github.io/blog/categories/backup/</loc>
     <lastmod>2018-01-05T19:14:38+00:00</lastmod>
   </url>
   
@@ -113,12 +108,17 @@
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/systemback/</loc>
+    <loc>https://pyyoshi.github.io/blog/categories/deja-dup/</loc>
     <lastmod>2018-01-05T19:14:38+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://pyyoshi.github.io/blog/tags/systemback/</loc>
+    <lastmod>2018-01-05T19:14:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pyyoshi.github.io/blog/categories/systemback/</loc>
     <lastmod>2018-01-05T19:14:38+00:00</lastmod>
   </url>
   
@@ -133,12 +133,12 @@
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/timeshift/</loc>
+    <loc>https://pyyoshi.github.io/blog/categories/timeshift/</loc>
     <lastmod>2018-01-05T19:14:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/timeshift/</loc>
+    <loc>https://pyyoshi.github.io/blog/tags/timeshift/</loc>
     <lastmod>2018-01-05T19:14:38+00:00</lastmod>
   </url>
   
@@ -213,12 +213,12 @@
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/firebase/</loc>
+    <loc>https://pyyoshi.github.io/blog/categories/firebase/</loc>
     <lastmod>2017-10-06T08:42:49+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/firebase/</loc>
+    <loc>https://pyyoshi.github.io/blog/tags/firebase/</loc>
     <lastmod>2017-10-06T08:42:49+00:00</lastmod>
   </url>
   
@@ -273,12 +273,12 @@
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/golang/</loc>
+    <loc>https://pyyoshi.github.io/blog/categories/golang/</loc>
     <lastmod>2016-12-07T18:20:12+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/golang/</loc>
+    <loc>https://pyyoshi.github.io/blog/tags/golang/</loc>
     <lastmod>2016-12-07T18:20:12+00:00</lastmod>
   </url>
   
@@ -318,12 +318,12 @@
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/tags/reactjs/</loc>
+    <loc>https://pyyoshi.github.io/blog/categories/reactjs/</loc>
     <lastmod>2016-09-29T23:19:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyyoshi.github.io/blog/categories/reactjs/</loc>
+    <loc>https://pyyoshi.github.io/blog/tags/reactjs/</loc>
     <lastmod>2016-09-29T23:19:01+00:00</lastmod>
   </url>
   

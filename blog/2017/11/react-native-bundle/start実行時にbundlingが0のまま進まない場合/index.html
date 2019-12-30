@@ -37,12 +37,12 @@ $ watchman watch-del-all を実行しても終了しないでずっと実行し�
 これはwatchmanが悪さしているのだろうと思い, プロセスを殺したら正しく動いた…
 $ pkill watchman "/>
 
-	<link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/blog/favicon-16x16.png">
-	<link rel="manifest" href="/blog/site.webmanifest">
-	<link rel="mask-icon" href="/blog/safari-pinned-tab.svg" color="">
-	<link rel="shortcut icon" href="/blog/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://pyyoshi.github.io/blog/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://pyyoshi.github.io/blog/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://pyyoshi.github.io/blog/favicon-16x16.png">
+	<link rel="manifest" href="https://pyyoshi.github.io/blog/site.webmanifest">
+	<link rel="mask-icon" href="https://pyyoshi.github.io/blog/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="https://pyyoshi.github.io/blog/favicon.ico">
 
 	<title>react-native bundle/start実行時にbundlingが0%のまま進まない場合</title>
 	<link rel="stylesheet" href="https://pyyoshi.github.io/blog/css/style.min.657bcb7af31123e4156b1a3d2ff60a636717e54ead74f882136b5114cf72b55e.css" integrity="sha256-ZXvLevMRI+QVaxo9L/YKY2cX5U6tdPiCE2tRFM9ytV4=" crossorigin="anonymous">
@@ -86,7 +86,7 @@ $ pkill watchman "/>
 			<div class="content">
 				<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ react-native run-ios
 </code></pre></div><p>を実行してシミュレータが立ち上がってコードのロードを始めるが一向に進捗が0%のまま動かない問題に遭遇した.</p>
-<p><img src="/images/2017/11/----------2017-11-05-18.06.59.png" alt=""></p>
+<p><img src="https://pyyoshi.github.io/blog/images/2017/11/----------2017-11-05-18.06.59.png" alt=""></p>
 <p>nodeのバージョンを変えてもダメ, react-nativeのバージョンを変えてもダメでどうしたものかと悩んで, キャッシュ削除試してみようとしたときに</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ watchman watch-del-all
 </code></pre></div><p>を実行しても終了しないでずっと実行し続ける状態であることに気づいた.</p>

@@ -34,12 +34,12 @@
 結果から言うと単純に例外処理で該当部分を書き換えてしまえばいいのだ。
 #!/usr/bin/env python # -*- coding: utf-8 -*- import urllib2 from BeautifulSoup import BeautifulSoup from HTMLParser import HTMLParseError def fix_html(html): #UTF8に強制変換 html = html.encode(&quot;utf-8&quot;) try: soup = BeautifulSoup(html) return soup except HTMLParseError,e: emsg = e.msg #無理矢理、問題の該当箇所を抽出し空文字列に置換 emsg_start = emsg.find(&#39;u&quot;&#39;) rpl_str = eval(emsg[emsg_start:]).encode(&quot;utf-8&quot;) html = html.replace(rpl_str,u&quot;&quot;) #再帰的処理 return fix_html(html) except e: raise e def main(): try: set_url = &quot;#適宜URLを&quot; html = urllib2.urlopen(set_url).read() print fix_html(html) except urllib2.HTTPError, e: e."/>
 
-	<link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/blog/favicon-16x16.png">
-	<link rel="manifest" href="/blog/site.webmanifest">
-	<link rel="mask-icon" href="/blog/safari-pinned-tab.svg" color="">
-	<link rel="shortcut icon" href="/blog/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://pyyoshi.github.io/blog/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://pyyoshi.github.io/blog/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://pyyoshi.github.io/blog/favicon-16x16.png">
+	<link rel="manifest" href="https://pyyoshi.github.io/blog/site.webmanifest">
+	<link rel="mask-icon" href="https://pyyoshi.github.io/blog/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="https://pyyoshi.github.io/blog/favicon.ico">
 
 	<title>BeautifulSoupでHTMLParseErrorが起きた時の対処</title>
 	<link rel="stylesheet" href="https://pyyoshi.github.io/blog/css/style.min.657bcb7af31123e4156b1a3d2ff60a636717e54ead74f882136b5114cf72b55e.css" integrity="sha256-ZXvLevMRI+QVaxo9L/YKY2cX5U6tdPiCE2tRFM9ytV4=" crossorigin="anonymous">

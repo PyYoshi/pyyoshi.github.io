@@ -64,12 +64,12 @@ $ hotshot2dot nose.prof| dot -Tpng -o profile.png
 ※ この結果を出したときは指定していなかったが、文字コードが固定で既知なら,from_encoding引数をBeautifulSoupに指定してあげるのもいいと思うよ。 実験的にPyGooglePlusにも使用してみたら、5分の1くらい処理時間が縮まりました。 省いてるから当然だね。 だとしてもC拡張のchardetが欲しくなるよね。だれか作らないかな参考：
  Visual profiling with Nose and gprof2dot  "/>
 
-	<link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/blog/favicon-16x16.png">
-	<link rel="manifest" href="/blog/site.webmanifest">
-	<link rel="mask-icon" href="/blog/safari-pinned-tab.svg" color="">
-	<link rel="shortcut icon" href="/blog/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://pyyoshi.github.io/blog/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://pyyoshi.github.io/blog/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://pyyoshi.github.io/blog/favicon-16x16.png">
+	<link rel="manifest" href="https://pyyoshi.github.io/blog/site.webmanifest">
+	<link rel="mask-icon" href="https://pyyoshi.github.io/blog/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="https://pyyoshi.github.io/blog/favicon.ico">
 
 	<title>PyGooglePlusをプロファイリングしてみた</title>
 	<link rel="stylesheet" href="https://pyyoshi.github.io/blog/css/style.min.657bcb7af31123e4156b1a3d2ff60a636717e54ead74f882136b5114cf72b55e.css" integrity="sha256-ZXvLevMRI+QVaxo9L/YKY2cX5U6tdPiCE2tRFM9ytV4=" crossorigin="anonymous">
@@ -127,8 +127,8 @@ $ hotshot2dot nose.prof| dot -Tpng -o profile.png<br>
 <p>今回はApiHandler.get_user_info()のみのテストコードで行った。
 またBeautifulSoup4がリリースされていることを知り、lxmlあれば早くなるよって言ってたので、3と4の2パターンで行った。</p>
 <p>以下が結果である。</p>
-<p><a href="/images/2012-06-18-pygooglepluswopurohuairingushitemita-profile1.png"><img src="/images/2012-06-18-pygooglepluswopurohuairingushitemita-profile1.png" alt=""></a></p>
-<p><a href="/images/2012-06-18-pygooglepluswopurohuairingushitemita-profile3.png"><img src="/images/2012-06-18-pygooglepluswopurohuairingushitemita-profile3.png" alt=""></a></p>
+<p><a href="https://pyyoshi.github.io/blog/images/2012-06-18-pygooglepluswopurohuairingushitemita-profile1.png"><img src="https://pyyoshi.github.io/blog/images/2012-06-18-pygooglepluswopurohuairingushitemita-profile1.png" alt=""></a></p>
+<p><a href="https://pyyoshi.github.io/blog/images/2012-06-18-pygooglepluswopurohuairingushitemita-profile3.png"><img src="https://pyyoshi.github.io/blog/images/2012-06-18-pygooglepluswopurohuairingushitemita-profile3.png" alt=""></a></p>
 <p>上がBS3、下がBS4であるが結果としては、lxmlを使っているはずのBS4のほうが遅い結果になっている。処理が余計にかかっている印象。
 いずれ改善されると思うけど、特に必要性を感じないのであればBS3を使っておけばいいと思う。</p>
 <p>それにしてもchardetの処理が足を引っ張りすぎている気がする。それと自分のライブラリ（苦笑）</p>

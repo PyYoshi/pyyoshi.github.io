@@ -25,12 +25,12 @@
 <meta name="twitter:title" content="SH DevelopersSquareからIS01等のAndroid向けソースをDLするスクリプト作ったよ！"/>
 <meta name="twitter:description" content="SH DevelopersSquareがgitとかsvnとか用意してくれていないのでソースのDLがまんどくさいことこの上ないのでPythonでスクリプトを作成しました。このスクリプトを利用することにより、is01, sh-10b, jn-dk01のソースを取得・展開してくれます。使い方（Ubuntu環境）は以下の通りです。まず、easy_install等で必要なモジュールをインストールします。**#sudo apt-get install setup_tools**←インストールしていない場合**#sudo easy_install -U MultipartPostHandler****#sudo easy_install -U BeautifulSoup**スクリプトの実行例は以下の通りです。**#python ./sdasg.py is01**←is01のソースを取得・展開したい場合**#python ./sdasg.py sh-10b** ←sh-10bのソースを取得・展開したい場合**#python ./sdasg.py jn-dk01** ←jn-dk01のソースを取得・展開したい場合以下がスクリプトです。# -*- coding: utf-8 -*- #------------------------------------------------------------------------------- # Name: SH Dev Android Source Getter(特に名前決めてない) # Purpose: (https://sh-dev.sharp.co.jp/android/modules/oss/)がsvnやgitでの # ソース公開してなかったので自動でダウンロードしてきて展開するスク # リプト作った。 # 使用する際は、GPL(http://www.gnu.org/licenses/)と各々のソフトウェ # ア使用許諾契約書に同意すること。 # # Usage: 引数にis01, sh-10b, jn-dk01のどれかを与えてください。 # スクリプト直下にディレクトリを作られ保存されます。 # 例)is01のソースを取得・展開します。 # #python ./sdasg.py is01 # # Require MultipartPostHandler, BeautifulSoupをeasy_installなどでインストー # ルしてください。 # # Author: renax64.blogspot.com # # Created: 02/12/2010, ver."/>
 
-	<link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/blog/favicon-16x16.png">
-	<link rel="manifest" href="/blog/site.webmanifest">
-	<link rel="mask-icon" href="/blog/safari-pinned-tab.svg" color="">
-	<link rel="shortcut icon" href="/blog/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://pyyoshi.github.io/blog/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://pyyoshi.github.io/blog/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://pyyoshi.github.io/blog/favicon-16x16.png">
+	<link rel="manifest" href="https://pyyoshi.github.io/blog/site.webmanifest">
+	<link rel="mask-icon" href="https://pyyoshi.github.io/blog/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="https://pyyoshi.github.io/blog/favicon.ico">
 
 	<title>SH DevelopersSquareからIS01等のAndroid向けソースをDLするスクリプト作ったよ！</title>
 	<link rel="stylesheet" href="https://pyyoshi.github.io/blog/css/style.min.657bcb7af31123e4156b1a3d2ff60a636717e54ead74f882136b5114cf72b55e.css" integrity="sha256-ZXvLevMRI+QVaxo9L/YKY2cX5U6tdPiCE2tRFM9ytV4=" crossorigin="anonymous">
