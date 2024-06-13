@@ -4,165 +4,128 @@
     <title>Categories on PyYoshiのログ置き場</title>
     <link>https://github.pyyoshi.com/blog/categories/</link>
     <description>Recent content in Categories on PyYoshiのログ置き場</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 31 Oct 2018 14:21:48 +0000</lastBuildDate>
-    
-	<atom:link href="https://github.pyyoshi.com/blog/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://github.pyyoshi.com/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>linux</title>
+      <title>Linux</title>
       <link>https://github.pyyoshi.com/blog/categories/linux/</link>
-      <pubDate>Wed, 31 Oct 2018 14:21:48 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://github.pyyoshi.com/blog/categories/linux/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ubuntu</title>
+      <title>Ubuntu</title>
       <link>https://github.pyyoshi.com/blog/categories/ubuntu/</link>
-      <pubDate>Wed, 31 Oct 2018 14:21:48 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://github.pyyoshi.com/blog/categories/ubuntu/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>xps13</title>
+      <title>Xps13</title>
       <link>https://github.pyyoshi.com/blog/categories/xps13/</link>
-      <pubDate>Wed, 31 Oct 2018 14:21:48 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://github.pyyoshi.com/blog/categories/xps13/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>elasticsearch</title>
+      <title>Elasticsearch</title>
       <link>https://github.pyyoshi.com/blog/categories/elasticsearch/</link>
-      <pubDate>Tue, 22 May 2018 15:36:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://github.pyyoshi.com/blog/categories/elasticsearch/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>back in time</title>
+      <title>Back in Time</title>
       <link>https://github.pyyoshi.com/blog/categories/back-in-time/</link>
-      <pubDate>Fri, 05 Jan 2018 19:14:38 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://github.pyyoshi.com/blog/categories/back-in-time/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>backup</title>
+      <title>Backup</title>
       <link>https://github.pyyoshi.com/blog/categories/backup/</link>
-      <pubDate>Fri, 05 Jan 2018 19:14:38 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://github.pyyoshi.com/blog/categories/backup/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>deja dup</title>
+      <title>Deja Dup</title>
       <link>https://github.pyyoshi.com/blog/categories/deja-dup/</link>
-      <pubDate>Fri, 05 Jan 2018 19:14:38 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://github.pyyoshi.com/blog/categories/deja-dup/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>systemback</title>
+      <title>Systemback</title>
       <link>https://github.pyyoshi.com/blog/categories/systemback/</link>
-      <pubDate>Fri, 05 Jan 2018 19:14:38 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://github.pyyoshi.com/blog/categories/systemback/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>timemachine</title>
+      <title>Timemachine</title>
       <link>https://github.pyyoshi.com/blog/categories/timemachine/</link>
-      <pubDate>Fri, 05 Jan 2018 19:14:38 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://github.pyyoshi.com/blog/categories/timemachine/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>timeshift</title>
+      <title>Timeshift</title>
       <link>https://github.pyyoshi.com/blog/categories/timeshift/</link>
-      <pubDate>Fri, 05 Jan 2018 19:14:38 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://github.pyyoshi.com/blog/categories/timeshift/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>typescript</title>
+      <title>Typescript</title>
       <link>https://github.pyyoshi.com/blog/categories/typescript/</link>
-      <pubDate>Thu, 12 Oct 2017 21:18:42 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://github.pyyoshi.com/blog/categories/typescript/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>webstorm</title>
+      <title>Webstorm</title>
       <link>https://github.pyyoshi.com/blog/categories/webstorm/</link>
-      <pubDate>Thu, 12 Oct 2017 21:18:42 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://github.pyyoshi.com/blog/categories/webstorm/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>react-native</title>
+      <title>React-Native</title>
       <link>https://github.pyyoshi.com/blog/categories/react-native/</link>
-      <pubDate>Mon, 09 Oct 2017 17:49:35 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://github.pyyoshi.com/blog/categories/react-native/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>firebase</title>
+      <title>Firebase</title>
       <link>https://github.pyyoshi.com/blog/categories/firebase/</link>
-      <pubDate>Fri, 06 Oct 2017 08:42:49 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://github.pyyoshi.com/blog/categories/firebase/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>firestore</title>
+      <title>Firestore</title>
       <link>https://github.pyyoshi.com/blog/categories/firestore/</link>
-      <pubDate>Fri, 06 Oct 2017 08:42:49 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://github.pyyoshi.com/blog/categories/firestore/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>golang</title>
+      <title>Golang</title>
       <link>https://github.pyyoshi.com/blog/categories/golang/</link>
-      <pubDate>Wed, 07 Dec 2016 18:20:12 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://github.pyyoshi.com/blog/categories/golang/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>reactjs</title>
+      <title>Reactjs</title>
       <link>https://github.pyyoshi.com/blog/categories/reactjs/</link>
-      <pubDate>Thu, 29 Sep 2016 23:19:01 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://github.pyyoshi.com/blog/categories/reactjs/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

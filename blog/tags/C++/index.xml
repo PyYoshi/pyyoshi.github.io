@@ -4,58 +4,23 @@
     <title>C&#43;&#43; on PyYoshiのログ置き場</title>
     <link>https://github.pyyoshi.com/blog/tags/C&#43;&#43;/</link>
     <description>Recent content in C&#43;&#43; on PyYoshiのログ置き場</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 19 Sep 2012 19:26:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://github.pyyoshi.com/blog/tags/C++/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://github.pyyoshi.com/blog/tags/C++/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[メモ]C&#43;&#43;のメモリリークを検出する方法</title>
       <link>https://github.pyyoshi.com/blog/2012/09/%E3%83%A1%E3%83%A2C-%E3%81%AE%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%AF%E3%82%92%E6%A4%9C%E5%87%BA%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</link>
       <pubDate>Wed, 19 Sep 2012 19:26:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2012/09/%E3%83%A1%E3%83%A2C-%E3%81%AE%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%AF%E3%82%92%E6%A4%9C%E5%87%BA%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</guid>
-      <description>cchardetでバインドしているライブラリにメモリリークするバグがあったのだけれど、C++と親しい付き合いをしていないし、自分で書いたコードではないのでどのように見つけてあげればいいのかわからないので、Google先生に聞きました。
-そしたらVC++には検出してくれるしゅんごいライブラリがあるみたいで、それを使用したらあっさり見つけることができました。
-詳しいお話は書きませんが、debugビルドで#include &amp;ldquo;memory_leak.h&amp;quot;を先頭においてビルドすると出力に表示されました。
-ただ、メインコードにincludeするだけでは、どの位置にメモリリークがあるかわからないのですべてのコードにincludeしないといけないようです。
-以下がそのmemory_leak.h</description>
+      <description>cchardetでバインドしているライブラリにメモリリークするバグがあったのだけれど、C++と親しい付き合いをしていないし、自分で書いたコードではないのでどのように見つけてあげればいいのかわからないので、Google先生に聞きました。&#xA;そしたらVC++には検出してくれるしゅんごいライブラリがあるみたいで、それを使用したらあっさり見つけることができました。&#xA;詳しいお話は書きませんが、debugビルドで#include &amp;ldquo;memory_leak.h&amp;quot;を先頭においてビルドすると出力に表示されました。&#xA;ただ、メインコードにincludeするだけでは、どの位置にメモリリークがあるかわからないのですべてのコードにincludeしないといけないようです。&#xA;以下がそのmemory_leak.h</description>
     </item>
-    
     <item>
       <title>VS2010でboostを扱う準備</title>
       <link>https://github.pyyoshi.com/blog/2011/04/VS2010%E3%81%A7boost%E3%82%92%E6%89%B1%E3%81%86%E6%BA%96%E5%82%99/</link>
       <pubDate>Mon, 18 Apr 2011 18:12:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2011/04/VS2010%E3%81%A7boost%E3%82%92%E6%89%B1%E3%81%86%E6%BA%96%E5%82%99/</guid>
-      <description>研究室配属されて、スクリプト言語ばかり使っていた生活も変わるだろうとDreamSparkからVS2010を拝借した。
-で、巷で話題のboostをVS2010で使えるようにした。（boostすげぇーってしか分かってないｗ
-それとVSがうまくインスコされていないのか各PATHを手動で通している。
-準備:C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\vcvars32.batの修正
-最初の行に
-@SET VSINSTALLDIR=C:\Program Files\Microsoft Visual Studio 10.0
-@SET VCINSTALLDIR=C:\Program Files\Microsoft Visual Studio 10.0\VC
-@SET FrameworkDir32=C:\Windows\Microsoft.NET\Framework
-@SET FrameworkVersion32=v4.0.30319
-@SET Framework35Version=v3.5
-を追加
-:: @call :GetVSCommonToolsDir
-:: @if &amp;ldquo;%VS100COMNTOOLS%&amp;ldquo;==&amp;rdquo;&amp;rdquo; goto error_no_VS100COMNTOOLSDIR
-:: @call &amp;ldquo;%VS100COMNTOOLS%VCVarsQueryRegistry.bat&amp;rdquo; 32bit No64bit
-該当部分をコメントにする。
-※当環境ではこのようになったが各自インスコ場所とVer.は確認しておくこと。PATHに
-C:\Program Files\Microsoft Visual Studio 10.0\VC\bin
-C:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE
-C:\Program Files\Microsoft Visual Studio 10.0\VC\include
-を追加
-INCLUDEに
-C:\Program Files\Microsoft SDKs\Windows\v7.0A\Include
-C:\Program Files\Microsoft Visual Studio 10.0\VC\include
-を追加
-LIBに</description>
+      <description>研究室配属されて、スクリプト言語ばかり使っていた生活も変わるだろうとDreamSparkからVS2010を拝借した。&#xA;で、巷で話題のboostをVS2010で使えるようにした。（boostすげぇーってしか分かってないｗ&#xA;それとVSがうまくインスコされていないのか各PATHを手動で通している。&#xA;準備:&#xA;C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\vcvars32.batの修正&#xA;最初の行に&#xA;@SET VSINSTALLDIR=C:\Program Files\Microsoft Visual Studio 10.0&#xA;@SET VCINSTALLDIR=C:\Program Files\Microsoft Visual Studio 10.0\VC&#xA;@SET FrameworkDir32=C:\Windows\Microsoft.NET\Framework&#xA;@SET FrameworkVersion32=v4.0.30319&#xA;@SET Framework35Version=v3.5&#xA;を追加&#xA;:: @call :GetVSCommonToolsDir&#xA;:: @if &amp;ldquo;%VS100COMNTOOLS%&amp;quot;==&amp;rdquo;&amp;quot; goto error_no_VS100COMNTOOLSDIR&#xA;:: @call &amp;ldquo;%VS100COMNTOOLS%VCVarsQueryRegistry.bat&amp;rdquo; 32bit No64bit&#xA;該当部分をコメントにする。&#xA;※当環境ではこのようになったが各自インスコ場所とVer.は確認しておくこと。&#xA;PATHに&#xA;C:\Program Files\Microsoft Visual Studio 10.0\VC\bin&#xA;C:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE&#xA;C:\Program Files\Microsoft Visual Studio 10.0\VC\include&#xA;を追加&#xA;INCLUDEに&#xA;C:\Program Files\Microsoft SDKs\Windows\v7.0A\Include&#xA;C:\Program Files\Microsoft Visual Studio 10.0\VC\include</description>
     </item>
-    
   </channel>
 </rss>

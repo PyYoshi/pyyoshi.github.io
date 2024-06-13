@@ -4,34 +4,16 @@
     <title>KDE on PyYoshiのログ置き場</title>
     <link>https://github.pyyoshi.com/blog/tags/KDE/</link>
     <description>Recent content in KDE on PyYoshiのログ置き場</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 10 May 2013 18:37:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://github.pyyoshi.com/blog/tags/KDE/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://github.pyyoshi.com/blog/tags/KDE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>KDEについてくるKonsoleがとんでもない奴だった…</title>
       <link>https://github.pyyoshi.com/blog/2013/05/KDE%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%8F%E3%82%8BKonsole%E3%81%8C%E3%81%A8%E3%82%93%E3%81%A7%E3%82%82%E3%81%AA%E3%81%84%E5%A5%B4%E3%81%A0%E3%81%A3%E3%81%9F/</link>
       <pubDate>Fri, 10 May 2013 18:37:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2013/05/KDE%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%8F%E3%82%8BKonsole%E3%81%8C%E3%81%A8%E3%82%93%E3%81%A7%E3%82%82%E3%81%AA%E3%81%84%E5%A5%B4%E3%81%A0%E3%81%A3%E3%81%9F/</guid>
-      <description>Konsoleをリサイズすると高確率でXもろとも落とすクソみたいな機能がついてる。
-これはバグじゃなくて”しよう”なんだと思う。いつになっても修正されない。
-解決策の一つとして&amp;ndash;notransparencyをつければいいみたいだが
-もうなんだか許せないので別のターミナルを使うことにする。
-以上
-(追記 13/5/10 18:53)
-yakuakeが割と便利だ
-起動したら、F12でターミナルがニョキッと出てくる
-Shift+Ctrl+TでHorizontal Split
-Shift+Ctrl+LでVertical Split
-Shift+Ctrl+↑/↓で切り替え
-(追記 13/5/10 19:10)
-どうやらこれはKDEとRADEONドライバの相性から起きてるようだ。あくまで推測であるが
-そのため、デスクトップ効果の半透明を無効化して様子を見てみる。</description>
+      <description>Konsoleをリサイズすると高確率でXもろとも落とすクソみたいな機能がついてる。&#xA;これはバグじゃなくて”しよう”なんだと思う。いつになっても修正されない。&#xA;解決策の一つとして&amp;ndash;notransparencyをつければいいみたいだが&#xA;もうなんだか許せないので別のターミナルを使うことにする。&#xA;以上&#xA;(追記 13/5/10 18:53)&#xA;yakuakeが割と便利だ&#xA;起動したら、F12でターミナルがニョキッと出てくる&#xA;Shift+Ctrl+TでHorizontal Split&#xA;Shift+Ctrl+LでVertical Split&#xA;Shift+Ctrl+↑/↓で切り替え&#xA;(追記 13/5/10 19:10)&#xA;どうやらこれはKDEとRADEONドライバの相性から起きてるようだ。あくまで推測であるが&#xA;そのため、デスクトップ効果の半透明を無効化して様子を見てみる。</description>
     </item>
-    
   </channel>
 </rss>

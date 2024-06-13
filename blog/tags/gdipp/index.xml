@@ -1,38 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>gdipp on PyYoshiのログ置き場</title>
+    <title>Gdipp on PyYoshiのログ置き場</title>
     <link>https://github.pyyoshi.com/blog/tags/gdipp/</link>
-    <description>Recent content in gdipp on PyYoshiのログ置き場</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Gdipp on PyYoshiのログ置き場</description>
+    <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 19 May 2010 18:21:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://github.pyyoshi.com/blog/tags/gdipp/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://github.pyyoshi.com/blog/tags/gdipp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>gdippを各々のアプリケーションに適用させる方法</title>
       <link>https://github.pyyoshi.com/blog/2010/05/gdipp%E3%82%92%E5%90%84%E3%80%85%E3%81%AE%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AB%E9%81%A9%E7%94%A8%E3%81%95%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95/</link>
       <pubDate>Wed, 19 May 2010 18:21:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2010/05/gdipp%E3%82%92%E5%90%84%E3%80%85%E3%81%AE%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AB%E9%81%A9%E7%94%A8%E3%81%95%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95/</guid>
-      <description>Twitter上で相性悪いアプリがあるなー云々とかいってたので、全体適用ではなく各々のアプリに適用させる方法を紹介したいと思います。(やり方自体はgdi++の時と一緒ｗ)
-ダウンロード:
-gdippのダウンロードはこちら。32bit, 64bit版があるので使っているOSにあわせてください。
-インストール:
-Program Loaderを選択してインストール。※64bit版のかたは、64bit componentだけじゃなく32bit componentのほうもインストールしてくださいね(標準ではチェック入っているはず)
-使い方:
-デスクトップに「gdipp Loader 32」というショートカットができていると思います。 ※64bit版は「gdipp Loader 64」も作成されます。そのプロパティを開き、リンク先をメモっておきましょう。
-
-次に適用させたいアプリのショートカット作りプロパティを開いてください。
-先ほどメモしておいたリンクを今作成したショートカットの先頭に貼り付けて、次に半角スペースを入れてあげてください。
-例) リンク先:[&amp;ldquo;C:\Program Files (x86)\gdipp\gdipp_loader_32.exe&amp;rdquo; &amp;ldquo;C:\Program Files (x86)\Mozilla Firefox\firefox.exe&amp;rdquo;]
-
-↑の感じです。これで完成です。あとは完成したショートカットから起動させればおｋです。お疲れ様でした。
-※1 「gdipp Loader 64」ショートカットは、64bitアプリで使用します。やり方は一緒です。
-※2 ショートカットアイコンがgdippのものになってしまいます。気になるかたは逐次変更してください。</description>
+      <description>Twitter上で相性悪いアプリがあるなー云々とかいってたので、全体適用ではなく各々のアプリに適用させる方法を紹介したいと思います。(やり方自体はgdi++の時と一緒ｗ)&#xA;ダウンロード:&#xA;gdippのダウンロードはこちら。32bit, 64bit版があるので使っているOSにあわせてください。&#xA;インストール:&#xA;Program Loaderを選択してインストール。※64bit版のかたは、64bit componentだけじゃなく32bit componentのほうもインストールしてくださいね(標準ではチェック入っているはず)&#xA;使い方:&#xA;デスクトップに「gdipp Loader 32」というショートカットができていると思います。 ※64bit版は「gdipp Loader 64」も作成されます。そのプロパティを開き、リンク先をメモっておきましょう。&#xA;次に適用させたいアプリのショートカット作りプロパティを開いてください。&#xA;先ほどメモしておいたリンクを今作成したショートカットの先頭に貼り付けて、次に半角スペースを入れてあげてください。&#xA;例) リンク先:[&amp;ldquo;C:\Program Files (x86)\gdipp\gdipp_loader_32.exe&amp;rdquo; &amp;ldquo;C:\Program Files (x86)\Mozilla Firefox\firefox.exe&amp;rdquo;]&#xA;↑の感じです。これで完成です。あとは完成したショートカットから起動させればおｋです。お疲れ様でした。&#xA;※1 「gdipp Loader 64」ショートカットは、64bitアプリで使用します。やり方は一緒です。&#xA;※2 ショートカットアイコンがgdippのものになってしまいます。気になるかたは逐次変更してください。</description>
     </item>
-    
   </channel>
 </rss>

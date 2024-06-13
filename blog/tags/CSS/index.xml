@@ -4,21 +4,16 @@
     <title>CSS on PyYoshiのログ置き場</title>
     <link>https://github.pyyoshi.com/blog/tags/CSS/</link>
     <description>Recent content in CSS on PyYoshiのログ置き場</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 10 Dec 2009 00:38:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://github.pyyoshi.com/blog/tags/CSS/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://github.pyyoshi.com/blog/tags/CSS/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CSS small-caps</title>
       <link>https://github.pyyoshi.com/blog/2009/12/CSS-small-caps/</link>
       <pubDate>Thu, 10 Dec 2009 00:38:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2009/12/CSS-small-caps/</guid>
       <description>英小文字をやや小さなサイズの英大文字に変える</description>
     </item>
-    
   </channel>
 </rss>

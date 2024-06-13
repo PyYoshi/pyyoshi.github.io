@@ -4,91 +4,37 @@
     <title>Liquid on PyYoshiのログ置き場</title>
     <link>https://github.pyyoshi.com/blog/tags/Liquid/</link>
     <description>Recent content in Liquid on PyYoshiのログ置き場</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 02 Oct 2010 19:08:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://github.pyyoshi.com/blog/tags/Liquid/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://github.pyyoshi.com/blog/tags/Liquid/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Acer Liquid EにLeaked Froyoを入れてみたよ</title>
       <link>https://github.pyyoshi.com/blog/2010/10/Acer-Liquid-E%E3%81%ABLeaked-Froyo%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</link>
       <pubDate>Sat, 02 Oct 2010 19:08:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2010/10/Acer-Liquid-E%E3%81%ABLeaked-Froyo%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</guid>
-      <description>用意するもの：
-Leaked Froyo
-Acer Download Tool for A1
-installMalezRecovery_0.6_FULL
-Part1:
-Acer Download Tool for A1はWin7では正常動作しないので互換モードで行ってください。
-
-まずAcer Download Tool for A1を起動し、先ほどDLしてきたROMをBrowseから選択してください。
-次にStartを押してROM焼きを行います。
-ここで注意ですがAppにも書いてあるとおり抜いて良いよと言われるまでは絶対に抜かないでください。
-ここで抜いてしまうと文鎮化してしまい使い物にならない端末に変貌するかもしれません。
-以上でROM焼きは終了です。
-Part2:
-カスタムリカバリーの導入です。
-こちらのやり方自体は、以前の記事で解説済みですので割愛させていただきまする。
-Acer Liquid Eにカスタムリカバリーを入れてみたよ
-Part3:
-リカバリーモードに入ってFull Wipe, System Root Menuからrooted化する
-以上で終了です。
-Liquidを購入し、rooted, ROM焼きを通して思ったことは、とても簡単に導入できてしまい楽ちんになったなぁということです。
-いや、HT-03Aも楽だったけど。
-たぶんですが、Liquidの情報は日本にあまりなく覚悟して望んだのに拍子抜けしてしまったんでしょう＾＾；</description>
+      <description>用意するもの：&#xA;Leaked Froyo&#xA;Acer Download Tool for A1&#xA;installMalezRecovery_0.6_FULL&#xA;Part1:&#xA;Acer Download Tool for A1はWin7では正常動作しないので互換モードで行ってください。&#xA;まずAcer Download Tool for A1を起動し、先ほどDLしてきたROMをBrowseから選択してください。&#xA;次にStartを押してROM焼きを行います。&#xA;ここで注意ですがAppにも書いてあるとおり抜いて良いよと言われるまでは絶対に抜かないでください。&#xA;ここで抜いてしまうと文鎮化してしまい使い物にならない端末に変貌するかもしれません。&#xA;以上でROM焼きは終了です。&#xA;Part2:&#xA;カスタムリカバリーの導入です。&#xA;こちらのやり方自体は、以前の記事で解説済みですので割愛させていただきまする。&#xA;Acer Liquid Eにカスタムリカバリーを入れてみたよ&#xA;Part3:&#xA;リカバリーモードに入ってFull Wipe, System Root Menuからrooted化する&#xA;以上で終了です。&#xA;Liquidを購入し、rooted, ROM焼きを通して思ったことは、とても簡単に導入できてしまい楽ちんになったなぁということです。&#xA;いや、HT-03Aも楽だったけど。&#xA;たぶんですが、Liquidの情報は日本にあまりなく覚悟して望んだのに拍子抜けしてしまったんでしょう＾＾；</description>
     </item>
-    
     <item>
       <title>Acer Liquid Eをrooted化しちゃおう！</title>
       <link>https://github.pyyoshi.com/blog/2010/10/Acer-Liquid-E%E3%82%92rooted%E5%8C%96%E3%81%97%E3%81%A1%E3%82%83%E3%81%8A%E3%81%86/</link>
       <pubDate>Sat, 02 Oct 2010 09:58:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2010/10/Acer-Liquid-E%E3%82%92rooted%E5%8C%96%E3%81%97%E3%81%A1%E3%82%83%E3%81%8A%E3%81%86/</guid>
-      <description>リカバリーモードに入り（Vol- カメラキー　電源 で三回振動するのを待つ）
-System Root menuから好きなモードを選んでrooted化終了です。
-とても簡単にできますね。
-出来ないって言うかたは、こちらのapkをインスコしてrooted化しちゃってください。（@Syu_uさん情報ありがとうございます。）
-※責任は負えませんのでROMのバックアップは忘れずにこれでHT-03AでバックアップしたAppsをリストアすることが出来る。
-バックアップ＆リストアに便利な『Titanium Backup』というものがあります。
-ぜひ使ってみましょう。
-使い方はとてもわかりやすく解説しているコムギさんのページをリンクしておきますね。
-追記:
-どうやらTitanium Backupではうまく復元することは出来ないみたい。
-追記2:
-apk版rootedのリンク張り忘れていたので修正。</description>
+      <description>リカバリーモードに入り（Vol- カメラキー　電源 で三回振動するのを待つ）&#xA;System Root menuから好きなモードを選んでrooted化終了です。&#xA;とても簡単にできますね。&#xA;出来ないって言うかたは、こちらのapkをインスコしてrooted化しちゃってください。（@Syu_uさん情報ありがとうございます。）&#xA;※責任は負えませんのでROMのバックアップは忘れずに&#xA;これでHT-03AでバックアップしたAppsをリストアすることが出来る。&#xA;バックアップ＆リストアに便利な『Titanium Backup』というものがあります。&#xA;ぜひ使ってみましょう。&#xA;使い方はとてもわかりやすく解説しているコムギさんのページをリンクしておきますね。&#xA;追記:&#xA;どうやらTitanium Backupではうまく復元することは出来ないみたい。&#xA;追記2:&#xA;apk版rootedのリンク張り忘れていたので修正。</description>
     </item>
-    
     <item>
       <title>Acer Liquid Eにカスタムリカバリーを入れてみたよ</title>
       <link>https://github.pyyoshi.com/blog/2010/10/Acer-Liquid-E%E3%81%AB%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E3%83%AA%E3%82%AB%E3%83%90%E3%83%AA%E3%83%BC%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</link>
       <pubDate>Fri, 01 Oct 2010 19:41:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2010/10/Acer-Liquid-E%E3%81%AB%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E3%83%AA%E3%82%AB%E3%83%90%E3%83%AA%E3%83%BC%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</guid>
-      <description>すっごく簡単にカスタムリカバリーが導入できました。
-こちらからファイルをDLして解凍しましょう。
-解凍先を開き、install_malez_recovery.cmdを開きいくつかスペース叩けば終了します。（英語だけど説明はちゃんと読んでね）
-これで、カスタムリカバリーの導入は終了です。導入終了と同時に再起動されると思うので、その後すぐにUSBを抜いちゃいましょう。（当方、USBつないだままだと起動しなかったので。）
-カスタムリカバリへの入り方は、&amp;ldquo;adb reboot recovery&amp;quot;です。
-なにやらこのカスタムリカバリーにはrooted化する機能がある（見えるｗ）のですが、ちょっと不安なのでまだ触ってません。
-異常で終了です。
-次回投稿あたりでLiquid Eのrootedでも。</description>
+      <description>すっごく簡単にカスタムリカバリーが導入できました。&#xA;こちらからファイルをDLして解凍しましょう。&#xA;解凍先を開き、install_malez_recovery.cmdを開きいくつかスペース叩けば終了します。（英語だけど説明はちゃんと読んでね）&#xA;これで、カスタムリカバリーの導入は終了です。導入終了と同時に再起動されると思うので、その後すぐにUSBを抜いちゃいましょう。（当方、USBつないだままだと起動しなかったので。）&#xA;カスタムリカバリへの入り方は、&amp;ldquo;adb reboot recovery&amp;quot;です。&#xA;なにやらこのカスタムリカバリーにはrooted化する機能がある（見えるｗ）のですが、ちょっと不安なのでまだ触ってません。&#xA;異常で終了です。&#xA;次回投稿あたりでLiquid Eのrootedでも。</description>
     </item>
-    
     <item>
       <title>Acer Liquid Eを購入したよ！</title>
       <link>https://github.pyyoshi.com/blog/2010/10/Acer-Liquid-E%E3%82%92%E8%B3%BC%E5%85%A5%E3%81%97%E3%81%9F%E3%82%88/</link>
       <pubDate>Fri, 01 Oct 2010 19:17:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2010/10/Acer-Liquid-E%E3%82%92%E8%B3%BC%E5%85%A5%E3%81%97%E3%81%9F%E3%82%88/</guid>
-      <description>GDD2010であまりにも刺激されてしまい、Acer Liquid EをIYH!してしまいました。
-HT-03A持っているのですが、なにぶんこれからのAndroid開発はARMv7以降じゃないときついのかな？
-って感じですね。ジンジャーブレッド（噂されてるやつ）や、AdobeさんがつくってるAppの仕様要件を見ていると。
-それと、AcerLiquidは発表当初からとても気になっていた端末で念願？の入手というわけです。
-これからLiquidたんをｐｒｐｒしてきまふ(;ﾟ∀ﾟ)=3ﾊｧﾊｧ</description>
+      <description>GDD2010であまりにも刺激されてしまい、Acer Liquid EをIYH!してしまいました。&#xA;HT-03A持っているのですが、なにぶんこれからのAndroid開発はARMv7以降じゃないときついのかな？&#xA;って感じですね。ジンジャーブレッド（噂されてるやつ）や、AdobeさんがつくってるAppの仕様要件を見ていると。&#xA;それと、AcerLiquidは発表当初からとても気になっていた端末で念願？の入手というわけです。&#xA;これからLiquidたんをｐｒｐｒしてきまふ(;ﾟ∀ﾟ)=3ﾊｧﾊｧ</description>
     </item>
-    
   </channel>
 </rss>

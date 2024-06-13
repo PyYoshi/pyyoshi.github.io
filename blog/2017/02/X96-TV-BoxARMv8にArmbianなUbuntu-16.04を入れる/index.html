@@ -1,14 +1,42 @@
+
+
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<meta name="theme-color" content="#494f5c">
-	<meta name="msapplication-TileColor" content="#494f5c">
-<meta itemprop="name" content="X96 TV Box(ARMv8)にArmbianなUbuntu 16.04を入れる">
-<meta itemprop="description" content="(2018/01/07 リンク切れを修正しました)
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-EB1NSD9DCG"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-EB1NSD9DCG');
+        }
+      </script>
+    
+  
+
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge"><meta name="robots" content="index, follow">
+<meta name="revisit-after" content="15 days"><link rel="author" href="https://github.pyyoshi.com/blog/humans.txt">
+<link rel="apple-touch-icon" sizes="180x180" href="https://github.pyyoshi.com/blog/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="https://github.pyyoshi.com/blog/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://github.pyyoshi.com/blog/favicon-16x16.png">
+<link rel="manifest" href="https://github.pyyoshi.com/blog/site.webmanifest">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#494f5c">
+<meta name="msapplication-TileColor" content="#494f5c">
+<link rel="mask-icon" href="https://github.pyyoshi.com/blog/safari-pinned-tab.svg" color="#494f5c"><meta name="author" content="Yoshihiro">
+
+  <meta itemprop="name" content="X96 TV Box(ARMv8)にArmbianなUbuntu 16.04を入れる">
+  <meta itemprop="description" content="(2018/01/07 リンク切れを修正しました)
 armv8環境が欲しかったのでお手頃な値段でそれなりのスペックなX96をgearbestで購入
 http://www.gearbest.com/tv-box-mini-pc/pp_471548.html
 たしか送料込みで5500円くらいだったかな
@@ -44,14 +72,12 @@ LinuxKernelの起動ログが流れます
 それが完了すると再起動されてUbuntu Mateの画面がでるかとおもいます
 あとはキーボード・マウスをさして煮るなり焼くなりしてください
 雑感 導入の楽さに開発者に圧倒的感謝！ :D">
-<meta itemprop="datePublished" content="2017-02-22T01:47:04&#43;00:00" />
-<meta itemprop="dateModified" content="2017-02-22T01:47:04&#43;00:00" />
-<meta itemprop="wordCount" content="171">
-
-
-
-<meta itemprop="keywords" content="" /><meta property="og:title" content="X96 TV Box(ARMv8)にArmbianなUbuntu 16.04を入れる" />
-<meta property="og:description" content="(2018/01/07 リンク切れを修正しました)
+  <meta itemprop="datePublished" content="2017-02-22T01:47:04+00:00">
+  <meta itemprop="dateModified" content="2017-02-22T01:47:04+00:00">
+  <meta itemprop="wordCount" content="171"><meta property="og:url" content="https://github.pyyoshi.com/blog/2017/02/X96-TV-BoxARMv8%E3%81%ABArmbian%E3%81%AAUbuntu-16.04%E3%82%92%E5%85%A5%E3%82%8C%E3%82%8B/">
+  <meta property="og:site_name" content="PyYoshiのログ置き場">
+  <meta property="og:title" content="X96 TV Box(ARMv8)にArmbianなUbuntu 16.04を入れる">
+  <meta property="og:description" content="(2018/01/07 リンク切れを修正しました)
 armv8環境が欲しかったのでお手頃な値段でそれなりのスペックなX96をgearbestで購入
 http://www.gearbest.com/tv-box-mini-pc/pp_471548.html
 たしか送料込みで5500円くらいだったかな
@@ -86,14 +112,16 @@ LinuxKernelの起動ログが流れます
 新しいユーザの作成ウィザードが表示されるのでそれに従ってください
 それが完了すると再起動されてUbuntu Mateの画面がでるかとおもいます
 あとはキーボード・マウスをさして煮るなり焼くなりしてください
-雑感 導入の楽さに開発者に圧倒的感謝！ :D" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://github.pyyoshi.com/blog/2017/02/X96-TV-BoxARMv8%E3%81%ABArmbian%E3%81%AAUbuntu-16.04%E3%82%92%E5%85%A5%E3%82%8C%E3%82%8B/" />
-<meta property="article:published_time" content="2017-02-22T01:47:04+00:00" />
-<meta property="article:modified_time" content="2017-02-22T01:47:04+00:00" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="X96 TV Box(ARMv8)にArmbianなUbuntu 16.04を入れる"/>
-<meta name="twitter:description" content="(2018/01/07 リンク切れを修正しました)
+雑感 導入の楽さに開発者に圧倒的感謝！ :D">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2017-02-22T01:47:04+00:00">
+    <meta property="article:modified_time" content="2017-02-22T01:47:04+00:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="X96 TV Box(ARMv8)にArmbianなUbuntu 16.04を入れる">
+  <meta name="twitter:description" content="(2018/01/07 リンク切れを修正しました)
 armv8環境が欲しかったのでお手頃な値段でそれなりのスペックなX96をgearbestで購入
 http://www.gearbest.com/tv-box-mini-pc/pp_471548.html
 たしか送料込みで5500円くらいだったかな
@@ -128,37 +156,21 @@ LinuxKernelの起動ログが流れます
 新しいユーザの作成ウィザードが表示されるのでそれに従ってください
 それが完了すると再起動されてUbuntu Mateの画面がでるかとおもいます
 あとはキーボード・マウスをさして煮るなり焼くなりしてください
-雑感 導入の楽さに開発者に圧倒的感謝！ :D"/>
-
-	<link rel="apple-touch-icon" sizes="180x180" href="https://github.pyyoshi.com/blog/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="https://github.pyyoshi.com/blog/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="https://github.pyyoshi.com/blog/favicon-16x16.png">
-	<link rel="manifest" href="https://github.pyyoshi.com/blog/site.webmanifest">
-	<link rel="mask-icon" href="https://github.pyyoshi.com/blog/safari-pinned-tab.svg" color="">
-	<link rel="shortcut icon" href="https://github.pyyoshi.com/blog/favicon.ico">
-
-	<title>X96 TV Box(ARMv8)にArmbianなUbuntu 16.04を入れる</title>
-	<link rel="stylesheet" href="https://github.pyyoshi.com/blog/css/style.min.657bcb7af31123e4156b1a3d2ff60a636717e54ead74f882136b5114cf72b55e.css" integrity="sha256-ZXvLevMRI+QVaxo9L/YKY2cX5U6tdPiCE2tRFM9ytV4=" crossorigin="anonymous">
-	
-</head>
-
+雑感 導入の楽さに開発者に圧倒的感謝！ :D">
+<title>X96 TV Box(ARMv8)にArmbianなUbuntu 16.04を入れる</title>
+<link rel="stylesheet dns-prefetch preconnect preload prefetch" as="style" href="https://github.pyyoshi.com/blog/css/style.min.53a53ff9a700cf26a907d20cff4ca6268650da3c0980ef01164d230678d732e7.css" integrity="sha256-U6U/+acAzyapB9IM/0ymJoZQ2jwJgO8BFk0jBnjXMuc=" crossorigin="anonymous">
+	</head>
 <body id="page">
-	
-	<header id="site-header" class="animated slideInUp faster">
+	<header id="site-header" class="animated slideInUp">
 		<div class="hdr-wrapper section-inner">
 			<div class="hdr-left">
 				<div class="site-branding">
 					<a href="https://github.pyyoshi.com/blog/">PyYoshiのログ置き場</a>
 				</div>
-				<nav class="site-nav hide-in-mobile">
-					
-				<a href="https://github.pyyoshi.com/blog/posts/">Posts(Ja)</a>
-				<a href="https://github.pyyoshi.com/blog/pages/">Pages</a>
-
-				</nav>
+				<nav class="site-nav hide-in-mobile"><a href="https://github.pyyoshi.com/blog/posts/">Posts(Ja)</a><a href="https://github.pyyoshi.com/blog/pages/">Pages</a></nav>
 			</div>
 			<div class="hdr-right hdr-icons">
-				<span class="hdr-social hide-in-mobile"><a href="https://twitter.com/PyYoshi" target="_blank" rel="noopener me" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a><a href="https://github.com/PyYoshi" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></span><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+				<button id="menu-btn" class="hdr-btn" title=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
 			</div>
 		</div>
 	</header>
@@ -170,12 +182,15 @@ LinuxKernelの起動ログが流れます
 	</div>
 
 
-	<main class="site-main section-inner animated fadeIn faster">
-		<article class="thin">
+	<main class="site-main section-inner animated fadeIn faster"><article class="thin">
 			<header class="post-header">
 				<div class="post-meta"><span>Feb 22, 2017</span></div>
 				<h1>X96 TV Box(ARMv8)にArmbianなUbuntu 16.04を入れる</h1>
 			</header>
+			<div class="post-info"><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg><a href="" target="_blank">Yoshihiro</a></p>
+<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg></p>
+<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2017-02-22 10:47 &#43;0900</p></div>
+			<hr class="post-end">
 			<div class="content">
 				<p>(2018/01/07 リンク切れを修正しました)</p>
 <p>armv8環境が欲しかったのでお手頃な値段でそれなりのスペックなX96をgearbestで購入</p>
@@ -188,12 +203,12 @@ STORAGE: 16GB(ただし今回はSDカードからのブートなので関係な�
 <p>導入の際 付属のリモコンを利用しなくてはいけないので受信機の接続とリモコンに単4電池2本を入れて準備しておいてください(USBキーボードがある場合は必要ありません)</p>
 <p>あと上記で察しがつくと思いますが内部ストレージへの書き込みはu-bootの更新だけでAndroidは消されないので安心してください</p>
 <p>以下導入手順</p>
-<h1 id="1-u-boot">1. u-bootを書き換える<a href="#1-u-boot" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<h1 id="1-u-bootを書き換える">1. u-bootを書き換える<a href="#1-u-bootを書き換える" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
 <p><a href="https://yadi.sk/d/bqV6MEL-sWKmv/v05">https://yadi.sk/d/bqV6MEL-sWKmv/v05</a></p>
 <p>から<code>aml_autoscript</code> <code>aml_autoscript.zip</code>をDLし,</p>
 <p>SDカードのルートに<code>aml_autoscript</code> <code>aml_autoscript.zip</code>を置く</p>
 <p>こんなかんじ</p>
-<pre><code>/sdcard
+<pre tabindex="0"><code>/sdcard
 ├── aml_autoscript
 └── aml_autoscript.zip
 </code></pre><p>そしてSDCARDを起動しておいたX96に差し込んで</p>
@@ -207,17 +222,17 @@ STORAGE: 16GB(ただし今回はSDカードからのブートなので関係な�
 <p><img src="https://github.pyyoshi.com/blog/images/2017/02/IMG_0777.JPG" alt=""></p>
 <p>アップデートが完了するとX96が再起動します</p>
 <p>これでu-bootの更新は完了です</p>
-<h1 id="2-ubuntu">2. Ubuntuを導入<a href="#2-ubuntu" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<h1 id="2-ubuntuを導入">2. Ubuntuを導入<a href="#2-ubuntuを導入" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
 <p><a href="https://yadi.sk/d/pHxaRAs-tZiei">ここ</a>から<code>Armbian_5.37_S9xxx_Ubuntu_xenial_3.14.29_mate_20171226.img.xz</code>をダウンロードして展開します.</p>
 <p>X96からSDCARDを取り外してPCへ挿入してフォーマットして<code>dd</code>コマンドでSDCARDへとOSイメージを書き込みます</p>
 <p><code>dd</code>コマンドに限った話じゃありませんが書き込み先のディスクを誤ると大変なことになるので不安がある人はWindowsの場合は<code>Win32DiskImager</code>などのGUIを利用することをおすすめします</p>
 <p>今回は私は<code>macOS</code>で<code>dd</code>コマンドを利用しました</p>
 <p>まずは<code>diskutil list</code>でSDCARDのdevツリーを確認します</p>
 <p>そして</p>
-<pre><code>sudo dd if=/Users/username/Downloads/Armbian_5.37_S9xxx_Ubuntu_xenial_3.14.29_mate_20171226.img of=/dev/rdiskXXX bs=1m
+<pre tabindex="0"><code>sudo dd if=/Users/username/Downloads/Armbian_5.37_S9xxx_Ubuntu_xenial_3.14.29_mate_20171226.img of=/dev/rdiskXXX bs=1m
 </code></pre><p>として書き込みました(結構時間かかるので作業の合間にやるのをおすすめします)</p>
 <p>暇な人は<code>Ctrl-T</code>で進捗確認しながらでもｗ</p>
-<h1 id="3-ubuntu">3. Ubuntuの起動<a href="#3-ubuntu" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<h1 id="3-ubuntuの起動">3. Ubuntuの起動<a href="#3-ubuntuの起動" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
 <p><code>X96の電源を落とした状態</code>で先ほどOSイメージを書き込んだSDCARDを挿入しX96を起動します</p>
 <p>LinuxKernelの起動ログが流れます</p>
 <p>初回起動時に<code>root</code>へパスワード<code>1234</code>でログインして<code>新しいパスワード</code>の変更と</p>
@@ -226,32 +241,32 @@ STORAGE: 16GB(ただし今回はSDカードからのブートなので関係な�
 <p><img src="https://github.pyyoshi.com/blog/images/2017/02/IMG_0780.JPG" alt=""></p>
 <p><img src="https://github.pyyoshi.com/blog/images/2017/02/IMG_0781.JPG" alt=""></p>
 <p>あとはキーボード・マウスをさして煮るなり焼くなりしてください</p>
-<h1 id="heading">雑感<a href="#heading" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<h1 id="雑感">雑感<a href="#雑感" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
 <p>導入の楽さに開発者に圧倒的感謝！ :D</p>
 <p>SDCARDからのブートなのでeMMCと比べて遅いのとSDCARDが壊れやすいのが怖いので内部ストレージへの書き込みもそのうちためしたい</p>
 <p>Linux Kernelがサポート切れの3.14なのが残念だけどAmlogicが未だに4系出す出す詐欺状態なのでどうしようもないのかな(ちなみに4系でODROID-C2サポートが入り始めたので使えないことはないのかもしれない)</p>
 <p>Debian Xfceは私の環境ではモニタの解像度が適切でないのかちゃんと動きませんでした</p>
 <p>本来の目的は<code>cChardet</code>の<code>ARMv8</code>対応なので週末にちょっくらがんばりますかね</p>
-<h1 id="heading-1">めも<a href="#heading-1" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
-<h2 id="heading-2">現在時刻の調整とタイムゾーンの変更<a href="#heading-2" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo sed -i <span style="color:#e6db74">&#39;s/#NTP=/NTP=ntp.nict.jp/g&#39;</span> /etc/systemd/timesyncd.conf
-$ sudo timedatectl set-timezone Asia/Tokyo
-</code></pre></div><h2 id="1g">スワップを1G作成<a href="#1g" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo fallocate -l 1G /var/swap
-$ ls -lah /var/swap
-$ sudo chmod <span style="color:#ae81ff">600</span> /var/swap
-$ sudo mkswap /var/swap
-$ sudo swapon /var/swap
-$ sudo swapon --show
-$ sudo cp /etc/fstab /etc/fstab.bak
-$ echo <span style="color:#e6db74">&#39;/var/swap none swap sw 0 0&#39;</span> | sudo tee -a /etc/fstab
-</code></pre></div><h2 id="heading-3">ミラーリポジトリ<a href="#heading-3" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<h1 id="めも">めも<a href="#めも" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<h2 id="現在時刻の調整とタイムゾーンの変更">現在時刻の調整とタイムゾーンの変更<a href="#現在時刻の調整とタイムゾーンの変更" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ sudo sed -i <span style="color:#e6db74">&#39;s/#NTP=/NTP=ntp.nict.jp/g&#39;</span> /etc/systemd/timesyncd.conf
+</span></span><span style="display:flex;"><span>$ sudo timedatectl set-timezone Asia/Tokyo
+</span></span></code></pre></div><h2 id="スワップを1g作成">スワップを1G作成<a href="#スワップを1g作成" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ sudo fallocate -l 1G /var/swap
+</span></span><span style="display:flex;"><span>$ ls -lah /var/swap
+</span></span><span style="display:flex;"><span>$ sudo chmod <span style="color:#ae81ff">600</span> /var/swap
+</span></span><span style="display:flex;"><span>$ sudo mkswap /var/swap
+</span></span><span style="display:flex;"><span>$ sudo swapon /var/swap
+</span></span><span style="display:flex;"><span>$ sudo swapon --show
+</span></span><span style="display:flex;"><span>$ sudo cp /etc/fstab /etc/fstab.bak
+</span></span><span style="display:flex;"><span>$ echo <span style="color:#e6db74">&#39;/var/swap none swap sw 0 0&#39;</span> | sudo tee -a /etc/fstab
+</span></span></code></pre></div><h2 id="ミラーリポジトリ">ミラーリポジトリ<a href="#ミラーリポジトリ" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
 <p>/etc/apt/sources.list</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">deb http://jp.archive.ubuntu.com/ports/ xenial main restricted universe multiverse
-deb http://jp.archive.ubuntu.com/ports/ xenial-security main restricted universe multiverse
-deb http://jp.archive.ubuntu.com/ports/ xenial-updates main restricted universe multiverse
-deb http://jp.archive.ubuntu.com/ports/ xenial-backports main restricted universe multiverse
-</code></pre></div><h1 id="refs">Refs<a href="#refs" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>deb http://jp.archive.ubuntu.com/ports/ xenial main restricted universe multiverse
+</span></span><span style="display:flex;"><span>deb http://jp.archive.ubuntu.com/ports/ xenial-security main restricted universe multiverse
+</span></span><span style="display:flex;"><span>deb http://jp.archive.ubuntu.com/ports/ xenial-updates main restricted universe multiverse
+</span></span><span style="display:flex;"><span>deb http://jp.archive.ubuntu.com/ports/ xenial-backports main restricted universe multiverse
+</span></span></code></pre></div><h1 id="refs">Refs<a href="#refs" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
 <ul>
 <li><a href="http://www.gearbest.com/tv-box-mini-pc/pp_471548.html">http://www.gearbest.com/tv-box-mini-pc/pp_471548.html</a></li>
 <li><a href="https://forum.armbian.com/index.php/topic/2419-armbian-for-amlogic-s905-and-s905x/?st=0">https://forum.armbian.com/index.php/topic/2419-armbian-for-amlogic-s905-and-s905x/?st=0</a></li>
@@ -261,37 +276,28 @@ deb http://jp.archive.ubuntu.com/ports/ xenial-backports main restricted univers
 </ul>
 
 			</div>
-			<hr class="post-end">
-			<footer class="post-info">
-				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg>Yoshihiro</p>
-				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>171 Words</p>
-				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2017-02-22 10:47 &#43;0900</p>
-			</footer>
 		</article>
 		<div class="post-nav thin">
 			<a class="next-post" href="https://github.pyyoshi.com/blog/2017/02/bazel%E3%81%A7docker%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E3%82%92%E4%BD%9C%E3%82%8B%E3%81%AE%E3%81%A4%E3%82%89%E3%81%84/">
-				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;Newer</span><br><span>bazelでdockerコンテナを作るのつらい</span>
+				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;</span><br><span>bazelでdockerコンテナを作るのつらい</span>
 			</a>
 			<a class="prev-post" href="https://github.pyyoshi.com/blog/2017/02/%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/">
-				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>リモートワークについて</span>
+				<span class="post-nav-label">&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>リモートワークについて</span>
 			</a>
 		</div>
-		<div id="comments" class="thin">
-</div>
+		<div id="comments" class="thin"></div>
 	</main>
 
-	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
-		<p>&copy; 2019 <a href="https://github.pyyoshi.com/blog/"></a>&#183; PyYoshi</p>
-		<p>
-			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://github.pyyoshi.com/blog/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
-		</p>
-	</footer>
+<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+	<p>
+		&copy; 2024 <a href="https://github.pyyoshi.com/blog/"></a>
+		&#183; &#183; PyYoshi
+		&#183; Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>
+		&#183; Theme <a href="https://github.com/1bl4z3r/hermit-V2" target="_blank" rel="noopener">Hermit-V2</a>
+		&#183; <a href="https://github.pyyoshi.com/blog/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></p>
 
-
-
-	<script src="https://github.pyyoshi.com/blog/js/bundle.min.4a9a0ac3d2217822c7865b4161e6c2a71de1d70492264337755427898dd718f6.js" integrity="sha256-SpoKw9IheCLHhltBYebCpx3h1wSSJkM3dVQniY3XGPY=" crossorigin="anonymous"></script>
-	
-
+</footer>
+<script async src="https://github.pyyoshi.com/blog/js/bundle.min.c7c384e4d29d192bbac6811ae4660bb01767194a5bea56baca77e8260f93ea16.js" integrity="sha256-x8OE5NKdGSu6xoEa5GYLsBdnGUpb6la6ynfoJg+T6hY=" crossorigin="anonymous"></script>
 </body>
 
 </html>

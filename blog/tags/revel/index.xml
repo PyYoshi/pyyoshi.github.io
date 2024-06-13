@@ -1,51 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>revel on PyYoshiのログ置き場</title>
+    <title>Revel on PyYoshiのログ置き場</title>
     <link>https://github.pyyoshi.com/blog/tags/revel/</link>
-    <description>Recent content in revel on PyYoshiのログ置き場</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Revel on PyYoshiのログ置き場</description>
+    <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 22 May 2013 05:58:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://github.pyyoshi.com/blog/tags/revel/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://github.pyyoshi.com/blog/tags/revel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go言語Webフレームワークrevelについて (動作確認編)</title>
       <link>https://github.pyyoshi.com/blog/2013/05/Go%E8%A8%80%E8%AA%9EWeb%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AFrevel%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-%E5%8B%95%E4%BD%9C%E7%A2%BA%E8%AA%8D%E7%B7%A8/</link>
       <pubDate>Wed, 22 May 2013 05:58:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2013/05/Go%E8%A8%80%E8%AA%9EWeb%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AFrevel%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-%E5%8B%95%E4%BD%9C%E7%A2%BA%E8%AA%8D%E7%B7%A8/</guid>
-      <description>web.goは簡単なアプリを作るには最適なのですが複雑なものを作るにはちと機能が足らない感じです。
-というわけでWebフレームワーク探してたらPlayフレームワークっぽく実装できるrevelっていうのがあることを知りました。
-で、
-私 Playフレームワークがどういうものなのか知りません。もちろんきいたことはあります。
-いつも使うのはSinatra系かDjangoばかり使っています。
-なのでいい機会なのでプロジェクトの構造とかメモがわりに残せればなと思います。
-※goenv環境を前提にしています。とてもCoolな開発環境を提供してくれるので導入必須！
-まずはrevelを使える状態にします。
- $ cd $HOME/src
-$ goenv NyanWeb
-$ cd NyanWeb
-$ source activate
-$ go get github.com/robfig/revel
-$ go build -o bin/revel github.com/robfig/revel/cmd
- revelプロジェクトを作成します。
- $ revel new Nyan
- これによってsrc/以下にNyanというプロジェクトが作成されます。
-実際に動かしてみましょう。
- $ revel run Nyan
- 実行したら127.0.0.1:9000にアクセスして正しく動作していることを確認してください。
-一旦Ctrl+Cにて終了させます。
-続いてビルドが通るようにプロジェクトのパスを変更します。
- $ cd $HOME/src/NyanWeb
-$ cd src/
-$ mkdir webapps
-$ mv Nyan/ webapps/
-$ cd -
- これで$HOME/src/NyanWeb/webapps/Nyanという構造になったかと思います。</description>
+      <description>web.goは簡単なアプリを作るには最適なのですが複雑なものを作るにはちと機能が足らない感じです。&#xA;というわけでWebフレームワーク探してたらPlayフレームワークっぽく実装できるrevelっていうのがあることを知りました。&#xA;で、&#xA;私 Playフレームワークがどういうものなのか知りません。もちろんきいたことはあります。&#xA;いつも使うのはSinatra系かDjangoばかり使っています。&#xA;なのでいい機会なのでプロジェクトの構造とかメモがわりに残せればなと思います。&#xA;※goenv環境を前提にしています。とてもCoolな開発環境を提供してくれるので導入必須！&#xA;まずはrevelを使える状態にします。&#xA;$ cd $HOME/src&#xA;$ goenv NyanWeb&#xA;$ cd NyanWeb&#xA;$ source activate&#xA;$ go get github.com/robfig/revel&#xA;$ go build -o bin/revel github.com/robfig/revel/cmd&#xA;revelプロジェクトを作成します。&#xA;$ revel new Nyan&#xA;これによってsrc/以下にNyanというプロジェクトが作成されます。&#xA;実際に動かしてみましょう。&#xA;$ revel run Nyan&#xA;実行したら127.0.0.1:9000にアクセスして正しく動作していることを確認してください。&#xA;一旦Ctrl+Cにて終了させます。&#xA;続いてビルドが通るようにプロジェクトのパスを変更します。&#xA;$ cd $HOME/src/NyanWeb&#xA;$ cd src/&#xA;$ mkdir webapps&#xA;$ mv Nyan/ webapps/&#xA;$ cd -&#xA;これで$HOME/src/NyanWeb/webapps/Nyanという構造になったかと思います。&#xA;ビルドを行います。&#xA;revel build webapps/Nyan out/&#xA;を実行すると$HOME/src/NyanWeb/outにビルドされたものが一式入っています。&#xA;$ cd $HOME/src/NyanWeb/out</description>
     </item>
-    
   </channel>
 </rss>

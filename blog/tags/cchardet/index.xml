@@ -1,75 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cchardet on PyYoshiのログ置き場</title>
+    <title>Cchardet on PyYoshiのログ置き場</title>
     <link>https://github.pyyoshi.com/blog/tags/cchardet/</link>
-    <description>Recent content in cchardet on PyYoshiのログ置き場</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Cchardet on PyYoshiのログ置き場</description>
+    <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 22 Aug 2012 22:25:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://github.pyyoshi.com/blog/tags/cchardet/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://github.pyyoshi.com/blog/tags/cchardet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>環境によってCythonでうまくコード変換ができない場合の対処</title>
       <link>https://github.pyyoshi.com/blog/2012/08/%E7%92%B0%E5%A2%83%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6Cython%E3%81%A7%E3%81%86%E3%81%BE%E3%81%8F%E3%82%B3%E3%83%BC%E3%83%89%E5%A4%89%E6%8F%9B%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E5%A0%B4%E5%90%88%E3%81%AE%E5%AF%BE%E5%87%A6/</link>
       <pubDate>Wed, 22 Aug 2012 22:25:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2012/08/%E7%92%B0%E5%A2%83%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6Cython%E3%81%A7%E3%81%86%E3%81%BE%E3%81%8F%E3%82%B3%E3%83%BC%E3%83%89%E5%A4%89%E6%8F%9B%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E5%A0%B4%E5%90%88%E3%81%AE%E5%AF%BE%E5%87%A6/</guid>
-      <description>なぜかWindowsやUbuntuでは素直に変換しビルドが成功するのに、CentOSではうまくpyxをC/CPPに変換できない問題が発生しました。
-この原因がどのようなものなのか色々と調べてみたのですが、検索の仕方がまずかったのか謎のままでいました。
-きっとCython.Distutils.build_extが悪さしてるんだろうなという検討はついていたので、
-それを標準のdistutils.command.build_ext.build_extに変更し、
-さらにCython.Compiler.Main.compileを使用して&amp;rdquo;*.pyx&amp;quot;をC/CPPに変換させるような処理に変更しました。
-C/CPPに強制変換させているので、sourcesにはpyxではなく、変換したC/CPPファイルを追加するようにも変更してください。
-この変更によって、たぶんCentOSのようにうまく変換できない環境でも対応できるかと思います。
-変更した際のdiffはこちら
-備忘録♪備忘録♪</description>
+      <description>なぜかWindowsやUbuntuでは素直に変換しビルドが成功するのに、CentOSではうまくpyxをC/CPPに変換できない問題が発生しました。&#xA;この原因がどのようなものなのか色々と調べてみたのですが、検索の仕方がまずかったのか謎のままでいました。&#xA;きっとCython.Distutils.build_extが悪さしてるんだろうなという検討はついていたので、&#xA;それを標準のdistutils.command.build_ext.build_extに変更し、&#xA;さらにCython.Compiler.Main.compileを使用して&amp;quot;*.pyx&amp;quot;をC/CPPに変換させるような処理に変更しました。&#xA;C/CPPに強制変換させているので、sourcesにはpyxではなく、変換したC/CPPファイルを追加するようにも変更してください。&#xA;この変更によって、たぶんCentOSのようにうまく変換できない環境でも対応できるかと思います。&#xA;変更した際のdiffはこちら&#xA;備忘録♪備忘録♪</description>
     </item>
-    
     <item>
       <title>cChardetをPyPiに登録してみた</title>
       <link>https://github.pyyoshi.com/blog/2012/06/cChardet%E3%82%92PyPi%E3%81%AB%E7%99%BB%E9%8C%B2%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</link>
       <pubDate>Tue, 26 Jun 2012 18:40:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2012/06/cChardet%E3%82%92PyPi%E3%81%AB%E7%99%BB%E9%8C%B2%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
-      <description>BeautifulSoupのGoogle Groupにcchardetを導入したら高速化したよって報告したらBS開発者から
-「ビルド等の導入をシンプルにしてくれたら使ってやってもいいよ。」
-と言われたのでlibcharsetdetectを取り込んで1つの静的ライブラリにしちゃいました。
-いくつかライブラリを作っているみですが、PyPiにはじめて登録しました。
-適宜setup.pyに必要な情報を入れたら、
-$python setup.py register
-でユーザ登録とライブラリの登録を済ませます。その際にログイン済みでないとファイルのアップロードができなくなりますので注意してください。
-そして、sdistをアップロードさせます。
-$python setup.py sdist &amp;ndash;formats=gztaruploadこれだけで簡単に登録できちゃいました。 難しいこと考えずにアップロードできるのは大変便利ですね。
-ただし、registerすると~/.pypircにユーザ名と暗号化されていないパスワードが書かれちゃっています。
-registerでログイン・アップロードを終了したら消すという作業をするのもありなのかもしれませんね。
-この辺は要調査
-cchardet: PyPi</description>
+      <description>BeautifulSoupのGoogle Groupにcchardetを導入したら高速化したよって報告したらBS開発者から&#xA;「ビルド等の導入をシンプルにしてくれたら使ってやってもいいよ。」&#xA;と言われたのでlibcharsetdetectを取り込んで1つの静的ライブラリにしちゃいました。&#xA;いくつかライブラリを作っているみですが、PyPiにはじめて登録しました。&#xA;適宜setup.pyに必要な情報を入れたら、&#xA;$python setup.py register&#xA;でユーザ登録とライブラリの登録を済ませます。その際にログイン済みでないとファイルのアップロードができなくなりますので注意してください。&#xA;そして、sdistをアップロードさせます。&#xA;$python setup.py sdist &amp;ndash;formats=gztar upload&#xA;これだけで簡単に登録できちゃいました。 難しいこと考えずにアップロードできるのは大変便利ですね。&#xA;ただし、registerすると~/.pypircにユーザ名と暗号化されていないパスワードが書かれちゃっています。&#xA;registerでログイン・アップロードを終了したら消すという作業をするのもありなのかもしれませんね。&#xA;この辺は要調査&#xA;cchardet: PyPi</description>
     </item>
-    
     <item>
       <title>より高速なchardet、cchardetをリリースしました</title>
       <link>https://github.pyyoshi.com/blog/2012/06/%E3%82%88%E3%82%8A%E9%AB%98%E9%80%9F%E3%81%AAchardetcchardet%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Wed, 20 Jun 2012 11:52:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2012/06/%E3%82%88%E3%82%8A%E9%AB%98%E9%80%9F%E3%81%AAchardetcchardet%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</guid>
-      <description>以前の投稿にchardetがあまりにも遅いと嘆いていました。これも何かの縁だと思い、Cythonの練習がてら、さっそくcchardetをリリースさせて頂きました！
-ベンチを取ったのですが、C拡張なだけあってかなり早い結果が出ました。
-chardetが4.009999990463257秒で検出したのに対し、cchardetは0.0009999275207519531秒と実に4000倍！（計算あっているか不安ｗ)
-割かし満足しています。
-ただ不満もありまして、chardetはconfidenceを出力できるのに対し、cchardetはencodingしか吐きません。
-これはcharsetdetectライブラリ側の問題なのですが、いずれソースをいじって得られるようにしたいと考えています。
-もう1つはビルド環境がWindowsでしかおこなっていないため、setup.pyをもう少々柔軟なものに変えないと他のプラットフォームで扱えないことです。
-この2つは時間があるときに修正していきたいと思います。
-ではでは
-PyYoshi / cChardet
-追記 2012,06/20,22:39
-linuxもビルドできるように修正しました。 Ubuntu 12.04 64bit環境で確認
-追記 2012,07/07,14:35
-confidenceを取得できるようにしました。</description>
+      <description>以前の投稿にchardetがあまりにも遅いと嘆いていました。&#xA;これも何かの縁だと思い、Cythonの練習がてら、さっそくcchardetをリリースさせて頂きました！&#xA;ベンチを取ったのですが、C拡張なだけあってかなり早い結果が出ました。&#xA;chardetが4.009999990463257秒で検出したのに対し、cchardetは0.0009999275207519531秒と実に4000倍！（計算あっているか不安ｗ)&#xA;割かし満足しています。&#xA;ただ不満もありまして、chardetはconfidenceを出力できるのに対し、cchardetはencodingしか吐きません。&#xA;これはcharsetdetectライブラリ側の問題なのですが、いずれソースをいじって得られるようにしたいと考えています。&#xA;もう1つはビルド環境がWindowsでしかおこなっていないため、setup.pyをもう少々柔軟なものに変えないと他のプラットフォームで扱えないことです。&#xA;この2つは時間があるときに修正していきたいと思います。&#xA;ではでは&#xA;PyYoshi / cChardet&#xA;追記 2012,06/20,22:39&#xA;linuxもビルドできるように修正しました。 Ubuntu 12.04 64bit環境で確認&#xA;追記 2012,07/07,14:35&#xA;confidenceを取得できるようにしました。</description>
     </item>
-    
   </channel>
 </rss>

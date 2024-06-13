@@ -4,22 +4,16 @@
     <title>Chrome Extension API on PyYoshiのログ置き場</title>
     <link>https://github.pyyoshi.com/blog/tags/Chrome-Extension-API/</link>
     <description>Recent content in Chrome Extension API on PyYoshiのログ置き場</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 23 Sep 2012 09:20:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://github.pyyoshi.com/blog/tags/Chrome-Extension-API/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://github.pyyoshi.com/blog/tags/Chrome-Extension-API/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[Chrome Extension API] Manifestをapp内からアクセスする方法</title>
       <link>https://github.pyyoshi.com/blog/2012/09/Chrome-Extension-API-Manifest%E3%82%92app%E5%86%85%E3%81%8B%E3%82%89%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</link>
       <pubDate>Sun, 23 Sep 2012 09:20:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2012/09/Chrome-Extension-API-Manifest%E3%82%92app%E5%86%85%E3%81%8B%E3%82%89%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</guid>
-      <description>chrome.app.getDetails()
- で取得することが可能。</description>
+      <description>chrome.app.getDetails()&#xA;で取得することが可能。</description>
     </item>
-    
   </channel>
 </rss>

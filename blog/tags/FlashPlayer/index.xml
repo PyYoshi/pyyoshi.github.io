@@ -4,21 +4,16 @@
     <title>FlashPlayer on PyYoshiのログ置き場</title>
     <link>https://github.pyyoshi.com/blog/tags/FlashPlayer/</link>
     <description>Recent content in FlashPlayer on PyYoshiのログ置き場</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 07 May 2010 14:33:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://github.pyyoshi.com/blog/tags/FlashPlayer/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://github.pyyoshi.com/blog/tags/FlashPlayer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ubuntu 64bit環境でFlash Playerを使う</title>
       <link>https://github.pyyoshi.com/blog/2010/05/Ubuntu-64bit%E7%92%B0%E5%A2%83%E3%81%A7Flash-Player%E3%82%92%E4%BD%BF%E3%81%86/</link>
       <pubDate>Fri, 07 May 2010 14:33:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2010/05/Ubuntu-64bit%E7%92%B0%E5%A2%83%E3%81%A7Flash-Player%E3%82%92%E4%BD%BF%E3%81%86/</guid>
-      <description>すっかり忘れておったのでメモsudo apt-get install flashplugin-installerで、いちよインストールされる。Google ChromeとかFirefoxで使えるようにするにはChromeはsudo mkdir /opt/google/chrome/pluginssudo ln -s /usr/lib/flashplugin-installer/libflashplayer.so /opt/google/chrome/pluginsFirefoxはsudo ln -s /usr/lib/flashplugin-installer/libflashplayer.so /usr/lib/mozilla/plugins**</description>
+      <description>すっかり忘れておったのでメモ&#xA;sudo apt-get install flashplugin-installer&#xA;で、いちよインストールされる。&#xA;Google ChromeとかFirefoxで使えるようにするには&#xA;Chromeは&#xA;sudo mkdir /opt/google/chrome/plugins&#xA;sudo ln -s /usr/lib/flashplugin-installer/libflashplayer.so /opt/google/chrome/plugins&#xA;Firefoxは&#xA;sudo ln -s /usr/lib/flashplugin-installer/libflashplayer.so /usr/lib/mozilla/plugins&#xA;**&#xA;**&#xA;このやり方のほかにも&#xA;こことかから拾ってきたのを適当なディレクトリにぶっ込んでlnすりゃいいと思われる。&#xA;※それにしてもadobeさん(´・ω・)ｶﾜｲｿｽ&#xA;いろんなサイトの動画プレイヤーがHTML5版とかでテスト始まってていよいよって感じ。</description>
     </item>
-    
   </channel>
 </rss>

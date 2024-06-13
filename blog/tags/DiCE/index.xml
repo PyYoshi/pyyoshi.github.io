@@ -4,36 +4,16 @@
     <title>DiCE on PyYoshiのログ置き場</title>
     <link>https://github.pyyoshi.com/blog/tags/DiCE/</link>
     <description>Recent content in DiCE on PyYoshiのログ置き場</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 27 Dec 2009 19:20:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://github.pyyoshi.com/blog/tags/DiCE/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://github.pyyoshi.com/blog/tags/DiCE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ubuntuサーバ再構築(４)</title>
       <link>https://github.pyyoshi.com/blog/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%89%EF%BC%94/</link>
       <pubDate>Sun, 27 Dec 2009 19:20:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%89%EF%BC%94/</guid>
-      <description>DynamicDNSに登録してもIPころころ変わっては意味がないのでなんとか対応したい！そういう時にスクリプト書いて対応するのは良いのだが管理が大変になるかも。そーいうときはDiCEを使おう！
-ということでDiCE導入から設定まで
-cd /usr/local/binsudo wget http://www.hi-ho.ne.jp/cgi-bin/user/yoshihiro_e/download.cgi?p=diced019sudo tar zxvf diced01914.tar.gzsudo rm &amp;ldquo;diced01914.tar.gz&amp;quot;
-※端末の文字コードをEUCへ変更する
-sudo ./diced
-:setupIPアドレスの検出方法を指定してください(0) 自動検出(1) ローカルのネットワークアダプタから検出(2) 外部のスクリプトから検出&amp;lt;現在:0&amp;gt;(N)変更しない (P)戻る&amp;gt;2&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-スクリプトのURLを入力してください&amp;lt;現在:&amp;gt;(N)変更しない (P)戻る&amp;gt;http://ipcheck.ieserver.net/&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-プライベートIPアドレスも検出対象ですか？ (Y/N)&amp;lt;現在:いいえ&amp;gt;(P)戻る&amp;gt;n&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-IPアドレスの検出をテストしますか？ (Y/N)(P)戻る&amp;gt;y検出IPアドレス&amp;gt;*******&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-IPアドレスの検出をテストしますか？ (Y/N)(P)戻る&amp;gt;n&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-IPアドレスをチェックする間隔を指定してください(分)設定可能範囲は5分以上です&amp;lt;現在:10&amp;gt;(N)変更しない (P)戻る&amp;gt;5=================================================DNSサーバーの負荷を軽減するために頻繁なDNS更新を防ぐ必要があります前回の更新から一定時間DNS更新処理を行わないように保護時間を設定してください(分) 設定可能範囲は10分から1440分です&amp;lt;現在:60&amp;gt;(N)変更しない (P)戻る&amp;gt;30=================================================設定を保存しますか? (Y/N)(P)戻る&amp;gt;y設定を保存しました=================================================ieServerを例に
-:add新しくイベントを追加しますDynamicDNSサービス名を入力してください&amp;rdquo;?&amp;ldquo;で対応しているサービスを一覧表示します(P)戻る&amp;gt;ieServer&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-&amp;lt;&amp;lt; ieServer Project &amp;gt;&amp;gt;URL: http://www.ieserver.net/&amp;lt;/span&amp;gt;
-*** 情報 ***IPアドレスはサーバー側で自動検出します。IPアドレスの指定は出来ません。（入力しても無視されます）=================================================ドメイン名を入力してください&amp;rdquo;?&amp;ldquo;でドメイン一覧を表示します(P)戻る&amp;gt;dip.jp=================================================ドメイン名を入力してください&amp;rdquo;?&amp;ldquo;でドメイン一覧を表示します(P)戻る&amp;gt;dip.jp=================================================ホスト名を入力してください(P)戻る&amp;gt;*****=================================================ログインユーザ名を入力してください(P)戻る&amp;gt;*****=================================================ログインパスワードを入力してください(P)戻る&amp;gt;*****=================================================登録するIPアドレスを入力してください空白にすると現在のIPアドレスを自動検出します(P)戻る&amp;gt;=================================================このイベントに題名を付けてください(P)戻る&amp;gt;*****=================================================このイベントを実行するスケジュールを設定します&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-実行する頻度を指定してください (番号入力)(0)１回のみ (1)１日１回 (2)１週間に１回 (3)１ヵ月に１回(4)その他の周期 (5)IPアドレス変化時 (6)起動時(P)戻る&amp;gt;5&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-IPアドレスがあまり変化しない環境の場合、更新せずに一定期間を過ぎるとアカウントを削除されてしまうことがありますIPアドレスの変化が無い時に実行する間隔を指定してください(0)7日毎 (1)14日毎 (2)21日毎 (3)28日毎(4)35日毎 (5)56日毎 (6)84日毎(P)戻る&amp;gt;0=================================================詳細オプションを設定します&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-[ オフライン ](0)No (1)Yes 番号&amp;gt;0=================================================このイベントを有効にしますか? (Y/N)(イベントの有効/無効は&amp;quot;EN/DIS&amp;quot;コマンドで切替えられます)&amp;gt;y=================================================イベントを保存しますか? (Y/N)&amp;gt;yイベント&amp;rdquo;*******&amp;ldquo;を保存しました=================================================:exitコマンド一覧は&amp;rdquo;?&amp;ldquo;で表示可能
-exit DiCEを終了します
-start DiCEを開始します
-startd DiCEをバックグラウンドで開始します
-setup DiCEの環境設定を行います
-list 登録済のイベント一覧を表示します
-add イベントを追加します
-ed[it] &amp;lt;番号&amp;gt; イベントを編集します
-del &amp;lt;番号&amp;gt; イベントを削除します</description>
+      <description>DynamicDNSに登録してもIPころころ変わっては意味がないのでなんとか対応したい！そういう時にスクリプト書いて対応するのは良いのだが管理が大変になるかも。そーいうときはDiCEを使おう！&#xA;ということでDiCE導入から設定まで&#xA;cd /usr/local/bin&#xA;sudo wget http://www.hi-ho.ne.jp/cgi-bin/user/yoshihiro_e/download.cgi?p=diced019&#xA;sudo tar zxvf diced01914.tar.gz&#xA;sudo rm &amp;ldquo;diced01914.tar.gz&amp;rdquo;&#xA;※端末の文字コードをEUCへ変更する&#xA;sudo ./diced&#xA;:setup&#xA;IPアドレスの検出方法を指定してください&#xA;(0) 自動検出&#xA;(1) ローカルのネットワークアダプタから検出&#xA;(2) 外部のスクリプトから検出&#xA;&amp;lt;現在:0&amp;gt;&#xA;(N)変更しない (P)戻る&#xA;&amp;gt;2&#xA;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-&#xA;スクリプトのURLを入力してください&#xA;&amp;lt;現在:&amp;gt;&#xA;(N)変更しない (P)戻る&#xA;&amp;gt;http://ipcheck.ieserver.net/&#xA;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-&#xA;プライベートIPアドレスも検出対象ですか？ (Y/N)&#xA;&amp;lt;現在:いいえ&amp;gt;&#xA;(P)戻る&#xA;&amp;gt;n&#xA;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-&#xA;IPアドレスの検出をテストしますか？ (Y/N)&#xA;(P)戻る&#xA;&amp;gt;y&#xA;検出IPアドレス&amp;gt;*******&#xA;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-&#xA;IPアドレスの検出をテストしますか？ (Y/N)&#xA;(P)戻る&#xA;&amp;gt;n&#xA;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-&#xA;IPアドレスをチェックする間隔を指定してください(分)&#xA;設定可能範囲は5分以上です&#xA;&amp;lt;現在:10&amp;gt;&#xA;(N)変更しない (P)戻る&#xA;&amp;gt;5&#xA;=================================================&#xA;DNSサーバーの負荷を軽減するために頻繁なDNS更新を防ぐ必要があります&#xA;前回の更新から一定時間DNS更新処理を行わないように保護時間を設定して&#xA;ください(分) 設定可能範囲は10分から1440分です&#xA;&amp;lt;現在:60&amp;gt;&#xA;(N)変更しない (P)戻る&#xA;&amp;gt;30&#xA;=================================================&#xA;設定を保存しますか? (Y/N)</description>
     </item>
-    
   </channel>
 </rss>

@@ -4,316 +4,107 @@
     <title>Android on PyYoshiのログ置き場</title>
     <link>https://github.pyyoshi.com/blog/tags/Android/</link>
     <description>Recent content in Android on PyYoshiのログ置き場</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 01 May 2013 18:06:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://github.pyyoshi.com/blog/tags/Android/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://github.pyyoshi.com/blog/tags/Android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>androidで使えるjson parserの速度比較をしてみる</title>
       <link>https://github.pyyoshi.com/blog/2013/05/android%E3%81%A7%E4%BD%BF%E3%81%88%E3%82%8Bjson-parser%E3%81%AE%E9%80%9F%E5%BA%A6%E6%AF%94%E8%BC%83%E3%82%92%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B/</link>
       <pubDate>Wed, 01 May 2013 18:06:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2013/05/android%E3%81%A7%E4%BD%BF%E3%81%88%E3%82%8Bjson-parser%E3%81%AE%E9%80%9F%E5%BA%A6%E6%AF%94%E8%BC%83%E3%82%92%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B/</guid>
-      <description>json-android-compareをベースにJsonPullParserとJackson JsonのObject Mappingのベンチを追加してAndroid上で走らせてみました。
-比較してるParserは以下の通り
- Android標準(API依存) gson 2.2.3 json simple 1.1.1 json smart 1.1.1 Jackson Json 1.9.12 Jackson Json 1.9.12 - Object Mapping JsonPullParser 1.6.1  テストした端末は2つ
- CM10ベースのAinol Elf(ROM) 私が開発してるCM9ベースのP-01D(ROM)  ベンチ結果:
-まずは1のAinol Elf
-
-続いてP-01D
-
-
-
-Streaming処理ならJackson Json一択ですね。 個人的にJacksonは使いやすいので、この場合はこれを選択すると思います。
-一方Object MappingではJacksonはJPPと比べると遅いですねぇ。
-まぁでも許容範囲なのかな。
-TwitterみてるとJPP熱いみたいだし、開発者も日本の方なのでコミュニティに質問すればすぐ返ってきそうではあります。
-コードはこちらです。正しいベンチの走らせ方してると思えないので、指摘アレばissueに投げてください。
-ではでは</description>
+      <description>json-android-compareをベースにJsonPullParserとJackson JsonのObject Mappingのベンチを追加してAndroid上で走らせてみました。&#xA;比較してるParserは以下の通り&#xA;Android標準(API依存) gson 2.2.3 json simple 1.1.1 json smart 1.1.1 Jackson Json 1.9.12 Jackson Json 1.9.12 - Object Mapping JsonPullParser 1.6.1 テストした端末は2つ&#xA;CM10ベースのAinol Elf(ROM) 私が開発してるCM9ベースのP-01D(ROM) ベンチ結果:&#xA;まずは1のAinol Elf&#xA;続いてP-01D&#xA;Streaming処理ならJackson Json一択ですね。 個人的にJacksonは使いやすいので、この場合はこれを選択すると思います。&#xA;一方Object MappingではJacksonはJPPと比べると遅いですねぇ。&#xA;まぁでも許容範囲なのかな。&#xA;TwitterみてるとJPP熱いみたいだし、開発者も日本の方なのでコミュニティに質問すればすぐ返ってきそうではあります。&#xA;コードはこちらです。正しいベンチの走らせ方してると思えないので、指摘アレばissueに投げてください。&#xA;ではでは</description>
     </item>
-    
     <item>
       <title>PythonモジュールをSL4A向けにビルドしてみた</title>
       <link>https://github.pyyoshi.com/blog/2011/04/Python%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%82%92SL4A%E5%90%91%E3%81%91%E3%81%AB%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</link>
       <pubDate>Wed, 06 Apr 2011 22:49:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2011/04/Python%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%82%92SL4A%E5%90%91%E3%81%91%E3%81%AB%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
-      <description>SL4AのVer.が上がってAPIも結構数サポートされて驚いていたのだが、それよりうれしいとおもったのがPythonのCモジュールのビルド方法が確立されたこと。
-以前まではソースにそのようなツールは用意されていなくクロスコンパイラでとりあえずビルドって感じだった。
-ということでPythonモジュールのビルド方法を。
-ツールのソースコード追ってないので正しいかどうか分からないけどAndroidソースが必要みたい。
-Androidのソースは各自準備してください。
-/home/hoge/android/mydroid ← Androidのソース置き場
-/home/hoge/android/sl4a ← SL4Aのソース置き場
-とします。
-今回はPyLZMAをビルドする例を紹介します。
-SL4Aのソースをとってくる。
-$pwd
-/home/hoge/android/
-$cd sl4a
-$hg clone https://android-scripting.googlecode.com/hg/ android-scripting
-ビルドツールの一部を修正する。
-$cd android-scripting/tools/agcc
-$vim agcc
-126行目以降のものを以下のように1行追加
-# Also need: -Wl,-soname,libXXXX.so
-my @shared_args = (
- &amp;ldquo;-nostdlib&amp;rdquo;,
- &amp;ldquo;-Wl,-T,$DROID/build/core/armelf.xsc&amp;rdquo;,
- &amp;ldquo;-Wl,&amp;ndash;gc-sections&amp;rdquo;,
- &amp;ldquo;-Wl,-shared,-Bsymbolic&amp;rdquo;,
- &amp;ldquo;-L$ALIB&amp;rdquo;,
- &amp;ldquo;-Wl,&amp;ndash;no-whole-archive&amp;rdquo;,
-** &amp;ldquo;-L/home/hoge/android/mydroid/prebuilt/ndk/android-ndk-r4/platforms/android-3/arch-arm/usr/lib &amp;ldquo;,** &amp;ldquo;-lc&amp;rdquo;,
- &amp;ldquo;-lm&amp;rdquo;,
- &amp;ldquo;-ldl&amp;rdquo;,
- #&amp;quot;-Wl,&amp;ndash;no-undefined&amp;rdquo;,
- &amp;ldquo;$TOOLCHAIN/lib/gcc/arm-eabi/4.4.0/interwork/libgcc.a&amp;rdquo;,
- &amp;ldquo;-Wl,&amp;ndash;whole-archive&amp;rdquo;); # .a, .o input files go *after* here</description>
+      <description>SL4AのVer.が上がってAPIも結構数サポートされて驚いていたのだが、それよりうれしいとおもったのがPythonのCモジュールのビルド方法が確立されたこと。&#xA;以前まではソースにそのようなツールは用意されていなくクロスコンパイラでとりあえずビルドって感じだった。&#xA;ということでPythonモジュールのビルド方法を。&#xA;ツールのソースコード追ってないので正しいかどうか分からないけどAndroidソースが必要みたい。&#xA;Androidのソースは各自準備してください。&#xA;/home/hoge/android/mydroid ← Androidのソース置き場&#xA;/home/hoge/android/sl4a ← SL4Aのソース置き場&#xA;とします。&#xA;今回はPyLZMAをビルドする例を紹介します。&#xA;SL4Aのソースをとってくる。&#xA;$pwd&#xA;/home/hoge/android/&#xA;$cd sl4a&#xA;$hg clone https://android-scripting.googlecode.com/hg/ android-scripting&#xA;ビルドツールの一部を修正する。&#xA;$cd android-scripting/tools/agcc&#xA;$vim agcc&#xA;126行目以降のものを以下のように1行追加&#xA;# Also need: -Wl,-soname,libXXXX.so&#xA;my @shared_args = (&#xA;&amp;ldquo;-nostdlib&amp;rdquo;,&#xA;&amp;ldquo;-Wl,-T,$DROID/build/core/armelf.xsc&amp;rdquo;,&#xA;&amp;ldquo;-Wl,&amp;ndash;gc-sections&amp;rdquo;,&#xA;&amp;ldquo;-Wl,-shared,-Bsymbolic&amp;rdquo;,&#xA;&amp;ldquo;-L$ALIB&amp;rdquo;,&#xA;&amp;ldquo;-Wl,&amp;ndash;no-whole-archive&amp;rdquo;,&#xA;** &amp;ldquo;-L/home/hoge/android/mydroid/prebuilt/ndk/android-ndk-r4/platforms/android-3/arch-arm/usr/lib &amp;ldquo;,**&#xA;&amp;ldquo;-lc&amp;rdquo;,&#xA;&amp;ldquo;-lm&amp;rdquo;,&#xA;&amp;ldquo;-ldl&amp;rdquo;,&#xA;#&amp;quot;-Wl,&amp;ndash;no-undefined&amp;rdquo;,&#xA;&amp;ldquo;$TOOLCHAIN/lib/gcc/arm-eabi/4.4.0/interwork/libgcc.a&amp;rdquo;,&#xA;&amp;ldquo;-Wl,&amp;ndash;whole-archive&amp;rdquo;); # .a, .o input files go *after* here&#xA;PyLZMAをとってくる。&#xA;$pwd&#xA;/home/hoge/android/sl4a&#xA;$mkdir Modules&#xA;$cd Modules&#xA;$wget http://pypi.python.org/packages/source/p/pylzma/pylzma-0.4.4.tar.gz&#xA;$tar zxvf pylzma-0.</description>
     </item>
-    
     <item>
       <title>Win7でScalaとScalaAndroid環境構築とか</title>
       <link>https://github.pyyoshi.com/blog/2011/03/Win7%E3%81%A7Scala%E3%81%A8ScalaAndroid%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%81%A8%E3%81%8B/</link>
       <pubDate>Fri, 18 Mar 2011 02:31:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2011/03/Win7%E3%81%A7Scala%E3%81%A8ScalaAndroid%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%81%A8%E3%81%8B/</guid>
-      <description>ただの備忘ログ
-構築とかわかりにくかったのでまとめただけ。転んだら泣いてください。
-サイトScala
-Index of /gnu/windows/emacs か NTemacs
-[](http://www.scala-ide.org/)[Apache Ant](http://ant.apache.org/bindownload.cgi)
-[](http://ant.apache.org/bindownload.cgi)[ProGuard](http://proguard.sourceforge.net/)
-[](http://proguard.sourceforge.net/)[simple-build-tool](http://code.google.com/p/simple-build-tool/)
-[](http://code.google.com/p/simple-build-tool/)[object版create_project](https://gist.github.com/486306)
-準備1:
-ScalaのサイトからIzPack Installerをダウンロードして指示通りインスコ。インストーラ版だとPATHも勝手に追加してくれるので楽。
-2:
-最新のemacsを持ってくる。
-「scala/misc/scala-tool-support/emacs」のファイルを「.emacs.d/scala-mode」に置く
-C:\Users\***\AppData\Roaming\.emacs.dにinit.elを作成
-以下内容
-;; Set default fonts and fonts for Japaense (cond (window-system (set-default-font &amp;quot;Courier New-10&amp;quot;) ;; Japanese(japanese-jisx0208)font (set-fontset-font (frame-parameter nil &#39;font) &#39;japanese-jisx0208 (font-spec :family &amp;quot;Meiryo&amp;quot; :size 12) ;;&#39;(&amp;quot;Meiryo&amp;quot; . &amp;quot;unicode-bmp&amp;quot;) ) ) ) ;; Set scala-mode (add-to-list &#39;load-path &amp;quot;~/.emacs.d/scala-mode&amp;quot;) (require &#39;scala-mode-auto)  起動はbin以下の「runemacs.exe」でおｋみたい。
-cuiでは「emacs -nw」みたい。
-使い方とかよく分からないので追々。
-3:
-Apache AntからWindowsバイナリをダウンロード解凍後、適宜場所へ。 そのあと環境変数のPATHに「apache-ant/bin」がある場所を追加。
-端末から「ant -version」でPATH通っているか確認。</description>
+      <description>ただの備忘ログ&#xA;構築とかわかりにくかったのでまとめただけ。転んだら泣いてください。&#xA;サイト&#xA;Scala&#xA;Index of /gnu/windows/emacs か NTemacs&#xA;Apache Ant&#xA;ProGuard&#xA;simple-build-tool&#xA;object版create_project&#xA;準備&#xA;1:&#xA;ScalaのサイトからIzPack Installerをダウンロードして指示通りインスコ。インストーラ版だとPATHも勝手に追加してくれるので楽。&#xA;2:&#xA;最新のemacsを持ってくる。&#xA;「scala/misc/scala-tool-support/emacs」のファイルを「.emacs.d/scala-mode」に置く&#xA;C:\Users\***\AppData\Roaming\.emacs.dにinit.elを作成&#xA;以下内容&#xA;;; Set default fonts and fonts for Japaense (cond (window-system (set-default-font &amp;quot;Courier New-10&amp;quot;) ;; Japanese(japanese-jisx0208)font (set-fontset-font (frame-parameter nil &#39;font) &#39;japanese-jisx0208 (font-spec :family &amp;quot;Meiryo&amp;quot; :size 12) ;;&#39;(&amp;quot;Meiryo&amp;quot; . &amp;quot;unicode-bmp&amp;quot;) ) ) ) ;; Set scala-mode (add-to-list &#39;load-path &amp;quot;~/.emacs.d/scala-mode&amp;quot;) (require &#39;scala-mode-auto) 起動はbin以下の「runemacs.exe」でおｋみたい。&#xA;cuiでは「emacs -nw」みたい。&#xA;使い方とかよく分からないので追々。&#xA;3:&#xA;Apache AntからWindowsバイナリをダウンロード解凍後、適宜場所へ。 そのあと環境変数のPATHに「apache-ant/bin」がある場所を追加。</description>
     </item>
-    
     <item>
       <title>Androidのライブラリの依存関係を調べる。</title>
       <link>https://github.pyyoshi.com/blog/2011/03/Android%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%81%AE%E4%BE%9D%E5%AD%98%E9%96%A2%E4%BF%82%E3%82%92%E8%AA%BF%E3%81%B9%E3%82%8B/</link>
       <pubDate>Tue, 08 Mar 2011 16:47:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2011/03/Android%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%81%AE%E4%BE%9D%E5%AD%98%E9%96%A2%E4%BF%82%E3%82%92%E8%AA%BF%E3%81%B9%E3%82%8B/</guid>
-      <description>バイナリ開けるのめんどくさかったので書いた。やってることが分かる人のみで。スクリプトと同じフォルダにbin, lib作って適宜ファイル入れること。また、arm-eabi-objdumpも入れておくこと。# -*- coding: utf-8 -*- #!/usr/bin/env python from os import getcwd, listdir from popen2 import popen3 cdir = getcwd() lib_flist = listdir(cdir+&#39;/lib/&#39;) bin_flist = listdir(cdir+&#39;/bin/&#39;) for file in lib_flist: cmd = &#39;./arm-eabi-objdump -x ./lib/&#39;+ file + &#39; |grep -e NEEDED&#39; stdout, stdin, stderr = popen3(cmd) print file print stdout.read() print stderr.read() for file in bin_flist: cmd = &#39;./arm-eabi-objdump -x ./bin/&#39;+ file + &#39; |grep -e NEEDED&#39; stdout, stdin, stderr = popen3(cmd) print file print stdout.</description>
+      <description>バイナリ開けるのめんどくさかったので書いた。&#xA;やってることが分かる人のみで。&#xA;スクリプトと同じフォルダにbin, lib作って適宜ファイル入れること。&#xA;また、arm-eabi-objdumpも入れておくこと。&#xA;# -*- coding: utf-8 -*- #!/usr/bin/env python from os import getcwd, listdir from popen2 import popen3 cdir = getcwd() lib_flist = listdir(cdir+&#39;/lib/&#39;) bin_flist = listdir(cdir+&#39;/bin/&#39;) for file in lib_flist: cmd = &#39;./arm-eabi-objdump -x ./lib/&#39;+ file + &#39; |grep -e NEEDED&#39; stdout, stdin, stderr = popen3(cmd) print file print stdout.read() print stderr.read() for file in bin_flist: cmd = &#39;./arm-eabi-objdump -x ./bin/&#39;+ file + &#39; |grep -e NEEDED&#39; stdout, stdin, stderr = popen3(cmd) print file print stdout.</description>
     </item>
-    
     <item>
       <title>IS01 rooterでうまーくモジュールが呼び出せないとおもったらの巻き</title>
       <link>https://github.pyyoshi.com/blog/2010/12/IS01-rooter%E3%81%A7%E3%81%86%E3%81%BE%E3%83%BC%E3%81%8F%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%8C%E5%91%BC%E3%81%B3%E5%87%BA%E3%81%9B%E3%81%AA%E3%81%84%E3%81%A8%E3%81%8A%E3%82%82%E3%81%A3%E3%81%9F%E3%82%89%E3%81%AE%E5%B7%BB%E3%81%8D/</link>
       <pubDate>Sun, 12 Dec 2010 14:00:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2010/12/IS01-rooter%E3%81%A7%E3%81%86%E3%81%BE%E3%83%BC%E3%81%8F%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%8C%E5%91%BC%E3%81%B3%E5%87%BA%E3%81%9B%E3%81%AA%E3%81%84%E3%81%A8%E3%81%8A%E3%82%82%E3%81%A3%E3%81%9F%E3%82%89%E3%81%AE%E5%B7%BB%E3%81%8D/</guid>
-      <description>※文鎮化する可能性が高い操作を行っていますので注意してください。
-いやはや便利な者が出来てしまうとそれに頼ってしまうのですが、それが盲点となってしまった。
-たぶん僕だけの環境で起こったことだと思うので気にせずに＾＾；
-MIRO氏作成のIS01 rooter_002ですが、こちらを使用した際にmsm_nand_exをinsmodすることが出来なかった。
-なぜ出来なかったのか？
-まずは、/sqlite_journals/is01root/以下にあるautoexecに実行権限が付与されていなかった。
-#chmod 755 /sqlite_journals/is01root/autoexec.sh
-それと。autoexec.shに書かれている２行に「/sqlite_journals/is01root/_su &amp;hellip;」とあるが、is01root以下に「_su」が入っていない。
-ファイルをDL解凍したら
-adb push _su /sqlite_journals/is01root/
-#chown root.root _su
-#chmod 6755 _su
-で再起動を行う。
-これでlsmodしてモジュールがロードされていればおｋです。
-あと*.koは基本的に644で。
-で、ここまで書いたが。</description>
+      <description>※文鎮化する可能性が高い操作を行っていますので注意してください。&#xA;いやはや便利な者が出来てしまうとそれに頼ってしまうのですが、それが盲点となってしまった。&#xA;たぶん僕だけの環境で起こったことだと思うので気にせずに＾＾；&#xA;MIRO氏作成のIS01 rooter_002ですが、こちらを使用した際にmsm_nand_exをinsmodすることが出来なかった。&#xA;なぜ出来なかったのか？&#xA;まずは、/sqlite_journals/is01root/以下にあるautoexecに実行権限が付与されていなかった。&#xA;#chmod 755 /sqlite_journals/is01root/autoexec.sh&#xA;それと。autoexec.shに書かれている２行に「/sqlite_journals/is01root/_su &amp;hellip;」とあるが、is01root以下に「_su」が入っていない。&#xA;ファイルをDL解凍したら&#xA;adb push _su /sqlite_journals/is01root/&#xA;#chown root.root _su&#xA;#chmod 6755 _su&#xA;で再起動を行う。&#xA;これでlsmodしてモジュールがロードされていればおｋです。&#xA;あと*.koは基本的に644で。&#xA;で、ここまで書いたが。&#xA;MIRO氏はたぶんsystemを書き込めないように上記手順を行わなかったのかなと思います。</description>
     </item>
-    
     <item>
       <title>IS01のkernelをビルドしちゃおう！ ※修正: 20101213</title>
       <link>https://github.pyyoshi.com/blog/2010/12/IS01%E3%81%AEkernel%E3%82%92%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A1%E3%82%83%E3%81%8A%E3%81%86-%E4%BF%AE%E6%AD%A3-20101213/</link>
       <pubDate>Sat, 04 Dec 2010 20:08:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2010/12/IS01%E3%81%AEkernel%E3%82%92%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A1%E3%82%83%E3%81%8A%E3%81%86-%E4%BF%AE%E6%AD%A3-20101213/</guid>
-      <description>※このビルドはNANDロック解除などのセキュリティ部分の解除はしていません。
-nandロックが解除出きるようになって、recovery等の書き変えも可能になりいろいろと旬になってきたIS01ですが、まだまだスタートしたばかりです。
-で、まぁカスタムロム作りたくてandroidのソースをぼちぼち読んでいるのですが云々。
-さてさて、今回はSH Developers Squareに公開されているIS01のkernelソースをビルドしていきます。
-ソースは前記事のスクリプトから取得しておきましょう。
-STEP1: android.git.kernel.orgからコンパイル用ソースをとってきましょう。(既にやっている人はSTEP2へ)
-#mkdir mydroid
-#wget http://android.git.kernel.org/repo&amp;lt;/span&amp;gt;
-#chmod 755 repo
-#./repo init -u git://android.git.kernel.org/platform/manifest.git -b froyo
-#./repo sync
-ここのSTEPは取得に時間がかかりますので気長に待ちましょう。
-STEP2: IS01のソースをビルドするための準備1
-IS01のkernelソースに移動
-#vim ./arch/arm/mach-msm/sh_sleepcheck.c
-最初の行にある#include &amp;lt;smd_private.h&amp;gt;を#include &amp;ldquo;smd_private.h&amp;rdquo;
-に書き換える。diffはよーわからないのでそのうち勉強する。
-STEP3: IS01のソースをビルドするための準備2
-IS01での操作です。
-rootとった状態でTerminal Emulatorから
-#busybox cp /proc/config.gz /sdcard/config.gz ←この操作はbusyboxとそのpathが必要です。
-config.gzをPCに持ってきて展開する。
-それをIS01のkernelフォルダに「.config」という名前で保存してください。
-「.config」はmakeするときに使用します。
-STEP4: kernelのビルド
-#make ARCH=arm CROSS_COMPILE=../../mydroid/prebuilt/linux-x86/toolchain/arm-eabi-4.2.1/bin/arm-eabi-
-を実行すると、
-arch/arm/boot/にImageというファイルが出来上がります。これがkernelです。
-お疲れ様でした。
-と記事書いてたら仙石さんが仕事早いｗ
-「Android 端末 IS01 のカーネルを入れ替えてみた ? さよならデッカード LSM」
-とりあえず僕はnandプロテクト外したものを作っています。
-froyoベースになるにはもうちょいお勉強。。
-STEP 番外編1: android.kernel.orgとcode auroraからのkernelソース取得
-・純粋なandroid向けkernelの取得</description>
+      <description>※このビルドはNANDロック解除などのセキュリティ部分の解除はしていません。&#xA;nandロックが解除出きるようになって、recovery等の書き変えも可能になりいろいろと旬になってきたIS01ですが、まだまだスタートしたばかりです。&#xA;で、まぁカスタムロム作りたくてandroidのソースをぼちぼち読んでいるのですが云々。&#xA;さてさて、今回はSH Developers Squareに公開されているIS01のkernelソースをビルドしていきます。&#xA;ソースは前記事のスクリプトから取得しておきましょう。&#xA;STEP1: android.git.kernel.orgからコンパイル用ソースをとってきましょう。(既にやっている人はSTEP2へ)&#xA;#mkdir mydroid&#xA;#wget http://android.git.kernel.org/repo&#xA;#chmod 755 repo&#xA;#./repo init -u git://android.git.kernel.org/platform/manifest.git -b froyo&#xA;#./repo sync&#xA;ここのSTEPは取得に時間がかかりますので気長に待ちましょう。&#xA;STEP2: IS01のソースをビルドするための準備1&#xA;IS01のkernelソースに移動&#xA;#vim ./arch/arm/mach-msm/sh_sleepcheck.c&#xA;最初の行にある#include &amp;lt;smd_private.h&amp;gt;を#include &amp;ldquo;smd_private.h&amp;rdquo;&#xA;に書き換える。diffはよーわからないのでそのうち勉強する。&#xA;STEP3: IS01のソースをビルドするための準備2&#xA;IS01での操作です。&#xA;rootとった状態でTerminal Emulatorから&#xA;#busybox cp /proc/config.gz /sdcard/config.gz ←この操作はbusyboxとそのpathが必要です。&#xA;config.gzをPCに持ってきて展開する。&#xA;それをIS01のkernelフォルダに「.config」という名前で保存してください。&#xA;「.config」はmakeするときに使用します。&#xA;STEP4: kernelのビルド&#xA;#make ARCH=arm CROSS_COMPILE=../../mydroid/prebuilt/linux-x86/toolchain/arm-eabi-4.2.1/bin/arm-eabi-&#xA;を実行すると、&#xA;arch/arm/boot/にImageというファイルが出来上がります。これがkernelです。&#xA;お疲れ様でした。&#xA;と記事書いてたら仙石さんが仕事早いｗ&#xA;「Android 端末 IS01 のカーネルを入れ替えてみた ? さよならデッカード LSM」&#xA;とりあえず僕はnandプロテクト外したものを作っています。&#xA;froyoベースになるにはもうちょいお勉強。。&#xA;STEP 番外編1: android.kernel.orgとcode auroraからのkernelソース取得&#xA;・純粋なandroid向けkernelの取得</description>
     </item>
-    
     <item>
       <title>SH DevelopersSquareからIS01等のAndroid向けソースをDLするスクリプト作ったよ！</title>
       <link>https://github.pyyoshi.com/blog/2010/12/SH-DevelopersSquare%E3%81%8B%E3%82%89IS01%E7%AD%89%E3%81%AEAndroid%E5%90%91%E3%81%91%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92DL%E3%81%99%E3%82%8B%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F%E3%82%88/</link>
       <pubDate>Fri, 03 Dec 2010 16:43:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2010/12/SH-DevelopersSquare%E3%81%8B%E3%82%89IS01%E7%AD%89%E3%81%AEAndroid%E5%90%91%E3%81%91%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92DL%E3%81%99%E3%82%8B%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F%E3%82%88/</guid>
-      <description>SH DevelopersSquareがgitとかsvnとか用意してくれていないのでソースのDLがまんどくさいことこの上ないのでPythonでスクリプトを作成しました。このスクリプトを利用することにより、is01, sh-10b, jn-dk01のソースを取得・展開してくれます。使い方（Ubuntu環境）は以下の通りです。まず、easy_install等で必要なモジュールをインストールします。**#sudo apt-get install setup_tools**←インストールしていない場合**#sudo easy_install -U MultipartPostHandler****#sudo easy_install -U BeautifulSoup**スクリプトの実行例は以下の通りです。**#python ./sdasg.py is01**←is01のソースを取得・展開したい場合**#python ./sdasg.py sh-10b** ←sh-10bのソースを取得・展開したい場合**#python ./sdasg.py jn-dk01** ←jn-dk01のソースを取得・展開したい場合以下がスクリプトです。# -*- coding: utf-8 -*- #------------------------------------------------------------------------------- # Name: SH Dev Android Source Getter(特に名前決めてない) # Purpose: (https://sh-dev.sharp.co.jp/android/modules/oss/)がsvnやgitでの # ソース公開してなかったので自動でダウンロードしてきて展開するスク # リプト作った。 # 使用する際は、GPL(http://www.gnu.org/licenses/)と各々のソフトウェ # ア使用許諾契約書に同意すること。 # # Usage: 引数にis01, sh-10b, jn-dk01のどれかを与えてください。 # スクリプト直下にディレクトリを作られ保存されます。 # 例)is01のソースを取得・展開します。 # #python ./sdasg.py is01 # # Require MultipartPostHandler, BeautifulSoupをeasy_installなどでインストー # ルしてください。 # # Author: renax64.blogspot.com # # Created: 02/12/2010, ver.</description>
+      <description>SH DevelopersSquareがgitとかsvnとか用意してくれていないのでソースのDLがまんどくさいことこの上ないのでPythonでスクリプトを作成しました。&#xA;このスクリプトを利用することにより、is01, sh-10b, jn-dk01のソースを取得・展開してくれます。&#xA;使い方（Ubuntu環境）は以下の通りです。&#xA;まず、easy_install等で必要なモジュールをインストールします。&#xA;#sudo apt-get install setup_tools ←インストールしていない場合&#xA;#sudo easy_install -U MultipartPostHandler&#xA;#sudo easy_install -U BeautifulSoup&#xA;スクリプトの実行例は以下の通りです。&#xA;#python ./sdasg.py is01 ←is01のソースを取得・展開したい場合&#xA;#python ./sdasg.py sh-10b ←sh-10bのソースを取得・展開したい場合&#xA;#python ./sdasg.py jn-dk01 ←jn-dk01のソースを取得・展開したい場合&#xA;以下がスクリプトです。&#xA;# -*- coding: utf-8 -*- #------------------------------------------------------------------------------- # Name: SH Dev Android Source Getter(特に名前決めてない) # Purpose: (https://sh-dev.sharp.co.jp/android/modules/oss/)がsvnやgitでの # ソース公開してなかったので自動でダウンロードしてきて展開するスク # リプト作った。 # 使用する際は、GPL(http://www.gnu.org/licenses/)と各々のソフトウェ # ア使用許諾契約書に同意すること。 # # Usage: 引数にis01, sh-10b, jn-dk01のどれかを与えてください。 # スクリプト直下にディレクトリを作られ保存されます。 # 例)is01のソースを取得・展開します。 # #python .</description>
     </item>
-    
     <item>
       <title>AndroidでSkypeAppが復活したのでさっそく</title>
       <link>https://github.pyyoshi.com/blog/2010/10/Android%E3%81%A7SkypeApp%E3%81%8C%E5%BE%A9%E6%B4%BB%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7%E3%81%95%E3%81%A3%E3%81%9D%E3%81%8F/</link>
       <pubDate>Tue, 05 Oct 2010 19:33:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2010/10/Android%E3%81%A7SkypeApp%E3%81%8C%E5%BE%A9%E6%B4%BB%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7%E3%81%95%E3%81%A3%E3%81%9D%E3%81%8F/</guid>
-      <description>やっと来ました！！
-今年初めに一部のキャリアでしかSkypeを使用することが出来ないようになってしまいましたが、いよいよ復活です！
-ただし、日本のプロバイダー(ストア固有ID)情報だとマーケットで表示することが出来ませんのでちょっとしたてこ入れをしてあげないといけません。
-ということで、手順です。（root権限が必要です。）
-用意するものはMarketEnablerです。こちらからDLしてインスコしてしまいましょう。
-あとは、MarketEnablerを起動して「Setting List -&amp;gt; T-Mobile」のところで長押しすればプロバイダー情報を偽装することが出来ます。（プロバイダー情報のバックアップは行っておいてください。）
-そしたら、こちらのQRコードからアクセスを行いSkypeのインストールを行っちゃいましょう！！
-
-以上で終了です！お疲れ様でした！！
-あ、DoCoMo回線だと使えないからね。</description>
+      <description>やっと来ました！！&#xA;今年初めに一部のキャリアでしかSkypeを使用することが出来ないようになってしまいましたが、いよいよ復活です！&#xA;ただし、日本のプロバイダー(ストア固有ID)情報だとマーケットで表示することが出来ませんのでちょっとしたてこ入れをしてあげないといけません。&#xA;ということで、手順です。（root権限が必要です。）&#xA;用意するものはMarketEnablerです。こちらからDLしてインスコしてしまいましょう。&#xA;あとは、MarketEnablerを起動して「Setting List -&amp;gt; T-Mobile」のところで長押しすればプロバイダー情報を偽装することが出来ます。（プロバイダー情報のバックアップは行っておいてください。）&#xA;そしたら、こちらのQRコードからアクセスを行いSkypeのインストールを行っちゃいましょう！！&#xA;以上で終了です！お疲れ様でした！！&#xA;あ、DoCoMo回線だと使えないからね。</description>
     </item>
-    
     <item>
       <title>Acer Liquid EにLeaked Froyoを入れてみたよ</title>
       <link>https://github.pyyoshi.com/blog/2010/10/Acer-Liquid-E%E3%81%ABLeaked-Froyo%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</link>
       <pubDate>Sat, 02 Oct 2010 19:08:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2010/10/Acer-Liquid-E%E3%81%ABLeaked-Froyo%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</guid>
-      <description>用意するもの：
-Leaked Froyo
-Acer Download Tool for A1
-installMalezRecovery_0.6_FULL
-Part1:
-Acer Download Tool for A1はWin7では正常動作しないので互換モードで行ってください。
-
-まずAcer Download Tool for A1を起動し、先ほどDLしてきたROMをBrowseから選択してください。
-次にStartを押してROM焼きを行います。
-ここで注意ですがAppにも書いてあるとおり抜いて良いよと言われるまでは絶対に抜かないでください。
-ここで抜いてしまうと文鎮化してしまい使い物にならない端末に変貌するかもしれません。
-以上でROM焼きは終了です。
-Part2:
-カスタムリカバリーの導入です。
-こちらのやり方自体は、以前の記事で解説済みですので割愛させていただきまする。
-Acer Liquid Eにカスタムリカバリーを入れてみたよ
-Part3:
-リカバリーモードに入ってFull Wipe, System Root Menuからrooted化する
-以上で終了です。
-Liquidを購入し、rooted, ROM焼きを通して思ったことは、とても簡単に導入できてしまい楽ちんになったなぁということです。
-いや、HT-03Aも楽だったけど。
-たぶんですが、Liquidの情報は日本にあまりなく覚悟して望んだのに拍子抜けしてしまったんでしょう＾＾；</description>
+      <description>用意するもの：&#xA;Leaked Froyo&#xA;Acer Download Tool for A1&#xA;installMalezRecovery_0.6_FULL&#xA;Part1:&#xA;Acer Download Tool for A1はWin7では正常動作しないので互換モードで行ってください。&#xA;まずAcer Download Tool for A1を起動し、先ほどDLしてきたROMをBrowseから選択してください。&#xA;次にStartを押してROM焼きを行います。&#xA;ここで注意ですがAppにも書いてあるとおり抜いて良いよと言われるまでは絶対に抜かないでください。&#xA;ここで抜いてしまうと文鎮化してしまい使い物にならない端末に変貌するかもしれません。&#xA;以上でROM焼きは終了です。&#xA;Part2:&#xA;カスタムリカバリーの導入です。&#xA;こちらのやり方自体は、以前の記事で解説済みですので割愛させていただきまする。&#xA;Acer Liquid Eにカスタムリカバリーを入れてみたよ&#xA;Part3:&#xA;リカバリーモードに入ってFull Wipe, System Root Menuからrooted化する&#xA;以上で終了です。&#xA;Liquidを購入し、rooted, ROM焼きを通して思ったことは、とても簡単に導入できてしまい楽ちんになったなぁということです。&#xA;いや、HT-03Aも楽だったけど。&#xA;たぶんですが、Liquidの情報は日本にあまりなく覚悟して望んだのに拍子抜けしてしまったんでしょう＾＾；</description>
     </item>
-    
     <item>
       <title>Acer Liquid Eをrooted化しちゃおう！</title>
       <link>https://github.pyyoshi.com/blog/2010/10/Acer-Liquid-E%E3%82%92rooted%E5%8C%96%E3%81%97%E3%81%A1%E3%82%83%E3%81%8A%E3%81%86/</link>
       <pubDate>Sat, 02 Oct 2010 09:58:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2010/10/Acer-Liquid-E%E3%82%92rooted%E5%8C%96%E3%81%97%E3%81%A1%E3%82%83%E3%81%8A%E3%81%86/</guid>
-      <description>リカバリーモードに入り（Vol- カメラキー　電源 で三回振動するのを待つ）
-System Root menuから好きなモードを選んでrooted化終了です。
-とても簡単にできますね。
-出来ないって言うかたは、こちらのapkをインスコしてrooted化しちゃってください。（@Syu_uさん情報ありがとうございます。）
-※責任は負えませんのでROMのバックアップは忘れずにこれでHT-03AでバックアップしたAppsをリストアすることが出来る。
-バックアップ＆リストアに便利な『Titanium Backup』というものがあります。
-ぜひ使ってみましょう。
-使い方はとてもわかりやすく解説しているコムギさんのページをリンクしておきますね。
-追記:
-どうやらTitanium Backupではうまく復元することは出来ないみたい。
-追記2:
-apk版rootedのリンク張り忘れていたので修正。</description>
+      <description>リカバリーモードに入り（Vol- カメラキー　電源 で三回振動するのを待つ）&#xA;System Root menuから好きなモードを選んでrooted化終了です。&#xA;とても簡単にできますね。&#xA;出来ないって言うかたは、こちらのapkをインスコしてrooted化しちゃってください。（@Syu_uさん情報ありがとうございます。）&#xA;※責任は負えませんのでROMのバックアップは忘れずに&#xA;これでHT-03AでバックアップしたAppsをリストアすることが出来る。&#xA;バックアップ＆リストアに便利な『Titanium Backup』というものがあります。&#xA;ぜひ使ってみましょう。&#xA;使い方はとてもわかりやすく解説しているコムギさんのページをリンクしておきますね。&#xA;追記:&#xA;どうやらTitanium Backupではうまく復元することは出来ないみたい。&#xA;追記2:&#xA;apk版rootedのリンク張り忘れていたので修正。</description>
     </item>
-    
     <item>
       <title>Acer Liquid Eにカスタムリカバリーを入れてみたよ</title>
       <link>https://github.pyyoshi.com/blog/2010/10/Acer-Liquid-E%E3%81%AB%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E3%83%AA%E3%82%AB%E3%83%90%E3%83%AA%E3%83%BC%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</link>
       <pubDate>Fri, 01 Oct 2010 19:41:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2010/10/Acer-Liquid-E%E3%81%AB%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E3%83%AA%E3%82%AB%E3%83%90%E3%83%AA%E3%83%BC%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%BF%E3%81%9F%E3%82%88/</guid>
-      <description>すっごく簡単にカスタムリカバリーが導入できました。
-こちらからファイルをDLして解凍しましょう。
-解凍先を開き、install_malez_recovery.cmdを開きいくつかスペース叩けば終了します。（英語だけど説明はちゃんと読んでね）
-これで、カスタムリカバリーの導入は終了です。導入終了と同時に再起動されると思うので、その後すぐにUSBを抜いちゃいましょう。（当方、USBつないだままだと起動しなかったので。）
-カスタムリカバリへの入り方は、&amp;ldquo;adb reboot recovery&amp;quot;です。
-なにやらこのカスタムリカバリーにはrooted化する機能がある（見えるｗ）のですが、ちょっと不安なのでまだ触ってません。
-異常で終了です。
-次回投稿あたりでLiquid Eのrootedでも。</description>
+      <description>すっごく簡単にカスタムリカバリーが導入できました。&#xA;こちらからファイルをDLして解凍しましょう。&#xA;解凍先を開き、install_malez_recovery.cmdを開きいくつかスペース叩けば終了します。（英語だけど説明はちゃんと読んでね）&#xA;これで、カスタムリカバリーの導入は終了です。導入終了と同時に再起動されると思うので、その後すぐにUSBを抜いちゃいましょう。（当方、USBつないだままだと起動しなかったので。）&#xA;カスタムリカバリへの入り方は、&amp;ldquo;adb reboot recovery&amp;quot;です。&#xA;なにやらこのカスタムリカバリーにはrooted化する機能がある（見えるｗ）のですが、ちょっと不安なのでまだ触ってません。&#xA;異常で終了です。&#xA;次回投稿あたりでLiquid Eのrootedでも。</description>
     </item>
-    
     <item>
       <title>Acer Liquid Eを購入したよ！</title>
       <link>https://github.pyyoshi.com/blog/2010/10/Acer-Liquid-E%E3%82%92%E8%B3%BC%E5%85%A5%E3%81%97%E3%81%9F%E3%82%88/</link>
       <pubDate>Fri, 01 Oct 2010 19:17:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2010/10/Acer-Liquid-E%E3%82%92%E8%B3%BC%E5%85%A5%E3%81%97%E3%81%9F%E3%82%88/</guid>
-      <description>GDD2010であまりにも刺激されてしまい、Acer Liquid EをIYH!してしまいました。
-HT-03A持っているのですが、なにぶんこれからのAndroid開発はARMv7以降じゃないときついのかな？
-って感じですね。ジンジャーブレッド（噂されてるやつ）や、AdobeさんがつくってるAppの仕様要件を見ていると。
-それと、AcerLiquidは発表当初からとても気になっていた端末で念願？の入手というわけです。
-これからLiquidたんをｐｒｐｒしてきまふ(;ﾟ∀ﾟ)=3ﾊｧﾊｧ</description>
+      <description>GDD2010であまりにも刺激されてしまい、Acer Liquid EをIYH!してしまいました。&#xA;HT-03A持っているのですが、なにぶんこれからのAndroid開発はARMv7以降じゃないときついのかな？&#xA;って感じですね。ジンジャーブレッド（噂されてるやつ）や、AdobeさんがつくってるAppの仕様要件を見ていると。&#xA;それと、AcerLiquidは発表当初からとても気になっていた端末で念願？の入手というわけです。&#xA;これからLiquidたんをｐｒｐｒしてきまふ(;ﾟ∀ﾟ)=3ﾊｧﾊｧ</description>
     </item>
-    
     <item>
       <title>NicoRoid</title>
       <link>https://github.pyyoshi.com/blog/2010/01/NicoRoid/</link>
       <pubDate>Tue, 05 Jan 2010 23:34:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2010/01/NicoRoid/</guid>
-      <description>NicoRoidはAndroidでニコニコ動画を楽しむアプリです。
-とか言っておく。
-夏コミリリースに向けて Java･C++の勉強を兼ねてとかなんとか。
-ついったーぼっと作成意欲も薄れたし、新たな目標が出来て良かった。</description>
+      <description>NicoRoidはAndroidでニコニコ動画を楽しむアプリです。&#xA;とか言っておく。&#xA;夏コミリリースに向けて Java･C++の勉強を兼ねてとかなんとか。&#xA;ついったーぼっと作成意欲も薄れたし、新たな目標が出来て良かった。</description>
     </item>
-    
     <item>
       <title>Android端末買った。</title>
       <link>https://github.pyyoshi.com/blog/2010/01/Android%E7%AB%AF%E6%9C%AB%E8%B2%B7%E3%81%A3%E3%81%9F/</link>
       <pubDate>Tue, 05 Jan 2010 22:57:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2010/01/Android%E7%AB%AF%E6%9C%AB%E8%B2%B7%E3%81%A3%E3%81%9F/</guid>
-      <description>あけましておめでとうございます。
-さてAndroid端末の件ですが、思い切ってauからDoCoMoへMNPでHT-03Aを0円で入手。
-今のところさくさく動いてるところ。
-カスタムROM云々あるけど、サポート効かなくなるのでやらない方向だけれど
-別機種を入手したら開発用端末としていろいろ弄る予定。
-プランなどの使用形態は
-SSバリュー,bizホダブル,モペラUライト,ケータイ補償をつけた。
-パケは初月だけフル使用で、あとはCMR-250で芋を使い、2000円弱/月に抑えようと考えている。
-さっそく作りたいものが出来たのでJavaのお勉強しないと（ぇ</description>
+      <description>あけましておめでとうございます。&#xA;さてAndroid端末の件ですが、思い切ってauからDoCoMoへMNPでHT-03Aを0円で入手。&#xA;今のところさくさく動いてるところ。&#xA;カスタムROM云々あるけど、サポート効かなくなるのでやらない方向だけれど&#xA;別機種を入手したら開発用端末としていろいろ弄る予定。&#xA;プランなどの使用形態は&#xA;SSバリュー,bizホダブル,モペラUライト,ケータイ補償をつけた。&#xA;パケは初月だけフル使用で、あとはCMR-250で芋を使い、2000円弱/月に抑えようと考えている。&#xA;さっそく作りたいものが出来たのでJavaのお勉強しないと（ぇ</description>
     </item>
-    
   </channel>
 </rss>

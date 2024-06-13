@@ -1,48 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>nginx on PyYoshiのログ置き場</title>
+    <title>Nginx on PyYoshiのログ置き場</title>
     <link>https://github.pyyoshi.com/blog/tags/nginx/</link>
-    <description>Recent content in nginx on PyYoshiのログ置き場</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Nginx on PyYoshiのログ置き場</description>
+    <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 05 Oct 2011 23:43:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://github.pyyoshi.com/blog/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://github.pyyoshi.com/blog/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>redmineをnginxで扱う</title>
       <link>https://github.pyyoshi.com/blog/2011/10/redmine%E3%82%92nginx%E3%81%A7%E6%89%B1%E3%81%86/</link>
       <pubDate>Wed, 05 Oct 2011 23:43:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2011/10/redmine%E3%82%92nginx%E3%81%A7%E6%89%B1%E3%81%86/</guid>
-      <description>教授から成果を見える形で出せと言われたのでとりあえず備忘録。。
-Redmineの設定とかsudo apt-get install ruby ruby1.8-dev rubygems sendmail imagemagick libmagick9-devsudo gem update &amp;ndash;system 1.6.2sudo gem install sqlite3-ruby sudo gem install -v=2.3.11 railssudo gem install -v=0.4.2 i18nsudo gem install rakesudo mkdir -p /var/www/redmine_testcd /var/www/redmine_testsudo git clone git://github.com/edavis10/redmine.gitcd redminesudo vim config/database.ymlproduction:adapter: sqlite3database: db/redmine.dbtimeout: 5000sudo rake generate_session_storesudo rake db:migrate RAILS_ENV=&amp;quot;production&amp;quot;sudo rake redmine:load_default_data RAILS_ENV=production&amp;gt;jaメールの設定がいまいちわからない。
-使わないしテキトーでいいよね。sudo vim config/email.ymldelivery_method: :async_smtpsmtp_settings:address: localhostport: 25domain: host.example.jpsudo ruby script/server webrick -e productionhttp://serverip:3000にアクセスして動くかチェック
-Ctrl-Cで中断
-redmineをnginxで動かすときのもろもろsudo gem install passengersudo gem install rmagicksudo passenger-install-nginx-module自ビルドnginxだったので、そのときのソースとcofigureオプションで通す形に。</description>
+      <description>教授から成果を見える形で出せと言われたのでとりあえず備忘録。。&#xA;Redmineの設定とか&#xA;sudo apt-get install ruby ruby1.8-dev rubygems sendmail imagemagick libmagick9-dev&#xA;sudo gem update &amp;ndash;system 1.6.2&#xA;sudo gem install sqlite3-ruby sudo gem install -v=2.3.11 rails&#xA;sudo gem install -v=0.4.2 i18n&#xA;sudo gem install rake&#xA;sudo mkdir -p /var/www/redmine_test&#xA;cd /var/www/redmine_test&#xA;sudo git clone git://github.com/edavis10/redmine.git&#xA;cd redmine&#xA;sudo vim config/database.yml&#xA;production:&#xA;adapter: sqlite3&#xA;database: db/redmine.db&#xA;timeout: 5000&#xA;sudo rake generate_session_store&#xA;sudo rake db:migrate RAILS_ENV=&amp;ldquo;production&amp;rdquo;&#xA;sudo rake redmine:load_default_data RAILS_ENV=production&#xA;&amp;gt;ja&#xA;メールの設定がいまいちわからない。&#xA;使わないしテキトーでいいよね。</description>
     </item>
-    
     <item>
       <title>nginxでfastcgiを使うとき</title>
       <link>https://github.pyyoshi.com/blog/2011/06/nginx%E3%81%A7fastcgi%E3%82%92%E4%BD%BF%E3%81%86%E3%81%A8%E3%81%8D/</link>
       <pubDate>Wed, 29 Jun 2011 18:23:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2011/06/nginx%E3%81%A7fastcgi%E3%82%92%E4%BD%BF%E3%81%86%E3%81%A8%E3%81%8D/</guid>
-      <description>Pythonでweb app作ったので動かそうとサーバ周りをいろいろやってみたのだがfastcgiでの動作方法がいまいちよくわからなかった。
-apacheのようにhoge.fcgiを指定してやれば動く、というものではないらしくどうすればいいのか結構時間を費やしてしまった。
-１つのやり方としてspawn-fcgiを使ってプロセスを生成してやればいいらしい。 それをnginx.confのfastcgi_passに指定してやることでいいみたいだ。
-試しにspawn-fcgiを単体起動して動かしてみた。
-sudo spawn-fcgi -f test.fcgi -a 127.0.0.1 -p 9001 -u www-data -P /var/run/spawn-fcgi-moin.pid
-こんな感じで起動してやればいい。
-指定したipとportをnginx.confのfastcgi_passに指定して動けばおｋ
-そんなかんじで。
-起動スクリプト書いてみたので参考としてどうぞ
-自動起動する場合はUbuntuはchkconfigではなくsysv-rc-confを使うこと。
-sudo sysv-rc-conf test_app on
-またはupdate-rc.d</description>
+      <description>Pythonでweb app作ったので動かそうとサーバ周りをいろいろやってみたのだがfastcgiでの動作方法がいまいちよくわからなかった。&#xA;apacheのようにhoge.fcgiを指定してやれば動く、というものではないらしくどうすればいいのか結構時間を費やしてしまった。&#xA;１つのやり方としてspawn-fcgiを使ってプロセスを生成してやればいいらしい。 それをnginx.confのfastcgi_passに指定してやることでいいみたいだ。&#xA;試しにspawn-fcgiを単体起動して動かしてみた。&#xA;sudo spawn-fcgi -f test.fcgi -a 127.0.0.1 -p 9001 -u www-data -P /var/run/spawn-fcgi-moin.pid&#xA;こんな感じで起動してやればいい。&#xA;指定したipとportをnginx.confのfastcgi_passに指定して動けばおｋ&#xA;そんなかんじで。&#xA;起動スクリプト書いてみたので参考としてどうぞ&#xA;自動起動する場合はUbuntuはchkconfigではなくsysv-rc-confを使うこと。&#xA;sudo sysv-rc-conf test_app on&#xA;またはupdate-rc.d</description>
     </item>
-    
   </channel>
 </rss>

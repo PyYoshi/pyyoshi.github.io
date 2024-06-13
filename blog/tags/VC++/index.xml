@@ -4,25 +4,16 @@
     <title>VC&#43;&#43; on PyYoshiのログ置き場</title>
     <link>https://github.pyyoshi.com/blog/tags/VC&#43;&#43;/</link>
     <description>Recent content in VC&#43;&#43; on PyYoshiのログ置き場</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 19 Sep 2012 19:26:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://github.pyyoshi.com/blog/tags/VC++/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://github.pyyoshi.com/blog/tags/VC++/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[メモ]C&#43;&#43;のメモリリークを検出する方法</title>
       <link>https://github.pyyoshi.com/blog/2012/09/%E3%83%A1%E3%83%A2C-%E3%81%AE%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%AF%E3%82%92%E6%A4%9C%E5%87%BA%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</link>
       <pubDate>Wed, 19 Sep 2012 19:26:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2012/09/%E3%83%A1%E3%83%A2C-%E3%81%AE%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%AF%E3%82%92%E6%A4%9C%E5%87%BA%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</guid>
-      <description>cchardetでバインドしているライブラリにメモリリークするバグがあったのだけれど、C++と親しい付き合いをしていないし、自分で書いたコードではないのでどのように見つけてあげればいいのかわからないので、Google先生に聞きました。
-そしたらVC++には検出してくれるしゅんごいライブラリがあるみたいで、それを使用したらあっさり見つけることができました。
-詳しいお話は書きませんが、debugビルドで#include &amp;ldquo;memory_leak.h&amp;quot;を先頭においてビルドすると出力に表示されました。
-ただ、メインコードにincludeするだけでは、どの位置にメモリリークがあるかわからないのですべてのコードにincludeしないといけないようです。
-以下がそのmemory_leak.h</description>
+      <description>cchardetでバインドしているライブラリにメモリリークするバグがあったのだけれど、C++と親しい付き合いをしていないし、自分で書いたコードではないのでどのように見つけてあげればいいのかわからないので、Google先生に聞きました。&#xA;そしたらVC++には検出してくれるしゅんごいライブラリがあるみたいで、それを使用したらあっさり見つけることができました。&#xA;詳しいお話は書きませんが、debugビルドで#include &amp;ldquo;memory_leak.h&amp;quot;を先頭においてビルドすると出力に表示されました。&#xA;ただ、メインコードにincludeするだけでは、どの位置にメモリリークがあるかわからないのですべてのコードにincludeしないといけないようです。&#xA;以下がそのmemory_leak.h</description>
     </item>
-    
   </channel>
 </rss>

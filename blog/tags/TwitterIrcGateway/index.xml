@@ -4,38 +4,16 @@
     <title>TwitterIrcGateway on PyYoshiのログ置き場</title>
     <link>https://github.pyyoshi.com/blog/tags/TwitterIrcGateway/</link>
     <description>Recent content in TwitterIrcGateway on PyYoshiのログ置き場</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 18 Sep 2012 01:16:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://github.pyyoshi.com/blog/tags/TwitterIrcGateway/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://github.pyyoshi.com/blog/tags/TwitterIrcGateway/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>mono&#43;TwitterIrcGateway&#43;znc環境の構築</title>
       <link>https://github.pyyoshi.com/blog/2012/09/mono-TwitterIrcGateway-znc%E7%92%B0%E5%A2%83%E3%81%AE%E6%A7%8B%E7%AF%89/</link>
       <pubDate>Tue, 18 Sep 2012 01:16:00 +0900</pubDate>
-      
       <guid>https://github.pyyoshi.com/blog/2012/09/mono-TwitterIrcGateway-znc%E7%92%B0%E5%A2%83%E3%81%AE%E6%A7%8B%E7%AF%89/</guid>
-      <description>TwitterIrcGatewayをCentOS6環境で使うための備忘録
-1. まずWindowsでTIGのバイナリを作成する。  $ svn co http://svn.misuzilla.org/etcetera/TwitterIrcGateway/trunk/ tig
- TwitterIrcGateway.slnを開いて、&amp;ldquo;ISO-&amp;ldquo;という文字を検索して、一致する文字列をすべて&amp;quot;UTF-8&amp;quot;に書き換え。 #これをしないとmono環境ではうまく起動できなかった。
-それをリリースなりでビルドしておく。
-2. TIGを動かす環境を作る  $ sudo yum install mono-devel &amp;ndash;enablerepo=epel
-$ sudo useradd tig
-$ sudo su tig
-$ cd ~
-$ mkdir tig
-$ cd tig
- 先ほどビルドしたものをtig内に入れる。
-&amp;ldquo;mono TwitterIrcGatewayCLI.exe&amp;quot;とやると起動スクリプト書くときいろいろ大変になるので、スタンドアロン実行ファイルを作る
- $ mkbundle -o TwitterIrcGatewayCLI_START TwitterIrcGatewayCLI.exe
- 起動スクリプトは以下になりました。
- $ sudo vim /etc/rc.d/init.d/TwitterIrcGateway
-  $ sudo chmod +x /etc/rc.d/init.d/TwitterIrcGateway  で上記スクリプトを記述
-起動スクリプトを登録
- $ sudo chkconfig &amp;ndash;add TwitterIrcGateway</description>
+      <description>TwitterIrcGatewayをCentOS6環境で使うための備忘録&#xA;1. まずWindowsでTIGのバイナリを作成する。 $ svn co http://svn.misuzilla.org/etcetera/TwitterIrcGateway/trunk/ tig&#xA;TwitterIrcGateway.slnを開いて、&amp;ldquo;ISO-&amp;ldquo;という文字を検索して、一致する文字列をすべて&amp;quot;UTF-8&amp;quot;に書き換え。 #これをしないとmono環境ではうまく起動できなかった。&#xA;それをリリースなりでビルドしておく。&#xA;2. TIGを動かす環境を作る $ sudo yum install mono-devel &amp;ndash;enablerepo=epel&#xA;$ sudo useradd tig&#xA;$ sudo su tig&#xA;$ cd ~&#xA;$ mkdir tig&#xA;$ cd tig&#xA;先ほどビルドしたものをtig内に入れる。&#xA;&amp;ldquo;mono TwitterIrcGatewayCLI.exe&amp;quot;とやると起動スクリプト書くときいろいろ大変になるので、スタンドアロン実行ファイルを作る&#xA;$ mkbundle -o TwitterIrcGatewayCLI_START TwitterIrcGatewayCLI.exe&#xA;起動スクリプトは以下になりました。&#xA;$ sudo vim /etc/rc.d/init.d/TwitterIrcGateway&#xA;$ sudo chmod +x /etc/rc.d/init.d/TwitterIrcGateway で上記スクリプトを記述&#xA;起動スクリプトを登録&#xA;$ sudo chkconfig &amp;ndash;add TwitterIrcGateway&#xA;$ sudo chkconfig TwitterIrcGateway on&#xA;起動確認&#xA;$ sudo service TwitterIrcGateway start</description>
     </item>
-    
   </channel>
 </rss>

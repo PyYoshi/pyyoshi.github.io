@@ -1,0 +1,150 @@
+
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-EB1NSD9DCG"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-EB1NSD9DCG');
+        }
+      </script>
+    
+  
+
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge"><meta name="robots" content="index, follow">
+<meta name="revisit-after" content="15 days"><link rel="author" href="https://github.pyyoshi.com/blog/humans.txt">
+<link rel="apple-touch-icon" sizes="180x180" href="https://github.pyyoshi.com/blog/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="https://github.pyyoshi.com/blog/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://github.pyyoshi.com/blog/favicon-16x16.png">
+<link rel="manifest" href="https://github.pyyoshi.com/blog/site.webmanifest">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#494f5c">
+<meta name="msapplication-TileColor" content="#494f5c">
+<link rel="mask-icon" href="https://github.pyyoshi.com/blog/safari-pinned-tab.svg" color="#494f5c"><meta name="author" content="Yoshihiro">
+
+  <meta itemprop="name" content="react-native &#43; react-reduxの導入の際の注意点">
+  <meta itemprop="description" content="現時点でのreact-native最新バージョンは0.16
+このバージョンはBabel6を利用しています.
+よって他の依存パッケージ react-reduxなども必然的にbabel6に対応しなくては行けません.
+が, react-reduxの最新版はreact-nativeに対応しておらず, 公式では3.1.0を推奨しています. この3.1.0はBabel6に対応していません.
+なので正しくjsをビルドできない可能性が出てきます.
+よってreact-nativeを最新ではなくbabel5を利用している0.15.0までダウングレードを行い開発を進めていくと良いかと思います.
+package.jsonは以下
+&#34;dependencies&#34;: { &#34;react-native&#34;: &#34;^0.15.0&#34;, &#34;react-redux&#34;: &#34;^3.1.0&#34;, &#34;redux&#34;: &#34;^3.0.4&#34; } react-reduxは最新でもBabel6に対応されていないのでしばらく様子見だと思います.">
+  <meta itemprop="datePublished" content="2015-12-11T18:24:13+00:00">
+  <meta itemprop="dateModified" content="2015-12-11T18:24:13+00:00">
+  <meta itemprop="wordCount" content="21"><meta property="og:url" content="https://github.pyyoshi.com/blog/2015/12/react-native--react-redux%E3%81%AE%E5%B0%8E%E5%85%A5%E3%81%AE%E9%9A%9B%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/">
+  <meta property="og:site_name" content="PyYoshiのログ置き場">
+  <meta property="og:title" content="react-native &#43; react-reduxの導入の際の注意点">
+  <meta property="og:description" content="現時点でのreact-native最新バージョンは0.16
+このバージョンはBabel6を利用しています.
+よって他の依存パッケージ react-reduxなども必然的にbabel6に対応しなくては行けません.
+が, react-reduxの最新版はreact-nativeに対応しておらず, 公式では3.1.0を推奨しています. この3.1.0はBabel6に対応していません.
+なので正しくjsをビルドできない可能性が出てきます.
+よってreact-nativeを最新ではなくbabel5を利用している0.15.0までダウングレードを行い開発を進めていくと良いかと思います.
+package.jsonは以下
+&#34;dependencies&#34;: { &#34;react-native&#34;: &#34;^0.15.0&#34;, &#34;react-redux&#34;: &#34;^3.1.0&#34;, &#34;redux&#34;: &#34;^3.0.4&#34; } react-reduxは最新でもBabel6に対応されていないのでしばらく様子見だと思います.">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2015-12-11T18:24:13+00:00">
+    <meta property="article:modified_time" content="2015-12-11T18:24:13+00:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="react-native &#43; react-reduxの導入の際の注意点">
+  <meta name="twitter:description" content="現時点でのreact-native最新バージョンは0.16
+このバージョンはBabel6を利用しています.
+よって他の依存パッケージ react-reduxなども必然的にbabel6に対応しなくては行けません.
+が, react-reduxの最新版はreact-nativeに対応しておらず, 公式では3.1.0を推奨しています. この3.1.0はBabel6に対応していません.
+なので正しくjsをビルドできない可能性が出てきます.
+よってreact-nativeを最新ではなくbabel5を利用している0.15.0までダウングレードを行い開発を進めていくと良いかと思います.
+package.jsonは以下
+&#34;dependencies&#34;: { &#34;react-native&#34;: &#34;^0.15.0&#34;, &#34;react-redux&#34;: &#34;^3.1.0&#34;, &#34;redux&#34;: &#34;^3.0.4&#34; } react-reduxは最新でもBabel6に対応されていないのでしばらく様子見だと思います.">
+<title>react-native &#43; react-reduxの導入の際の注意点</title>
+<link rel="stylesheet dns-prefetch preconnect preload prefetch" as="style" href="https://github.pyyoshi.com/blog/css/style.min.53a53ff9a700cf26a907d20cff4ca6268650da3c0980ef01164d230678d732e7.css" integrity="sha256-U6U/+acAzyapB9IM/0ymJoZQ2jwJgO8BFk0jBnjXMuc=" crossorigin="anonymous">
+	</head>
+<body id="page">
+	<header id="site-header" class="animated slideInUp">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="https://github.pyyoshi.com/blog/">PyYoshiのログ置き場</a>
+				</div>
+				<nav class="site-nav hide-in-mobile"><a href="https://github.pyyoshi.com/blog/posts/">Posts(Ja)</a><a href="https://github.pyyoshi.com/blog/pages/">Pages</a></nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<button id="menu-btn" class="hdr-btn" title=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://github.pyyoshi.com/blog/posts/">Posts(Ja)</a></li>
+			<li><a href="https://github.pyyoshi.com/blog/pages/">Pages</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner animated fadeIn faster"><article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>Dec 11, 2015</span></div>
+				<h1>react-native &#43; react-reduxの導入の際の注意点</h1>
+			</header>
+			<div class="post-info"><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg><a href="" target="_blank">Yoshihiro</a></p>
+<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg></p>
+<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2015-12-12 03:24 &#43;0900</p></div>
+			<hr class="post-end">
+			<div class="content">
+				<p>現時点でのreact-native最新バージョンは0.16</p>
+<p>このバージョンはBabel6を利用しています.</p>
+<p>よって他の依存パッケージ react-reduxなども必然的にbabel6に対応しなくては行けません.</p>
+<p>が, react-reduxの最新版はreact-nativeに対応しておらず, 公式では3.1.0を推奨しています. この3.1.0はBabel6に対応していません.</p>
+<p>なので正しくjsをビルドできない可能性が出てきます.</p>
+<p>よってreact-nativeを最新ではなくbabel5を利用している0.15.0までダウングレードを行い開発を進めていくと良いかと思います.</p>
+<p>package.jsonは以下</p>
+<pre tabindex="0"><code>&#34;dependencies&#34;: {
+  &#34;react-native&#34;: &#34;^0.15.0&#34;,
+  &#34;react-redux&#34;: &#34;^3.1.0&#34;,
+  &#34;redux&#34;: &#34;^3.0.4&#34;
+}
+</code></pre><p>react-reduxは最新でもBabel6に対応されていないのでしばらく様子見だと思います.</p>
+
+			</div>
+		</article>
+		<div class="post-nav thin">
+			<a class="next-post" href="https://github.pyyoshi.com/blog/2016/05/reactjs%E3%81%A8goa/">
+				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;</span><br><span>reactjsとgoa</span>
+			</a>
+			<a class="prev-post" href="https://github.pyyoshi.com/blog/2015/11/%E3%83%8F%E3%82%A4%E3%83%96%E3%83%AA%E3%83%83%E3%83%89App%E3%81%AF%E6%89%8B%E3%82%92%E5%87%BA%E3%81%99%E3%81%AB%E3%81%AF%E3%81%BE%E3%81%A0%E6%97%A9%E3%81%84/">
+				<span class="post-nav-label">&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>ハイブリッドAppは手を出すにはまだ早い？</span>
+			</a>
+		</div>
+		<div id="comments" class="thin"></div>
+	</main>
+
+<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+	<p>
+		&copy; 2024 <a href="https://github.pyyoshi.com/blog/"></a>
+		&#183; &#183; PyYoshi
+		&#183; Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>
+		&#183; Theme <a href="https://github.com/1bl4z3r/hermit-V2" target="_blank" rel="noopener">Hermit-V2</a>
+		&#183; <a href="https://github.pyyoshi.com/blog/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></p>
+
+</footer>
+<script async src="https://github.pyyoshi.com/blog/js/bundle.min.c7c384e4d29d192bbac6811ae4660bb01767194a5bea56baca77e8260f93ea16.js" integrity="sha256-x8OE5NKdGSu6xoEa5GYLsBdnGUpb6la6ynfoJg+T6hY=" crossorigin="anonymous"></script>
+</body>
+
+</html>
