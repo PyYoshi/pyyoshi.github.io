@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xfs on PyYoshiのログ置き場</title>
-    <link>http://localhost:1313/blog/tags/xfs/</link>
+    <link>https://github.pyyoshi.com/blog/tags/xfs/</link>
     <description>Recent content in Xfs on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Tue, 07 Aug 2012 06:59:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/xfs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.pyyoshi.com/blog/tags/xfs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NASのHDDを復旧準備</title>
-      <link>http://localhost:1313/blog/2012/08/NAS%E3%81%AEHDD%E3%82%92%E5%BE%A9%E6%97%A7%E6%BA%96%E5%82%99/</link>
+      <link>https://github.pyyoshi.com/blog/2012/08/NAS%E3%81%AEHDD%E3%82%92%E5%BE%A9%E6%97%A7%E6%BA%96%E5%82%99/</link>
       <pubDate>Tue, 07 Aug 2012 06:59:00 +0900</pubDate>
-      <guid>http://localhost:1313/blog/2012/08/NAS%E3%81%AEHDD%E3%82%92%E5%BE%A9%E6%97%A7%E6%BA%96%E5%82%99/</guid>
+      <guid>https://github.pyyoshi.com/blog/2012/08/NAS%E3%81%AEHDD%E3%82%92%E5%BE%A9%E6%97%A7%E6%BA%96%E5%82%99/</guid>
       <description>ここ最近調子が悪いNAS。 そしておいておいたファイルがデバイスエラーで読み込めなくなってしまった。&#xA;ファイルシステムがXFSという事もあってLinux機につないで作業を行った。&#xA;まずマウントできるか試した。&#xA;$sudo mkdir /mnt/nas&#xA;$sudo mount -t xfs /dev/sdc1 /mnt/nas&#xA;SuperBlockがどうのこうのというよくわからないエラーが出た。&#xA;調べてみるとxfsprogsでなんとかなるかもしれないらしい。&#xA;$sudo apt-get install xfsprogs&#xA;$sudo reboot&#xA;バックアップの作成&#xA;$sudo mkdir /mnt/tmp&#xA;$sudo dd if=/dev/sdc1 of=/mnt/tmp/broken.img ibs=512 obs=1024k conv=noerror,sync&#xA;$sudo xfs_check /dev/sdc1&#xA;found candidate secondary superblock&amp;hellip;&#xA;verified secondary superblock&amp;hellip;&#xA;writing modified primary superblock&#xA;sb root inode value 18446744073709551615 (NULLFSINO) inconsistent with calculated value 128&#xA;resetting superblock root inode pointer to 128&#xA;sb realtime bitmap inode 18446744073709551615 (NULLFSINO) inconsistent with calculated value 129</description>
     </item>
   </channel>

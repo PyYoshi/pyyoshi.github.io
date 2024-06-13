@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nicoroid on PyYoshiのログ置き場</title>
-    <link>http://localhost:1313/blog/tags/nicoroid/</link>
+    <link>https://github.pyyoshi.com/blog/tags/nicoroid/</link>
     <description>Recent content in Nicoroid on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Tue, 05 Jan 2010 23:34:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/nicoroid/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.pyyoshi.com/blog/tags/nicoroid/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NicoRoid</title>
-      <link>http://localhost:1313/blog/2010/01/NicoRoid/</link>
+      <link>https://github.pyyoshi.com/blog/2010/01/NicoRoid/</link>
       <pubDate>Tue, 05 Jan 2010 23:34:00 +0900</pubDate>
-      <guid>http://localhost:1313/blog/2010/01/NicoRoid/</guid>
+      <guid>https://github.pyyoshi.com/blog/2010/01/NicoRoid/</guid>
       <description>NicoRoidはAndroidでニコニコ動画を楽しむアプリです。&#xA;とか言っておく。&#xA;夏コミリリースに向けて Java･C++の勉強を兼ねてとかなんとか。&#xA;ついったーぼっと作成意欲も薄れたし、新たな目標が出来て良かった。</description>
     </item>
   </channel>

@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Golang on PyYoshiのログ置き場</title>
-    <link>http://localhost:1313/blog/categories/golang/</link>
+    <link>https://github.pyyoshi.com/blog/categories/golang/</link>
     <description>Recent content in Golang on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Wed, 07 Dec 2016 18:20:12 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/categories/golang/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.pyyoshi.com/blog/categories/golang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>redigoのPoolとredigomockを利用する方法</title>
-      <link>http://localhost:1313/blog/2016/12/redigo%E3%81%AEPool%E3%81%A8redigomock%E3%82%92%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</link>
+      <link>https://github.pyyoshi.com/blog/2016/12/redigo%E3%81%AEPool%E3%81%A8redigomock%E3%82%92%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</link>
       <pubDate>Wed, 07 Dec 2016 18:20:12 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2016/12/redigo%E3%81%AEPool%E3%81%A8redigomock%E3%82%92%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</guid>
+      <guid>https://github.pyyoshi.com/blog/2016/12/redigo%E3%81%AEPool%E3%81%A8redigomock%E3%82%92%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</guid>
       <description>redigoのredis.Poolはredis.Connとは異なりインタフェースではなく構造体として定義されています.&#xA;それとredigomockはredis.Poolを生成する機能を有していないことからぱっと見使うことができないだろうなっと判断しましたが&#xA;よくよく考えてみるとredis.Poolで利用する関数群をインタフェースとして定義すれば良いのではないかと気づきがあったので共有します.&#xA;以下Example&#xA;// service.go package service import (...) // 省略 type RedigoPool interface { Get() redis.Conn Close() error } type ExampleService struct { pool RedigoPool // *redis.Poolを直接定義せず, RedigoPoolというインタフェースを利用する } func (s *ExampleService) HmSetWithExpire(key string, a, b int64, expireSeconds uint) (interface{}, error) { redisConn := s.pool.Get() defer redisConn.Close() redisConn.Send(&amp;#34;MULTI&amp;#34;) redisConn.Send(&amp;#34;HMSET&amp;#34;, key, &amp;#34;a&amp;#34;, a, &amp;#34;b&amp;#34;, b) redisConn.Send(&amp;#34;EXPIRE&amp;#34;, key, expireSeconds) reply, err := redisConn.Do(&amp;#34;EXEC&amp;#34;) if err != nil { return nil, err } return reply, nil } // service_test.</description>
     </item>
     <item>
       <title>golangでstructにマッピング前にJSONの特定のプロパティの値を確認したい</title>
-      <link>http://localhost:1313/blog/2016/09/golang%E3%81%A7struct%E3%81%AB%E3%83%9E%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0%E5%89%8D%E3%81%ABJSON%E3%81%AE%E7%89%B9%E5%AE%9A%E3%81%AE%E3%83%97%E3%83%AD%E3%83%91%E3%83%86%E3%82%A3%E3%81%AE%E5%80%A4%E3%82%92%E7%A2%BA%E8%AA%8D%E3%81%97%E3%81%9F%E3%81%84/</link>
+      <link>https://github.pyyoshi.com/blog/2016/09/golang%E3%81%A7struct%E3%81%AB%E3%83%9E%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0%E5%89%8D%E3%81%ABJSON%E3%81%AE%E7%89%B9%E5%AE%9A%E3%81%AE%E3%83%97%E3%83%AD%E3%83%91%E3%83%86%E3%82%A3%E3%81%AE%E5%80%A4%E3%82%92%E7%A2%BA%E8%AA%8D%E3%81%97%E3%81%9F%E3%81%84/</link>
       <pubDate>Tue, 13 Sep 2016 06:11:20 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2016/09/golang%E3%81%A7struct%E3%81%AB%E3%83%9E%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0%E5%89%8D%E3%81%ABJSON%E3%81%AE%E7%89%B9%E5%AE%9A%E3%81%AE%E3%83%97%E3%83%AD%E3%83%91%E3%83%86%E3%82%A3%E3%81%AE%E5%80%A4%E3%82%92%E7%A2%BA%E8%AA%8D%E3%81%97%E3%81%9F%E3%81%84/</guid>
+      <guid>https://github.pyyoshi.com/blog/2016/09/golang%E3%81%A7struct%E3%81%AB%E3%83%9E%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0%E5%89%8D%E3%81%ABJSON%E3%81%AE%E7%89%B9%E5%AE%9A%E3%81%AE%E3%83%97%E3%83%AD%E3%83%91%E3%83%86%E3%82%A3%E3%81%AE%E5%80%A4%E3%82%92%E7%A2%BA%E8%AA%8D%E3%81%97%E3%81%9F%E3%81%84/</guid>
       <description>上記をやりたいことがたまにある.&#xA;具体的に言うと&#xA;type DataV1 struct { Version string `json:&amp;#34;version&amp;#34;` // value: &amp;#34;v1&amp;#34; X string `json:&amp;#34;x&amp;#34;` // value: &amp;#34;123.4&amp;#34; Y string `json:&amp;#34;y&amp;#34;` // value: &amp;#34;123.4&amp;#34; } type DataV2 struct { Version string `json:&amp;#34;version&amp;#34;` // value: &amp;#34;v2&amp;#34; X int64 `json:&amp;#34;x&amp;#34;` // value: 123.4 Y int64 `json:&amp;#34;y&amp;#34;` // value: 123.4 } DataV1のX, Yはstring型だが. 次バージョンのDataV2ではint64になっている.&#xA;中の構造体がバージョンごとに変わっているために振り分けをしたい!&#xA;そういう時にgithub.com/antonholmquist/jasonが役に立ちました.&#xA;極端なコードで恐縮ですが&#xA;package main import &amp;#34;github.com/antonholmquist/jason&amp;#34; type DataV1 struct { Version string `json:&amp;#34;version&amp;#34;` // value: &amp;#34;v1&amp;#34; X string `json:&amp;#34;x&amp;#34;` // value: &amp;#34;123.</description>
     </item>
   </channel>

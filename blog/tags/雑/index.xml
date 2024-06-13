@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>雑 on PyYoshiのログ置き場</title>
-    <link>http://localhost:1313/blog/tags/%E9%9B%91/</link>
+    <link>https://github.pyyoshi.com/blog/tags/%E9%9B%91/</link>
     <description>Recent content in 雑 on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Tue, 28 May 2013 22:19:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/%E9%9B%91/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.pyyoshi.com/blog/tags/%E9%9B%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>社会人になるという事で</title>
-      <link>http://localhost:1313/blog/2013/05/%E7%A4%BE%E4%BC%9A%E4%BA%BA%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%A8%E3%81%84%E3%81%86%E4%BA%8B%E3%81%A7/</link>
+      <link>https://github.pyyoshi.com/blog/2013/05/%E7%A4%BE%E4%BC%9A%E4%BA%BA%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%A8%E3%81%84%E3%81%86%E4%BA%8B%E3%81%A7/</link>
       <pubDate>Tue, 28 May 2013 22:19:00 +0900</pubDate>
-      <guid>http://localhost:1313/blog/2013/05/%E7%A4%BE%E4%BC%9A%E4%BA%BA%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%A8%E3%81%84%E3%81%86%E4%BA%8B%E3%81%A7/</guid>
+      <guid>https://github.pyyoshi.com/blog/2013/05/%E7%A4%BE%E4%BC%9A%E4%BA%BA%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%A8%E3%81%84%E3%81%86%E4%BA%8B%E3%81%A7/</guid>
       <description>まぁいろいろお金絡みのこと調べたり、生活する上でどのくらいの余力があればいいのか記録したりしてるのですが&#xA;社会人の皆さんすごいですね…&#xA;真面目にお金のこと考えさせられます。&#xA;家計簿とかそーいうお金を使った時に記録するのとても重要だと思いました。&#xA;僕はそーいうの得意じゃないのでレシートを写真として残したり、電子マネー使ったりして過ごすと思います…&#xA;お金がどこから逃げていくのか、それを知るために記録することは大事だなと思った1日でした。</description>
     </item>
     <item>
       <title>そろそろ</title>
-      <link>http://localhost:1313/blog/2013/05/%E3%81%9D%E3%82%8D%E3%81%9D%E3%82%8D/</link>
+      <link>https://github.pyyoshi.com/blog/2013/05/%E3%81%9D%E3%82%8D%E3%81%9D%E3%82%8D/</link>
       <pubDate>Thu, 02 May 2013 19:13:00 +0900</pubDate>
-      <guid>http://localhost:1313/blog/2013/05/%E3%81%9D%E3%82%8D%E3%81%9D%E3%82%8D/</guid>
+      <guid>https://github.pyyoshi.com/blog/2013/05/%E3%81%9D%E3%82%8D%E3%81%9D%E3%82%8D/</guid>
       <description>そろそろ新しいブログつくって新しい気持ちで飛び出すのもありなんじゃないかなと&#xA;自鯖にブログ建てるのメンテの関係でめんどくさいのでやらないとして&#xA;はてなも嫌いなので使いたくないとして&#xA;やはりBloggerにmarkdownの機能くっつけるのがいいのだろうか。&#xA;巷ではgistやtumblrをブログがわりに使ってる人もいるみたい。&#xA;前者は機能として微妙だけど、tumblrは結構良さそうではある。</description>
     </item>
   </channel>

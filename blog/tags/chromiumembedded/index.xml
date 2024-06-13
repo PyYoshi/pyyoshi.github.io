@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chromiumembedded on PyYoshiのログ置き場</title>
-    <link>http://localhost:1313/blog/tags/chromiumembedded/</link>
+    <link>https://github.pyyoshi.com/blog/tags/chromiumembedded/</link>
     <description>Recent content in Chromiumembedded on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Tue, 08 Jan 2013 14:12:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/chromiumembedded/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.pyyoshi.com/blog/tags/chromiumembedded/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>chromiumembeddedのautomateを使用する場合の注意点</title>
-      <link>http://localhost:1313/blog/2013/01/chromiumembedded%E3%81%AEautomate%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B%E5%A0%B4%E5%90%88%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</link>
+      <link>https://github.pyyoshi.com/blog/2013/01/chromiumembedded%E3%81%AEautomate%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B%E5%A0%B4%E5%90%88%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</link>
       <pubDate>Tue, 08 Jan 2013 14:12:00 +0900</pubDate>
-      <guid>http://localhost:1313/blog/2013/01/chromiumembedded%E3%81%AEautomate%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B%E5%A0%B4%E5%90%88%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</guid>
+      <guid>https://github.pyyoshi.com/blog/2013/01/chromiumembedded%E3%81%AEautomate%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B%E5%A0%B4%E5%90%88%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</guid>
       <description>ちょっと躓いたので備忘録&#xA;cefのtoolの中にautomateっていうのがあって、これを使うと簡単にビルドすることができるようになるのだけれど、日本語環境下だとうまく動いてくれない。&#xA;automate.pyの中身を見てもらえばわかるのだが、popenで&amp;quot;svn info&amp;quot;を呼び出して、その値をパースしているから、環境によってはうまくパースできなくなる。&#xA;エラーは&#xA;&amp;ldquo;Exception: No SVN info for: &amp;hellip;&amp;rdquo;&#xA;となるかと思う。&#xA;コードを修正するのもいいけれど、いろいろめんどうなので&#xA;$ LANG=C&#xA;$ automate/automate.py &amp;ndash;download-dir=/path/to/hoge &amp;ndash;url=http://chromiumembedded.googlecode.com/svn/branches/1271/cef1&#xA;しました。</description>
     </item>
   </channel>

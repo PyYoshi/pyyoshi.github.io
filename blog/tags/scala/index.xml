@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scala on PyYoshiのログ置き場</title>
-    <link>http://localhost:1313/blog/tags/scala/</link>
+    <link>https://github.pyyoshi.com/blog/tags/scala/</link>
     <description>Recent content in Scala on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Fri, 18 Mar 2011 02:31:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/scala/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.pyyoshi.com/blog/tags/scala/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Win7でScalaとScalaAndroid環境構築とか</title>
-      <link>http://localhost:1313/blog/2011/03/Win7%E3%81%A7Scala%E3%81%A8ScalaAndroid%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%81%A8%E3%81%8B/</link>
+      <link>https://github.pyyoshi.com/blog/2011/03/Win7%E3%81%A7Scala%E3%81%A8ScalaAndroid%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%81%A8%E3%81%8B/</link>
       <pubDate>Fri, 18 Mar 2011 02:31:00 +0900</pubDate>
-      <guid>http://localhost:1313/blog/2011/03/Win7%E3%81%A7Scala%E3%81%A8ScalaAndroid%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%81%A8%E3%81%8B/</guid>
+      <guid>https://github.pyyoshi.com/blog/2011/03/Win7%E3%81%A7Scala%E3%81%A8ScalaAndroid%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%81%A8%E3%81%8B/</guid>
       <description>ただの備忘ログ&#xA;構築とかわかりにくかったのでまとめただけ。転んだら泣いてください。&#xA;サイト&#xA;Scala&#xA;Index of /gnu/windows/emacs か NTemacs&#xA;Apache Ant&#xA;ProGuard&#xA;simple-build-tool&#xA;object版create_project&#xA;準備&#xA;1:&#xA;ScalaのサイトからIzPack Installerをダウンロードして指示通りインスコ。インストーラ版だとPATHも勝手に追加してくれるので楽。&#xA;2:&#xA;最新のemacsを持ってくる。&#xA;「scala/misc/scala-tool-support/emacs」のファイルを「.emacs.d/scala-mode」に置く&#xA;C:\Users\***\AppData\Roaming\.emacs.dにinit.elを作成&#xA;以下内容&#xA;;; Set default fonts and fonts for Japaense (cond (window-system (set-default-font &amp;quot;Courier New-10&amp;quot;) ;; Japanese(japanese-jisx0208)font (set-fontset-font (frame-parameter nil &#39;font) &#39;japanese-jisx0208 (font-spec :family &amp;quot;Meiryo&amp;quot; :size 12) ;;&#39;(&amp;quot;Meiryo&amp;quot; . &amp;quot;unicode-bmp&amp;quot;) ) ) ) ;; Set scala-mode (add-to-list &#39;load-path &amp;quot;~/.emacs.d/scala-mode&amp;quot;) (require &#39;scala-mode-auto) 起動はbin以下の「runemacs.exe」でおｋみたい。&#xA;cuiでは「emacs -nw」みたい。&#xA;使い方とかよく分からないので追々。&#xA;3:&#xA;Apache AntからWindowsバイナリをダウンロード解凍後、適宜場所へ。 そのあと環境変数のPATHに「apache-ant/bin」がある場所を追加。</description>
     </item>
   </channel>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Powershell on PyYoshiのログ置き場</title>
-    <link>http://localhost:1313/blog/tags/powershell/</link>
+    <link>https://github.pyyoshi.com/blog/tags/powershell/</link>
     <description>Recent content in Powershell on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Thu, 02 Aug 2012 21:34:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.pyyoshi.com/blog/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windows環境下でもVirtualenvWrapperを使う</title>
-      <link>http://localhost:1313/blog/2012/08/Windows%E7%92%B0%E5%A2%83%E4%B8%8B%E3%81%A7%E3%82%82VirtualenvWrapper%E3%82%92%E4%BD%BF%E3%81%86/</link>
+      <link>https://github.pyyoshi.com/blog/2012/08/Windows%E7%92%B0%E5%A2%83%E4%B8%8B%E3%81%A7%E3%82%82VirtualenvWrapper%E3%82%92%E4%BD%BF%E3%81%86/</link>
       <pubDate>Thu, 02 Aug 2012 21:34:00 +0900</pubDate>
-      <guid>http://localhost:1313/blog/2012/08/Windows%E7%92%B0%E5%A2%83%E4%B8%8B%E3%81%A7%E3%82%82VirtualenvWrapper%E3%82%92%E4%BD%BF%E3%81%86/</guid>
+      <guid>https://github.pyyoshi.com/blog/2012/08/Windows%E7%92%B0%E5%A2%83%E4%B8%8B%E3%81%A7%E3%82%82VirtualenvWrapper%E3%82%92%E4%BD%BF%E3%81%86/</guid>
       <description>とても便利なvirtualenvwrapperですが、なぜかWindowsには対応していません。&#xA;MSYS下なら動かせないこともないのですが、PythonがMSYS環境であまり良い挙動を取りません。&#xA;どうしたら良いものか調べていたらPowerShell2で動かすことができる&#xA;virtualenvwrapper-powershell&#xA;というものを見つけました。&#xA;なにやらvirtualenvwrapperをPowerShellスクリプト用に再実装したものみたいです。&#xA;ということで&#xA;使えるところまで準備していこうかと思います。&#xA;前提条件としてPowerShell(Win7はビルトイン)とvirtualenvはインストール済みとします。&#xA;なお、私はPS初心者です。なのでPSの環境を一から作るところから始めます。ご了承ください。&#xA;１. PSスクリプトを使えるようにする。 まず、PSでPSスクリプトを使えるようにしなくてはいけません。&#xA;PSを管理者権限で起動します。&#xA;&amp;gt; Get-ExecutionPolicy&#xA;と実行すると「Restricted」 「AllSigned」 「RemoteSigned」 「Unrestricted」のいずれかが出力されるかと思います。&#xA;Restrictedはすべてのスクリプトの実行を禁止している状態 AllSignedは署名済みスクリプトのみ実行可能な状態 RemoteSignedはローカルに保存されているスクリプト、ダウンロードされた署名済みスクリプトが実行可能な状態 Unrestrictedはすべて実行可能な状態 という感じです。&#xA;デフォルトだと1だと思います。これを3の状態に変更します。&#xA;&amp;gt; Set-ExecutionPolicy RemoteSigned&#xA;こうすることで、PSスクリプトを実行できる状態になりました。&#xA;PSを一旦終了します。&#xA;※なお、この状態変更時に管理者権限がないとエラーを吐きます。そのために最初に管理者権限で実行するようにしました。&#xA;２. PS環境の作成 PSを起動します。&#xA;&amp;gt; $profile&#xA;を実行すると、PS起動時に読み込むプロファイルのパスが出力されます。&#xA;設定していない場合パスに書かれているファイルが作成されていないので、&#xA;&amp;gt; New-Item -type file -force $profile&#xA;を実行してあげると空のファイルがパスに作成されます。&#xA;これをエディタで編集すれば、起動時にいろいろできるそうです。bashrcとかそのへんを浮かべればよいかと思います。&#xA;これを現在のセッションで有効にしてあげます。 今のところ空ファイルですけどね＾＾；&#xA;&amp;gt; . $profile&#xA;unix系だと source .hoge というのと同じ要領かと思います。&#xA;PSを終了します。&#xA;３. virtualenvwrapper-powershellをインストールする。 スクリプトをダウンロードしてきましょう。 pipやeasy_installではダメ&#xA;解凍したらPS起動します。&#xA;&amp;gt; cd \Bin&#xA;&amp;gt; .\Setup.ps1&#xA;と実行します。&#xA;「virtualenvwrapper: Installation complete.</description>
     </item>
   </channel>

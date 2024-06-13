@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MongoDB on PyYoshiのログ置き場</title>
-    <link>http://localhost:1313/blog/tags/mongodb/</link>
+    <link>https://github.pyyoshi.com/blog/tags/mongodb/</link>
     <description>Recent content in MongoDB on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Wed, 05 Oct 2011 12:33:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/mongodb/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.pyyoshi.com/blog/tags/mongodb/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>mongodbの認証について</title>
-      <link>http://localhost:1313/blog/2011/10/mongodb%E3%81%AE%E8%AA%8D%E8%A8%BC%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
+      <link>https://github.pyyoshi.com/blog/2011/10/mongodb%E3%81%AE%E8%AA%8D%E8%A8%BC%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
       <pubDate>Wed, 05 Oct 2011 12:33:00 +0900</pubDate>
-      <guid>http://localhost:1313/blog/2011/10/mongodb%E3%81%AE%E8%AA%8D%E8%A8%BC%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
+      <guid>https://github.pyyoshi.com/blog/2011/10/mongodb%E3%81%AE%E8%AA%8D%E8%A8%BC%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
       <description>mongodbで認証&#xA;configに&#xA;auth=true&#xA;とかく&#xA;bind_ip=0.0.0.0&#xA;を指定するとそこからのみ接続を受け付ける。&#xA;次にデータベースへ接続する&#xA;mongo &amp;ndash;shell&#xA;use admin&#xA;db.addUser(&amp;lsquo;username&amp;rsquo;,&amp;lsquo;passwd&amp;rsquo;)&#xA;で管理者を追加&#xA;使用しているデータベースにユーザを追加する場合は&#xA;db.auth(&amp;lsquo;username&amp;rsquo;,&amp;lsquo;passwd&amp;rsquo;)&#xA;で管理者権限でログイン後&#xA;db.addUser(&amp;lsquo;username2&amp;rsquo;,&amp;lsquo;passwd2&amp;rsquo;)&#xA;で追加可能&#xA;{&amp;quot;$err&amp;quot; : &amp;ldquo;unauthorized db:admin lock type:-1 client:127.0.0.1&amp;rdquo;,&#xA;&amp;ldquo;code&amp;rdquo; : 10057}&#xA;上記のようなエラーは管理者権限を持っていないとなるので注意&#xA;詳しい設定方法は&#xA;File Based Configuration</description>
     </item>
     <item>
       <title>Ubuntu 9.10にMongoDBをインストール</title>
-      <link>http://localhost:1313/blog/2010/03/Ubuntu-9.10%E3%81%ABMongoDB%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</link>
+      <link>https://github.pyyoshi.com/blog/2010/03/Ubuntu-9.10%E3%81%ABMongoDB%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</link>
       <pubDate>Fri, 26 Mar 2010 01:15:00 +0900</pubDate>
-      <guid>http://localhost:1313/blog/2010/03/Ubuntu-9.10%E3%81%ABMongoDB%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</guid>
+      <guid>https://github.pyyoshi.com/blog/2010/03/Ubuntu-9.10%E3%81%ABMongoDB%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</guid>
       <description>&amp;ldquo;sudo apt-get install mongodb&amp;rdquo; できる娘うぶんちゅたんなのでほいほい投げてみたけど、やっぱり無かったので、素直にgitから持ってきてコンパイルすることに。&#xA;下準備としてコンパイルに必要なパッケージをインストール&#xA;sudo apt-get install build-dep scons libreadline-dev libmozjs-dev libpcre++-dev libboost-dev&#xA;gitからソースを拝借&#xA;cd /usr/src&#xA;sudo git clone git://github.com/mongodb/mongo.git&#xA;cd mongo&#xA;sudo scons all&#xA;でやったらエラーはいてくれやがったので、ググる先生に聞いたら、SpiderMonkeyをUTF8形式でインスコしないとだめとかなんとか。&#xA;cd -&#xA;sudo wget ftp://ftp.mozilla.org/pub/mozilla.org/js/js-1.7.0.tar.gz&#xA;sudo tar zxvf js-1.7.0.tar.gz&#xA;mv js/src mongo/js&#xA;cd mongo/js&#xA;export CFLAGS=&amp;quot;-DJS_C_STRINGS_ARE_UTF8&amp;quot;&#xA;sudo make -f Makefile.ref&#xA;sudo env JS_DIST=/usr make -f Makefile.ref export&#xA;で、ここまでいれておｋ的なこと書いてあって&amp;quot;sudo scons all&amp;quot;したんだけど、同じエラーがでやがったぜばかやろー！&#xA;いろいろ調べたら、&#xA;sudo apt-get install xulrunner-dev&#xA;すりゃーいいらしい。&#xA;気を取り直して&#xA;cd&#xA;cd /usr/src/mongo&#xA;sudo scons all</description>
     </item>
   </channel>

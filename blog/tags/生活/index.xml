@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>生活 on PyYoshiのログ置き場</title>
-    <link>http://localhost:1313/blog/tags/%E7%94%9F%E6%B4%BB/</link>
+    <link>https://github.pyyoshi.com/blog/tags/%E7%94%9F%E6%B4%BB/</link>
     <description>Recent content in 生活 on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Tue, 07 Aug 2012 22:09:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.pyyoshi.com/blog/tags/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>何か一つ自身を持てるもの・強みになるものをもつ</title>
-      <link>http://localhost:1313/blog/2012/08/%E4%BD%95%E3%81%8B%E4%B8%80%E3%81%A4%E8%87%AA%E8%BA%AB%E3%82%92%E6%8C%81%E3%81%A6%E3%82%8B%E3%82%82%E3%81%AE%E5%BC%B7%E3%81%BF%E3%81%AB%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E3%82%82%E3%81%A4/</link>
+      <link>https://github.pyyoshi.com/blog/2012/08/%E4%BD%95%E3%81%8B%E4%B8%80%E3%81%A4%E8%87%AA%E8%BA%AB%E3%82%92%E6%8C%81%E3%81%A6%E3%82%8B%E3%82%82%E3%81%AE%E5%BC%B7%E3%81%BF%E3%81%AB%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E3%82%82%E3%81%A4/</link>
       <pubDate>Tue, 07 Aug 2012 22:09:00 +0900</pubDate>
-      <guid>http://localhost:1313/blog/2012/08/%E4%BD%95%E3%81%8B%E4%B8%80%E3%81%A4%E8%87%AA%E8%BA%AB%E3%82%92%E6%8C%81%E3%81%A6%E3%82%8B%E3%82%82%E3%81%AE%E5%BC%B7%E3%81%BF%E3%81%AB%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E3%82%82%E3%81%A4/</guid>
+      <guid>https://github.pyyoshi.com/blog/2012/08/%E4%BD%95%E3%81%8B%E4%B8%80%E3%81%A4%E8%87%AA%E8%BA%AB%E3%82%92%E6%8C%81%E3%81%A6%E3%82%8B%E3%82%82%E3%81%AE%E5%BC%B7%E3%81%BF%E3%81%AB%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E3%82%82%E3%81%A4/</guid>
       <description>pull requestが通るとニヤニヤが止まらなくなる僕です。&#xA;たとえ本当に小さな事でも誰かの役に立ったと思うと嬉しいのです。&#xA;誰がなんと言おうと僕はこれからもこれに快楽を得ていくでしょう。&#xA;さておき、最近良く思うことがあります。&#xA;自分の強みは一体何なのか？っということです。&#xA;翌々考えてみると、自分にはこれといって強みになるものなんてないんじゃないかとそう思うのです。&#xA;とりあえずTwitterなりフィードなりから興味をそそられるものを片っ端から試して、中途半端に終えることもあります。&#xA;その中でも唯一続いてきたのはPythonであるし、良きPythonistaであり続けたいとも思っています。&#xA;Linuxだってそうです。&#xA;最初はCLIかっけー俺ハッカーじゃん！って思っていたけれど、&#xA;プログラミングとともにすることでCUIの良さや、Windowsに比べて開発者との親和性の良さなどいくつも学びました。&#xA;さてさて話が少しそれてしまいました。&#xA;僕の強みってなんでしょうか？自身を持ってこれだ！って言えるものは何でしょう？&#xA;この答えをここ1年考え続けてきましたが、未だに見つかりません。&#xA;きっと探し方が悪いのかもしれませんし、はたまた気づいていないだけかもしれません。&#xA;このままでは自身の成長の妨げになりかねない。&#xA;そう思ったのです。&#xA;っということで、具体的な目標を立てて生活してみようかと思います。&#xA;最初の小さな目標は&#xA;自分がお世話になっているライブラリのコントリビュータになること&#xA;そう決めました。&#xA;なんだかおかしな目標ではあると思いますが、まずはOSSへ積極的に参加していくことが重要なのかなと思いました。&#xA;rejectを恐れずpull requestして行きましょう！</description>
     </item>
     <item>
       <title>ネタが無くなった</title>
-      <link>http://localhost:1313/blog/2012/06/%E3%83%8D%E3%82%BF%E3%81%8C%E7%84%A1%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F/</link>
+      <link>https://github.pyyoshi.com/blog/2012/06/%E3%83%8D%E3%82%BF%E3%81%8C%E7%84%A1%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F/</link>
       <pubDate>Thu, 28 Jun 2012 18:38:00 +0900</pubDate>
-      <guid>http://localhost:1313/blog/2012/06/%E3%83%8D%E3%82%BF%E3%81%8C%E7%84%A1%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F/</guid>
+      <guid>https://github.pyyoshi.com/blog/2012/06/%E3%83%8D%E3%82%BF%E3%81%8C%E7%84%A1%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F/</guid>
       <description>cchardetを作るまではいろいろはかどっていたプログラミングですが、それを終えるとネタがないことに気づいた。&#xA;PyGooglePlusは仕様変更の速度についていけないのとサンプリングデータの数が少ないのでという理由であまり更新できない。&#xA;もっとも仕様変更に柔軟に対応できるプログラミングの仕方が考えつかない自分のせいでもあるのですがXD&#xA;なにぶんニートの身分だと、やることがないと暇なのである。&#xA;仕事探せというお話ではあるのですが、仕事を探すのがひどく億劫。どうしようもないクズである…&#xA;親には申し訳ないとは思うけれど、もうちょっと自由でいたい反面、お金がないと遠征もできない。&#xA;素晴らしい負の連鎖である。 バイトくらいは探したほうがよさそう。</description>
     </item>
   </channel>

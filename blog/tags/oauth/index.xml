@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Oauth on PyYoshiのログ置き場</title>
-    <link>http://localhost:1313/blog/tags/oauth/</link>
+    <link>https://github.pyyoshi.com/blog/tags/oauth/</link>
     <description>Recent content in Oauth on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Thu, 30 Jun 2011 19:18:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/oauth/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.pyyoshi.com/blog/tags/oauth/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JavaScriptでOAuth認証するときの注意点</title>
-      <link>http://localhost:1313/blog/2011/06/JavaScript%E3%81%A7OAuth%E8%AA%8D%E8%A8%BC%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</link>
+      <link>https://github.pyyoshi.com/blog/2011/06/JavaScript%E3%81%A7OAuth%E8%AA%8D%E8%A8%BC%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</link>
       <pubDate>Thu, 30 Jun 2011 19:18:00 +0900</pubDate>
-      <guid>http://localhost:1313/blog/2011/06/JavaScript%E3%81%A7OAuth%E8%AA%8D%E8%A8%BC%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</guid>
+      <guid>https://github.pyyoshi.com/blog/2011/06/JavaScript%E3%81%A7OAuth%E8%AA%8D%E8%A8%BC%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</guid>
       <description>JavaScript単体でOAuth認証する場合ConsumerKey/SecretKeyが見えてしまう。&#xA;難読化（base64など）ですぐにはバレないようにはできてもいずれ見つかってしますのだけれど、どのように他のJSなアプリは隠しているのだろうか？&#xA;単体ではなくサーバプロキシを通せばそんな意識しなくてもいいのだろうけど気になるところではある。&#xA;思いつく限りだと、JS本体には置かずバイナリをJSでパースしてキーを使うというものもある。&#xA;xhrでバイナリ取得&#xA;var xhr = new XMLHttpRequest();&#xA;xhr.open(&amp;lsquo;GET&amp;rsquo;, path, false);&#xA;xhr.overrideMimeType(&amp;rsquo;text/plain; charset=x-user-defined&amp;rsquo;);&#xA;xhr.send(null);&#xA;binary_string = xhr.responseText;&#xA;binary_stringをbinaryに変換する&#xA;bytes = []&#xA;for(var i=0, t; i &amp;lt; binary_string.length; i++){&#xA;bytes[i] = binary_string.charCodeAt(i) &amp;amp; 0xff;&#xA;}&#xA;こんなかんじでJS内でバイナリ化して、各自パース処理を書けばいいのではないでしょうか？&#xA;隠し方は人それぞれだと想いますが＾＾；&#xA;他の方法としてはyqlを使う方法もあるようですね。&#xA;How-to: Secure OAuth in JavaScript</description>
     </item>
   </channel>

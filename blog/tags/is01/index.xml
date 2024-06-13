@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Is01 on PyYoshiのログ置き場</title>
-    <link>http://localhost:1313/blog/tags/is01/</link>
+    <link>https://github.pyyoshi.com/blog/tags/is01/</link>
     <description>Recent content in Is01 on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Sun, 12 Dec 2010 14:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/is01/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.pyyoshi.com/blog/tags/is01/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IS01 rooterでうまーくモジュールが呼び出せないとおもったらの巻き</title>
-      <link>http://localhost:1313/blog/2010/12/IS01-rooter%E3%81%A7%E3%81%86%E3%81%BE%E3%83%BC%E3%81%8F%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%8C%E5%91%BC%E3%81%B3%E5%87%BA%E3%81%9B%E3%81%AA%E3%81%84%E3%81%A8%E3%81%8A%E3%82%82%E3%81%A3%E3%81%9F%E3%82%89%E3%81%AE%E5%B7%BB%E3%81%8D/</link>
+      <link>https://github.pyyoshi.com/blog/2010/12/IS01-rooter%E3%81%A7%E3%81%86%E3%81%BE%E3%83%BC%E3%81%8F%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%8C%E5%91%BC%E3%81%B3%E5%87%BA%E3%81%9B%E3%81%AA%E3%81%84%E3%81%A8%E3%81%8A%E3%82%82%E3%81%A3%E3%81%9F%E3%82%89%E3%81%AE%E5%B7%BB%E3%81%8D/</link>
       <pubDate>Sun, 12 Dec 2010 14:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/blog/2010/12/IS01-rooter%E3%81%A7%E3%81%86%E3%81%BE%E3%83%BC%E3%81%8F%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%8C%E5%91%BC%E3%81%B3%E5%87%BA%E3%81%9B%E3%81%AA%E3%81%84%E3%81%A8%E3%81%8A%E3%82%82%E3%81%A3%E3%81%9F%E3%82%89%E3%81%AE%E5%B7%BB%E3%81%8D/</guid>
+      <guid>https://github.pyyoshi.com/blog/2010/12/IS01-rooter%E3%81%A7%E3%81%86%E3%81%BE%E3%83%BC%E3%81%8F%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%8C%E5%91%BC%E3%81%B3%E5%87%BA%E3%81%9B%E3%81%AA%E3%81%84%E3%81%A8%E3%81%8A%E3%82%82%E3%81%A3%E3%81%9F%E3%82%89%E3%81%AE%E5%B7%BB%E3%81%8D/</guid>
       <description>※文鎮化する可能性が高い操作を行っていますので注意してください。&#xA;いやはや便利な者が出来てしまうとそれに頼ってしまうのですが、それが盲点となってしまった。&#xA;たぶん僕だけの環境で起こったことだと思うので気にせずに＾＾；&#xA;MIRO氏作成のIS01 rooter_002ですが、こちらを使用した際にmsm_nand_exをinsmodすることが出来なかった。&#xA;なぜ出来なかったのか？&#xA;まずは、/sqlite_journals/is01root/以下にあるautoexecに実行権限が付与されていなかった。&#xA;#chmod 755 /sqlite_journals/is01root/autoexec.sh&#xA;それと。autoexec.shに書かれている２行に「/sqlite_journals/is01root/_su &amp;hellip;」とあるが、is01root以下に「_su」が入っていない。&#xA;ファイルをDL解凍したら&#xA;adb push _su /sqlite_journals/is01root/&#xA;#chown root.root _su&#xA;#chmod 6755 _su&#xA;で再起動を行う。&#xA;これでlsmodしてモジュールがロードされていればおｋです。&#xA;あと*.koは基本的に644で。&#xA;で、ここまで書いたが。&#xA;MIRO氏はたぶんsystemを書き込めないように上記手順を行わなかったのかなと思います。</description>
     </item>
     <item>
       <title>IS01のkernelをビルドしちゃおう！ ※修正: 20101213</title>
-      <link>http://localhost:1313/blog/2010/12/IS01%E3%81%AEkernel%E3%82%92%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A1%E3%82%83%E3%81%8A%E3%81%86-%E4%BF%AE%E6%AD%A3-20101213/</link>
+      <link>https://github.pyyoshi.com/blog/2010/12/IS01%E3%81%AEkernel%E3%82%92%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A1%E3%82%83%E3%81%8A%E3%81%86-%E4%BF%AE%E6%AD%A3-20101213/</link>
       <pubDate>Sat, 04 Dec 2010 20:08:00 +0900</pubDate>
-      <guid>http://localhost:1313/blog/2010/12/IS01%E3%81%AEkernel%E3%82%92%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A1%E3%82%83%E3%81%8A%E3%81%86-%E4%BF%AE%E6%AD%A3-20101213/</guid>
+      <guid>https://github.pyyoshi.com/blog/2010/12/IS01%E3%81%AEkernel%E3%82%92%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%A1%E3%82%83%E3%81%8A%E3%81%86-%E4%BF%AE%E6%AD%A3-20101213/</guid>
       <description>※このビルドはNANDロック解除などのセキュリティ部分の解除はしていません。&#xA;nandロックが解除出きるようになって、recovery等の書き変えも可能になりいろいろと旬になってきたIS01ですが、まだまだスタートしたばかりです。&#xA;で、まぁカスタムロム作りたくてandroidのソースをぼちぼち読んでいるのですが云々。&#xA;さてさて、今回はSH Developers Squareに公開されているIS01のkernelソースをビルドしていきます。&#xA;ソースは前記事のスクリプトから取得しておきましょう。&#xA;STEP1: android.git.kernel.orgからコンパイル用ソースをとってきましょう。(既にやっている人はSTEP2へ)&#xA;#mkdir mydroid&#xA;#wget http://android.git.kernel.org/repo&#xA;#chmod 755 repo&#xA;#./repo init -u git://android.git.kernel.org/platform/manifest.git -b froyo&#xA;#./repo sync&#xA;ここのSTEPは取得に時間がかかりますので気長に待ちましょう。&#xA;STEP2: IS01のソースをビルドするための準備1&#xA;IS01のkernelソースに移動&#xA;#vim ./arch/arm/mach-msm/sh_sleepcheck.c&#xA;最初の行にある#include &amp;lt;smd_private.h&amp;gt;を#include &amp;ldquo;smd_private.h&amp;rdquo;&#xA;に書き換える。diffはよーわからないのでそのうち勉強する。&#xA;STEP3: IS01のソースをビルドするための準備2&#xA;IS01での操作です。&#xA;rootとった状態でTerminal Emulatorから&#xA;#busybox cp /proc/config.gz /sdcard/config.gz ←この操作はbusyboxとそのpathが必要です。&#xA;config.gzをPCに持ってきて展開する。&#xA;それをIS01のkernelフォルダに「.config」という名前で保存してください。&#xA;「.config」はmakeするときに使用します。&#xA;STEP4: kernelのビルド&#xA;#make ARCH=arm CROSS_COMPILE=../../mydroid/prebuilt/linux-x86/toolchain/arm-eabi-4.2.1/bin/arm-eabi-&#xA;を実行すると、&#xA;arch/arm/boot/にImageというファイルが出来上がります。これがkernelです。&#xA;お疲れ様でした。&#xA;と記事書いてたら仙石さんが仕事早いｗ&#xA;「Android 端末 IS01 のカーネルを入れ替えてみた ? さよならデッカード LSM」&#xA;とりあえず僕はnandプロテクト外したものを作っています。&#xA;froyoベースになるにはもうちょいお勉強。。&#xA;STEP 番外編1: android.kernel.orgとcode auroraからのkernelソース取得&#xA;・純粋なandroid向けkernelの取得</description>
     </item>
     <item>
       <title>SH DevelopersSquareからIS01等のAndroid向けソースをDLするスクリプト作ったよ！</title>
-      <link>http://localhost:1313/blog/2010/12/SH-DevelopersSquare%E3%81%8B%E3%82%89IS01%E7%AD%89%E3%81%AEAndroid%E5%90%91%E3%81%91%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92DL%E3%81%99%E3%82%8B%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F%E3%82%88/</link>
+      <link>https://github.pyyoshi.com/blog/2010/12/SH-DevelopersSquare%E3%81%8B%E3%82%89IS01%E7%AD%89%E3%81%AEAndroid%E5%90%91%E3%81%91%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92DL%E3%81%99%E3%82%8B%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F%E3%82%88/</link>
       <pubDate>Fri, 03 Dec 2010 16:43:00 +0900</pubDate>
-      <guid>http://localhost:1313/blog/2010/12/SH-DevelopersSquare%E3%81%8B%E3%82%89IS01%E7%AD%89%E3%81%AEAndroid%E5%90%91%E3%81%91%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92DL%E3%81%99%E3%82%8B%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F%E3%82%88/</guid>
+      <guid>https://github.pyyoshi.com/blog/2010/12/SH-DevelopersSquare%E3%81%8B%E3%82%89IS01%E7%AD%89%E3%81%AEAndroid%E5%90%91%E3%81%91%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92DL%E3%81%99%E3%82%8B%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F%E3%82%88/</guid>
       <description>SH DevelopersSquareがgitとかsvnとか用意してくれていないのでソースのDLがまんどくさいことこの上ないのでPythonでスクリプトを作成しました。&#xA;このスクリプトを利用することにより、is01, sh-10b, jn-dk01のソースを取得・展開してくれます。&#xA;使い方（Ubuntu環境）は以下の通りです。&#xA;まず、easy_install等で必要なモジュールをインストールします。&#xA;#sudo apt-get install setup_tools ←インストールしていない場合&#xA;#sudo easy_install -U MultipartPostHandler&#xA;#sudo easy_install -U BeautifulSoup&#xA;スクリプトの実行例は以下の通りです。&#xA;#python ./sdasg.py is01 ←is01のソースを取得・展開したい場合&#xA;#python ./sdasg.py sh-10b ←sh-10bのソースを取得・展開したい場合&#xA;#python ./sdasg.py jn-dk01 ←jn-dk01のソースを取得・展開したい場合&#xA;以下がスクリプトです。&#xA;# -*- coding: utf-8 -*- #------------------------------------------------------------------------------- # Name: SH Dev Android Source Getter(特に名前決めてない) # Purpose: (https://sh-dev.sharp.co.jp/android/modules/oss/)がsvnやgitでの # ソース公開してなかったので自動でダウンロードしてきて展開するスク # リプト作った。 # 使用する際は、GPL(http://www.gnu.org/licenses/)と各々のソフトウェ # ア使用許諾契約書に同意すること。 # # Usage: 引数にis01, sh-10b, jn-dk01のどれかを与えてください。 # スクリプト直下にディレクトリを作られ保存されます。 # 例)is01のソースを取得・展開します。 # #python .</description>
     </item>
   </channel>

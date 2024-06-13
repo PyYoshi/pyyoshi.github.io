@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nose on PyYoshiのログ置き場</title>
-    <link>http://localhost:1313/blog/tags/nose/</link>
+    <link>https://github.pyyoshi.com/blog/tags/nose/</link>
     <description>Recent content in Nose on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Mon, 18 Jun 2012 15:58:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/nose/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.pyyoshi.com/blog/tags/nose/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PyGooglePlusをプロファイリングしてみた</title>
-      <link>http://localhost:1313/blog/2012/06/PyGooglePlus%E3%82%92%E3%83%97%E3%83%AD%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</link>
+      <link>https://github.pyyoshi.com/blog/2012/06/PyGooglePlus%E3%82%92%E3%83%97%E3%83%AD%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</link>
       <pubDate>Mon, 18 Jun 2012 15:58:00 +0900</pubDate>
-      <guid>http://localhost:1313/blog/2012/06/PyGooglePlus%E3%82%92%E3%83%97%E3%83%AD%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
+      <guid>https://github.pyyoshi.com/blog/2012/06/PyGooglePlus%E3%82%92%E3%83%97%E3%83%AD%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
       <description>現在noseでテストコードを書いてるのだけれど、ついでにどこが足を引っ張っているのか知るためにnose経由でプロファイリングしてみた。&#xA;準備&#xA;Graphizをインストール $ pip install https://guppy-pe.svn.sourceforge.net/svnroot/guppy-pe/trunk/guppy $ pip install pbp.scripts テストコードをtests.pyとして書いたら&#xA;$ nosetests &amp;ndash;with-profile &amp;ndash;profile-stats-file nose.prof tests.py&#xA;$ hotshot2dot nose.prof| dot -Tpng -o profile.png&#xA;を実行して出力した画像とにらめっこ&#xA;今回はApiHandler.get_user_info()のみのテストコードで行った。 またBeautifulSoup4がリリースされていることを知り、lxmlあれば早くなるよって言ってたので、3と4の2パターンで行った。&#xA;以下が結果である。&#xA;上がBS3、下がBS4であるが結果としては、lxmlを使っているはずのBS4のほうが遅い結果になっている。処理が余計にかかっている印象。 いずれ改善されると思うけど、特に必要性を感じないのであればBS3を使っておけばいいと思う。&#xA;それにしてもchardetの処理が足を引っ張りすぎている気がする。それと自分のライブラリ（苦笑）&#xA;※ この結果を出したときは指定していなかったが、文字コードが固定で既知なら,from_encoding引数をBeautifulSoupに指定してあげるのもいいと思うよ。 実験的にPyGooglePlusにも使用してみたら、5分の1くらい処理時間が縮まりました。 省いてるから当然だね。 だとしてもC拡張のchardetが欲しくなるよね。だれか作らないかな&#xA;参考：&#xA;Visual profiling with Nose and gprof2dot </description>
     </item>
   </channel>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Google&#43; on PyYoshiのログ置き場</title>
-    <link>http://localhost:1313/blog/tags/google&#43;/</link>
+    <link>https://github.pyyoshi.com/blog/tags/google&#43;/</link>
     <description>Recent content in Google&#43; on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Fri, 25 May 2012 22:38:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/google+/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.pyyoshi.com/blog/tags/google+/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PyGooglePlusをリリースしました</title>
-      <link>http://localhost:1313/blog/2012/05/PyGooglePlus%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>https://github.pyyoshi.com/blog/2012/05/PyGooglePlus%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Fri, 25 May 2012 22:38:00 +0900</pubDate>
-      <guid>http://localhost:1313/blog/2012/05/PyGooglePlus%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>https://github.pyyoshi.com/blog/2012/05/PyGooglePlus%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</guid>
       <description>Google+の非公開APIを扱えるようにするPython製ライブラリ「PyGooglePlus」をリリースしました。&#xA;何時まで経ってもWrite API公開されないし、Webハックは楽しいので作ってしまいました。&#xA;Chrome Devtoolsとにらめっこしたせいもあって結構使い方わかってきた感じがします。&#xA;ただ、やはり久しぶりに書いた（まともな）コードなだけあって、へんてこな書き方が多く見受けられたのがちょっとアレですね。&#xA;使い方ですが、ひと通りtest.pyに書いてありますが、まぁ誰もこのままじゃ使わないだろうからドキュメント書いて、クライアント作ってぽいっとgithubにでも上げたいと思います :)</description>
     </item>
   </channel>

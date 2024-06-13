@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Redmine on PyYoshiのログ置き場</title>
-    <link>http://localhost:1313/blog/tags/redmine/</link>
+    <link>https://github.pyyoshi.com/blog/tags/redmine/</link>
     <description>Recent content in Redmine on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Wed, 05 Oct 2011 23:43:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/redmine/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.pyyoshi.com/blog/tags/redmine/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>redmineをnginxで扱う</title>
-      <link>http://localhost:1313/blog/2011/10/redmine%E3%82%92nginx%E3%81%A7%E6%89%B1%E3%81%86/</link>
+      <link>https://github.pyyoshi.com/blog/2011/10/redmine%E3%82%92nginx%E3%81%A7%E6%89%B1%E3%81%86/</link>
       <pubDate>Wed, 05 Oct 2011 23:43:00 +0900</pubDate>
-      <guid>http://localhost:1313/blog/2011/10/redmine%E3%82%92nginx%E3%81%A7%E6%89%B1%E3%81%86/</guid>
+      <guid>https://github.pyyoshi.com/blog/2011/10/redmine%E3%82%92nginx%E3%81%A7%E6%89%B1%E3%81%86/</guid>
       <description>教授から成果を見える形で出せと言われたのでとりあえず備忘録。。&#xA;Redmineの設定とか&#xA;sudo apt-get install ruby ruby1.8-dev rubygems sendmail imagemagick libmagick9-dev&#xA;sudo gem update &amp;ndash;system 1.6.2&#xA;sudo gem install sqlite3-ruby sudo gem install -v=2.3.11 rails&#xA;sudo gem install -v=0.4.2 i18n&#xA;sudo gem install rake&#xA;sudo mkdir -p /var/www/redmine_test&#xA;cd /var/www/redmine_test&#xA;sudo git clone git://github.com/edavis10/redmine.git&#xA;cd redmine&#xA;sudo vim config/database.yml&#xA;production:&#xA;adapter: sqlite3&#xA;database: db/redmine.db&#xA;timeout: 5000&#xA;sudo rake generate_session_store&#xA;sudo rake db:migrate RAILS_ENV=&amp;ldquo;production&amp;rdquo;&#xA;sudo rake redmine:load_default_data RAILS_ENV=production&#xA;&amp;gt;ja&#xA;メールの設定がいまいちわからない。&#xA;使わないしテキトーでいいよね。</description>
     </item>
   </channel>

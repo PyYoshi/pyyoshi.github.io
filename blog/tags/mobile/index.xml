@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mobile on PyYoshiのログ置き場</title>
-    <link>http://localhost:1313/blog/tags/mobile/</link>
+    <link>https://github.pyyoshi.com/blog/tags/mobile/</link>
     <description>Recent content in Mobile on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Tue, 05 Jan 2010 22:57:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.pyyoshi.com/blog/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Android端末買った。</title>
-      <link>http://localhost:1313/blog/2010/01/Android%E7%AB%AF%E6%9C%AB%E8%B2%B7%E3%81%A3%E3%81%9F/</link>
+      <link>https://github.pyyoshi.com/blog/2010/01/Android%E7%AB%AF%E6%9C%AB%E8%B2%B7%E3%81%A3%E3%81%9F/</link>
       <pubDate>Tue, 05 Jan 2010 22:57:00 +0900</pubDate>
-      <guid>http://localhost:1313/blog/2010/01/Android%E7%AB%AF%E6%9C%AB%E8%B2%B7%E3%81%A3%E3%81%9F/</guid>
+      <guid>https://github.pyyoshi.com/blog/2010/01/Android%E7%AB%AF%E6%9C%AB%E8%B2%B7%E3%81%A3%E3%81%9F/</guid>
       <description>あけましておめでとうございます。&#xA;さてAndroid端末の件ですが、思い切ってauからDoCoMoへMNPでHT-03Aを0円で入手。&#xA;今のところさくさく動いてるところ。&#xA;カスタムROM云々あるけど、サポート効かなくなるのでやらない方向だけれど&#xA;別機種を入手したら開発用端末としていろいろ弄る予定。&#xA;プランなどの使用形態は&#xA;SSバリュー,bizホダブル,モペラUライト,ケータイ補償をつけた。&#xA;パケは初月だけフル使用で、あとはCMR-250で芋を使い、2000円弱/月に抑えようと考えている。&#xA;さっそく作りたいものが出来たのでJavaのお勉強しないと（ぇ</description>
     </item>
   </channel>

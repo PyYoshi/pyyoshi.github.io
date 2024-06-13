@@ -2,130 +2,130 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on PyYoshiのログ置き場</title>
-    <link>http://localhost:1313/blog/categories/</link>
+    <link>https://github.pyyoshi.com/blog/categories/</link>
     <description>Recent content in Categories on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Wed, 31 Oct 2018 14:21:48 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.pyyoshi.com/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux</title>
-      <link>http://localhost:1313/blog/categories/linux/</link>
+      <link>https://github.pyyoshi.com/blog/categories/linux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/categories/linux/</guid>
+      <guid>https://github.pyyoshi.com/blog/categories/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Ubuntu</title>
-      <link>http://localhost:1313/blog/categories/ubuntu/</link>
+      <link>https://github.pyyoshi.com/blog/categories/ubuntu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/categories/ubuntu/</guid>
+      <guid>https://github.pyyoshi.com/blog/categories/ubuntu/</guid>
       <description></description>
     </item>
     <item>
       <title>Xps13</title>
-      <link>http://localhost:1313/blog/categories/xps13/</link>
+      <link>https://github.pyyoshi.com/blog/categories/xps13/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/categories/xps13/</guid>
+      <guid>https://github.pyyoshi.com/blog/categories/xps13/</guid>
       <description></description>
     </item>
     <item>
       <title>Elasticsearch</title>
-      <link>http://localhost:1313/blog/categories/elasticsearch/</link>
+      <link>https://github.pyyoshi.com/blog/categories/elasticsearch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/categories/elasticsearch/</guid>
+      <guid>https://github.pyyoshi.com/blog/categories/elasticsearch/</guid>
       <description></description>
     </item>
     <item>
       <title>Back in Time</title>
-      <link>http://localhost:1313/blog/categories/back-in-time/</link>
+      <link>https://github.pyyoshi.com/blog/categories/back-in-time/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/categories/back-in-time/</guid>
+      <guid>https://github.pyyoshi.com/blog/categories/back-in-time/</guid>
       <description></description>
     </item>
     <item>
       <title>Backup</title>
-      <link>http://localhost:1313/blog/categories/backup/</link>
+      <link>https://github.pyyoshi.com/blog/categories/backup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/categories/backup/</guid>
+      <guid>https://github.pyyoshi.com/blog/categories/backup/</guid>
       <description></description>
     </item>
     <item>
       <title>Deja Dup</title>
-      <link>http://localhost:1313/blog/categories/deja-dup/</link>
+      <link>https://github.pyyoshi.com/blog/categories/deja-dup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/categories/deja-dup/</guid>
+      <guid>https://github.pyyoshi.com/blog/categories/deja-dup/</guid>
       <description></description>
     </item>
     <item>
       <title>Systemback</title>
-      <link>http://localhost:1313/blog/categories/systemback/</link>
+      <link>https://github.pyyoshi.com/blog/categories/systemback/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/categories/systemback/</guid>
+      <guid>https://github.pyyoshi.com/blog/categories/systemback/</guid>
       <description></description>
     </item>
     <item>
       <title>Timemachine</title>
-      <link>http://localhost:1313/blog/categories/timemachine/</link>
+      <link>https://github.pyyoshi.com/blog/categories/timemachine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/categories/timemachine/</guid>
+      <guid>https://github.pyyoshi.com/blog/categories/timemachine/</guid>
       <description></description>
     </item>
     <item>
       <title>Timeshift</title>
-      <link>http://localhost:1313/blog/categories/timeshift/</link>
+      <link>https://github.pyyoshi.com/blog/categories/timeshift/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/categories/timeshift/</guid>
+      <guid>https://github.pyyoshi.com/blog/categories/timeshift/</guid>
       <description></description>
     </item>
     <item>
       <title>Typescript</title>
-      <link>http://localhost:1313/blog/categories/typescript/</link>
+      <link>https://github.pyyoshi.com/blog/categories/typescript/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/categories/typescript/</guid>
+      <guid>https://github.pyyoshi.com/blog/categories/typescript/</guid>
       <description></description>
     </item>
     <item>
       <title>Webstorm</title>
-      <link>http://localhost:1313/blog/categories/webstorm/</link>
+      <link>https://github.pyyoshi.com/blog/categories/webstorm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/categories/webstorm/</guid>
+      <guid>https://github.pyyoshi.com/blog/categories/webstorm/</guid>
       <description></description>
     </item>
     <item>
       <title>React-Native</title>
-      <link>http://localhost:1313/blog/categories/react-native/</link>
+      <link>https://github.pyyoshi.com/blog/categories/react-native/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/categories/react-native/</guid>
+      <guid>https://github.pyyoshi.com/blog/categories/react-native/</guid>
       <description></description>
     </item>
     <item>
       <title>Firebase</title>
-      <link>http://localhost:1313/blog/categories/firebase/</link>
+      <link>https://github.pyyoshi.com/blog/categories/firebase/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/categories/firebase/</guid>
+      <guid>https://github.pyyoshi.com/blog/categories/firebase/</guid>
       <description></description>
     </item>
     <item>
       <title>Firestore</title>
-      <link>http://localhost:1313/blog/categories/firestore/</link>
+      <link>https://github.pyyoshi.com/blog/categories/firestore/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/categories/firestore/</guid>
+      <guid>https://github.pyyoshi.com/blog/categories/firestore/</guid>
       <description></description>
     </item>
     <item>
       <title>Golang</title>
-      <link>http://localhost:1313/blog/categories/golang/</link>
+      <link>https://github.pyyoshi.com/blog/categories/golang/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/categories/golang/</guid>
+      <guid>https://github.pyyoshi.com/blog/categories/golang/</guid>
       <description></description>
     </item>
     <item>
       <title>Reactjs</title>
-      <link>http://localhost:1313/blog/categories/reactjs/</link>
+      <link>https://github.pyyoshi.com/blog/categories/reactjs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/categories/reactjs/</guid>
+      <guid>https://github.pyyoshi.com/blog/categories/reactjs/</guid>
       <description></description>
     </item>
   </channel>

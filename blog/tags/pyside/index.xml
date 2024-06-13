@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pyside on PyYoshiのログ置き場</title>
-    <link>http://localhost:1313/blog/tags/pyside/</link>
+    <link>https://github.pyyoshi.com/blog/tags/pyside/</link>
     <description>Recent content in Pyside on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Thu, 25 Apr 2013 19:09:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/pyside/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.pyyoshi.com/blog/tags/pyside/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>投稿だけできるTwitterクライアント作った</title>
-      <link>http://localhost:1313/blog/2013/04/%E6%8A%95%E7%A8%BF%E3%81%A0%E3%81%91%E3%81%A7%E3%81%8D%E3%82%8BTwitter%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F/</link>
+      <link>https://github.pyyoshi.com/blog/2013/04/%E6%8A%95%E7%A8%BF%E3%81%A0%E3%81%91%E3%81%A7%E3%81%8D%E3%82%8BTwitter%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F/</link>
       <pubDate>Thu, 25 Apr 2013 19:09:00 +0900</pubDate>
-      <guid>http://localhost:1313/blog/2013/04/%E6%8A%95%E7%A8%BF%E3%81%A0%E3%81%91%E3%81%A7%E3%81%8D%E3%82%8BTwitter%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F/</guid>
+      <guid>https://github.pyyoshi.com/blog/2013/04/%E6%8A%95%E7%A8%BF%E3%81%A0%E3%81%91%E3%81%A7%E3%81%8D%E3%82%8BTwitter%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F/</guid>
       <description>デスクトップにツイッタクライアント置くとどうしてもスペースの無駄になってしまうので、タイムラインはAndroidタブレットにtwicle plusを入れて監視していました。&#xA;投稿する都度TwitterWeb開いてやっていたのですが、それこそ効率を落とす原因だと思ったのでさくっと投稿だけできるツイッタクライアント作りました。&#xA;Twiq for Desktop - Github&#xA;Twitter APIライブラリはtweepyに任せて、UIはPySideを使って書きました。&#xA;自分しか使わないのでデザインもクソも無いです&#xA;上のコンボボックスはアカウント用、下はこれからつけようとしてる機能のもの、＋と✕はアカウント追加と削除用です。&#xA;機能は&#xA;投稿機能 マルチアカウント機能 UnDo機能 の３つです。&#xA;投稿はCtrl+Enter、UnDoはCtrl+Uで行われます。&#xA;久しぶりにQt触ったせいか最初はかなり苦戦しましたが慣れてくればこっちのものですね。どっかのフレームワークよりちゃんと動いてくれるしQt✌(&amp;lsquo;ω&amp;rsquo;)✌ｻｲｺｰ</description>
     </item>
   </channel>

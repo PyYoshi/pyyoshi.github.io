@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Psp on PyYoshiのログ置き場</title>
-    <link>http://localhost:1313/blog/tags/psp/</link>
+    <link>https://github.pyyoshi.com/blog/tags/psp/</link>
     <description>Recent content in Psp on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Thu, 17 Jun 2010 22:53:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/psp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.pyyoshi.com/blog/tags/psp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PSP Type B Driver 64bitをオレオレ署名する</title>
-      <link>http://localhost:1313/blog/2010/06/PSP-Type-B-Driver-64bit%E3%82%92%E3%82%AA%E3%83%AC%E3%82%AA%E3%83%AC%E7%BD%B2%E5%90%8D%E3%81%99%E3%82%8B/</link>
+      <link>https://github.pyyoshi.com/blog/2010/06/PSP-Type-B-Driver-64bit%E3%82%92%E3%82%AA%E3%83%AC%E3%82%AA%E3%83%AC%E7%BD%B2%E5%90%8D%E3%81%99%E3%82%8B/</link>
       <pubDate>Thu, 17 Jun 2010 22:53:00 +0900</pubDate>
-      <guid>http://localhost:1313/blog/2010/06/PSP-Type-B-Driver-64bit%E3%82%92%E3%82%AA%E3%83%AC%E3%82%AA%E3%83%AC%E7%BD%B2%E5%90%8D%E3%81%99%E3%82%8B/</guid>
+      <guid>https://github.pyyoshi.com/blog/2010/06/PSP-Type-B-Driver-64bit%E3%82%92%E3%82%AA%E3%83%AC%E3%82%AA%E3%83%AC%E7%BD%B2%E5%90%8D%E3%81%99%E3%82%8B/</guid>
       <description>準備:&#xA;Microsoft Windows SDK for Windows 7 and .NET Framework 3.5 SP1 (ISO)をDLしインスコ。&#xA;ちなみに、CPU毎に違うので以下でチェック。&#xA;X86 version: GRMSDK_EN_DVD.iso AMD64 version: GRMSDKX_EN_DVD.iso Itanium version: GRMSDKIAI_EN_DVD.iso .NET Frameworkツールのリファレンスはここ。&#xA;PSP Type B DriverをDL、driver_x64準備。&#xA;以下手順:&#xA;各ツールは&amp;quot;Microsoft SDKs\Windows\v7.0\Bin&amp;quot;&#xA;makecert -sv &amp;ldquo;libusb0_x64.pvk&amp;rdquo; -a sha1 -eku 1.3.6.1.5.5.7.3.3 -r -ss Root -len 1024 -sr localMachine -n CN=&amp;ldquo;libusb0_x64.sys&amp;rdquo; &amp;ldquo;libusb0_x64.cer&amp;rdquo; ダイアログが出るのでパスワードを決める。（参考画像） もう1つダイアログでるので、先ほど決めたパスワードを入力（参考画像） cert2spc &amp;ldquo;libusb0_x64.cer&amp;rdquo; &amp;ldquo;libusb0_x64.spc&amp;rdquo; pvk2pfx -pvk &amp;ldquo;libusb0_x64.pvk&amp;rdquo; -pi &amp;ldquo;パスワード&amp;rdquo; -spc &amp;ldquo;libusb0_x64.spc&amp;rdquo; -pfx &amp;ldquo;libusb0_x64.pfx&amp;rdquo; -po &amp;ldquo;パスワード&amp;rdquo; パスワードは先ほど決めたものを使用。 signtool sign /f &amp;ldquo;libusb0_x64.pfx&amp;rdquo; /p &amp;ldquo;パスワード&amp;rdquo; /d &amp;ldquo;libusb0_x64.</description>
     </item>
   </channel>

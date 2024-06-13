@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vsftpd on PyYoshiのログ置き場</title>
-    <link>http://localhost:1313/blog/tags/vsftpd/</link>
+    <link>https://github.pyyoshi.com/blog/tags/vsftpd/</link>
     <description>Recent content in Vsftpd on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Thu, 24 Dec 2009 15:33:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/vsftpd/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.pyyoshi.com/blog/tags/vsftpd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ubuntuサーバ再構築(2)</title>
-      <link>http://localhost:1313/blog/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%892/</link>
+      <link>https://github.pyyoshi.com/blog/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%892/</link>
       <pubDate>Thu, 24 Dec 2009 15:33:00 +0900</pubDate>
-      <guid>http://localhost:1313/blog/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%892/</guid>
+      <guid>https://github.pyyoshi.com/blog/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%892/</guid>
       <description>vsftpdをインスコ&#xA;sudo apt-get install vsftpd&#xA;次にconfig弄りなのだが、そのまえにvimをインスコ(vimデビューなう)&#xA;sudo apt-get install vim-full&#xA;sudo.vimもついでに。(参考)&#xA;sudo wget -P /usr/share/vim/addons/plugin -O sudo.vim &amp;ldquo;http://www.vim.org/scripts/download_script.php?src_id=3477&amp;rdquo;&#xA;vimの使い方はこちらを参照&#xA;標準のエディタの変更は&#xA;sudo update-alternatives &amp;ndash;config editor&#xA;で行える。&#xA;さて、気を取り直してvsftpdのconfigを弄る&#xA;基本的にvsftpd.confは/etc直下にあるが、ないという場合は以下を叩いてファイル位置を確認しよう。&#xA;dpkg -L vsftpd&#xA;vsftpd.confで弄った部分(参考１)(参考２)&#xA;#匿名ログインを許可&#xA;anonymous_enable=NO&#xA;#ローカルユーザのログインを許可&#xA;local_enable=YES&#xA;#書き込み許可&#xA;write_enable=YES&#xA;#デフォルトのumaskを022へ&#xA;local_umask=022&#xA;#ログ保存位置&#xA;xferlog_file=/var/log/vsftpd.log&#xA;#ログフォーマット&#xA;xferlog_std_fomat=NO&#xA;#アスキーモードでのアップロード許可&#xA;ascii_upload_enable=YES&#xA;#アスキーモードでのダウンロード許可&#xA;ascii_download_enable=YES&#xA;#ftpサーバ名 バージョンを表示させない。代替メッセージ&#xA;ftpd_banner=Welcome to my FTP serer.&#xA;#/homeより上層へのアクセスを制限&#xA;chroot_local_user=YES #/homeより上層へのアクセスを制限するリストの有効化&#xA;chroot_list_enable=YES #/homeより上層へのアクセスを制限リストの場所&#xA;chroot_list_file=/etc/vsftpd/chroot_list #Dirごと削除できるようにする。&#xA;ls_recurse_enable=YES&#xA;service start vsftpd&#xA;最低限設定したほうがいいやつを上げた。あとは自分の構築したい環境に適宜変更よろ。</description>
     </item>
   </channel>
