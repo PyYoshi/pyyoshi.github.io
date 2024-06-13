@@ -2,17 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Github on PyYoshiのログ置き場</title>
-    <link>https://github.pyyoshi.com/blog/tags/github/</link>
+    <link>http://localhost:1313/blog/tags/github/</link>
     <description>Recent content in Github on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
+    <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Fri, 24 Dec 2010 00:46:00 +0900</lastBuildDate>
-    <atom:link href="https://github.pyyoshi.com/blog/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>githubにプッシュ</title>
-      <link>https://github.pyyoshi.com/blog/2010/12/github%E3%81%AB%E3%83%97%E3%83%83%E3%82%B7%E3%83%A5/</link>
+      <link>http://localhost:1313/blog/2010/12/github%E3%81%AB%E3%83%97%E3%83%83%E3%82%B7%E3%83%A5/</link>
       <pubDate>Fri, 24 Dec 2010 00:46:00 +0900</pubDate>
-      <guid>https://github.pyyoshi.com/blog/2010/12/github%E3%81%AB%E3%83%97%E3%83%83%E3%82%B7%E3%83%A5/</guid>
+      <guid>http://localhost:1313/blog/2010/12/github%E3%81%AB%E3%83%97%E3%83%83%E3%82%B7%E3%83%A5/</guid>
       <description>git init&#xA;git add .&#xA;git commit -m &amp;lsquo;first commit&amp;rsquo;&#xA;git remote add origin git@github.com:hoge/fuga.git&#xA;git push origin master</description>
     </item>
   </channel>

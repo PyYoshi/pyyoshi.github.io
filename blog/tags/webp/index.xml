@@ -2,17 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Webp on PyYoshiのログ置き場</title>
-    <link>https://github.pyyoshi.com/blog/tags/webp/</link>
+    <link>http://localhost:1313/blog/tags/webp/</link>
     <description>Recent content in Webp on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
+    <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Fri, 03 Jun 2011 19:00:00 +0900</lastBuildDate>
-    <atom:link href="https://github.pyyoshi.com/blog/tags/webp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/webp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>libwebpのビルド</title>
-      <link>https://github.pyyoshi.com/blog/2011/06/libwebp%E3%81%AE%E3%83%93%E3%83%AB%E3%83%89/</link>
+      <link>http://localhost:1313/blog/2011/06/libwebp%E3%81%AE%E3%83%93%E3%83%AB%E3%83%89/</link>
       <pubDate>Fri, 03 Jun 2011 19:00:00 +0900</pubDate>
-      <guid>https://github.pyyoshi.com/blog/2011/06/libwebp%E3%81%AE%E3%83%93%E3%83%AB%E3%83%89/</guid>
+      <guid>http://localhost:1313/blog/2011/06/libwebp%E3%81%AE%E3%83%93%E3%83%AB%E3%83%89/</guid>
       <description>Ubuntu 10.04に用意されていないようで自前で用意したときのメモ&#xA;$ cd tmp&#xA;$ wget http://webp.googlecode.com/files/libwebp-0.1.2.tar.gz&#xA;$ tar zxvf libwebp-0.1.2.tar.gz&#xA;$ cd libwebp-0.1.2&#xA;$ sudo apt-get install automake libtool&#xA;$ aclocal &amp;amp;&amp;amp; autoconf &amp;amp;&amp;amp; automake -a -c;&#xA;$ ./autogen.sh&#xA;$ ./.configure&#xA;$ make&#xA;$ sudo make install&#xA;$ ls -la /usr/local/lib/libwebp*&#xA;$ ls -la /usr/local/include/webp/*&#xA;$ ls -la /usr/local/bin/*webp&#xA;以上</description>
     </item>
   </channel>

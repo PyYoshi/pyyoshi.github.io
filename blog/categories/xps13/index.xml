@@ -2,24 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xps13 on PyYoshiのログ置き場</title>
-    <link>https://github.pyyoshi.com/blog/categories/xps13/</link>
+    <link>http://localhost:1313/blog/categories/xps13/</link>
     <description>Recent content in Xps13 on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
+    <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Wed, 31 Oct 2018 14:21:48 +0000</lastBuildDate>
-    <atom:link href="https://github.pyyoshi.com/blog/categories/xps13/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/categories/xps13/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>XPS 13(9360 Intel 8th gen)のi915設定</title>
-      <link>https://github.pyyoshi.com/blog/2018/10/XPS-139360-Intel-8th-gen%E3%81%AEi915%E8%A8%AD%E5%AE%9A/</link>
+      <link>http://localhost:1313/blog/2018/10/XPS-139360-Intel-8th-gen%E3%81%AEi915%E8%A8%AD%E5%AE%9A/</link>
       <pubDate>Wed, 31 Oct 2018 14:21:48 +0000</pubDate>
-      <guid>https://github.pyyoshi.com/blog/2018/10/XPS-139360-Intel-8th-gen%E3%81%AEi915%E8%A8%AD%E5%AE%9A/</guid>
+      <guid>http://localhost:1313/blog/2018/10/XPS-139360-Intel-8th-gen%E3%81%AEi915%E8%A8%AD%E5%AE%9A/</guid>
       <description>i915.modeset=1 i915.enable_rc6=1 i915.enable_fbc=1 i915.enable_guc_loading=1 i915.enable_guc_submission=1 i915.disable_power_well=0 ちらつきまたはラップトップ側のディスプレイがブラックアウトする場合は&#xA;i915.enable_psr=0 にする.&#xA;$ dmesg で&#xA;[drm:intel_dp_start_link_train [i915]] *ERROR* [CONNECTOR:71:eDP-1] Link Training failed at link rate = 540000, lane count = 4 が見られる場合もまた&#xA;i915.enable_psr=0 にする必要がある.&#xA;i915ドライバーの設定情報は以下で参照できる.&#xA;$ modinfo -p i915 GRUB設定を更新する /etc/default/grub の&#xA;GRUB_CMDLINE_LINUX_DEFAULT に上の設定値を追加する.&#xA;設定を更新したら以下コマンドを実行してカーネルイメージの更新を行う.&#xA;$ sudo grub-mkconfig -o /boot/grub/grub.cfg </description>
     </item>
     <item>
       <title>XPS 13(9360 Intel 8th gen)のNVMEの省電力機能を有効にする</title>
-      <link>https://github.pyyoshi.com/blog/2018/10/XPS-139360-Intel-8th-gen%E3%81%AENVME%E3%81%AE%E7%9C%81%E9%9B%BB%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%82%92%E6%9C%89%E5%8A%B9%E3%81%AB%E3%81%99%E3%82%8B/</link>
+      <link>http://localhost:1313/blog/2018/10/XPS-139360-Intel-8th-gen%E3%81%AENVME%E3%81%AE%E7%9C%81%E9%9B%BB%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%82%92%E6%9C%89%E5%8A%B9%E3%81%AB%E3%81%99%E3%82%8B/</link>
       <pubDate>Wed, 31 Oct 2018 13:53:07 +0000</pubDate>
-      <guid>https://github.pyyoshi.com/blog/2018/10/XPS-139360-Intel-8th-gen%E3%81%AENVME%E3%81%AE%E7%9C%81%E9%9B%BB%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%82%92%E6%9C%89%E5%8A%B9%E3%81%AB%E3%81%99%E3%82%8B/</guid>
+      <guid>http://localhost:1313/blog/2018/10/XPS-139360-Intel-8th-gen%E3%81%AENVME%E3%81%AE%E7%9C%81%E9%9B%BB%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%82%92%E6%9C%89%E5%8A%B9%E3%81%AB%E3%81%99%E3%82%8B/</guid>
       <description>NVMEのモデルと設定値を調べる $ sudo nvme list 東芝の512GBの場合はカーネルコマンドラインに以下を指定&#xA;nvme_core.default_ps_max_latency_us=170000 1TBの場合は以下を指定&#xA;nvme_core.default_ps_max_latency_us=180000 GRUB設定を更新する /etc/default/grub の&#xA;GRUB_CMDLINE_LINUX_DEFAULT に上で調べた設定値を追加する&#xA;東芝512GBモデルの場合は以下のようになる&#xA;GRUB_CMDLINE_LINUX_DEFAULT=&amp;#34;nvme_core.default_ps_max_latency_us=170000&amp;#34; 設定を更新したら以下コマンドを実行してカーネルイメージの更新を行う&#xA;$ sudo grub-mkconfig -o /boot/grub/grub.cfg </description>
     </item>
   </channel>

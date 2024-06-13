@@ -2,17 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Py2exe on PyYoshiのログ置き場</title>
-    <link>https://github.pyyoshi.com/blog/tags/py2exe/</link>
+    <link>http://localhost:1313/blog/tags/py2exe/</link>
     <description>Recent content in Py2exe on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
+    <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Tue, 05 Jun 2012 11:16:00 +0900</lastBuildDate>
-    <atom:link href="https://github.pyyoshi.com/blog/tags/py2exe/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/py2exe/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pythonコードを実行ファイル(exe)にするときの注意点</title>
-      <link>https://github.pyyoshi.com/blog/2012/06/Python%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92%E5%AE%9F%E8%A1%8C%E3%83%95%E3%82%A1%E3%82%A4%E3%83%ABexe%E3%81%AB%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</link>
+      <link>http://localhost:1313/blog/2012/06/Python%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92%E5%AE%9F%E8%A1%8C%E3%83%95%E3%82%A1%E3%82%A4%E3%83%ABexe%E3%81%AB%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</link>
       <pubDate>Tue, 05 Jun 2012 11:16:00 +0900</pubDate>
-      <guid>https://github.pyyoshi.com/blog/2012/06/Python%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92%E5%AE%9F%E8%A1%8C%E3%83%95%E3%82%A1%E3%82%A4%E3%83%ABexe%E3%81%AB%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</guid>
+      <guid>http://localhost:1313/blog/2012/06/Python%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92%E5%AE%9F%E8%A1%8C%E3%83%95%E3%82%A1%E3%82%A4%E3%83%ABexe%E3%81%AB%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/</guid>
       <description>自分が知っている限りだと、py2exeとcx_freezeがある。前者はwindowsのみ対応であるが、cx_freezeはmac等のプラットフォームにも対応している。&#xA;さらにcx_freezeはsetup.pyに特に記述しなくても実行ファイルを作ることができるのでpy2exeより手軽に作れて便利なのである。&#xA;またpy2exeに比べてコードの依存関係のチェックを詳しくしているのか実行ファイルサイズが小さくなる。&#xA;で、便利ではあるcx_freezeなのだが使ってみて デメリット が２つほどあった。&#xA;１. py2exeでは１ファイルのなかにpydやpython.dll等があるのだが、cx_freezeは実行ファイルの他にpydとかそのへんの動的ライブラリが外に出る。&#xA;py2exeはバイナリにビルドするコードを内包しているが、cx_freezeは__main__.py*というファイルにもろでているため、ごにょごにょするとバイトコードの中身がわかってしまう。&#xA;というデメリットがある。　＃1のデメリットはNSISを使えば1ファイルにまとめ上げることは出来る。 (参考)&#xA;以下のことから、あんまり見せたいくない文字列があるときはcx_freezeは避けて、py2exeを使えばいいのである。&#xA;その時は&#xA;なるべくコードは１ファイルに収めてビルドする。&#xA;見せたくない文字列がある場合は軽く難読化する。&#xA;に気をつければいいんじゃないかな？&#xA;※ py2exeのメインコードは実行ファイルのバイナリでしか見つからなかったが、どこか違う場所にあるかもしれないので、この記事自体が意味をなさなくなるかもしれないのであしからず。&#xA;それと、そもそもPythonという言語のコンパイルはバイトコードに変換するだけであってC#とかJavaのように中間コードに変換しているわけではないので、コードは覗かれて当然であるという認識のもとで使うべきであるかと思います☆（ゝω・）vｷｬﾋﾟ</description>
     </item>
   </channel>

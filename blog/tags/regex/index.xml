@@ -2,17 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Regex on PyYoshiのログ置き場</title>
-    <link>https://github.pyyoshi.com/blog/tags/regex/</link>
+    <link>http://localhost:1313/blog/tags/regex/</link>
     <description>Recent content in Regex on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
+    <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Sun, 28 Apr 2013 11:49:00 +0900</lastBuildDate>
-    <atom:link href="https://github.pyyoshi.com/blog/tags/regex/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/regex/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>boost.regex re2 pcre onigurumaの4つregexの速度比較</title>
-      <link>https://github.pyyoshi.com/blog/2013/04/boost.regex-re2-pcre-oniguruma%E3%81%AE4%E3%81%A4regex%E3%81%AE%E9%80%9F%E5%BA%A6%E6%AF%94%E8%BC%83/</link>
+      <link>http://localhost:1313/blog/2013/04/boost.regex-re2-pcre-oniguruma%E3%81%AE4%E3%81%A4regex%E3%81%AE%E9%80%9F%E5%BA%A6%E6%AF%94%E8%BC%83/</link>
       <pubDate>Sun, 28 Apr 2013 11:49:00 +0900</pubDate>
-      <guid>https://github.pyyoshi.com/blog/2013/04/boost.regex-re2-pcre-oniguruma%E3%81%AE4%E3%81%A4regex%E3%81%AE%E9%80%9F%E5%BA%A6%E6%AF%94%E8%BC%83/</guid>
+      <guid>http://localhost:1313/blog/2013/04/boost.regex-re2-pcre-oniguruma%E3%81%AE4%E3%81%A4regex%E3%81%AE%E9%80%9F%E5%BA%A6%E6%AF%94%E8%BC%83/</guid>
       <description>こちらのコードを使って計測しました.&#xA;以下結果&#xA;boostとre2が圧倒的に早いですね。それと比べてonigurumatとpcreは遅く、更に要素数が増えるとpcreは途中で落ちてしまいました。&#xA;スプレッドシートはこちら</description>
     </item>
   </channel>

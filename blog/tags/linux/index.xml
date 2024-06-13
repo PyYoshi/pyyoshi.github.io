@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on PyYoshiのログ置き場</title>
+    <link>http://localhost:1313/blog/tags/linux/</link>
+    <description>Recent content in Linux on PyYoshiのログ置き場</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <copyright>&amp;#183; PyYoshi</copyright>
+    <lastBuildDate>Wed, 31 Oct 2018 14:21:48 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>XPS 13(9360 Intel 8th gen)のi915設定</title>
+      <link>http://localhost:1313/blog/2018/10/XPS-139360-Intel-8th-gen%E3%81%AEi915%E8%A8%AD%E5%AE%9A/</link>
+      <pubDate>Wed, 31 Oct 2018 14:21:48 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2018/10/XPS-139360-Intel-8th-gen%E3%81%AEi915%E8%A8%AD%E5%AE%9A/</guid>
+      <description>i915.modeset=1 i915.enable_rc6=1 i915.enable_fbc=1 i915.enable_guc_loading=1 i915.enable_guc_submission=1 i915.disable_power_well=0 ちらつきまたはラップトップ側のディスプレイがブラックアウトする場合は&#xA;i915.enable_psr=0 にする.&#xA;$ dmesg で&#xA;[drm:intel_dp_start_link_train [i915]] *ERROR* [CONNECTOR:71:eDP-1] Link Training failed at link rate = 540000, lane count = 4 が見られる場合もまた&#xA;i915.enable_psr=0 にする必要がある.&#xA;i915ドライバーの設定情報は以下で参照できる.&#xA;$ modinfo -p i915 GRUB設定を更新する /etc/default/grub の&#xA;GRUB_CMDLINE_LINUX_DEFAULT に上の設定値を追加する.&#xA;設定を更新したら以下コマンドを実行してカーネルイメージの更新を行う.&#xA;$ sudo grub-mkconfig -o /boot/grub/grub.cfg </description>
+    </item>
+    <item>
+      <title>XPS 13(9360 Intel 8th gen)のNVMEの省電力機能を有効にする</title>
+      <link>http://localhost:1313/blog/2018/10/XPS-139360-Intel-8th-gen%E3%81%AENVME%E3%81%AE%E7%9C%81%E9%9B%BB%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%82%92%E6%9C%89%E5%8A%B9%E3%81%AB%E3%81%99%E3%82%8B/</link>
+      <pubDate>Wed, 31 Oct 2018 13:53:07 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2018/10/XPS-139360-Intel-8th-gen%E3%81%AENVME%E3%81%AE%E7%9C%81%E9%9B%BB%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%82%92%E6%9C%89%E5%8A%B9%E3%81%AB%E3%81%99%E3%82%8B/</guid>
+      <description>NVMEのモデルと設定値を調べる $ sudo nvme list 東芝の512GBの場合はカーネルコマンドラインに以下を指定&#xA;nvme_core.default_ps_max_latency_us=170000 1TBの場合は以下を指定&#xA;nvme_core.default_ps_max_latency_us=180000 GRUB設定を更新する /etc/default/grub の&#xA;GRUB_CMDLINE_LINUX_DEFAULT に上で調べた設定値を追加する&#xA;東芝512GBモデルの場合は以下のようになる&#xA;GRUB_CMDLINE_LINUX_DEFAULT=&amp;#34;nvme_core.default_ps_max_latency_us=170000&amp;#34; 設定を更新したら以下コマンドを実行してカーネルイメージの更新を行う&#xA;$ sudo grub-mkconfig -o /boot/grub/grub.cfg </description>
+    </item>
+    <item>
+      <title>Ubuntuのバックアップ環境 - 調査</title>
+      <link>http://localhost:1313/blog/2018/01/Ubuntu%E3%81%AE%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E7%92%B0%E5%A2%83-%E8%AA%BF%E6%9F%BB/</link>
+      <pubDate>Fri, 05 Jan 2018 19:14:38 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2018/01/Ubuntu%E3%81%AE%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E7%92%B0%E5%A2%83-%E8%AA%BF%E6%9F%BB/</guid>
+      <description>以前まではバックアップソフトは使わず必要なものはプライベートリポジトリに入れたりGdriveに入れたりしてた. (macOSはTimeMachineを常用)&#xA;これで十分だったけど, どうせならエンジニアらしくそれらをそれらしく自動化するのもおもしろそうなのでやっていく.&#xA;■ 欲しい機能 暗号化 バックアップ用ストレージは基本持って歩かないけれど, 仕事でもつかうので.&#xA;できるならば秘密鍵はYubiKey(PGP)で管理したい.&#xA;フルバックアップ 月1ペースでクリーンアップしたい.&#xA;差分バックアップ リストアは全体より単一ファイルで行う用途のほうが圧倒的に多い.&#xA;メンテが止まってもベースとなるツール(rsyncなど)でリストアが可能 これは大前提.&#xA;どうせ新しいUbuntuが出たら乗り換えるとおもうけど, そのリリースでも使えるかどうかはわからん.&#xA;あくまでバックアップだけど, リストアしたいときにメンテされて無くてリストアできないのは大変困る.&#xA;ディスクベースじゃなくてディレクトリベースで管理 ファイルシステムになるべく依存したくない.&#xA;NASへアップロードしたい.&#xA;■ TimeShift https://launchpad.net/timeshift&#xA;システムのバックアップ･リストアにフォーカスしている.&#xA;なのでHomeとかキャッシュとかそういうのは除外リストに入ってる.&#xA;Homeなどのユーザデータは別アプリに頼るべき.&#xA;暗号化されたファイルシステムのバックアップは可能.&#xA;ファイル自体の暗号化はたぶんできない(要調査).&#xA;なのでファイルシステム側で暗号化したほうがいいかも.&#xA;フルバックアップ後のバックアップは差分バックアップで行っていくようだ.&#xA;■ Deja Dup https://launchpad.net/deja-dup&#xA;ubuntuに標準で搭載されてるあれ.&#xA;Homeディレクトリ以下はこれでバックアップしたほうがよいっぽい.&#xA;差分バックアップの他にフルバックアップも用意されているので, 差分バックアップは2時間おき, フルバックアップは1ヶ月おきくらいで良いかもしれない.&#xA;これにすることで, あたらしいフルバックアップが作られたとき, 差分バックアップはそれをベースに行っていくみたい.&#xA;パスワードやPGPによる暗号化が可能.&#xA;■ Back In Time https://github.com/bit-team/backintime&#xA;TimeShift同様シンプル.&#xA;EncFSによるファイルシステムベースでの暗号化.&#xA;SSHでファイル転送できる.&#xA;EncFS使ってるので正直使いたいとは思えない…&#xA;■ Systemback https://launchpad.net/systemback&#xA;メンテしないようなので使わない.&#xA;■ 参考: https://wiki.ubuntulinux.jp/UbuntuTips/Install/Backup http://gihyo.jp/admin/serial/01/ubuntu-recipe/0399 https://allabout.co.jp/gm/gc/436735/ </description>
+    </item>
+    <item>
+      <title>PL-US35APをLinuxで使う</title>
+      <link>http://localhost:1313/blog/2013/03/PL-US35AP%E3%82%92Linux%E3%81%A7%E4%BD%BF%E3%81%86/</link>
+      <pubDate>Fri, 29 Mar 2013 15:30:00 +0900</pubDate>
+      <guid>http://localhost:1313/blog/2013/03/PL-US35AP%E3%82%92Linux%E3%81%A7%E4%BD%BF%E3%81%86/</guid>
+      <description>もともとCreative SB X-Fi Titaniumを持っていたのだけれど、どうもこいつはLinuxではうまく動かない。&#xA;音楽を聞いている分にはいいのだけれどTeamSpeak等のVCを使うと、なぜかノイズが走るようになり終いにはなにも聞こえない状況にまでなります。&#xA;Windowsでゲームをする分には必要十分すぎるくらいの性能はあるのですが、Linux環境をメインに使うように移行して以来使い勝手が悪くてイライラしていました。&#xA;そこで安いサウンドカードでLinuxでも使えそうなものをAmazonであさりました。&#xA;それが今回動作確認できたPL-US35APです。&#xA;私の環境はKubuntu 12.04 64bitです。&#xA;この環境だと差し込んだだけでは動きませんでした。 ネットでいちよ確認して動くみたいな報告があったので一瞬びっくりしましたが、lsusbでProductID調べてUSB Audioという規格に準拠したデバイスであることがわかり、それ用に設定を行いました。&#xA;$ sudo apt-get install alsa-tools alsa-oss alsa-utils alsa-base&#xA;で、ひと通り必要なものをインストールして&#xA;$ sudo vim /etc/modprobe.d/alsa-base.conf&#xA;以下の&#xA;options snd-usb-audio index=-2&#xA;を&#xA;options snd-usb-audio index=-1&#xA;へ変更して再起動したら無事認識しました。&#xA;あとはalsamixerで入出力音声の調整を行い、システム側でデフォルトデバイスを変更すれば良いと思います。&#xA;ざっとレビューすると出力音質は蟹チップに比べたらそこそこいいように思います。&#xA;ドンシャリ音は特になく、左右の定位も曖昧ではなく自分好みでした。&#xA;なにより1000円ちょいでこれだけ使えるのだからとても満足しています。&#xA;入力音質はMM-MC15BKというマイクを一緒に買い、それで試しました。&#xA;蟹チップで試すと、ドンシャリがひどい音質になるのですがそのようなことはなく価格相応またはそれ以上の性能は出ていると思います。&#xA;マイクブーストせずともしっかり拾ってくれるのもGood！</description>
+    </item>
+    <item>
+      <title>大きめのファイルをバックアップするとき</title>
+      <link>http://localhost:1313/blog/2013/03/%E5%A4%A7%E3%81%8D%E3%82%81%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D/</link>
+      <pubDate>Wed, 27 Mar 2013 01:35:00 +0900</pubDate>
+      <guid>http://localhost:1313/blog/2013/03/%E5%A4%A7%E3%81%8D%E3%82%81%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D/</guid>
+      <description>いつもはtar.gz等で固めていたのだけれど、ちょくちょく展開に失敗してひどい目に合うことがある。&#xA;バックアップ用途に使うときはafioというツールを使えばいいみたいです。&#xA;途中で壊れたファイルがあっても、そのファイルをスキップして展開してくれるみたいです。はい。&#xA;使い方は各自しらべてください。&#xA;tar.gzの修復はgzrecover使えばある程度ましになります。&#xA;以上</description>
+    </item>
+  </channel>
+</rss>

@@ -2,17 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reactjs on PyYoshiのログ置き場</title>
-    <link>https://github.pyyoshi.com/blog/tags/reactjs/</link>
+    <link>http://localhost:1313/blog/tags/reactjs/</link>
     <description>Recent content in Reactjs on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
+    <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Thu, 29 Sep 2016 23:19:01 +0000</lastBuildDate>
-    <atom:link href="https://github.pyyoshi.com/blog/tags/reactjs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/reactjs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[ReactJS] Server side renderingのライフサイクル</title>
-      <link>https://github.pyyoshi.com/blog/2016/09/ReactJS-Server-side-rendering%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%95%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB/</link>
+      <link>http://localhost:1313/blog/2016/09/ReactJS-Server-side-rendering%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%95%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB/</link>
       <pubDate>Thu, 29 Sep 2016 23:19:01 +0000</pubDate>
-      <guid>https://github.pyyoshi.com/blog/2016/09/ReactJS-Server-side-rendering%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%95%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB/</guid>
+      <guid>http://localhost:1313/blog/2016/09/ReactJS-Server-side-rendering%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%95%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB/</guid>
       <description>サーバ側で__componentWillMount__は呼ばれるがcomponentDidMountは呼ばれない.&#xA;windowなどのブラウザでしか触れないものはcomponentDidMountで行う.&#xA;という知見を得た.&#xA;そりゃそうだ…&#xA;ref: Component Specs and Lifecycle | React</description>
     </item>
   </channel>

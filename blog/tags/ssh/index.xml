@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ssh on PyYoshiのログ置き場</title>
+    <link>http://localhost:1313/blog/tags/ssh/</link>
+    <description>Recent content in Ssh on PyYoshiのログ置き場</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <copyright>&amp;#183; PyYoshi</copyright>
+    <lastBuildDate>Sat, 15 Jan 2011 19:20:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>暗号化したHomeで注意すること SSH編</title>
+      <link>http://localhost:1313/blog/2011/01/%E6%9A%97%E5%8F%B7%E5%8C%96%E3%81%97%E3%81%9FHome%E3%81%A7%E6%B3%A8%E6%84%8F%E3%81%99%E3%82%8B%E3%81%93%E3%81%A8-SSH%E7%B7%A8/</link>
+      <pubDate>Sat, 15 Jan 2011 19:20:00 +0900</pubDate>
+      <guid>http://localhost:1313/blog/2011/01/%E6%9A%97%E5%8F%B7%E5%8C%96%E3%81%97%E3%81%9FHome%E3%81%A7%E6%B3%A8%E6%84%8F%E3%81%99%E3%82%8B%E3%81%93%E3%81%A8-SSH%E7%B7%A8/</guid>
+      <description>普段はHomeなんて暗号化しない設定でOSを構築するのでが、正月中に作ったとある鯖では暗号化したHomeを採用していた。&#xA;そのときは、まぁ何も影響ないだろうと思っていたのだが、SSHなどの公開鍵認証でそれにぶち当たった。&#xA;基本的に公開鍵はHome以下の&amp;quot;.ssh&amp;quot;に置くのだが、暗号化Homeの場合はそのデフォルトの状態だと公開鍵を読みに行くことが出来ないのだ。&#xA;/home以下がマウントされることはないので。&#xA;なので、公開鍵は/home以外の場所に置く必要が出てくる。&#xA;で、実際やることは&#xA;/homeが見える環境で公開鍵を別の場所にコピーすればおｋってことで作業開始。&#xA;$sudo mkdir /etc/&#xA;$sudo cp $HOME/.ssh/authorized_keys /etc//authorized_keys&#xA;$sudo chmod 700 /etc/&#xA;$sudo chown /etc/&#xA;$sudo chmod 600 /etc//authorized_keys&#xA;$sudo chown /etc//authorized_keys&#xA;$sudo vim /etc/ssh/sshd_config&#xA;「AuthorizedKeysFile /etc//authorized_keys」部分を編集&#xA;$sudo /etc/init.d/ssh restart&#xA;問題は$HOME以下にこのままではアクセス出来ないこと。&#xA;どうすればいいんだろうか？&#xA;参考: Encrypted Home Directory</description>
+    </item>
+    <item>
+      <title>Ubuntuサーバ再構築(3)</title>
+      <link>http://localhost:1313/blog/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%893/</link>
+      <pubDate>Sun, 27 Dec 2009 15:51:00 +0900</pubDate>
+      <guid>http://localhost:1313/blog/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%893/</guid>
+      <description>OpenSSHインスコ&#xA;sudo apt-get install ssh&#xA;設定(参考)&#xA;vim /etc/ssh/sshd_config&#xA;#プロトコル&#xA;Protocol 2,1&#xA;#rootのログインの許可&#xA;PermitRootLogin no&#xA;でおｋ&#xA;あとはクライアントからログインでリモート操作出来ると思う。&#xA;出来ない場合はFWall関係を調べてみるといいだろう。</description>
+    </item>
+  </channel>
+</rss>

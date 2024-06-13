@@ -2,17 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Firestore on PyYoshiのログ置き場</title>
-    <link>https://github.pyyoshi.com/blog/tags/firestore/</link>
+    <link>http://localhost:1313/blog/tags/firestore/</link>
     <description>Recent content in Firestore on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
+    <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Fri, 06 Oct 2017 08:42:49 +0000</lastBuildDate>
-    <atom:link href="https://github.pyyoshi.com/blog/tags/firestore/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/firestore/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Firebase Databaseでパスにuidを含めたユーザ権限周りをFirestoreでやるには</title>
-      <link>https://github.pyyoshi.com/blog/2017/10/Firebase-Database%E3%81%A7%E3%83%91%E3%82%B9%E3%81%ABuid%E3%82%92%E5%90%AB%E3%82%81%E3%81%9F%E3%83%A6%E3%83%BC%E3%82%B6%E6%A8%A9%E9%99%90%E5%91%A8%E3%82%8A%E3%82%92Firestore%E3%81%A7%E3%82%84%E3%82%8B%E3%81%AB%E3%81%AF/</link>
+      <link>http://localhost:1313/blog/2017/10/Firebase-Database%E3%81%A7%E3%83%91%E3%82%B9%E3%81%ABuid%E3%82%92%E5%90%AB%E3%82%81%E3%81%9F%E3%83%A6%E3%83%BC%E3%82%B6%E6%A8%A9%E9%99%90%E5%91%A8%E3%82%8A%E3%82%92Firestore%E3%81%A7%E3%82%84%E3%82%8B%E3%81%AB%E3%81%AF/</link>
       <pubDate>Fri, 06 Oct 2017 08:42:49 +0000</pubDate>
-      <guid>https://github.pyyoshi.com/blog/2017/10/Firebase-Database%E3%81%A7%E3%83%91%E3%82%B9%E3%81%ABuid%E3%82%92%E5%90%AB%E3%82%81%E3%81%9F%E3%83%A6%E3%83%BC%E3%82%B6%E6%A8%A9%E9%99%90%E5%91%A8%E3%82%8A%E3%82%92Firestore%E3%81%A7%E3%82%84%E3%82%8B%E3%81%AB%E3%81%AF/</guid>
+      <guid>http://localhost:1313/blog/2017/10/Firebase-Database%E3%81%A7%E3%83%91%E3%82%B9%E3%81%ABuid%E3%82%92%E5%90%AB%E3%82%81%E3%81%9F%E3%83%A6%E3%83%BC%E3%82%B6%E6%A8%A9%E9%99%90%E5%91%A8%E3%82%8A%E3%82%92Firestore%E3%81%A7%E3%82%84%E3%82%8B%E3%81%AB%E3%81%AF/</guid>
       <description>あきらめましょう&#xA;通常のKVSのようにドキュメントにオーナーのユーザIDを含めてセキュリティルールでオーナー以外を弾く設定をしましょう&#xA;おわり&#xA;.&#xA;.&#xA;.&#xA;.&#xA;.&#xA;.&#xA;っとしても良いのだけどどうせならexampleでも&#xA;まずベースとなるモデルを定義します.&#xA;このモデルをベースにモデルを作ります.&#xA;// BaseModel.ts export default abstract class BaseModel { // ドキュメントオーナーのID readonly userID: string; // ドキュメントのID id: string | null; // ドキュメントの作成･更新日時 timestamp: Date; constructor(userID: string, timestamp: Date) { this.userID = userID; this.timestamp = timestamp; } // Firestoreに保存するとき用 abstract toJSON(): Object; } toJSONはデータベースに保存する際に特定のプロパティのみを保存するためにあります.&#xA;これを定義すればidを保存対象から無視できます.&#xA;このBaseModelを継承したToDoModelを実装します.&#xA;// ToDoModel.ts import BaseModel from &amp;#39;./BaseModel&amp;#39;; export default class ToDoModel extends BaseModel { // タイトル title: string; // ToDoが完了したかどうか completed: boolean = false; constructor(userID: string, title: string, timestamp: Date) { super(userID, timestamp); this.</description>
     </item>
   </channel>

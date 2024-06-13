@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dice on PyYoshiのログ置き場</title>
+    <link>http://localhost:1313/blog/tags/dice/</link>
+    <description>Recent content in Dice on PyYoshiのログ置き場</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <copyright>&amp;#183; PyYoshi</copyright>
+    <lastBuildDate>Sun, 27 Dec 2009 19:20:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/tags/dice/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntuサーバ再構築(４)</title>
+      <link>http://localhost:1313/blog/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%89%EF%BC%94/</link>
+      <pubDate>Sun, 27 Dec 2009 19:20:00 +0900</pubDate>
+      <guid>http://localhost:1313/blog/2009/12/Ubuntu%E3%82%B5%E3%83%BC%E3%83%90%E5%86%8D%E6%A7%8B%E7%AF%89%EF%BC%94/</guid>
+      <description>DynamicDNSに登録してもIPころころ変わっては意味がないのでなんとか対応したい！そういう時にスクリプト書いて対応するのは良いのだが管理が大変になるかも。そーいうときはDiCEを使おう！&#xA;ということでDiCE導入から設定まで&#xA;cd /usr/local/bin&#xA;sudo wget http://www.hi-ho.ne.jp/cgi-bin/user/yoshihiro_e/download.cgi?p=diced019&#xA;sudo tar zxvf diced01914.tar.gz&#xA;sudo rm &amp;ldquo;diced01914.tar.gz&amp;rdquo;&#xA;※端末の文字コードをEUCへ変更する&#xA;sudo ./diced&#xA;:setup&#xA;IPアドレスの検出方法を指定してください&#xA;(0) 自動検出&#xA;(1) ローカルのネットワークアダプタから検出&#xA;(2) 外部のスクリプトから検出&#xA;&amp;lt;現在:0&amp;gt;&#xA;(N)変更しない (P)戻る&#xA;&amp;gt;2&#xA;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-&#xA;スクリプトのURLを入力してください&#xA;&amp;lt;現在:&amp;gt;&#xA;(N)変更しない (P)戻る&#xA;&amp;gt;http://ipcheck.ieserver.net/&#xA;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-&#xA;プライベートIPアドレスも検出対象ですか？ (Y/N)&#xA;&amp;lt;現在:いいえ&amp;gt;&#xA;(P)戻る&#xA;&amp;gt;n&#xA;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-&#xA;IPアドレスの検出をテストしますか？ (Y/N)&#xA;(P)戻る&#xA;&amp;gt;y&#xA;検出IPアドレス&amp;gt;*******&#xA;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-&#xA;IPアドレスの検出をテストしますか？ (Y/N)&#xA;(P)戻る&#xA;&amp;gt;n&#xA;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-&#xA;IPアドレスをチェックする間隔を指定してください(分)&#xA;設定可能範囲は5分以上です&#xA;&amp;lt;現在:10&amp;gt;&#xA;(N)変更しない (P)戻る&#xA;&amp;gt;5&#xA;=================================================&#xA;DNSサーバーの負荷を軽減するために頻繁なDNS更新を防ぐ必要があります&#xA;前回の更新から一定時間DNS更新処理を行わないように保護時間を設定して&#xA;ください(分) 設定可能範囲は10分から1440分です&#xA;&amp;lt;現在:60&amp;gt;&#xA;(N)変更しない (P)戻る&#xA;&amp;gt;30&#xA;=================================================&#xA;設定を保存しますか? (Y/N)</description>
+    </item>
+  </channel>
+</rss>

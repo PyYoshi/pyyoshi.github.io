@@ -2,17 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Backup on PyYoshiのログ置き場</title>
-    <link>https://github.pyyoshi.com/blog/categories/backup/</link>
+    <link>http://localhost:1313/blog/categories/backup/</link>
     <description>Recent content in Backup on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
+    <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Fri, 05 Jan 2018 19:14:38 +0000</lastBuildDate>
-    <atom:link href="https://github.pyyoshi.com/blog/categories/backup/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/categories/backup/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ubuntuのバックアップ環境 - 調査</title>
-      <link>https://github.pyyoshi.com/blog/2018/01/Ubuntu%E3%81%AE%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E7%92%B0%E5%A2%83-%E8%AA%BF%E6%9F%BB/</link>
+      <link>http://localhost:1313/blog/2018/01/Ubuntu%E3%81%AE%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E7%92%B0%E5%A2%83-%E8%AA%BF%E6%9F%BB/</link>
       <pubDate>Fri, 05 Jan 2018 19:14:38 +0000</pubDate>
-      <guid>https://github.pyyoshi.com/blog/2018/01/Ubuntu%E3%81%AE%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E7%92%B0%E5%A2%83-%E8%AA%BF%E6%9F%BB/</guid>
+      <guid>http://localhost:1313/blog/2018/01/Ubuntu%E3%81%AE%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E7%92%B0%E5%A2%83-%E8%AA%BF%E6%9F%BB/</guid>
       <description>以前まではバックアップソフトは使わず必要なものはプライベートリポジトリに入れたりGdriveに入れたりしてた. (macOSはTimeMachineを常用)&#xA;これで十分だったけど, どうせならエンジニアらしくそれらをそれらしく自動化するのもおもしろそうなのでやっていく.&#xA;■ 欲しい機能 暗号化 バックアップ用ストレージは基本持って歩かないけれど, 仕事でもつかうので.&#xA;できるならば秘密鍵はYubiKey(PGP)で管理したい.&#xA;フルバックアップ 月1ペースでクリーンアップしたい.&#xA;差分バックアップ リストアは全体より単一ファイルで行う用途のほうが圧倒的に多い.&#xA;メンテが止まってもベースとなるツール(rsyncなど)でリストアが可能 これは大前提.&#xA;どうせ新しいUbuntuが出たら乗り換えるとおもうけど, そのリリースでも使えるかどうかはわからん.&#xA;あくまでバックアップだけど, リストアしたいときにメンテされて無くてリストアできないのは大変困る.&#xA;ディスクベースじゃなくてディレクトリベースで管理 ファイルシステムになるべく依存したくない.&#xA;NASへアップロードしたい.&#xA;■ TimeShift https://launchpad.net/timeshift&#xA;システムのバックアップ･リストアにフォーカスしている.&#xA;なのでHomeとかキャッシュとかそういうのは除外リストに入ってる.&#xA;Homeなどのユーザデータは別アプリに頼るべき.&#xA;暗号化されたファイルシステムのバックアップは可能.&#xA;ファイル自体の暗号化はたぶんできない(要調査).&#xA;なのでファイルシステム側で暗号化したほうがいいかも.&#xA;フルバックアップ後のバックアップは差分バックアップで行っていくようだ.&#xA;■ Deja Dup https://launchpad.net/deja-dup&#xA;ubuntuに標準で搭載されてるあれ.&#xA;Homeディレクトリ以下はこれでバックアップしたほうがよいっぽい.&#xA;差分バックアップの他にフルバックアップも用意されているので, 差分バックアップは2時間おき, フルバックアップは1ヶ月おきくらいで良いかもしれない.&#xA;これにすることで, あたらしいフルバックアップが作られたとき, 差分バックアップはそれをベースに行っていくみたい.&#xA;パスワードやPGPによる暗号化が可能.&#xA;■ Back In Time https://github.com/bit-team/backintime&#xA;TimeShift同様シンプル.&#xA;EncFSによるファイルシステムベースでの暗号化.&#xA;SSHでファイル転送できる.&#xA;EncFS使ってるので正直使いたいとは思えない…&#xA;■ Systemback https://launchpad.net/systemback&#xA;メンテしないようなので使わない.&#xA;■ 参考: https://wiki.ubuntulinux.jp/UbuntuTips/Install/Backup http://gihyo.jp/admin/serial/01/ubuntu-recipe/0399 https://allabout.co.jp/gm/gc/436735/ </description>
     </item>
   </channel>

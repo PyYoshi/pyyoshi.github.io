@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C# on PyYoshiのログ置き場</title>
+    <link>http://localhost:1313/blog/tags/c%23/</link>
+    <description>Recent content in C# on PyYoshiのログ置き場</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <copyright>&amp;#183; PyYoshi</copyright>
+    <lastBuildDate>Fri, 01 Jun 2012 11:26:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/tags/c%23/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IronPythonはクソ</title>
+      <link>http://localhost:1313/blog/2012/06/IronPython%E3%81%AF%E3%82%AF%E3%82%BD/</link>
+      <pubDate>Fri, 01 Jun 2012 11:26:00 +0900</pubDate>
+      <guid>http://localhost:1313/blog/2012/06/IronPython%E3%81%AF%E3%82%AF%E3%82%BD/</guid>
+      <description>PyGooglePlusでクライアントでも作ろうかとC#にIronPythonを組み込んで実験していたのだけれど、どうもうまく動かない。&#xA;というのもIronPython単体ではCPythonには負けるものの、いちよ実行はできたのだけれどC#から呼ぶとログイン処理からユーザ情報取得処理までに５分くらいかかる始末&#xA;せっかくdynamic使えてかなり親和性が上がっているのにもったいないなぁ…&#xA;ちなみにurllib2までの処理は軒並みな速さなのだけれどObjectを生成するBeautifulSoupやsimplejsonでかなり時間がかかっているみたい。&#xA;というわけで、pythonで書かれたものをrpc serverにしてソケット通信すればいいんじゃね？ってのが昨日たどり着いた結論；（</description>
+    </item>
+  </channel>
+</rss>

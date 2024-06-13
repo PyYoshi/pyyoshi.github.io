@@ -2,24 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Watchdog on PyYoshiのログ置き場</title>
-    <link>https://github.pyyoshi.com/blog/tags/watchdog/</link>
+    <link>http://localhost:1313/blog/tags/watchdog/</link>
     <description>Recent content in Watchdog on PyYoshiのログ置き場</description>
     <generator>Hugo</generator>
     <language>ja</language>
+    <copyright>&amp;#183; PyYoshi</copyright>
     <lastBuildDate>Tue, 18 Sep 2012 22:05:00 +0900</lastBuildDate>
-    <atom:link href="https://github.pyyoshi.com/blog/tags/watchdog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/watchdog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>自動でCoffeeScriptをコンパイルするPythonスクリプトを書いた</title>
-      <link>https://github.pyyoshi.com/blog/2012/09/%E8%87%AA%E5%8B%95%E3%81%A7CoffeeScript%E3%82%92%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%AB%E3%81%99%E3%82%8BPython%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%82%92%E6%9B%B8%E3%81%84%E3%81%9F/</link>
+      <link>http://localhost:1313/blog/2012/09/%E8%87%AA%E5%8B%95%E3%81%A7CoffeeScript%E3%82%92%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%AB%E3%81%99%E3%82%8BPython%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%82%92%E6%9B%B8%E3%81%84%E3%81%9F/</link>
       <pubDate>Tue, 18 Sep 2012 22:05:00 +0900</pubDate>
-      <guid>https://github.pyyoshi.com/blog/2012/09/%E8%87%AA%E5%8B%95%E3%81%A7CoffeeScript%E3%82%92%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%AB%E3%81%99%E3%82%8BPython%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%82%92%E6%9B%B8%E3%81%84%E3%81%9F/</guid>
+      <guid>http://localhost:1313/blog/2012/09/%E8%87%AA%E5%8B%95%E3%81%A7CoffeeScript%E3%82%92%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%AB%E3%81%99%E3%82%8BPython%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%82%92%E6%9B%B8%E3%81%84%E3%81%9F/</guid>
       <description>いちいちコマンド書いてられないので、ファイルに変更があった場合にビルドするスクリプトを書いた。&#xA;Python 2.7環境でテストしました。&#xA;必要なモジュールは&#xA;$ pip install watchdog&#xA;設定項目を埋めたらあとは実行するのみです。&#xA;以下がそのスクリプトです。&#xA;追記)&#xA;coffee自体に監視する機能ありました…&#xA;$ coffee -w -c 監視するコードのパス&#xA;しっかりドキュメント読むべきでした。&#xA;ただ、このスクリプトは指定されたディレクトリ全体のCoffeeScriptを監視してコンパイルします。</description>
     </item>
     <item>
       <title>ファイル監視にwatchdogがかなり便利な件</title>
-      <link>https://github.pyyoshi.com/blog/2012/07/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E7%9B%A3%E8%A6%96%E3%81%ABwatchdog%E3%81%8C%E3%81%8B%E3%81%AA%E3%82%8A%E4%BE%BF%E5%88%A9%E3%81%AA%E4%BB%B6/</link>
+      <link>http://localhost:1313/blog/2012/07/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E7%9B%A3%E8%A6%96%E3%81%ABwatchdog%E3%81%8C%E3%81%8B%E3%81%AA%E3%82%8A%E4%BE%BF%E5%88%A9%E3%81%AA%E4%BB%B6/</link>
       <pubDate>Tue, 17 Jul 2012 17:40:00 +0900</pubDate>
-      <guid>https://github.pyyoshi.com/blog/2012/07/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E7%9B%A3%E8%A6%96%E3%81%ABwatchdog%E3%81%8C%E3%81%8B%E3%81%AA%E3%82%8A%E4%BE%BF%E5%88%A9%E3%81%AA%E4%BB%B6/</guid>
+      <guid>http://localhost:1313/blog/2012/07/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E7%9B%A3%E8%A6%96%E3%81%ABwatchdog%E3%81%8C%E3%81%8B%E3%81%AA%E3%82%8A%E4%BE%BF%E5%88%A9%E3%81%AA%E4%BB%B6/</guid>
       <description>win32apiを叩くのはナンセンスだし、何より手軽に書きたかったのでpypiで探索していたらwatchdogというものを知りました。&#xA;以下が「*.jpg, *.png, *.txtの3つのファイルが、作成・編集・削除された時にそれを知らせる」コードです。&#xA;on_created, on_modified, on_deletedに自分が実行したい処理を書いていけばいいかと思います。&#xA;例えばdocを編集していちいち自分でmake htmlとせずともwatchdogを使えば自動化できてしまいます。&#xA;ただちょっと触って気になったところが、ファイル・ディレクトリ作成時にon_any_eventだと2回実行してしまうことです。&#xA;このコードを使ってみればわかると思うのですが、どうやら作成イベントは on_created, on_modifiedの順で実行されているためのようです。&#xA;OS内部のことはわからないのであくまで推定ですが。</description>
     </item>
   </channel>

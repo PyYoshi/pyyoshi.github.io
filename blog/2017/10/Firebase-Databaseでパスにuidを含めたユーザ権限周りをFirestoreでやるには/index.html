@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 <html lang="ja">
-<head>
+<head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script>
   
     
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-EB1NSD9DCG"></script>
@@ -26,14 +26,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge"><meta name="robots" content="index, follow">
-<meta name="revisit-after" content="15 days"><link rel="author" href="https://github.pyyoshi.com/blog/humans.txt">
-<link rel="apple-touch-icon" sizes="180x180" href="https://github.pyyoshi.com/blog/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="https://github.pyyoshi.com/blog/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://github.pyyoshi.com/blog/favicon-16x16.png">
-<link rel="manifest" href="https://github.pyyoshi.com/blog/site.webmanifest">
+<meta name="revisit-after" content="15 days"><link rel="author" href="http://localhost:1313/blog/humans.txt">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/blog/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/blog/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/blog/favicon-16x16.png">
+<link rel="manifest" href="http://localhost:1313/blog/site.webmanifest">
 <meta name="msapplication-TileImage" content="/mstile-144x144.png">
 <meta name="theme-color" content="#494f5c">
 <meta name="msapplication-TileColor" content="#494f5c">
-<link rel="mask-icon" href="https://github.pyyoshi.com/blog/safari-pinned-tab.svg" color="#494f5c"><meta name="author" content="Yoshihiro">
+<link rel="mask-icon" href="http://localhost:1313/blog/safari-pinned-tab.svg" color="#494f5c"><meta name="author" content="Yoshihiro">
 
   <meta itemprop="name" content="Firebase Databaseでパスにuidを含めたユーザ権限周りをFirestoreでやるには">
   <meta itemprop="description" content="あきらめましょう
@@ -55,7 +55,7 @@
   <meta itemprop="datePublished" content="2017-10-06T08:42:49+00:00">
   <meta itemprop="dateModified" content="2017-10-06T08:42:49+00:00">
   <meta itemprop="wordCount" content="341">
-  <meta itemprop="keywords" content="Firebase,Firestore"><meta property="og:url" content="https://github.pyyoshi.com/blog/2017/10/Firebase-Database%E3%81%A7%E3%83%91%E3%82%B9%E3%81%ABuid%E3%82%92%E5%90%AB%E3%82%81%E3%81%9F%E3%83%A6%E3%83%BC%E3%82%B6%E6%A8%A9%E9%99%90%E5%91%A8%E3%82%8A%E3%82%92Firestore%E3%81%A7%E3%82%84%E3%82%8B%E3%81%AB%E3%81%AF/">
+  <meta itemprop="keywords" content="Firebase,Firestore"><meta property="og:url" content="http://localhost:1313/blog/2017/10/Firebase-Database%E3%81%A7%E3%83%91%E3%82%B9%E3%81%ABuid%E3%82%92%E5%90%AB%E3%82%81%E3%81%9F%E3%83%A6%E3%83%BC%E3%82%B6%E6%A8%A9%E9%99%90%E5%91%A8%E3%82%8A%E3%82%92Firestore%E3%81%A7%E3%82%84%E3%82%8B%E3%81%AB%E3%81%AF/">
   <meta property="og:site_name" content="PyYoshiのログ置き場">
   <meta property="og:title" content="Firebase Databaseでパスにuidを含めたユーザ権限周りをFirestoreでやるには">
   <meta property="og:description" content="あきらめましょう
@@ -101,26 +101,50 @@
 このBaseModelを継承したToDoModelを実装します.
 // ToDoModel.ts import BaseModel from &#39;./BaseModel&#39;; export default class ToDoModel extends BaseModel { // タイトル title: string; // ToDoが完了したかどうか completed: boolean = false; constructor(userID: string, title: string, timestamp: Date) { super(userID, timestamp); this.">
 <title>Firebase Databaseでパスにuidを含めたユーザ権限周りをFirestoreでやるには</title>
-<link rel="stylesheet dns-prefetch preconnect preload prefetch" as="style" href="https://github.pyyoshi.com/blog/css/style.min.53a53ff9a700cf26a907d20cff4ca6268650da3c0980ef01164d230678d732e7.css" integrity="sha256-U6U/+acAzyapB9IM/0ymJoZQ2jwJgO8BFk0jBnjXMuc=" crossorigin="anonymous">
+<link rel="stylesheet dns-prefetch preconnect preload prefetch" as="style" href="http://localhost:1313/blog/css/style.min.53a53ff9a700cf26a907d20cff4ca6268650da3c0980ef01164d230678d732e7.css" integrity="sha256-U6U/+acAzyapB9IM/0ymJoZQ2jwJgO8BFk0jBnjXMuc=" crossorigin="anonymous">
 	</head>
 <body id="page">
 	<header id="site-header" class="animated slideInUp">
 		<div class="hdr-wrapper section-inner">
 			<div class="hdr-left">
 				<div class="site-branding">
-					<a href="https://github.pyyoshi.com/blog/">PyYoshiのログ置き場</a>
+					<a href="http://localhost:1313/blog/">PyYoshiのログ置き場</a>
 				</div>
-				<nav class="site-nav hide-in-mobile"><a href="https://github.pyyoshi.com/blog/posts/">Posts(Ja)</a><a href="https://github.pyyoshi.com/blog/pages/">Pages</a></nav>
+				<nav class="site-nav hide-in-mobile"><a href="http://localhost:1313/blog/posts/">Posts(Ja)</a><a href="http://localhost:1313/blog/pages/">Pages</a></nav>
 			</div>
 			<div class="hdr-right hdr-icons">
-				<button id="menu-btn" class="hdr-btn" title=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+				<span class="hdr-social hide-in-mobile"><a href="https://twitter.com/PyYoshi" target="_blank" rel="noopener me" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a><a href="https://github.com/PyYoshi" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></span><button id="share-btn" class="hdr-btn" title=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-share-2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg></button>
+ 
+<div id="share-links" class="animated fast">
+    
+    
+    
+    
+    <ul>
+        <li>
+            <a href="https://twitter.com/intent/tweet?hashtags=hermit2&amp;url=http%3a%2f%2flocalhost%3a1313%2fblog%2f2017%2f10%2fFirebase-Database%25E3%2581%25A7%25E3%2583%2591%25E3%2582%25B9%25E3%2581%25ABuid%25E3%2582%2592%25E5%2590%25AB%25E3%2582%2581%25E3%2581%259F%25E3%2583%25A6%25E3%2583%25BC%25E3%2582%25B6%25E6%25A8%25A9%25E9%2599%2590%25E5%2591%25A8%25E3%2582%258A%25E3%2582%2592Firestore%25E3%2581%25A7%25E3%2582%2584%25E3%2582%258B%25E3%2581%25AB%25E3%2581%25AF%2f&amp;text=Firebase%20Database%e3%81%a7%e3%83%91%e3%82%b9%e3%81%abuid%e3%82%92%e5%90%ab%e3%82%81%e3%81%9f%e3%83%a6%e3%83%bc%e3%82%b6%e6%a8%a9%e9%99%90%e5%91%a8%e3%82%8a%e3%82%92Firestore%e3%81%a7%e3%82%84%e3%82%8b%e3%81%ab%e3%81%af" target="_blank" rel="noopener" aria-label="Share on X"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path class="st0" d="m21.3 21.1 -11.4 -18.2h-7.2l11.4 18.2zm-18.6 0 7.2 -6.6m4.2 -5 7.2 -6.6"/></svg></a>
+        </li>
+        <li>
+            <a href="https://facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fblog%2f2017%2f10%2fFirebase-Database%25E3%2581%25A7%25E3%2583%2591%25E3%2582%25B9%25E3%2581%25ABuid%25E3%2582%2592%25E5%2590%25AB%25E3%2582%2581%25E3%2581%259F%25E3%2583%25A6%25E3%2583%25BC%25E3%2582%25B6%25E6%25A8%25A9%25E9%2599%2590%25E5%2591%25A8%25E3%2582%258A%25E3%2582%2592Firestore%25E3%2581%25A7%25E3%2582%2584%25E3%2582%258B%25E3%2581%25AB%25E3%2581%25AF%2f" target="_blank" rel="noopener" aria-label="Share on Facebook"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+        </li>
+        <li>
+            <a href="mailto:?subject=Firebase%20Database%e3%81%a7%e3%83%91%e3%82%b9%e3%81%abuid%e3%82%92%e5%90%ab%e3%82%81%e3%81%9f%e3%83%a6%e3%83%bc%e3%82%b6%e6%a8%a9%e9%99%90%e5%91%a8%e3%82%8a%e3%82%92Firestore%e3%81%a7%e3%82%84%e3%82%8b%e3%81%ab%e3%81%af&amp;body=http%3a%2f%2flocalhost%3a1313%2fblog%2f2017%2f10%2fFirebase-Database%25E3%2581%25A7%25E3%2583%2591%25E3%2582%25B9%25E3%2581%25ABuid%25E3%2582%2592%25E5%2590%25AB%25E3%2582%2581%25E3%2581%259F%25E3%2583%25A6%25E3%2583%25BC%25E3%2582%25B6%25E6%25A8%25A9%25E9%2599%2590%25E5%2591%25A8%25E3%2582%258A%25E3%2582%2592Firestore%25E3%2581%25A7%25E3%2582%2584%25E3%2582%258B%25E3%2581%25AB%25E3%2581%25AF%2f" target="_self" rel="noopener" aria-label="Share on Email"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fblog%2f2017%2f10%2fFirebase-Database%25E3%2581%25A7%25E3%2583%2591%25E3%2582%25B9%25E3%2581%25ABuid%25E3%2582%2592%25E5%2590%25AB%25E3%2582%2581%25E3%2581%259F%25E3%2583%25A6%25E3%2583%25BC%25E3%2582%25B6%25E6%25A8%25A9%25E9%2599%2590%25E5%2591%25A8%25E3%2582%258A%25E3%2582%2592Firestore%25E3%2581%25A7%25E3%2582%2584%25E3%2582%258B%25E3%2581%25AB%25E3%2581%25AF%2f&amp;source=http%3a%2f%2flocalhost%3a1313%2fblog%2f&amp;title=Firebase%20Database%e3%81%a7%e3%83%91%e3%82%b9%e3%81%abuid%e3%82%92%e5%90%ab%e3%82%81%e3%81%9f%e3%83%a6%e3%83%bc%e3%82%b6%e6%a8%a9%e9%99%90%e5%91%a8%e3%82%8a%e3%82%92Firestore%e3%81%a7%e3%82%84%e3%82%8b%e3%81%ab%e3%81%af&amp;summary=Firebase%20Database%e3%81%a7%e3%83%91%e3%82%b9%e3%81%abuid%e3%82%92%e5%90%ab%e3%82%81%e3%81%9f%e3%83%a6%e3%83%bc%e3%82%b6%e6%a8%a9%e9%99%90%e5%91%a8%e3%82%8a%e3%82%92Firestore%e3%81%a7%e3%82%84%e3%82%8b%e3%81%ab%e3%81%af%2c%20by%20Yoshihiro%0a%0a%0a" target="_blank" rel="noopener" aria-label="Share on LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+        </li>
+        <li>
+            <a href="#" onclick="linkShare(&#34;Firebase Databaseでパスにuidを含めたユーザ権限周りをFirestoreでやるには&#34;,&#34;http://localhost:1313/blog/2017/10/Firebase-Database%E3%81%A7%E3%83%91%E3%82%B9%E3%81%ABuid%E3%82%92%E5%90%AB%E3%82%81%E3%81%9F%E3%83%A6%E3%83%BC%E3%82%B6%E6%A8%A9%E9%99%90%E5%91%A8%E3%82%8A%E3%82%92Firestore%E3%81%A7%E3%82%84%E3%82%8B%E3%81%AB%E3%81%AF/&#34;,&#34;Firebase Databaseでパスにuidを含めたユーザ権限周りをFirestoreでやるには, by Yoshihiro\n\n\n&#34;); return false;" target="_self" rel="noopener" aria-label="Copy Link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-copy"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg></a>
+        </li>
+    </ul>
+</div><button id="menu-btn" class="hdr-btn" title=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
 			</div>
 		</div>
 	</header>
 	<div id="mobile-menu" class="animated fast">
 		<ul>
-			<li><a href="https://github.pyyoshi.com/blog/posts/">Posts(Ja)</a></li>
-			<li><a href="https://github.pyyoshi.com/blog/pages/">Pages</a></li>
+			<li><a href="http://localhost:1313/blog/posts/">Posts(Ja)</a></li>
+			<li><a href="http://localhost:1313/blog/pages/">Pages</a></li>
 		</ul>
 	</div>
 
@@ -131,8 +155,8 @@
 				<h1>Firebase Databaseでパスにuidを含めたユーザ権限周りをFirestoreでやるには</h1>
 			</header>
 			<div class="post-info"><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg><a href="" target="_blank">Yoshihiro</a></p>
-<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://github.pyyoshi.com/blog/tags/firebase">firebase</a></span><span class="tag"><a href="https://github.pyyoshi.com/blog/tags/firestore">firestore</a></span></p>
-<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg><span class="category"><a href="https://github.pyyoshi.com/blog/categories/firebase">firebase</a></span><span class="category"><a href="https://github.pyyoshi.com/blog/categories/firestore">firestore</a></span></p>
+<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="http://localhost:1313/blog/tags/firebase">firebase</a></span><span class="tag"><a href="http://localhost:1313/blog/tags/firestore">firestore</a></span></p>
+<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg><span class="category"><a href="http://localhost:1313/blog/categories/firebase">firebase</a></span><span class="category"><a href="http://localhost:1313/blog/categories/firestore">firestore</a></span></p>
 <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg></p>
 <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2017-10-06 17:42 &#43;0900</p></div>
 			<hr class="post-end">
@@ -149,173 +173,173 @@
 <p>っとしても良いのだけどどうせならexampleでも</p>
 <p>まずベースとなるモデルを定義します.</p>
 <p>このモデルをベースにモデルを作ります.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-typescript" data-lang="typescript"><span style="display:flex;"><span><span style="color:#75715e">// BaseModel.ts
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">export</span> <span style="color:#66d9ef">default</span> <span style="color:#66d9ef">abstract</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">BaseModel</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// ドキュメントオーナーのID
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">readonly</span> <span style="color:#a6e22e">userID</span>: <span style="color:#66d9ef">string</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// ドキュメントのID
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">id</span>: <span style="color:#66d9ef">string</span> <span style="color:#f92672">|</span> <span style="color:#66d9ef">null</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// ドキュメントの作成･更新日時
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">timestamp</span>: <span style="color:#66d9ef">Date</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">constructor</span>(<span style="color:#a6e22e">userID</span>: <span style="color:#66d9ef">string</span>, <span style="color:#a6e22e">timestamp</span>: <span style="color:#66d9ef">Date</span>) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">userID</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">userID</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">timestamp</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">timestamp</span>;
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Firestoreに保存するとき用
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">abstract</span> <span style="color:#a6e22e">toJSON</span>()<span style="color:#f92672">:</span> Object;
-</span></span><span style="display:flex;"><span>}
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-typescript" data-lang="typescript"><span class="line"><span class="cl"><span class="c1">// BaseModel.ts
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="kr">export</span> <span class="k">default</span> <span class="kr">abstract</span> <span class="kr">class</span> <span class="nx">BaseModel</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// ドキュメントオーナーのID
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kr">readonly</span> <span class="nx">userID</span>: <span class="kt">string</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">// ドキュメントのID
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">id</span>: <span class="kt">string</span> <span class="o">|</span> <span class="kc">null</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">// ドキュメントの作成･更新日時
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">timestamp</span>: <span class="kt">Date</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">constructor</span><span class="p">(</span><span class="nx">userID</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">timestamp</span>: <span class="kt">Date</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">userID</span> <span class="o">=</span> <span class="nx">userID</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">timestamp</span> <span class="o">=</span> <span class="nx">timestamp</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">// Firestoreに保存するとき用
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kr">abstract</span> <span class="nx">toJSON</span><span class="p">()</span><span class="o">:</span> <span class="nb">Object</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><p><code>toJSON</code>はデータベースに保存する際に特定のプロパティのみを保存するためにあります.</p>
 <p>これを定義すれば<code>id</code>を保存対象から無視できます.</p>
 <p>この<code>BaseModel</code>を継承した<code>ToDoModel</code>を実装します.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-typescript" data-lang="typescript"><span style="display:flex;"><span><span style="color:#75715e">// ToDoModel.ts
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">import</span> <span style="color:#a6e22e">BaseModel</span> <span style="color:#66d9ef">from</span> <span style="color:#e6db74">&#39;./BaseModel&#39;</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">export</span> <span style="color:#66d9ef">default</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ToDoModel</span> <span style="color:#66d9ef">extends</span> <span style="color:#a6e22e">BaseModel</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// タイトル
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">title</span>: <span style="color:#66d9ef">string</span>;
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// ToDoが完了したかどうか
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">completed</span>: <span style="color:#66d9ef">boolean</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">constructor</span>(<span style="color:#a6e22e">userID</span>: <span style="color:#66d9ef">string</span>, <span style="color:#a6e22e">title</span>: <span style="color:#66d9ef">string</span>, <span style="color:#a6e22e">timestamp</span>: <span style="color:#66d9ef">Date</span>) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">super</span>(<span style="color:#a6e22e">userID</span>, <span style="color:#a6e22e">timestamp</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">title</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">title</span>;
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">toJSON</span>()<span style="color:#f92672">:</span> Object {
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// NOTICE: idはfirestore上で自動で割り振られるのでわざわざデータとして格納しなくてよい
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">return</span> {
-</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">userID</span>: <span style="color:#66d9ef">this.userID</span>,
-</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">title</span>: <span style="color:#66d9ef">this.title</span>,
-</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">completed</span>: <span style="color:#66d9ef">this.completed</span>,
-</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">timestamp</span>: <span style="color:#66d9ef">this.timestamp</span>,
-</span></span><span style="display:flex;"><span>        };
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>}
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-typescript" data-lang="typescript"><span class="line"><span class="cl"><span class="c1">// ToDoModel.ts
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="kr">import</span> <span class="nx">BaseModel</span> <span class="kr">from</span> <span class="s1">&#39;./BaseModel&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">export</span> <span class="k">default</span> <span class="kr">class</span> <span class="nx">ToDoModel</span> <span class="kr">extends</span> <span class="nx">BaseModel</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// タイトル
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">title</span>: <span class="kt">string</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c1">// ToDoが完了したかどうか
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">completed</span>: <span class="kt">boolean</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">constructor</span><span class="p">(</span><span class="nx">userID</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">title</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">timestamp</span>: <span class="kt">Date</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">super</span><span class="p">(</span><span class="nx">userID</span><span class="p">,</span> <span class="nx">timestamp</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">title</span> <span class="o">=</span> <span class="nx">title</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">toJSON</span><span class="p">()</span><span class="o">:</span> <span class="nb">Object</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// NOTICE: idはfirestore上で自動で割り振られるのでわざわざデータとして格納しなくてよい
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="k">return</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">userID</span>: <span class="kt">this.userID</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">title</span>: <span class="kt">this.title</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">completed</span>: <span class="kt">this.completed</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">timestamp</span>: <span class="kt">this.timestamp</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="p">};</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><p>ここまで実装して重要なのは<code>userID</code>を定義しておくことです.</p>
 <p>この<code>userID</code>が<code>セキュリティルール</code>でドキュメントの所有者かどうかチェックを行うのに必要になります.</p>
 <p>さて次に<code>セキュリティルール</code>を定義してあげます.</p>
 <p>RTDBの場合リファレンスパスは<code>/todos/$uid/&lt;todoDoc.id&gt;</code>なので</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#75715e">// database.rules.json
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;rules&#34;</span>: {
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;todos&#34;</span>: {
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;$uid&#34;</span>: {
-</span></span><span style="display:flex;"><span>                <span style="color:#f92672">&#34;.read&#34;</span>: <span style="color:#e6db74">&#34;$uid === auth.uid&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#f92672">&#34;.write&#34;</span>: <span style="color:#e6db74">&#34;$uid === auth.uid&#34;</span>
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>}
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="c1">// database.rules.json
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;rules&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;todos&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&#34;$uid&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nt">&#34;.read&#34;</span><span class="p">:</span> <span class="s2">&#34;$uid === auth.uid&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nt">&#34;.write&#34;</span><span class="p">:</span> <span class="s2">&#34;$uid === auth.uid&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><p>でドキュメントの所有者のみが閲覧･更新が可能になります.</p>
 <p>つづいて,</p>
 <p>Firestoreの場合はコレクションが<code>todos</code>となり,</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>// firestore.rules
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>service cloud.firestore {
-</span></span><span style="display:flex;"><span>    match /databases/{database}/documents {
-</span></span><span style="display:flex;"><span>        match /todos/{todoID} {
-</span></span><span style="display:flex;"><span>            allow read, write: if get(/databases/$(database)/documents/todos/$(todoID)).userID == request.auth.uid;
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>}
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">// firestore.rules
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">service cloud.firestore {
+</span></span><span class="line"><span class="cl">    match /databases/{database}/documents {
+</span></span><span class="line"><span class="cl">        match /todos/{todoID} {
+</span></span><span class="line"><span class="cl">            allow read, write: if get(/databases/$(database)/documents/todos/$(todoID)).userID == request.auth.uid;
+</span></span><span class="line"><span class="cl">        }
+</span></span><span class="line"><span class="cl">    }
+</span></span><span class="line"><span class="cl">}
 </span></span></code></pre></div><p>でRTDBどうよう所有者のみが閲覧･更新が可能になります.</p>
 <p>走らせる擬似コードも載せておきます. (
 ブラウザで走らせるためにはやらなくてはいけないことがそれなりにあるが省略)</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-typescript" data-lang="typescript"><span style="display:flex;"><span><span style="color:#75715e">// index.ts
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">import</span> <span style="color:#f92672">*</span> <span style="color:#66d9ef">as</span> <span style="color:#a6e22e">firebase</span> <span style="color:#66d9ef">from</span> <span style="color:#e6db74">&#34;firebase&#34;</span>;
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;firebase/firestore&#39;</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">import</span> <span style="color:#a6e22e">ToDoModel</span> <span style="color:#66d9ef">from</span> <span style="color:#e6db74">&#39;./ToDoModel&#39;</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">frConfig</span> <span style="color:#f92672">=</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">apiKey</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;&lt;API_KEY&gt;&#34;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">authDomain</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;&lt;PROJECT_ID&gt;.firebaseapp.com&#34;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">databaseURL</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;https://&lt;DATABASE_NAME&gt;.firebaseio.com&#34;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">storageBucket</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;&lt;BUCKET&gt;.appspot.com&#34;</span>,
-</span></span><span style="display:flex;"><span>};
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">firebaseApp</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">firebase</span>.<span style="color:#a6e22e">initializeApp</span>(<span style="color:#a6e22e">frConfig</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">rtdb</span>: <span style="color:#66d9ef">firebase.database.Database</span>;
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">frStore</span>: <span style="color:#66d9ef">firebase.firestore.Firestore</span>;
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">uid</span>: <span style="color:#66d9ef">string</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">setup</span>()<span style="color:#f92672">:</span><span style="color:#a6e22e">Promise</span>&lt;<span style="color:#f92672">void</span>&gt; {
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span> {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">user</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">firebaseApp</span>.<span style="color:#a6e22e">auth</span>().<span style="color:#a6e22e">signInAnonymously</span>();
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">uid</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">user</span>.<span style="color:#a6e22e">uid</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">rtdb</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">firebaseApp</span>.<span style="color:#a6e22e">database</span>();
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">frStore</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">firebase</span>.<span style="color:#a6e22e">firestore</span>(<span style="color:#a6e22e">firebaseApp</span>);
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">Promise</span>.<span style="color:#a6e22e">resolve</span>();
-</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">catch</span> (<span style="color:#a6e22e">e</span>) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">Promise</span>.<span style="color:#a6e22e">reject</span>(<span style="color:#a6e22e">e</span>);
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">rtdbCreate</span>()<span style="color:#f92672">:</span> <span style="color:#a6e22e">Promise</span>&lt;<span style="color:#f92672">ToDoModel</span>&gt; {
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">key</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">rtdb</span>.<span style="color:#a6e22e">ref</span>(<span style="color:#e6db74">`todos/</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">uid</span><span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>).<span style="color:#a6e22e">push</span>().<span style="color:#a6e22e">key</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">todoDoc</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">ToDoModel</span>(<span style="color:#a6e22e">uid</span>, <span style="color:#e6db74">&#39;🍣をたくさんたべる (๑•̀ㅂ•́)و✧&#39;</span>, <span style="color:#66d9ef">new</span> Date());
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">todoDoc</span>.<span style="color:#a6e22e">id</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">key</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">updates</span><span style="color:#f92672">:</span> { [<span style="color:#a6e22e">key</span>: <span style="color:#66d9ef">string</span>]<span style="color:#f92672">:</span> <span style="color:#66d9ef">any</span> } <span style="color:#f92672">=</span> {};
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">updates</span>[<span style="color:#e6db74">`todos/</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">uid</span><span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">key</span><span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">todoDoc</span>.<span style="color:#a6e22e">toJSON</span>();
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span> {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">rtdb</span>.<span style="color:#a6e22e">ref</span>().<span style="color:#a6e22e">update</span>(<span style="color:#a6e22e">updates</span>);
-</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">catch</span> (<span style="color:#a6e22e">e</span>) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">Promise</span>.<span style="color:#a6e22e">reject</span>(<span style="color:#a6e22e">e</span>);
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">Promise</span>.<span style="color:#a6e22e">resolve</span>(<span style="color:#a6e22e">todoDoc</span>);
-</span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">firestoreCreate</span>()<span style="color:#f92672">:</span> <span style="color:#a6e22e">Promise</span>&lt;<span style="color:#f92672">ToDoModel</span>&gt; {
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">todoDoc</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">ToDoModel</span>(<span style="color:#a6e22e">uid</span>, <span style="color:#e6db74">&#39;🍣をたくさんたべる (๑•̀ㅂ•́)و✧&#39;</span>, <span style="color:#66d9ef">new</span> Date());
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span> {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">todoDocRef</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">frStore</span>.<span style="color:#a6e22e">collection</span>(<span style="color:#e6db74">&#39;todos&#39;</span>).<span style="color:#a6e22e">add</span>(<span style="color:#a6e22e">todoDoc</span>.<span style="color:#a6e22e">toJSON</span>());
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">todoDoc</span>.<span style="color:#a6e22e">id</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">todoDocRef</span>.<span style="color:#a6e22e">id</span>;
-</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">catch</span> (<span style="color:#a6e22e">e</span>) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">Promise</span>.<span style="color:#a6e22e">reject</span>(<span style="color:#a6e22e">e</span>);
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">Promise</span>.<span style="color:#a6e22e">resolve</span>(<span style="color:#a6e22e">todoDoc</span>);
-</span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">main() {</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">setup</span>();
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;uid: &#39;</span>, <span style="color:#a6e22e">uid</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">result1</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">rtdbCreate</span>();
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">result1</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">result2</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">firestoreCreate</span>();
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">result2</span>);
-</span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">main</span>();
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-typescript" data-lang="typescript"><span class="line"><span class="cl"><span class="c1">// index.ts
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="kr">import</span> <span class="o">*</span> <span class="kr">as</span> <span class="nx">firebase</span> <span class="kr">from</span> <span class="s2">&#34;firebase&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kr">import</span> <span class="s1">&#39;firebase/firestore&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">import</span> <span class="nx">ToDoModel</span> <span class="kr">from</span> <span class="s1">&#39;./ToDoModel&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">frConfig</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">apiKey</span><span class="o">:</span> <span class="s2">&#34;&lt;API_KEY&gt;&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">authDomain</span><span class="o">:</span> <span class="s2">&#34;&lt;PROJECT_ID&gt;.firebaseapp.com&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">databaseURL</span><span class="o">:</span> <span class="s2">&#34;https://&lt;DATABASE_NAME&gt;.firebaseio.com&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">storageBucket</span><span class="o">:</span> <span class="s2">&#34;&lt;BUCKET&gt;.appspot.com&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">firebaseApp</span> <span class="o">=</span> <span class="nx">firebase</span><span class="p">.</span><span class="nx">initializeApp</span><span class="p">(</span><span class="nx">frConfig</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">rtdb</span>: <span class="kt">firebase.database.Database</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">frStore</span>: <span class="kt">firebase.firestore.Firestore</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">uid</span>: <span class="kt">string</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">async</span> <span class="kd">function</span> <span class="nx">setup</span><span class="p">()</span><span class="o">:</span><span class="nx">Promise</span><span class="p">&lt;</span><span class="nt">void</span><span class="p">&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">const</span> <span class="nx">user</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">firebaseApp</span><span class="p">.</span><span class="nx">auth</span><span class="p">().</span><span class="nx">signInAnonymously</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">uid</span> <span class="o">=</span> <span class="nx">user</span><span class="p">.</span><span class="nx">uid</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">rtdb</span> <span class="o">=</span> <span class="nx">firebaseApp</span><span class="p">.</span><span class="nx">database</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">frStore</span> <span class="o">=</span> <span class="nx">firebase</span><span class="p">.</span><span class="nx">firestore</span><span class="p">(</span><span class="nx">firebaseApp</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nx">Promise</span><span class="p">.</span><span class="nx">resolve</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nx">Promise</span><span class="p">.</span><span class="nx">reject</span><span class="p">(</span><span class="nx">e</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">async</span> <span class="kd">function</span> <span class="nx">rtdbCreate</span><span class="p">()</span><span class="o">:</span> <span class="nx">Promise</span><span class="p">&lt;</span><span class="nt">ToDoModel</span><span class="p">&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">key</span> <span class="o">=</span> <span class="nx">rtdb</span><span class="p">.</span><span class="nx">ref</span><span class="p">(</span><span class="sb">`todos/</span><span class="si">${</span><span class="nx">uid</span><span class="si">}</span><span class="sb">`</span><span class="p">).</span><span class="nx">push</span><span class="p">().</span><span class="nx">key</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">todoDoc</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">ToDoModel</span><span class="p">(</span><span class="nx">uid</span><span class="p">,</span> <span class="s1">&#39;🍣をたくさんたべる (๑•̀ㅂ•́)و✧&#39;</span><span class="p">,</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">todoDoc</span><span class="p">.</span><span class="nx">id</span> <span class="o">=</span> <span class="nx">key</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">updates</span><span class="o">:</span> <span class="p">{</span> <span class="p">[</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">]</span><span class="o">:</span> <span class="kt">any</span> <span class="p">}</span> <span class="o">=</span> <span class="p">{};</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">updates</span><span class="p">[</span><span class="sb">`todos/</span><span class="si">${</span><span class="nx">uid</span><span class="si">}</span><span class="sb">/</span><span class="si">${</span><span class="nx">key</span><span class="si">}</span><span class="sb">`</span><span class="p">]</span> <span class="o">=</span> <span class="nx">todoDoc</span><span class="p">.</span><span class="nx">toJSON</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">await</span> <span class="nx">rtdb</span><span class="p">.</span><span class="nx">ref</span><span class="p">().</span><span class="nx">update</span><span class="p">(</span><span class="nx">updates</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nx">Promise</span><span class="p">.</span><span class="nx">reject</span><span class="p">(</span><span class="nx">e</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="nx">Promise</span><span class="p">.</span><span class="nx">resolve</span><span class="p">(</span><span class="nx">todoDoc</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">async</span> <span class="kd">function</span> <span class="nx">firestoreCreate</span><span class="p">()</span><span class="o">:</span> <span class="nx">Promise</span><span class="p">&lt;</span><span class="nt">ToDoModel</span><span class="p">&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">todoDoc</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">ToDoModel</span><span class="p">(</span><span class="nx">uid</span><span class="p">,</span> <span class="s1">&#39;🍣をたくさんたべる (๑•̀ㅂ•́)و✧&#39;</span><span class="p">,</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">const</span> <span class="nx">todoDocRef</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">frStore</span><span class="p">.</span><span class="nx">collection</span><span class="p">(</span><span class="s1">&#39;todos&#39;</span><span class="p">).</span><span class="nx">add</span><span class="p">(</span><span class="nx">todoDoc</span><span class="p">.</span><span class="nx">toJSON</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">todoDoc</span><span class="p">.</span><span class="nx">id</span> <span class="o">=</span> <span class="nx">todoDocRef</span><span class="p">.</span><span class="nx">id</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nx">Promise</span><span class="p">.</span><span class="nx">reject</span><span class="p">(</span><span class="nx">e</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="nx">Promise</span><span class="p">.</span><span class="nx">resolve</span><span class="p">(</span><span class="nx">todoDoc</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">async</span> <span class="kd">function</span> <span class="nx">main() {</span>
+</span></span><span class="line"><span class="cl">    <span class="k">await</span> <span class="nx">setup</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;uid: &#39;</span><span class="p">,</span> <span class="nx">uid</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">result1</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">rtdbCreate</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">result1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">result2</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">firestoreCreate</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">result2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">main</span><span class="p">();</span>
 </span></span></code></pre></div><p>Firestoreのセキュリティルールに関数を定義できるの便利だけど, これテストしたいときどうするんですかね…</p>
 <p>製品版に期待してFirestoreでどんどん実装していきたいと思います(๑•̀ㅂ•́)و✧</p>
 
 			</div>
 		</article>
 		<div class="post-nav thin">
-			<a class="next-post" href="https://github.pyyoshi.com/blog/2017/10/react-native-camera%E3%82%92Android%E3%81%A7%E4%BD%BF%E3%81%86%E3%81%A8%E3%81%8D%E3%81%AE%E3%81%A1%E3%82%87%E3%81%A3%E3%81%A8%E3%81%97%E3%81%9F%E7%BD%A0/">
+			<a class="next-post" href="http://localhost:1313/blog/2017/10/react-native-camera%E3%82%92Android%E3%81%A7%E4%BD%BF%E3%81%86%E3%81%A8%E3%81%8D%E3%81%AE%E3%81%A1%E3%82%87%E3%81%A3%E3%81%A8%E3%81%97%E3%81%9F%E7%BD%A0/">
 				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;</span><br><span>react-native-cameraをAndroidで使うときのちょっとした罠</span>
 			</a>
-			<a class="prev-post" href="https://github.pyyoshi.com/blog/2017/09/react-native%E3%81%AEpackager%E3%81%8CAmbiguous-resolution-of-react-native%E3%81%A8%E3%82%A8%E3%83%A9%E3%83%BC%E3%82%92%E5%90%90%E3%81%84%E3%81%9F%E3%82%89%E8%A9%A6%E3%81%99%E3%81%93%E3%81%A8/">
+			<a class="prev-post" href="http://localhost:1313/blog/2017/09/react-native%E3%81%AEpackager%E3%81%8CAmbiguous-resolution-of-react-native%E3%81%A8%E3%82%A8%E3%83%A9%E3%83%BC%E3%82%92%E5%90%90%E3%81%84%E3%81%9F%E3%82%89%E8%A9%A6%E3%81%99%E3%81%93%E3%81%A8/">
 				<span class="post-nav-label">&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>react-nativeのpackagerが&#34;Ambiguous resolution of react-native&#34;とエラーを吐いたら試すこと</span>
 			</a>
 		</div>
@@ -324,14 +348,14 @@
 
 <footer id="site-footer" class="section-inner thin animated fadeIn faster">
 	<p>
-		&copy; 2024 <a href="https://github.pyyoshi.com/blog/"></a>
+		&copy; 2024 <a href="http://localhost:1313/blog/"></a>
 		&#183; &#183; PyYoshi
 		&#183; Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>
 		&#183; Theme <a href="https://github.com/1bl4z3r/hermit-V2" target="_blank" rel="noopener">Hermit-V2</a>
-		&#183; <a href="https://github.pyyoshi.com/blog/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></p>
+		&#183; <a href="http://localhost:1313/blog/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></p>
 
 </footer>
-<script async src="https://github.pyyoshi.com/blog/js/bundle.min.c7c384e4d29d192bbac6811ae4660bb01767194a5bea56baca77e8260f93ea16.js" integrity="sha256-x8OE5NKdGSu6xoEa5GYLsBdnGUpb6la6ynfoJg+T6hY=" crossorigin="anonymous"></script>
+<script async src="http://localhost:1313/blog/js/bundle.min.c7c384e4d29d192bbac6811ae4660bb01767194a5bea56baca77e8260f93ea16.js" integrity="sha256-x8OE5NKdGSu6xoEa5GYLsBdnGUpb6la6ynfoJg+T6hY=" crossorigin="anonymous"></script><script async src="http://localhost:1313/blog/js/link-share.min.24409a4f6e5537d70ffc55ec8f9192208d718678cb8638585342423020b37f39.js" integrity="sha256-JECaT25VN9cP/FXsj5GSII1xhnjLhjhYU0JCMCCzfzk=" crossorigin="anonymous"></script>
 </body>
 
 </html>
