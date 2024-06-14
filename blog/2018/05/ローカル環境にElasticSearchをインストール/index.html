@@ -74,7 +74,24 @@ https://register.elastic.co/ でBasicライセンスを取得する
 ElasticSearchのインストール wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add - echo &#34;deb https://artifacts.elastic.co/packages/6.x/apt stable main&#34; | sudo tee -a /etc/apt/sources.list.d/elastic-6.x.list sudo apt update sudo apt install elasticsearch sudo systemctl disable elasticsearch.service sudo service elasticsearch status sudo service elasticsearch start sudo service elasticsearch status X-Packのインストール sudo /usr/share/elasticsearch/bin/elasticsearch-plugin install x-pack sudo service elasticsearch restart sudo service elasticsearch status sudo /usr/share/elasticsearch/bin/x-pack/setup-passwords interactive ElasticSearchライセンスの更新 curl -XPUT -u elastic &#39;http://localhost:9200/_xpack/license?">
 <title>ローカル環境にElasticSearchをインストール</title>
 <link rel="stylesheet dns-prefetch preconnect preload prefetch" as="style" href="https://github.pyyoshi.com/blog/css/style.min.53a53ff9a700cf26a907d20cff4ca6268650da3c0980ef01164d230678d732e7.css" integrity="sha256-U6U/+acAzyapB9IM/0ymJoZQ2jwJgO8BFk0jBnjXMuc=" crossorigin="anonymous">
-	</head>
+	<link href="https://github.pyyoshi.com/blog/pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="https://github.pyyoshi.com/blog/pagefind/pagefind-ui.js"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({
+            element: "#search",
+            showImages: false,
+            
+            translations: {
+                clear_search: "消去",
+                zero_results: "[SEARCH_TERM]の検索結果はありません",
+                alt_search: "[SEARCH_TERM]の検索結果はありませんでした。[DIFFERENT_TERM]の検索結果を表示しています",
+                search_suggestion: "[SEARCH_TERM]の検索結果はありませんでした。次のいずれかの検索を試してください",
+            }
+        });
+    });
+</script>
+</head>
 <body id="page">
 	<header id="site-header" class="animated slideInUp">
 		<div class="hdr-wrapper section-inner">

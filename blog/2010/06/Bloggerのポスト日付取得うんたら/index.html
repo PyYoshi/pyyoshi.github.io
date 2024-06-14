@@ -74,7 +74,24 @@
 &lt;div class=&#39;post&#39; id=&#39;post&#39;&gt; &lt;div class=&#39;date&#39;&gt; &lt;small&gt; &lt;script type=&#39;text/javascript&#39;&gt; var date = &lt;data:post.dateHeader/&gt; var date2 = date.toString(); var year = date2.substring(0,4); var month = date2.substring(4,6); var day = date2.substring(6,8); &lt;/script&gt; &lt;div class=&#39;date_y&#39;&gt;&lt;script type=&#39;text/javascript&#39;&gt;document.write(year);&lt;/script&gt;年&lt;/div&gt; &lt;div class=&#39;date_m&#39;&gt;&lt;script type=&#39;text/javascript&#39;&gt;document.write(month);&lt;/script&gt;月&lt;/div&gt; &lt;div class=&#39;date_d&#39;&gt;&lt;script type=&#39;text/javascript&#39;&gt;document.write(day);&lt;/script&gt;日&lt;/div&gt; &lt;/small&gt; &lt;/div&gt; ">
 <title>Bloggerのポスト日付取得うんたら</title>
 <link rel="stylesheet dns-prefetch preconnect preload prefetch" as="style" href="https://github.pyyoshi.com/blog/css/style.min.53a53ff9a700cf26a907d20cff4ca6268650da3c0980ef01164d230678d732e7.css" integrity="sha256-U6U/+acAzyapB9IM/0ymJoZQ2jwJgO8BFk0jBnjXMuc=" crossorigin="anonymous">
-	</head>
+	<link href="https://github.pyyoshi.com/blog/pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="https://github.pyyoshi.com/blog/pagefind/pagefind-ui.js"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({
+            element: "#search",
+            showImages: false,
+            
+            translations: {
+                clear_search: "消去",
+                zero_results: "[SEARCH_TERM]の検索結果はありません",
+                alt_search: "[SEARCH_TERM]の検索結果はありませんでした。[DIFFERENT_TERM]の検索結果を表示しています",
+                search_suggestion: "[SEARCH_TERM]の検索結果はありませんでした。次のいずれかの検索を試してください",
+            }
+        });
+    });
+</script>
+</head>
 <body id="page">
 	<header id="site-header" class="animated slideInUp">
 		<div class="hdr-wrapper section-inner">
